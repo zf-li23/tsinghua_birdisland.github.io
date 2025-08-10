@@ -1,12 +1,14 @@
 title: 鸟岛与少年
-description: 清华大学实践支队官方网站
-baseurl: ""
-url: "https://zf-li23.github.io/tsinghua_birdisland.github.io/
+description: 清华大学“鸟岛与少年”实践支队官方网站
+baseurl: "" # 如果部署在子路径，填写子路径名
+url: "https://tsinghua_birdisland.github.io" # 您的域名
 
+# Jekyll设置
 theme: minima
 plugins:
   - jekyll-feed
 
+# 自定义设置
 collections:
   docs:
     output: true
