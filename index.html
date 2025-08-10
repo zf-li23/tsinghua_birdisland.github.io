@@ -200,6 +200,48 @@
             color: var(--dark);
         }
         
+        /* 新增的测试区域 */
+        .test-section {
+            background: linear-gradient(135deg, #2c8c76 0%, #1a6b54 100%);
+            padding: 80px 5%;
+            text-align: center;
+            color: white;
+        }
+        
+        .test-container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        
+        .test-title {
+            font-size: 2.2rem;
+            margin-bottom: 20px;
+        }
+        
+        .test-description {
+            font-size: 1.2rem;
+            margin-bottom: 30px;
+        }
+        
+        .test-button {
+            display: inline-block;
+            background: white;
+            color: var(--primary);
+            padding: 15px 40px;
+            border-radius: 30px;
+            text-decoration: none;
+            font-size: 1.2rem;
+            font-weight: 600;
+            transition: all 0.3s;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+        }
+        
+        .test-button:hover {
+            background: var(--light);
+            transform: translateY(-3px);
+            box-shadow: 0 7px 20px rgba(0, 0, 0, 0.3);
+        }
+        
         .features-section {
             padding: 100px 5%;
             background: linear-gradient(to bottom, #ffffff 0%, #f0f7f5 100%);
@@ -424,6 +466,10 @@
             .section-title {
                 font-size: 2rem;
             }
+            
+            .test-title {
+                font-size: 1.8rem;
+            }
         }
     </style>
 </head>
@@ -490,6 +536,20 @@
                 <div class="stat-number">45</div>
                 <div class="stat-text">栖息地修复项目</div>
             </div>
+        </div>
+    </section>
+    
+    <!-- 新增的测试区域 -->
+    <section class="test-section">
+        <div class="test-container">
+            <h2 class="test-title">测试 Jekyll 页面生成功能</h2>
+            <p class="test-description">
+                点击下方按钮访问"支队传承"页面，该页面由 <code>docs/about.md</code> 文件通过 Jekyll 自动生成。
+                这是您测试网站功能的最佳起点！
+            </p>
+            <a href="/about" class="test-button">
+                <i class="fas fa-vial"></i> 测试 Markdown 页面
+            </a>
         </div>
     </section>
 
