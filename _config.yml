@@ -1,12 +1,13 @@
 title: 鸟岛与少年
-description: 清华大学“鸟岛与少年”实践支队官方网站
-baseurl: "" # 如果部署在子路径，填写子路径名
-url: "https://tsinghua_birdisland.github.io" # 您的域名
+description: 清华大学实践支队官方网站
+baseurl: "" 
+url: "https://zf-li23.github.io/tsinghua_birdisland.github.io"
 
 # Jekyll设置
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-redirect-from  # 添加重定向插件
 
 # 自定义设置
 collections:
@@ -19,3 +20,26 @@ defaults:
       path: ""
     values:
       layout: base
+
+# 添加重定向规则
+defaults:
+  - scope:
+      path: "about"
+    values:
+      redirect_from: "/about"
+  - scope:
+      path: "species"
+    values:
+      redirect_from: "/species"
+  - scope:
+      path: "reports"
+    values:
+      redirect_from: "/reports"
+  - scope:
+      path: "records"
+    values:
+      redirect_from: "/records"
+  - scope:
+      path: "contact"
+    values:
+      redirect_from: "/contact"
