@@ -1,5 +1,6 @@
 # tsinghua_birdisland.github.io
 
+```
 tsinghua_birdisland.github.io/
 ├── index.html                  # 首页 (HTML)
 ├── _config.yml                 # Jekyll 配置文件
@@ -18,3 +19,4 @@ tsinghua_birdisland.github.io/
 └── static/                     # 静态资源
     ├── style.css               # 通用样式
     └── images/                 # 图片资源
+```
