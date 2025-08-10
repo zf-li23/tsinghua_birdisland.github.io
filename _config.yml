@@ -1,15 +1,12 @@
 title: 鸟岛与少年
 description: 清华大学实践支队官方网站
-baseurl: "" 
-url: "https://zf-li23.github.io/tsinghua_birdisland.github.io"
+baseurl: ""
+url: "https://tsinghua_birdisland.github.io"
 
-# Jekyll设置
 theme: minima
 plugins:
   - jekyll-feed
-  - jekyll-redirect-from  # 添加重定向插件
 
-# 自定义设置
 collections:
   docs:
     output: true
