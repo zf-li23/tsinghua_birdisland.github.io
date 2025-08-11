@@ -1,0 +1,47 @@
+<!-- _layouts/default.html -->
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title }} | 鸟岛与少年</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <style>
+        /* 将index.html中的所有CSS样式复制到这里 */
+        :root {
+            --primary: #1a6b54;
+            --secondary: #2c8c76;
+            --accent: #f9a825;
+            --light: #e8f4f0;
+            --dark: #0d3b2e;
+            --text: #333333;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        /* 复制所有CSS样式... */
+    </style>
+</head>
+<body>
+    <!-- 顶部导航栏 -->
+    {% include header.html %}
+    
+    <!-- 主要内容区域 -->
+    <main class="content-container">
+        {{ content }}
+    </main>
+    
+    <!-- 页脚区域 -->
+    {% include footer.html %}
+    
+    <!-- 可选的JS脚本 -->
+    <script>
+        // 根据需要添加JS代码
+    </script>
+</body>
+</html>
