@@ -1,154 +1,147 @@
-<!DOCTYPE html>
-<html lang="zh-CN">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>鸟岛与少年 - 清华大学实践支队</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
-</head>
-<body>
-    <!-- 主视觉区域 -->
-    <section class="hero">
-        <h1>守护飞羽家园，谱写青春华章</h1>
-        <p>清华大学"鸟岛与少年"实践支队，十年如一日守护候鸟迁徙通道，用青春记录生态变迁，用行动践行绿色使命</p>
-        <a href="/about/" class="cta-button">探索我们的故事 <i class="fas fa-arrow-right"></i></a>
-    </section>
+---
+layout: home
+title: 鸟岛与少年 - 清华大学实践支队
+---
 
-    <!-- 数据统计展示区 -->
-    <section class="stats-section">
-        <h2 class="section-title">十年守护 · 生态足迹</h2>
-        <div class="stats-container">
-            <div class="stat-card">
-                <div class="stat-icon">
-                    <i class="fas fa-dove"></i>
-                </div>
-                <div class="stat-number" id="bird-count">186</div>
-                <div class="stat-text">鸟类物种记录</div>
+<!-- 主视觉区域 -->
+<section class="hero">
+    <h1>守护飞羽家园，谱写青春华章</h1>
+    <p>清华大学"鸟岛与少年"实践支队，十年如一日守护候鸟迁徙通道，用青春记录生态变迁，用行动践行绿色使命</p>
+    <a href="{{ '/about/' | relative_url }}" class="cta-button">探索我们的故事 <i class="fas fa-arrow-right"></i></a>
+</section>
+
+<!-- 数据统计展示区 -->
+<section class="stats-section">
+    <h2 class="section-title">十年守护 · 生态足迹</h2>
+    <div class="stats-container">
+        <div class="stat-card">
+            <div class="stat-icon">
+                <i class="fas fa-dove"></i>
             </div>
-            
-            <div class="stat-card">
-                <div class="stat-icon">
-                    <i class="fas fa-calendar-day"></i>
-                </div>
-                <div class="stat-number">12</div>
-                <div class="stat-text">持续守护年份</div>
+            <div class="stat-number" id="bird-count">186</div>
+            <div class="stat-text">鸟类物种记录</div>
+        </div>
+        
+        <div class="stat-card">
+            <div class="stat-icon">
+                <i class="fas fa-calendar-day"></i>
             </div>
-            
-            <div class="stat-card">
-                <div class="stat-icon">
-                    <i class="fas fa-user-graduate"></i>
-                </div>
-                <div class="stat-number">280+</div>
-                <div class="stat-text">参与支队成员</div>
+            <div class="stat-number">12</div>
+            <div class="stat-text">持续守护年份</div>
+        </div>
+        
+        <div class="stat-card">
+            <div class="stat-icon">
+                <i class="fas fa-user-graduate"></i>
             </div>
-            
-            <div class="stat-card">
-                <div class="stat-icon">
-                    <i class="fas fa-tree"></i>
-                </div>
-                <div class="stat-number">45</div>
-                <div class="stat-text">栖息地修复项目</div>
+            <div class="stat-number">280+</div>
+            <div class="stat-text">参与支队成员</div>
+        </div>
+        
+        <div class="stat-card">
+            <div class="stat-icon">
+                <i class="fas fa-tree"></i>
+            </div>
+            <div class="stat-number">45</div>
+            <div class="stat-text">栖息地修复项目</div>
+        </div>
+    </div>
+</section>
+
+<!-- 核心功能展示区 -->
+<section class="features-section">
+    <h2 class="section-title">探索生态保护成果</h2>
+    <div class="features-grid">
+        <div class="feature-card">
+            <div class="feature-img" style="background-image: url('https://images.unsplash.com/photo-1550853024-fae8cd4be47f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80');"></div>
+            <div class="feature-content">
+                <h3>鸟类图鉴数据库</h3>
+                <p>收录186种鸟类详细信息，包含高清图片、生态习性、分布区域及保护现状，建立完善的鸟类档案系统。</p>
+                <a href="{{ '/species/' | relative_url }}" class="learn-more">浏览图鉴 <i class="fas fa-arrow-right"></i></a>
             </div>
         </div>
-    </section>
-
-    <!-- 核心功能展示区 -->
-    <section class="features-section">
-        <h2 class="section-title">探索生态保护成果</h2>
-        <div class="features-grid">
-            <div class="feature-card">
-                <div class="feature-img" style="background-image: url('https://images.unsplash.com/photo-1550853024-fae8cd4be47f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80');"></div>
-                <div class="feature-content">
-                    <h3>鸟类图鉴数据库</h3>
-                    <p>收录186种鸟类详细信息，包含高清图片、生态习性、分布区域及保护现状，建立完善的鸟类档案系统。</p>
-                    <a href="/species/" class="learn-more">浏览图鉴 <i class="fas fa-arrow-right"></i></a>
-                </div>
-            </div>
-            
-            <div class="feature-card">
-                <div class="feature-img" style="background-image: url('https://images.unsplash.com/photo-1469474968028-56623f02e42e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80');"></div>
-                <div class="feature-content">
-                    <h3>生态研究报告</h3>
-                    <p>发布年度生态监测报告、栖息地评估研究及物种保护建议，为保护区管理提供科学依据。</p>
-                    <a href="/reports/" class="learn-more">查阅报告 <i class="fas fa-arrow-right"></i></a>
-                </div>
-            </div>
-            
-            <div class="feature-card">
-                <div class="feature-img" style="background-image: url('https://images.unsplash.com/photo-1544197150-b99a580bb7a8?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80');"></div>
-                <div class="feature-content">
-                    <h3>支队编年史</h3>
-                    <p>记录十二载风雨历程，从首次科考到建立长效保护机制，见证一代代清华学子的绿色传承。</p>
-                    <a href="/about/" class="learn-more">了解历程 <i class="fas fa-arrow-right"></i></a>
-                </div>
+        
+        <div class="feature-card">
+            <div class="feature-img" style="background-image: url('https://images.unsplash.com/photo-1469474968028-56623f02e42e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80');"></div>
+            <div class="feature-content">
+                <h3>生态研究报告</h3>
+                <p>发布年度生态监测报告、栖息地评估研究及物种保护建议，为保护区管理提供科学依据。</p>
+                <a href="{{ '/reports/' | relative_url }}" class="learn-more">查阅报告 <i class="fas fa-arrow-right"></i></a>
             </div>
         </div>
-    </section>
-
-    <!-- 影像展示区 -->
-    <section class="gallery-section">
-        <h2 class="section-title">守护者影像志</h2>
-        <div class="gallery-grid">
-            <div class="gallery-item">
-                <img src="https://images.unsplash.com/photo-1444464666168-49d633b86797?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="鸟类观测">
-                <div class="gallery-caption">黑脸琵鹭种群监测</div>
-            </div>
-            <div class="gallery-item">
-                <img src="https://images.unsplash.com/photo-1470115636492-6d2b56f9146d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="湿地研究">
-                <div class="gallery-caption">湿地植被样方调查</div>
-            </div>
-            <div class="gallery-item">
-                <img src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="野外工作">
-                <div class="gallery-caption">野外装备调试</div>
-            </div>
-            <div class="gallery-item">
-                <img src="https://images.unsplash.com/photo-1469474968028-56623f02e42e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="社区活动">
-                <div class="gallery-caption">社区环保课堂</div>
-            </div>
-            <div class="gallery-item">
-                <img src="https://images.unsplash.com/photo-1554080353-a576cf803bda?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="鸟类摄影">
-                <div class="gallery-caption">候鸟迁徙记录</div>
-            </div>
-            <div class="gallery-item">
-                <img src="https://images.unsplash.com/photo-1501854140801-50d01698950b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="自然景观">
-                <div class="gallery-caption">鸟岛晨曦</div>
+        
+        <div class="feature-card">
+            <div class="feature-img" style="background-image: url('https://images.unsplash.com/photo-1544197150-b99a580bb7a8?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80');"></div>
+            <div class="feature-content">
+                <h3>支队编年史</h3>
+                <p>记录十二载风雨历程，从首次科考到建立长效保护机制，见证一代代清华学子的绿色传承。</p>
+                <a href="{{ '/about/' | relative_url }}" class="learn-more">了解历程 <i class="fas fa-arrow-right"></i></a>
             </div>
         </div>
-    </section>
+    </div>
+</section>
 
-    <script>
-        // 简单的数据动画效果
-        document.addEventListener('DOMContentLoaded', function() {
-            // 鸟类数量动画
-            const birdCount = document.getElementById('bird-count');
-            let count = 0;
-            const targetCount = 186;
-            const duration = 2000;
-            const increment = targetCount / (duration / 16);
-            
-            const counter = setInterval(() => {
-                count += increment;
-                if (count >= targetCount) {
-                    count = targetCount;
-                    clearInterval(counter);
+<!-- 影像展示区 -->
+<section class="gallery-section">
+    <h2 class="section-title">守护者影像志</h2>
+    <div class="gallery-grid">
+        <div class="gallery-item">
+            <img src="https://images.unsplash.com/photo-1444464666168-49d633b86797?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="鸟类观测">
+            <div class="gallery-caption">黑脸琵鹭种群监测</div>
+        </div>
+        <div class="gallery-item">
+            <img src="https://images.unsplash.com/photo-1470115636492-6d2b56f9146d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="湿地研究">
+            <div class="gallery-caption">湿地植被样方调查</div>
+        </div>
+        <div class="gallery-item">
+            <img src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="野外工作">
+            <div class="gallery-caption">野外装备调试</div>
+        </div>
+        <div class="gallery-item">
+            <img src="https://images.unsplash.com/photo-1469474968028-56623f02e42e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="社区活动">
+            <div class="gallery-caption">社区环保课堂</div>
+        </div>
+        <div class="gallery-item">
+            <img src="https://images.unsplash.com/photo-1554080353-a576cf803bda?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="鸟类摄影">
+            <div class="gallery-caption">候鸟迁徙记录</div>
+        </div>
+        <div class="gallery-item">
+            <img src="https://images.unsplash.com/photo-1501854140801-50d01698950b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="自然景观">
+            <div class="gallery-caption">鸟岛晨曦</div>
+        </div>
+    </div>
+</section>
+
+<script>
+    // 简单的数据动画效果
+    document.addEventListener('DOMContentLoaded', function() {
+        // 鸟类数量动画
+        const birdCount = document.getElementById('bird-count');
+        let count = 0;
+        const targetCount = 186;
+        const duration = 2000;
+        const increment = targetCount / (duration / 16);
+        
+        const counter = setInterval(() => {
+            count += increment;
+            if (count >= targetCount) {
+                count = targetCount;
+                clearInterval(counter);
+            }
+            birdCount.textContent = Math.floor(count);
+        }, 16);
+        
+        // 滚动动画效果
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('animate');
                 }
-                birdCount.textContent = Math.floor(count);
-            }, 16);
-            
-            // 滚动动画效果
-            const observer = new IntersectionObserver((entries) => {
-                entries.forEach(entry => {
-                    if (entry.isIntersecting) {
-                        entry.target.classList.add('animate');
-                    }
-                });
-            }, { threshold: 0.1 });
-            
-            document.querySelectorAll('.stat-card, .feature-card, .gallery-item').forEach(card => {
-                observer.observe(card);
             });
+        }, { threshold: 0.1 });
+        
+        document.querySelectorAll('.stat-card, .feature-card, .gallery-item').forEach(card => {
+            observer.observe(card);
         });
-    </script>
-</body>
-</html>
+    });
+</script>
