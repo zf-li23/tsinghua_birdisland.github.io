@@ -1,9 +1,10 @@
 ---
-layout: page
+layout: default
 title: 支队传承
 permalink: /about/
 ---
 
+<div class="markdown-content">
 # 支队传承
 
 清华大学"鸟岛与少年"实践支队成立于2012年，至今已有12年历史。我们致力于保护候鸟迁徙通道，研究生态多样性，并通过实际行动践行环保理念。
@@ -27,3 +28,4 @@ permalink: /about/
 ---
 
 "十二载风雨兼程，我们见证了鸟岛的变迁，也见证了自我的成长。每一片羽翼的振翅，都是我们前行的动力。"
+</div>
