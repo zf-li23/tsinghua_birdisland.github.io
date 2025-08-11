@@ -1,21 +1,17 @@
-title: 鸟岛与少年
-description: 清华大学“鸟岛与少年”实践支队官方网站
-baseurl: "" # 如果部署在子路径，填写子路径名
-url: "https://tsinghua_birdisland.github.io" # 您的域名
+# _config.yml
+title: 鸟岛与少年 - 清华大学实践支队
+description: 清华大学"鸟岛与少年"实践支队，十年如一日守护候鸟迁徙通道
+baseurl: "" 
+url: "https://zf-li23.github.io/tsinghua_birdisland.github.io"
 
 # Jekyll设置
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
 
-# 自定义设置
-collections:
-  docs:
-    output: true
-    permalink: /:path/
-
-defaults:
-  - scope:
-      path: ""
-    values:
-      layout: base
+# 自定义变量
+footer_text: 守护每一片羽翼，传递绿色希望
+email: birdisland@tsinghua.edu.cn
+phone: +86 10 6278 2012
+address: 清华大学环境学院，北京市海淀区
