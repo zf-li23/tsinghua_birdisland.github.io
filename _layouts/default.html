@@ -8,7 +8,6 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
     <style>
-        /* 将index.html中的所有CSS样式复制到这里 */
         :root {
             --primary: #1a6b54;
             --secondary: #2c8c76;
@@ -426,6 +425,72 @@
             .section-title {
                 font-size: 2rem;
             }
+        }
+
+        .content-container {
+            max-width: 1200px;
+            margin: 50px auto;
+            padding: 0 20px;
+        }
+        
+        /* Markdown内容样式 */
+        .markdown-content {
+            background: white;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+        }
+        
+        .markdown-content h1,
+        .markdown-content h2,
+        .markdown-content h3 {
+            color: var(--dark);
+            margin-top: 30px;
+            margin-bottom: 20px;
+            position: relative;
+        }
+        
+        .markdown-content h1:after,
+        .markdown-content h2:after {
+            content: "";
+            position: absolute;
+            bottom: -10px;
+            left: 0;
+            width: 60px;
+            height: 4px;
+            background: var(--accent);
+        }
+        
+        .markdown-content p {
+            line-height: 1.8;
+            margin-bottom: 20px;
+            color: #555;
+        }
+        
+        .markdown-content table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 25px 0;
+        }
+        
+        .markdown-content th, 
+        .markdown-content td {
+            padding: 12px 15px;
+            text-align: left;
+            border-bottom: 1px solid #e0e0e0;
+        }
+        
+        .markdown-content th {
+            background-color: var(--light);
+            color: var(--dark);
+            font-weight: 600;
+        }
+        
+        .markdown-content img {
+            max-width: 100%;
+            border-radius: 8px;
+            margin: 20px 0;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
         }
     </style>
 </head>
