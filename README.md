@@ -1,5 +1,9 @@
 # tsinghua_birdisland.github.io
 
+这是清华大学"鸟岛与少年"实践支队的官方网站，展示支队历年来的生态保护成果和实践活动。
+
+## 网站结构
+
 ```
 tsinghua_birdisland.github.io/
 ├── index.html                  # 网站首页（已存在）
@@ -41,3 +45,43 @@ tsinghua_birdisland.github.io/
     ├── footer.html             # 页脚
     └── head.html               # HTML头部
 ```
+
+
+## 编辑指南
+
+### 编辑现有页面
+
+1. 找到对应的Markdown文件（例如：`about/mission.md`）
+2. 使用Markdown语法编辑内容
+3. 保存并提交更改
+
+### 添加新页面
+
+1. 在相应目录创建新的Markdown文件（例如：`species/new-bird.md`）
+2. 在文件顶部添加YAML front matter：
+
+```yaml
+---
+layout: page
+title: 新鸟类介绍
+permalink: /species/new-bird/
+---
+```
+
+3. 使用Markdown语法编写内容
+4. 在导航中添加链接（编辑`_includes/header.html`）
+
+### 本地预览
+
+1. 安装Ruby和Jekyll：`gem install bundler jekyll`
+2. 安装依赖：`bundle install`
+3. 启动服务器：`bundle exec jekyll serve`
+4. 访问 `http://localhost:4000`
+
+## 部署说明
+
+网站通过GitHub Pages自动部署，推送更改到main分支后会自动更新。
+
+## 贡献指南
+
+欢迎所有支队成员贡献内容！
