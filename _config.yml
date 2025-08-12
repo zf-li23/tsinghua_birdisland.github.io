@@ -1,8 +1,8 @@
 # _config.yml
 title: 鸟岛与少年 - 清华大学实践支队
 description: 清华大学"鸟岛与少年"实践支队，十年如一日守护候鸟迁徙通道
+url: "https://zf-li23.github.io"
 baseurl: "/tsinghua_birdisland.github.io"
-url: "https://zf-li23.github.io/tsinghua_birdisland.github.io"
 
 # Jekyll设置
 theme: minima
