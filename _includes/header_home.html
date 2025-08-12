@@ -6,171 +6,7 @@
     <title>鸟岛与少年 - 首页导航与主视觉</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
-    <style>
-        :root {
-            --primary: #1a6b54;
-            --secondary: #2c8c76;
-            --accent: #f9a825;
-            --light: #e8f4f0;
-            --dark: #0d3b2e;
-            --text: #333333;
-        }
-        
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        
-        body {
-            font-family: 'Roboto', 'Noto Serif SC', sans-serif;
-            color: var(--text);
-            line-height: 1.6;
-            background: linear-gradient(135deg, #e8f4f0 0%, #d1e8e2 100%);
-            overflow-x: hidden;
-        }
-        
-        .header {
-            background: linear-gradient(rgba(10, 40, 30, 0.8), rgba(10, 40, 30, 0.9)), url('https://images.unsplash.com/photo-1501862700950-18382cd41497?ixlib=rb-4.0.3') center/cover;
-            color: white;
-            min-height: 100vh;
-            display: flex;
-            flex-direction: column;
-            position: relative;
-            padding: 20px 5%;
-        }
-        
-        .navbar {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 20px 0;
-            z-index: 10;
-        }
-        
-        .logo {
-            display: flex;
-            align-items: center;
-            transition: transform 0.3s ease;
-        }
-        
-        .logo:hover {
-            transform: scale(1.05);
-            cursor: pointer;
-        }
-        
-        .logo-icon {
-            font-size: 2.5rem;
-            color: var(--accent);
-            margin-right: 10px;
-            transition: transform 0.3s ease;
-        }
-        
-        .logo:hover .logo-icon {
-            transform: rotate(-5deg);
-        }
-        
-        .logo-text {
-            font-size: 1.8rem;
-            font-weight: 700;
-            position: relative;
-        }
-        
-        .logo-text span {
-            color: var(--accent);
-        }
-        
-        .logo-text:after {
-            content: "";
-            position: absolute;
-            bottom: -5px;
-            left: 0;
-            width: 0;
-            height: 2px;
-            background: var(--accent);
-            transition: width 0.3s ease;
-        }
-        
-        .logo:hover .logo-text:after {
-            width: 100%;
-        }
-        
-        .nav-links {
-            display: flex;
-            list-style: none;
-            gap: 15px; /* 使用gap替代margin-left */
-        }
-        
-        .nav-links a {
-            color: white;
-            text-decoration: none;
-            font-size: 1rem;
-            transition: all 0.3s;
-            padding: 8px 15px;
-            border-radius: 20px;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-        }
-        
-        .nav-links a i {
-            margin-bottom: 5px;
-            font-size: 1.2rem;
-            transition: transform 0.3s;
-        }
-        
-        .nav-links a:hover {
-            background: rgba(255, 255, 255, 0.2);
-        }
-        
-        .nav-links a:hover i {
-            transform: translateY(-3px);
-        }
-        
-        .nav-label {
-            font-size: 0.85rem;
-            white-space: nowrap;
-        }
-        
-        /* 响应式设计 */
-        @media (max-width: 1024px) {
-            .nav-links {
-                gap: 10px;
-            }
-            
-            .nav-links a {
-                padding: 8px 12px;
-            }
-            
-            .nav-label {
-                font-size: 0.75rem;
-            }
-        }
-        
-        @media (max-width: 900px) {
-            .nav-links {
-                display: none;
-            }
-            
-            .mobile-menu-btn {
-                display: block;
-            }
-        }
-        
-        .hero {
-            flex: 1;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            text-align: center;
-            padding: 50px 0;
-            max-width: 1200px;
-            margin: 0 auto;
-        }
-        
-        /* 其他样式保持不变... */
-        
+    <style>    
         /* 示例内容 */
         .demo-content {
             max-width: 1200px;
@@ -235,43 +71,43 @@
                 <div class="logo-icon">
                     <i class="fas fa-dove"></i>
                 </div>
-                <div class="logo-text">鸟岛与<span>少年</span></div>
+                <div href="{{ '/' | relative_url }}" class="logo-text">鸟岛与<span>少年</span></div>
             </div>
             
             <!-- 优化后的导航链接 -->
             <ul class="nav-links">
                 <li>
-                    <a href="/">
+                    <a href="{{ '/' | relative_url }}">
                         <i class="fas fa-home"></i>
                         <span class="nav-label">首页</span>
                     </a>
                 </li>
                 <li>
-                    <a href="/about/">
+                    <a href="{{ '/about/' | relative_url }}">
                         <i class="fas fa-users"></i>
                         <span class="nav-label">支队传承</span>
                     </a>
                 </li>
                 <li>
-                    <a href="/species/">
+                    <a href="{{ '/species/' | relative_url }}">
                         <i class="fas fa-feather-alt"></i>
                         <span class="nav-label">物种图鉴</span>
                     </a>
                 </li>
                 <li>
-                    <a href="/reports/">
+                    <a href="{{ '/reports/' | relative_url }}">
                         <i class="fas fa-file-alt"></i>
                         <span class="nav-label">调研报告</span>
                     </a>
                 </li>
                 <li>
-                    <a href="/records/">
+                    <a href="{{ '/records/' | relative_url }}">
                         <i class="fas fa-camera"></i>
                         <span class="nav-label">行程纪实</span>
                     </a>
                 </li>
                 <li>
-                    <a href="/contact/">
+                    <a href="{{ '/contact/' | relative_url }}">
                         <i class="fas fa-envelope"></i>
                         <span class="nav-label">联系我们</span>
                     </a>
