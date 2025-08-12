@@ -7,59 +7,12 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
     <style>
-        /* 示例内容 */
-        .demo-content {
-            max-width: 1200px;
-            margin: 50px auto;
-            padding: 30px;
-            background: rgba(255, 255, 255, 0.9);
-            border-radius: 15px;
-            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
-        }
-        
-        .demo-content h2 {
-            color: var(--dark);
-            text-align: center;
-            margin-bottom: 30px;
-            position: relative;
-        }
-        
-        .demo-content h2:after {
-            content: "";
-            position: absolute;
-            bottom: -10px;
-            left: 50%;
-            transform: translateX(-50%);
-            width: 100px;
-            height: 4px;
-            background: var(--accent);
-        }
-        
-        .demo-content p {
-            line-height: 1.8;
-            margin-bottom: 20px;
-            color: #555;
-            text-align: center;
-        }
-        
-        .features-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 30px;
-            margin-top: 40px;
-        }
-        
-        .feature-card {
-            background: white;
-            border-radius: 15px;
-            overflow: hidden;
-            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08);
-            transition: all 0.4s;
-        }
-        
-        .feature-card:hover {
-            transform: translateY(-10px);
-            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+        .header, .navbar {
+            height: 60px; /* 或根据实际目录内容调整，比如 50px~70px */
+            min-height: unset; /* 如果有 min-height 记得取消 */
+            padding: 0 24px;   /* 保持左右间距 */
+            display: flex;
+            align-items: center;
         }
     </style>
 </head>
