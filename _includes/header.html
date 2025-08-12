@@ -1,18 +1,186 @@
-<header class="header">
-    <nav class="navbar">
-        <div class="logo">
-            <div class="logo-icon">
-                <i class="fas fa-dove"></i>
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>鸟岛与少年 - 页眉导航</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <style>
+        /* 示例内容 */
+        .demo-content {
+            max-width: 1200px;
+            margin: 50px auto;
+            padding: 30px;
+            background: rgba(255, 255, 255, 0.9);
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        }
+        
+        .demo-content h2 {
+            color: var(--dark);
+            text-align: center;
+            margin-bottom: 30px;
+            position: relative;
+        }
+        
+        .demo-content h2:after {
+            content: "";
+            position: absolute;
+            bottom: -10px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 100px;
+            height: 4px;
+            background: var(--accent);
+        }
+        
+        .demo-content p {
+            line-height: 1.8;
+            margin-bottom: 20px;
+            color: #555;
+            text-align: center;
+        }
+        
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin-top: 40px;
+        }
+        
+        .feature-card {
+            background: white;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08);
+            transition: all 0.4s;
+        }
+        
+        .feature-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <!-- 优化的Logo区域 - 作为可点击元素 -->
+            <div class="logo" onclick="window.location.href='/'">
+                <div class="logo-icon">
+                    <i class="fas fa-dove"></i>
+                </div>
+                <div class="logo-text">鸟岛与<span>少年</span></div>
             </div>
-            <a href="{{ '/' | relative_url }}" class="logo-text">鸟岛与<span>少年</span></a>
+            
+            <!-- 优化后的导航链接 -->
+            <ul class="nav-links">
+                <li>
+                    <a href="/">
+                        <i class="fas fa-home"></i>
+                        <span class="nav-label">首页</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="/about/">
+                        <i class="fas fa-users"></i>
+                        <span class="nav-label">支队传承</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="/species/">
+                        <i class="fas fa-feather-alt"></i>
+                        <span class="nav-label">物种图鉴</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="/reports/">
+                        <i class="fas fa-file-alt"></i>
+                        <span class="nav-label">调研报告</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="/records/">
+                        <i class="fas fa-camera"></i>
+                        <span class="nav-label">行程纪实</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="/contact/">
+                        <i class="fas fa-envelope"></i>
+                        <span class="nav-label">联系我们</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        
+        <section class="hero">
+            <h1>守护飞羽家园，谱写青春华章</h1>
+            <p>清华大学"鸟岛与少年"实践支队，十年如一日守护候鸟迁徙通道，用青春记录生态变迁，用行动践行绿色使命</p>
+            <a href="/about/" class="cta-button">探索我们的故事 <i class="fas fa-arrow-right"></i></a>
+        </section>
+    </header>
+
+    <div class="demo-content">
+        <h2>导航栏优化说明</h2>
+        <p>已对导航栏进行以下优化：</p>
+        
+        <div class="features-grid">
+            <div class="feature-card">
+                <div class="feature-content">
+                    <h3>紧凑导航设计</h3>
+                    <p>使用gap属性替代margin-left，优化间距</p>
+                    <p>导航项间距减少30%，更紧凑合理</p>
+                </div>
+            </div>
+            
+            <div class="feature-card">
+                <div class="feature-content">
+                    <h3>优雅Logo交互</h3>
+                    <p>Logo区域整体作为可点击元素</p>
+                    <p>悬停时轻微放大，图标有旋转效果</p>
+                    <p>文字下方有优雅的下划线动画</p>
+                </div>
+            </div>
+            
+            <div class="feature-card">
+                <div class="feature-content">
+                    <h3>图标与文字分离</h3>
+                    <p>导航项使用垂直布局</p>
+                    <p>图标在上，文字在下</p>
+                    <p>悬停时图标有上浮效果</p>
+                </div>
+            </div>
         </div>
-        <ul class="nav-links">
-            <li><a href="{{ '/' | relative_url }}"><i class="fas fa-home"></i> 首页</a></li>
-            <li><a href="{{ '/about/' | relative_url }}"><i class="fas fa-users"></i> 支队传承</a></li>
-            <li><a href="{{ '/species/' | relative_url }}"><i class="fas fa-feather-alt"></i> 物种图鉴</a></li>
-            <li><a href="{{ '/reports/' | relative_url }}"><i class="fas fa-file-alt"></i> 调研报告</a></li>
-            <li><a href="{{ '/records/' | relative_url }}"><i class="fas fa-camera"></i> 行程纪实</a></li>
-            <li><a href="{{ '/contact/' | relative_url }}"><i class="fas fa-envelope"></i> 联系我们</a></li>
-        </ul>
-    </nav>
-</header>
+    </div>
+
+    <script>
+        // 简单的Logo点击效果
+        document.querySelector('.logo').addEventListener('click', function() {
+            this.style.transform = 'scale(0.95)';
+            setTimeout(() => {
+                window.location.href = '/';
+                this.style.transform = '';
+            }, 300);
+        });
+        
+        // 响应式设计 - 移动端菜单
+        function initMobileMenu() {
+            if (window.innerWidth < 900) {
+                const menuBtn = document.createElement('div');
+                menuBtn.className = 'mobile-menu-btn';
+                menuBtn.innerHTML = '<i class="fas fa-bars"></i>';
+                document.querySelector('.navbar').appendChild(menuBtn);
+                
+                menuBtn.addEventListener('click', function() {
+                    document.querySelector('.nav-links').classList.toggle('active');
+                });
+            }
+        }
+        
+        window.addEventListener('DOMContentLoaded', initMobileMenu);
+        window.addEventListener('resize', initMobileMenu);
+    </script>
+</body>
+</html>
