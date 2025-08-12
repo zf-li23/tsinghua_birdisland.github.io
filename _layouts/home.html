@@ -1,3 +1,4 @@
+<!-- _layouts/default.html -->
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
@@ -9,34 +10,13 @@
     <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 </head>
 <body>
-    <nav class="navbar">
-        <div class="logo">
-            <div class="logo-icon">
-                <i class="fas fa-dove"></i>
-            </div>
-            <a href="{{ '/' | relative_url }}" class="logo-text">鸟岛与<span>少年</span></a>
-        </div>
-        <ul class="nav-links">
-            <li><a href="{{ '/' | relative_url }}"><i class="fas fa-home"></i> 首页</a></li>
-            <li><a href="{{ '/about/' | relative_url }}"><i class="fas fa-users"></i> 支队传承</a></li>
-            <li><a href="{{ '/species/' | relative_url }}"><i class="fas fa-feather-alt"></i> 物种图鉴</a></li>
-            <li><a href="{{ '/reports/' | relative_url }}"><i class="fas fa-file-alt"></i> 调研报告</a></li>
-            <li><a href="{{ '/records/' | relative_url }}"><i class="fas fa-camera"></i> 行程纪实</a></li>
-            <li><a href="{{ '/contact/' | relative_url }}"><i class="fas fa-envelope"></i> 联系我们</a></li>
-        </ul>
-        
-        <!-- 主视觉区域 -->
-        <section class="hero">
-            <h1>守护飞羽家园，谱写青春华章</h1>
-            <p>清华大学"鸟岛与少年"实践支队，十年如一日守护候鸟迁徙通道，用青春记录生态变迁，用行动践行绿色使命</p>
-            <a href="{{ '/about/' | relative_url }}" class="cta-button">探索我们的故事 <i class="fas fa-arrow-right"></i></a>
-        </section>
-    </nav>
-
+    <!-- 顶部导航栏 -->
+    {% include header_home.html %}
+    
     <!-- 主要内容区域 -->
-    <div class="home-content">
+    <main class="content-container">
         {{ content }}
-    </div>
+    </main>
     
     <!-- 页脚区域 -->
     {% include footer.html %}
