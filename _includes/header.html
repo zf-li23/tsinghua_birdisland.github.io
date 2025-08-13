@@ -196,6 +196,19 @@
             .nav-links a {
                 padding: 12px 20px;
                 border-radius: 8px;
+                width: 100%; /* 确保所有按钮等宽 */
+            }
+
+            .nav-links a i {
+                min-width: 30px; /* 固定图标宽度 */
+                margin-right: 15px; /* 增加图标与文本间距 */
+                font-size: 1.3rem; /* 增大图标尺寸 */
+                text-align: center; /* 图标居中 */
+            }
+            
+            .nav-links a span {
+                flex-grow: 1; /* 文本区域扩展填充 */
+                text-align: left; /* 确保文本左对齐 */
             }
         }
         
