@@ -187,10 +187,6 @@ hr {
 
 /* 响应式设计 */
 @media (max-width: 768px) {   
-    .markdown-container {
-        padding: 20px;
-    }
-    
     h1 {
         font-size: 1.8rem;
     }
