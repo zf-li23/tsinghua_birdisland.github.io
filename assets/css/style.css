@@ -31,3 +31,17 @@ a:hover {
     color: #e69500; /* 悬停时稍深的橙色 */
     text-decoration: underline;
 }
+
+/* 主内容区左右留 40px，上下留 20px */
+.main-content,
+.post-content,
+.page-content {
+  padding: 20px 40px;
+}
+
+/* 如果想让文字整体居中且最大宽度 800px，可再加： */
+.wrapper {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
