@@ -365,7 +365,7 @@
                 flex-direction: row;
                 justify-content: flex-start;
                 min-width: auto;
-                padding: 15px;
+                padding: 15px 25px;
                 border-radius: 8px;
                 text-align: center;
             }
@@ -375,13 +375,15 @@
                 margin-right: 15px;
                 font-size: 1.6rem;
                 flex-shrink: 0;
-                width: 30px;
+                min-width: 30px;
                 text-align: center;
             }
             
             .nav-label {
                 font-size: 1.1rem;
                 text-align: left;
+                flex-grow: 1; /* 文本区域扩展填充剩余空间 */
+                width: auto; /* 确保宽度自适应 */
             }
             
             /* 主视觉区域调整 */
