@@ -32,24 +32,4 @@ a:hover {
     text-decoration: underline;
 }
 
-/* 主内容区左右留 40px，上下留 20px */
-content-container,
-.main-content,
-.post-content,
-.page-content {
-  padding: 20px 40px;
-}
 
-/* 如果想让文字整体居中且最大宽度 800px，可再加： */
-.wrapper {
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 0 20px;
-}
-
-@media (max-width: 600px) {
-    content-container,
-  .main-content {
-    padding: 10px 15px;
-  }
-}
