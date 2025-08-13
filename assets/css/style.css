@@ -33,6 +33,7 @@ a:hover {
 }
 
 /* 主内容区左右留 40px，上下留 20px */
+content-container,
 .main-content,
 .post-content,
 .page-content {
@@ -47,6 +48,7 @@ a:hover {
 }
 
 @media (max-width: 600px) {
+    content-container,
   .main-content {
     padding: 10px 15px;
   }
