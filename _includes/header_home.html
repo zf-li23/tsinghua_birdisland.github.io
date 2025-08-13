@@ -1,44 +1,630 @@
-    .nav-links {
-        display: none;
-        flex-direction: column;
-        margin-top: 20px;
-        background: rgba(0, 0, 0, 0.2);
-        border-radius: 12px;
-        padding: 15px;
-        gap: 10px;
-        width: 100%;
-    }
-    .nav-links.active {
-        display: flex;
-        animation: slideDown 0.4s ease;
-    }
-    .nav-links a {
-        flex-direction: row;
-        justify-content: flex-start;
-        align-items: center;
-        text-align: left;
-        min-width: auto;
-        padding: 15px 25px;
-        width: auto; /* 保持内容宽度 */
-    }
-    .nav-links a i {
-        margin: 0 15px 0 0;
-        font-size: 1.6rem;
-        flex-shrink: 0;
-        min-width: 30px;
-        max-width: 30px;
-        text-align: center;
-    }
-    .nav-label {
-        font-size: 1.1rem;
-        text-align: left;
-        flex-grow: 1;
-        width: auto;
-        display: block;
-        overflow: hidden;
-        text-overflow: ellipsis;
-    }
-    .nav-links li {
-        display: block;
-        width: 100%;
-    }
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>鸟岛与少年 - 响应式首页页眉+主视觉</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <style>    
+        :root {
+            --sky-blue: #4d9de0;
+            --sky-blue-light: #78b9f0;
+            --sky-blue-dark: #3a7bb5;
+            --sun-yellow: #f9c74f;
+            --cloud-white: #f8f9fa;
+            --text-dark: #1d3557;
+            --accent: #ff6b6b;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Roboto', 'Noto Serif SC', sans-serif;
+            background: linear-gradient(135deg, #fefee3, #fdf4d9);
+            color: #333;
+            line-height: 1.6;
+            min-height: 100vh;
+        }
+        
+        /* 导航栏样式 */
+        .header {
+            background: linear-gradient(135deg, var(--sky-blue), var(--sky-blue-light));
+            color: white;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+            position: relative;
+            overflow: hidden;
+            padding-bottom: 30px;
+        }
+        
+        .header::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none"><path d="M0,0 Q50,10 100,0 L100,100 Q50,90 0,100 Z" fill="rgba(255,255,255,0.1)"/></svg>');
+            background-size: 100% auto;
+            background-position: bottom;
+            opacity: 0.3;
+        }
+        
+        .clouds {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            z-index: 1;
+        }
+        
+        .cloud {
+            position: absolute;
+            background: rgba(255, 255, 255, 0.7);
+            border-radius: 50%;
+            filter: blur(15px);
+        }
+        
+        .cloud-1 { width: 150px; height: 60px; top: 20%; left: 10%; }
+        .cloud-2 { width: 200px; height: 80px; top: 40%; right: 15%; }
+        .cloud-3 { width: 180px; height: 70px; bottom: 30%; left: 30%; }
+        
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 5%;
+            max-width: 1400px;
+            margin: 0 auto;
+            position: relative;
+            z-index: 2;
+        }
+        
+        /* 优化Logo区域 */
+        .logo {
+            display: flex;
+            align-items: center;
+            cursor: pointer;
+            transition: transform 0.3s ease;
+            flex-shrink: 0;
+        }
+        
+        .logo:hover {
+            transform: scale(1.05);
+        }
+        
+        .logo-icon {
+            width: 50px;
+            height: 50px;
+            background: rgba(255, 255, 255, 0.2);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 12px;
+            transition: all 0.3s ease;
+        }
+        
+        .logo:hover .logo-icon {
+            background: rgba(255, 255, 255, 0.3);
+            transform: rotate(10deg);
+        }
+        
+        .logo-icon i {
+            font-size: 1.8rem;
+            color: white;
+        }
+        
+        .logo-text {
+            font-family: 'Noto Serif SC', serif;
+            font-size: 1.5rem;
+            font-weight: 700;
+            display: flex;
+            flex-direction: column;
+            line-height: 1.2;
+        }
+        
+        .logo-text span {
+            color: var(--sun-yellow);
+            font-weight: 800;
+        }
+        
+        /* 导航链接 - 垂直布局 */
+        .nav-links {
+            display: flex;
+            list-style: none;
+            gap: 15px;
+            padding: 0;
+            margin: 0;
+        }
+        
+        .nav-links li {
+            display: flex;
+        }
+        
+        .nav-links a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 15px;
+            border-radius: 8px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.3s;
+            min-width: 80px;
+            width: 100%; /* 确保所有按钮等宽 */
+            background: rgba(0, 0, 0, 0.1);
+        }
+        
+        .nav-links a:hover {
+            background: rgba(255, 255, 255, 0.2);
+            transform: translateY(-3px);
+        }
+        
+        .nav-links a i {
+            font-size: 1.4rem;
+            margin-bottom: 8px;
+            transition: transform 0.3s;
+        }
+        
+        .nav-links a:hover i {
+            transform: scale(1.2);
+        }
+        
+        .nav-label {
+            font-size: 0.85rem;
+            font-weight: 500;
+            text-align: center;
+            white-space: nowrap;
+            width: auto;
+        }
+        
+        /* 主视觉区域 */
+        .hero {
+            padding: 80px 5% 100px;
+            text-align: center;
+            position: relative;
+            z-index: 2;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        .hero-title {
+            font-family: 'Noto Serif SC', serif;
+            font-size: 3rem;
+            font-weight: 700;
+            margin-bottom: 20px;
+            text-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+            line-height: 1.2;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 12px;
+        }
+        
+        .hero-title span {
+            display: inline-block;
+            padding: 0;
+            background: none;
+            border-radius: 0;
+            backdrop-filter: none;
+        }
+        
+        .hero p {
+            font-size: 1.2rem;
+            max-width: 700px;
+            margin: 0 auto 30px;
+            opacity: 0.9;
+            text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+        }
+        
+        .cta-button {
+            display: inline-block;
+            background: var(--sun-yellow);
+            color: var(--text-dark);
+            padding: 14px 35px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 1.1rem;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+            position: relative;
+            overflow: hidden;
+            z-index: 1;
+        }
+        
+        .cta-button::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 0;
+            height: 100%;
+            background: rgba(255, 255, 255, 0.3);
+            transition: width 0.5s;
+            z-index: -1;
+        }
+        
+        .cta-button:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 7px 20px rgba(0, 0, 0, 0.2);
+        }
+        
+        .cta-button:hover::before {
+            width: 100%;
+        }
+        
+        .cta-button i {
+            margin-left: 8px;
+            transition: transform 0.3s ease;
+        }
+        
+        .cta-button:hover i {
+            transform: translateX(5px);
+        }
+        
+        .bird-animation {
+            position: absolute;
+            top: 20px;
+            right: 5%;
+            z-index: 1;
+            font-size: 3rem;
+            animation: fly 15s linear infinite;
+            opacity: 0.3;
+            color: white;
+        }
+        
+        .bird-animation-2 {
+            position: absolute;
+            top: 15%;
+            left: 10%;
+            font-size: 2rem;
+            animation: fly-reverse 18s linear infinite;
+            opacity: 0.2;
+            color: white;
+            z-index: 1;
+        }
+        
+        .mobile-menu-btn {
+            display: none;
+            background: rgba(255, 255, 255, 0.2);
+            border: none;
+            border-radius: 8px;
+            width: 50px;
+            height: 50px;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+            transition: all 0.3s;
+            z-index: 3;
+        }
+        
+        .mobile-menu-btn i {
+            color: white;
+            font-size: 1.8rem;
+        }
+        
+        .mobile-menu-btn:hover {
+            background: rgba(255, 255, 255, 0.3);
+        }
+        
+        /* 响应式设计 */
+        @media (max-width: 900px) {
+            /* 移动端导航布局 */
+            .navbar {
+                flex-wrap: wrap;
+                padding: 15px 5%;
+            }
+            
+            .logo {
+                order: 1;
+                margin-right: auto;
+            }
+            
+            .logo-text {
+                flex-direction: row;
+                gap: 5px;
+            }
+            
+            .mobile-menu-btn {
+                display: flex;
+                order: 2;
+            }
+            
+            .nav-links {
+                display: none;
+                order: 3;
+                width: 100%;
+                flex-direction: column;
+                margin-top: 20px;
+                background: rgba(0, 0, 0, 0.2);
+                border-radius: 12px;
+                padding: 15px;
+                gap: 10px;
+            }
+            
+            .nav-links.active {
+                display: flex;
+                animation: slideDown 0.4s ease;
+            }
+            
+            .nav-links li {
+                width: 100%;
+            }
+            
+            .nav-links a {
+                flex-direction: row;
+                justify-content: flex-start;
+                align-items: center; /* 确保垂直居中 */
+                min-width: auto;
+                padding: 15px 25px;
+                border-radius: 8px;
+                text-align: left; /* 关键修改：从center改为left */
+            }
+            
+            .nav-links a i {
+                margin-bottom: 0;
+                margin-right: 15px;
+                font-size: 1.6rem;
+                flex-shrink: 0;
+                min-width: 30px;
+                text-align: center;
+            }
+            
+            .nav-label {
+                font-size: 1.1rem;
+                text-align: left;
+                flex-grow: 1;
+                width: calc(100% - 45px); /* 关键修改：精确计算宽度 */
+                white-space: nowrap; /* 防止文本换行 */
+            }
+            
+            /* 主视觉区域调整 */
+            .hero {
+                padding: 50px 5% 70px;
+            }
+            
+            .hero-title {
+                font-size: 2rem;
+                flex-direction: column;
+                gap: 15px;
+            }
+            
+            .hero-title span {
+                width: fit-content;
+                margin: 0 auto;
+            }
+            
+            .hero p {
+                font-size: 1.1rem;
+            }
+        }
+        
+        @media (max-width: 480px) {
+            .hero-title {
+                font-size: clamp(1.4rem, 6vw, 1.6rem);
+                word-break: keep-all;
+                line-height: 1.4; 
+            }
+            
+            .hero p {
+                font-size: 1rem;
+            }
+            
+            .cta-button {
+                padding: 12px 25px;
+                font-size: 1rem;
+            }
+            
+            .logo-text {
+                font-size: 1.3rem;
+            }
+            
+            .logo-icon {
+                width: 42px;
+                height: 42px;
+            }
+        }
+        
+        /* 动画效果 */
+        @keyframes slideDown {
+            from {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        @keyframes fly {
+            0% {
+                transform: translateX(100px) translateY(0);
+            }
+            25% {
+                transform: translateX(50px) translateY(-20px);
+            }
+            50% {
+                transform: translateX(0) translateY(0);
+            }
+            75% {
+                transform: translateX(-50px) translateY(20px);
+            }
+            100% {
+                transform: translateX(-100px) translateY(0);
+            }
+        }
+        
+        @keyframes fly-reverse {
+            0% {
+                transform: translateX(-100px) translateY(0);
+            }
+            25% {
+                transform: translateX(-50px) translateY(20px);
+            }
+            50% {
+                transform: translateX(0) translateY(0);
+            }
+            75% {
+                transform: translateX(50px) translateY(-20px);
+            }
+            100% {
+                transform: translateX(100px) translateY(0);
+            }
+        }        
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="clouds">
+            <div class="cloud cloud-1"></div>
+            <div class="cloud cloud-2"></div>
+            <div class="cloud cloud-3"></div>
+        </div>
+        <div class="bird-animation">
+            <i class="fas fa-dove"></i>
+        </div>
+        <div class="bird-animation-2">
+            <i class="fas fa-dove"></i>
+        </div>
+        <nav class="navbar">
+            <!-- 优化的Logo区域 -->
+            <div class="logo" onclick="window.location.href='{{ '/' | relative_url }}'">
+                <div class="logo-icon">
+                    <i class="fas fa-dove"></i>
+                </div>
+                <div href="{{ '/' | relative_url }}" class="logo-text">鸟岛与<span>少年</span></div>
+            </div>
+            
+            <!-- 移动端菜单按钮 -->
+            <div class="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+            
+            <!-- 优化后的导航链接 -->
+            <ul class="nav-links">
+                <li>
+                    <a href="{{ '/' | relative_url }}">
+                        <i class="fas fa-home"></i>
+                        <span class="nav-label">首页</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="{{ '/about/' | relative_url }}">
+                        <i class="fas fa-users"></i>
+                        <span class="nav-label">支队传承</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="{{ '/species/' | relative_url }}">
+                        <i class="fas fa-feather-alt"></i>
+                        <span class="nav-label">物种图鉴</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="{{ '/reports/' | relative_url }}">
+                        <i class="fas fa-file-alt"></i>
+                        <span class="nav-label">调研报告</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="{{ '/records/' | relative_url }}">
+                        <i class="fas fa-camera"></i>
+                        <span class="nav-label">行程纪实</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="{{ '/contact/' | relative_url }}">
+                        <i class="fas fa-envelope"></i>
+                        <span class="nav-label">联系我们</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        
+        <section class="hero">
+            <h1 class="hero-title">
+                <span>守护飞羽家园</span>
+                <span>谱写青春华章</span>
+            </h1>
+            <p>清华大学"鸟岛与少年"实践支队，二十年如一日守护候鸟迁徙通道，用青春记录生态变迁，用行动践行绿色使命</p>
+            <a href="{{ '/about/' | relative_url }}" class="cta-button">探索我们的故事 <i class="fas fa-arrow-right"></i></a>
+        </section>
+    </header>
+
+    <script>
+        // 简单的Logo点击效果
+        document.querySelector('.logo').addEventListener('click', function() {
+            this.style.transform = 'scale(0.95)';
+            setTimeout(() => {
+                window.location.href = '/';
+                this.style.transform = '';
+            }, 300);
+        });
+        
+        // 移动端菜单功能
+        const mobileMenuBtn = document.querySelector('.mobile-menu-btn');
+        const navLinks = document.querySelector('.nav-links');
+        
+        if (mobileMenuBtn) {
+            mobileMenuBtn.addEventListener('click', function() {
+                navLinks.classList.toggle('active');
+                const icon = this.querySelector('i');
+                icon.classList.toggle('fa-bars');
+                icon.classList.toggle('fa-times');
+            });
+        }
+        
+        // 点击菜单项后关闭菜单
+        document.querySelectorAll('.nav-links a').forEach(link => {
+            link.addEventListener('click', () => {
+                if (window.innerWidth < 900) {
+                    navLinks.classList.remove('active');
+                    const icon = mobileMenuBtn.querySelector('i');
+                    icon.classList.add('fa-bars');
+                    icon.classList.remove('fa-times');
+                }
+            });
+        });
+        
+        // 窗口大小变化时调整菜单
+        window.addEventListener('resize', function() {
+            if (window.innerWidth >= 900) {
+                navLinks.classList.remove('active');
+                if (mobileMenuBtn) {
+                    const icon = mobileMenuBtn.querySelector('i');
+                    icon.classList.add('fa-bars');
+                    icon.classList.remove('fa-times');
+                }
+            }
+        });
+        
+        // 创建云朵效果
+        function createClouds() {
+            const cloudsContainer = document.querySelector('.clouds');
+            for (let i = 0; i < 5; i++) {
+                const cloud = document.createElement('div');
+                cloud.className = 'cloud';
+                cloud.style.width = Math.random() * 150 + 100 + 'px';
+                cloud.style.height = Math.random() * 60 + 40 + 'px';
+                cloud.style.top = Math.random() * 100 + '%';
+                cloud.style.left = Math.random() * 100 + '%';
+                cloud.style.opacity = Math.random() * 0.3 + 0.4;
+                cloudsContainer.appendChild(cloud);
+            }
+        }
+        
+        window.addEventListener('load', createClouds);
+    </script>
+</body>
+</html>
