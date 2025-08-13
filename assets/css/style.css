@@ -16,8 +16,9 @@
     box-sizing: border-box;
 }
 
-h1, h2, h3, h4, h5, h6, p, blockquote, pre, code, ul, ol, li, table, img, hr, strong, em, a {
-    padding: 20px;
+.content-container {
+    margin: 2rem auto;
+    padding: 0 20px;
 }
 
 body {
