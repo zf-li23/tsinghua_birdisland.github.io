@@ -14,14 +14,11 @@
 }
 
 body {
-    font-family: 'Roboto', 'Noto Sans SC', sans-serif; /* 修改2：使用无衬线字体 */
+    font-family: 'Roboto', 'Noto Sans SC', sans-serif;
     color: var(--text);
     line-height: 1.7; /* 增加行高使文字更松散 */
     background: linear-gradient(135deg, #e8f4f0 0%, #d1e8e2 100%);
     overflow-x: hidden;
-    max-width: 900px; /* 限制最大宽度 */
-    margin: 0 auto; /* 居中显示 */
-    padding: 2rem 1.5rem; /* 增加内边距 */
 }
 
 a {
