@@ -19,7 +19,10 @@ body {
     line-height: 1.7; /* 增加行高使文字更松散 */
     background: linear-gradient(135deg, #e8f4f0 0%, #d1e8e2 100%);
     overflow-x: hidden;
+    padding-left: 2rem;
+    padding-right: 2rem;
 }
+
 
 a {
     color: var(--accent); /* 使用预设的橙色 */
