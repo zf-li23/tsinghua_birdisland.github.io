@@ -6,13 +6,13 @@
     <title>鸟岛与少年 - 响应式首页页眉+主视觉</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
-    <style>
+    <style>    
         :root {
             --primary: #2c6e49;
-            --secondary: #4c956c;
-            --accent: #fefee3;
-            --light: #d8f3dc;
-            --dark: #1b4332;
+            --accent: #4c956c;
+            --light: #fefee3;
+            --dark: #1d3557;
+            --highlight: #f9c74f;
         }
         
         * {
@@ -23,72 +23,94 @@
         
         body {
             font-family: 'Roboto', 'Noto Serif SC', sans-serif;
-            line-height: 1.6;
+            background: linear-gradient(135deg, #e6f7ff, #f0fff4);
             color: #333;
-            background: linear-gradient(135deg, #d8f3dc 0%, #b7e4c7 100%);
-            min-height: 100vh;
+            line-height: 1.6;
         }
         
         /* 导航栏样式 */
         .header {
-            background: linear-gradient(to right, var(--dark), var(--primary));
+            background: linear-gradient(to right, var(--primary), var(--accent));
             color: white;
-            padding: 0 5%;
-            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
             position: relative;
-            z-index: 100;
+            overflow: hidden;
+        }
+        
+        .header::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none"><path d="M0,0 Q50,10 100,0 L100,100 Q50,90 0,100 Z" fill="rgba(255,255,255,0.1)"/></svg>');
+            background-size: 100% auto;
+            background-position: bottom;
+            opacity: 0.3;
         }
         
         .navbar {
             display: flex;
             justify-content: space-between;
             align-items: center;
-            padding: 20px 0;
+            padding: 15px 5%;
+            max-width: 1400px;
+            margin: 0 auto;
             position: relative;
+            z-index: 2;
         }
         
-        /* Logo 样式 - 水平排列 */
+        /* 优化Logo区域 */
         .logo {
             display: flex;
             align-items: center;
-            gap: 15px;
             cursor: pointer;
-            transition: transform 0.3s;
+            transition: transform 0.3s ease;
+            flex-shrink: 0;
         }
         
         .logo:hover {
-            transform: scale(1.03);
+            transform: scale(1.05);
         }
         
         .logo-icon {
             width: 50px;
             height: 50px;
-            background: var(--accent);
+            background: rgba(255, 255, 255, 0.2);
             border-radius: 50%;
             display: flex;
             align-items: center;
             justify-content: center;
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            margin-right: 12px;
+            transition: all 0.3s ease;
+        }
+        
+        .logo:hover .logo-icon {
+            background: rgba(255, 255, 255, 0.3);
+            transform: rotate(10deg);
         }
         
         .logo-icon i {
             font-size: 1.8rem;
-            color: var(--dark);
+            color: white;
         }
         
         .logo-text {
             font-family: 'Noto Serif SC', serif;
             font-size: 1.5rem;
             font-weight: 700;
-            letter-spacing: 1px;
+            display: flex;
+            flex-direction: column;
+            line-height: 1.2;
         }
         
         .logo-text span {
-            color: var(--accent);
-            font-weight: 700;
+            color: var(--highlight);
+            font-weight: 800;
         }
         
-        /* 导航链接 - 水平布局 */
+        /* 导航链接 - 垂直布局 */
         .nav-links {
             display: flex;
             list-style: none;
@@ -112,7 +134,7 @@
             justify-content: center;
             transition: all 0.3s;
             min-width: 80px;
-            background: rgba(255, 255, 255, 0.1);
+            background: rgba(0, 0, 0, 0.1);
         }
         
         .nav-links a:hover {
@@ -137,74 +159,54 @@
             white-space: nowrap;
         }
         
-        /* 汉堡菜单按钮 - 默认隐藏 */
-        .mobile-menu-btn {
-            display: none;
-            background: transparent;
-            border: none;
-            color: white;
-            font-size: 1.8rem;
-            cursor: pointer;
-            padding: 10px;
-            z-index: 101;
-        }
-        
         /* 主视觉区域 */
         .hero {
-            padding: 100px 5% 150px;
+            padding: 80px 5% 100px;
             text-align: center;
             position: relative;
-            overflow: hidden;
-            background: linear-gradient(rgba(27, 67, 50, 0.85), rgba(27, 67, 50, 0.9)), 
-                        url('https://images.unsplash.com/photo-1552728089-57bdde30beb3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1925&q=80');
-            background-size: cover;
-            background-position: center;
-            color: white;
+            z-index: 1;
+            max-width: 1200px;
+            margin: 0 auto;
         }
         
         .hero h1 {
             font-family: 'Noto Serif SC', serif;
-            font-size: 3.5rem;
+            font-size: 2.8rem;
             font-weight: 700;
-            margin-bottom: 25px;
-            text-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
-            max-width: 900px;
-            margin-left: auto;
-            margin-right: auto;
+            margin-bottom: 20px;
+            text-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
             line-height: 1.2;
         }
         
         .hero p {
-            font-size: 1.3rem;
+            font-size: 1.2rem;
             max-width: 700px;
-            margin: 0 auto 40px;
+            margin: 0 auto 30px;
             opacity: 0.9;
         }
         
         .cta-button {
             display: inline-block;
-            background: var(--accent);
-            color: var(--dark);
-            text-decoration: none;
-            padding: 15px 35px;
+            background: white;
+            color: var(--primary);
+            padding: 14px 35px;
             border-radius: 50px;
+            text-decoration: none;
             font-weight: 600;
             font-size: 1.1rem;
-            transition: all 0.3s;
-            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
-            border: 2px solid var(--accent);
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
         }
         
         .cta-button:hover {
-            background: transparent;
-            color: var(--accent);
-            transform: translateY(-3px);
-            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+            transform: translateY(-5px);
+            box-shadow: 0 7px 20px rgba(0, 0, 0, 0.2);
+            background: var(--light);
         }
         
         .cta-button i {
-            margin-left: 10px;
-            transition: transform 0.3s;
+            margin-left: 8px;
+            transition: transform 0.3s ease;
         }
         
         .cta-button:hover i {
@@ -247,10 +249,10 @@
             margin-bottom: 20px;
             color: #555;
             text-align: center;
+            font-size: 1.1rem;
             max-width: 800px;
             margin-left: auto;
             margin-right: auto;
-            font-size: 1.1rem;
         }
         
         .features-grid {
@@ -266,7 +268,8 @@
             overflow: hidden;
             box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08);
             transition: all 0.4s;
-            border: 1px solid rgba(0, 0, 0, 0.05);
+            display: flex;
+            flex-direction: column;
         }
         
         .feature-card:hover {
@@ -282,63 +285,100 @@
         
         .feature-content {
             padding: 25px;
+            flex-grow: 1;
         }
         
         .feature-content h3 {
             color: var(--dark);
-            margin-bottom: 15px;
-            font-family: 'Noto Serif SC', serif;
+            margin-bottom: 12px;
+            font-size: 1.4rem;
         }
         
         .feature-content p {
             color: #666;
             text-align: left;
-            font-size: 0.95rem;
+            margin-bottom: 15px;
         }
         
-        /* 响应式设计 - 平板设备 */
-        @media (max-width: 992px) {
-            .hero h1 {
-                font-size: 2.8rem;
-            }
-            
-            .hero p {
-                font-size: 1.1rem;
-            }
-            
-            .nav-links a {
-                min-width: 70px;
-                padding: 10px 12px;
-            }
-            
-            .nav-label {
-                font-size: 0.8rem;
-            }
+        .feature-link {
+            display: inline-flex;
+            align-items: center;
+            color: var(--accent);
+            font-weight: 500;
+            text-decoration: none;
+            margin-top: auto;
         }
         
-        /* 响应式设计 - 手机设备 */
-        @media (max-width: 768px) {
-            /* 显示汉堡菜单按钮 */
+        .feature-link i {
+            margin-left: 6px;
+            transition: transform 0.3s;
+        }
+        
+        .feature-link:hover i {
+            transform: translateX(3px);
+        }
+        
+        .mobile-menu-btn {
+            display: none;
+            background: rgba(255, 255, 255, 0.2);
+            border: none;
+            border-radius: 8px;
+            width: 50px;
+            height: 50px;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+        
+        .mobile-menu-btn i {
+            color: white;
+            font-size: 1.8rem;
+        }
+        
+        .mobile-menu-btn:hover {
+            background: rgba(255, 255, 255, 0.3);
+        }
+        
+        /* 响应式设计 */
+        @media (max-width: 900px) {
+            /* 移动端导航布局 */
+            .navbar {
+                flex-wrap: wrap;
+                padding: 15px 5%;
+            }
+            
+            .logo {
+                order: 1;
+                margin-right: auto;
+            }
+            
+            .logo-text {
+                flex-direction: row;
+                gap: 5px;
+            }
+            
             .mobile-menu-btn {
-                display: block;
+                display: flex;
+                order: 2;
             }
             
-            /* 隐藏桌面导航 */
             .nav-links {
                 display: none;
-                position: absolute;
-                top: 100%;
-                left: 0;
-                right: 0;
-                background: var(--dark);
+                order: 3;
+                width: 100%;
                 flex-direction: column;
-                padding: 20px 0;
-                box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-                z-index: 100;
+                margin-top: 20px;
+                background: rgba(0, 0, 0, 0.2);
+                border-radius: 12px;
+                padding: 15px;
+                gap: 10px;
             }
             
             .nav-links.active {
                 display: flex;
+                animation: slideDown 0.4s ease;
             }
             
             .nav-links li {
@@ -348,23 +388,24 @@
             .nav-links a {
                 flex-direction: row;
                 justify-content: flex-start;
-                padding: 15px 30px;
-                border-radius: 0;
                 min-width: auto;
-                gap: 20px;
+                padding: 15px;
+                border-radius: 8px;
             }
             
             .nav-links a i {
                 margin-bottom: 0;
-                font-size: 1.2rem;
+                margin-right: 15px;
+                font-size: 1.6rem;
             }
             
-            .logo-text {
-                font-size: 1.2rem;
+            .nav-label {
+                font-size: 1.1rem;
             }
             
+            /* 主视觉区域调整 */
             .hero {
-                padding: 80px 5% 100px;
+                padding: 50px 5% 70px;
             }
             
             .hero h1 {
@@ -372,32 +413,13 @@
             }
             
             .hero p {
-                font-size: 1rem;
+                font-size: 1.1rem;
             }
             
-            .cta-button {
-                padding: 12px 30px;
-                font-size: 1rem;
-            }
-        }
-        
-        /* 响应式设计 - 小屏幕手机 */
-        @media (max-width: 480px) {
-            .logo-text {
-                display: none; /* 在非常小的屏幕上隐藏文字 */
-            }
-            
-            .hero h1 {
-                font-size: 1.8rem;
-            }
-            
-            .hero p {
-                font-size: 0.95rem;
-            }
-            
+            /* 示例内容调整 */
             .demo-content {
+                margin: 30px auto;
                 padding: 20px;
-                margin: 30px 15px;
             }
             
             .demo-content h2 {
@@ -405,26 +427,78 @@
             }
         }
         
-        /* 页脚样式 */
-        .footer {
-            background: var(--dark);
-            color: white;
-            text-align: center;
-            padding: 30px 0;
-            margin-top: 50px;
+        @media (max-width: 480px) {
+            .hero h1 {
+                font-size: 1.8rem;
+            }
+            
+            .hero p {
+                font-size: 1rem;
+            }
+            
+            .cta-button {
+                padding: 12px 25px;
+                font-size: 1rem;
+            }
+            
+            .logo-text {
+                font-size: 1.3rem;
+            }
+            
+            .logo-icon {
+                width: 42px;
+                height: 42px;
+            }
         }
         
-        .footer p {
-            opacity: 0.8;
-            font-size: 0.9rem;
-            margin-top: 15px;
+        /* 动画效果 */
+        @keyframes slideDown {
+            from {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        .bird-animation {
+            position: absolute;
+            top: 20px;
+            right: 5%;
+            z-index: 1;
+            font-size: 3rem;
+            animation: fly 15s linear infinite;
+            opacity: 0.3;
+        }
+        
+        @keyframes fly {
+            0% {
+                transform: translateX(100px) translateY(0);
+            }
+            25% {
+                transform: translateX(50px) translateY(-20px);
+            }
+            50% {
+                transform: translateX(0) translateY(0);
+            }
+            75% {
+                transform: translateX(-50px) translateY(20px);
+            }
+            100% {
+                transform: translateX(-100px) translateY(0);
+            }
         }
     </style>
 </head>
 <body>
     <header class="header">
+        <div class="bird-animation">
+            <i class="fas fa-dove"></i>
+        </div>
         <nav class="navbar">
-            <!-- Logo区域 -->
+            <!-- 优化的Logo区域 -->
             <div class="logo" onclick="window.location.href='{{ '/' | relative_url }}'">
                 <div class="logo-icon">
                     <i class="fas fa-dove"></i>
@@ -432,12 +506,12 @@
                 <div class="logo-text">鸟岛与<span>少年</span></div>
             </div>
             
-            <!-- 汉堡菜单按钮 -->
-            <button class="mobile-menu-btn">
+            <!-- 移动端菜单按钮 -->
+            <div class="mobile-menu-btn">
                 <i class="fas fa-bars"></i>
-            </button>
+            </div>
             
-            <!-- 导航链接 -->
+            <!-- 优化后的导航链接 -->
             <ul class="nav-links">
                 <li>
                     <a href="{{ '/' | relative_url }}">
@@ -496,37 +570,36 @@
         });
         
         // 移动端菜单功能
-        document.querySelector('.mobile-menu-btn').addEventListener('click', function() {
-            document.querySelector('.nav-links').classList.toggle('active');
-            this.querySelector('i').classList.toggle('fa-bars');
-            this.querySelector('i').classList.toggle('fa-times');
-        });
+        const mobileMenuBtn = document.querySelector('.mobile-menu-btn');
+        const navLinks = document.querySelector('.nav-links');
         
-        // 点击菜单外区域关闭菜单
-        document.addEventListener('click', function(event) {
-            const navLinks = document.querySelector('.nav-links');
-            const menuBtn = document.querySelector('.mobile-menu-btn');
-            
-            if (navLinks.classList.contains('active') {
-                if (!navLinks.contains(event.target) {
-                    if (event.target !== menuBtn && !menuBtn.contains(event.target)) {
-                        navLinks.classList.remove('active');
-                        menuBtn.querySelector('i').classList.remove('fa-times');
-                        menuBtn.querySelector('i').classList.add('fa-bars');
-                    }
+        if (mobileMenuBtn) {
+            mobileMenuBtn.addEventListener('click', function() {
+                navLinks.classList.toggle('active');
+                this.querySelector('i').classList.toggle('fa-bars');
+                this.querySelector('i').classList.toggle('fa-times');
+            });
+        }
+        
+        // 点击菜单项后关闭菜单
+        document.querySelectorAll('.nav-links a').forEach(link => {
+            link.addEventListener('click', () => {
+                if (window.innerWidth < 900) {
+                    navLinks.classList.remove('active');
+                    mobileMenuBtn.querySelector('i').classList.add('fa-bars');
+                    mobileMenuBtn.querySelector('i').classList.remove('fa-times');
                 }
-            }
+            });
         });
         
-        // 调整窗口大小时重置菜单状态
+        // 窗口大小变化时调整菜单
         window.addEventListener('resize', function() {
-            const navLinks = document.querySelector('.nav-links');
-            const menuBtn = document.querySelector('.mobile-menu-btn');
-            
-            if (window.innerWidth > 768) {
+            if (window.innerWidth >= 900) {
                 navLinks.classList.remove('active');
-                menuBtn.querySelector('i').classList.remove('fa-times');
-                menuBtn.querySelector('i').classList.add('fa-bars');
+                if (mobileMenuBtn) {
+                    mobileMenuBtn.querySelector('i').classList.add('fa-bars');
+                    mobileMenuBtn.querySelector('i').classList.remove('fa-times');
+                }
             }
         });
     </script>
