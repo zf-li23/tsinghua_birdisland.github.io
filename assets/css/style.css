@@ -16,13 +16,16 @@
     box-sizing: border-box;
 }
 
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, code, ul, ol, li, table, img, hr, strong, em, a {
+    padding: 20px;
+}
+
 body {
     font-family: 'Roboto', 'Noto Sans SC', sans-serif;
     color: var(--text);
     line-height: 1.7;
     background: linear-gradient(135deg, #e8f4f0 0%, #d1e8e2 100%);
     overflow-x: hidden;
-    padding: 20px;
     max-width: 900px;
     margin: 0 auto;
 }
