@@ -357,26 +357,22 @@
                 animation: slideDown 0.4s ease;
             }
             
-            .nav-links li {
-                width: 100%;
-            }
-            
+            /* 完全重置PC端样式 */
             .nav-links a {
-                flex-direction: row;
-                justify-content: flex-start;
-                align-items: center; /* 确保垂直居中 */
+                flex-direction: row !important;
+                justify-content: flex-start !important;
+                align-items: center !important; /* 关键添加 */
+                text-align: left !important;
                 min-width: auto;
                 padding: 15px 25px;
-                border-radius: 8px;
-                text-align: left; /* 关键修改：从center改为left */
             }
             
             .nav-links a i {
-                margin-bottom: 0;
-                margin-right: 15px;
+                margin: 0 15px 0 0 !important; /* 重置所有边距 */
                 font-size: 1.6rem;
                 flex-shrink: 0;
                 min-width: 30px;
+                max-width: 30px; /* 新增固定宽度 */
                 text-align: center;
             }
             
@@ -384,8 +380,18 @@
                 font-size: 1.1rem;
                 text-align: left;
                 flex-grow: 1;
-                width: calc(100% - 45px); /* 关键修改：精确计算宽度 */
-                white-space: nowrap; /* 防止文本换行 */
+                width: calc(100% - 45px);
+                white-space: nowrap;
+                /* 添加以下新属性 */
+                display: block;
+                overflow: hidden;
+                text-overflow: ellipsis;
+            }
+            
+            /* 完全重置列表项样式 */
+            .nav-links li {
+                display: block !important;
+                width: 100%;
             }
             
             /* 主视觉区域调整 */
