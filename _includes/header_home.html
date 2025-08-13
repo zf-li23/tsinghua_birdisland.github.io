@@ -364,11 +364,12 @@
             .nav-links a {
                 flex-direction: row;
                 justify-content: flex-start;
-                align-items: center; /* 确保垂直居中 */
+                align-items: center;
                 min-width: auto;
                 padding: 15px 25px;
                 border-radius: 8px;
-                text-align: left; /* 关键修改：从center改为left */
+                text-align: left;
+                width: auto !important; /* 关键修复：覆盖PC端的width:100%设置 */
             }
             
             .nav-links a i {
@@ -384,8 +385,8 @@
                 font-size: 1.1rem;
                 text-align: left;
                 flex-grow: 1;
-                width: calc(100% - 45px); /* 关键修改：精确计算宽度 */
-                white-space: nowrap; /* 防止文本换行 */
+                width: auto !important; /* 移除固定宽度计算 */
+                white-space: nowrap;
             }
             
             /* 主视觉区域调整 */
