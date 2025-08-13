@@ -26,7 +26,6 @@ body {
     line-height: 1.7;
     background: linear-gradient(135deg, #e8f4f0 0%, #d1e8e2 100%);
     overflow-x: hidden;
-    max-width: 900px;
     margin: 0 auto;
 }
 
