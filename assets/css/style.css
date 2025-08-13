@@ -13,31 +13,10 @@
     box-sizing: border-box;
 }
 
-/* 修改1: 增加文字间距和边距 */
 body {
-    font-family: 'Roboto', 'Noto Sans SC', sans-serif; /* 修改2: 使用无衬线字体 */
+    font-family: 'Roboto', 'Noto Serif SC', sans-serif;
     color: var(--text);
-    line-height: 1.8; /* 增加行高 */
+    line-height: 1.6;
     background: linear-gradient(135deg, #e8f4f0 0%, #d1e8e2 100%);
     overflow-x: hidden;
-    max-width: 800px; /* 限制最大宽度 */
-    margin: 0 auto; /* 居中显示 */
-    padding: 2rem 1.5rem; /* 增加内边距 */
-}
-
-/* 修改3: 设置超链接为橙色 */
-a {
-    color: var(--accent); /* 使用预设的橙色 */
-    text-decoration: none;
-    transition: color 0.3s ease;
-}
-
-a:hover {
-    color: #e69500; /* 悬停时加深橙色 */
-    text-decoration: underline;
-}
-
-/* 增加段落间距 */
-p {
-    margin-bottom: 1.5rem;
 }
