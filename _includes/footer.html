@@ -1,56 +1,336 @@
-<footer class="footer">
-    <div class="footer-grid">
-        <div class="footer-column">
-            <h3>关于我们</h3>
-            <p>"鸟岛与少年"实践支队成立于2006年，是清华大学具有影响力的生态保护实践团队，致力于候鸟迁徙通道保护与生物多样性研究。</p>
-            <div class="social-links">
-                <a href="#" class="social-icon"><i class="fab fa-weixin"></i></a>
-                <a href="#" class="social-icon"><i class="fab fa-weibo"></i></a>
-                <a href="https://github.com/zf-li23/tsinghua_birdisland.github.io" class="social-icon"><i class="fab fa-github"></i></a>
-                <a href="#" class="social-icon"><i class="fab fa-youtube"></i></a>
-            </div>
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>鸟岛与少年 - 页脚</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        :root {
+            --grass-green: #2c6e49;
+            --grass-green-light: #4c956c;
+            --sun-yellow: #f9c74f;
+            --cloud-white: #f8f9fa;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        .footer {
+            background: linear-gradient(135deg, var(--grass-green), var(--grass-green-light));
+            color: white;
+            padding: 60px 5% 30px;
+            position: relative;
+            overflow: hidden;
+            font-family: 'Roboto', sans-serif;
+        }
+        
+        .footer::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 10" preserveAspectRatio="none"><path d="M0,0 Q50,10 100,0 L100,10 L0,10 Z" fill="rgba(255,255,255,0.1)"/></svg>');
+            background-size: 100% auto;
+            background-position: top;
+            opacity: 0.3;
+            z-index: 1;
+        }
+        
+        .bird-footer {
+            position: absolute;
+            font-size: 2rem;
+            color: rgba(255, 255, 255, 0.2);
+            z-index: 1;
+        }
+        
+        .bird-1 {
+            top: 20px;
+            left: 10%;
+            animation: fly-left 20s linear infinite;
+        }
+        
+        .bird-2 {
+            top: 50px;
+            right: 15%;
+            animation: fly-right 25s linear infinite;
+        }
+        
+        @keyframes fly-left {
+            0% { transform: translateX(0) translateY(0); }
+            50% { transform: translateX(-100px) translateY(20px); }
+            100% { transform: translateX(-200px) translateY(0); }
+        }
+        
+        @keyframes fly-right {
+            0% { transform: translateX(0) translateY(0); }
+            50% { transform: translateX(100px) translateY(-15px); }
+            100% { transform: translateX(200px) translateY(0); }
+        }
+        
+        .footer-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            position: relative;
+            z-index: 2;
+        }
+        
+        .footer-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 40px;
+            margin-bottom: 40px;
+        }
+        
+        .footer-column {
+            padding: 20px;
+            transition: transform 0.3s ease;
+        }
+        
+        .footer-column:hover {
+            transform: translateY(-5px);
+        }
+        
+        .footer-column h3 {
+            font-family: 'Noto Serif SC', serif;
+            font-size: 1.5rem;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid var(--sun-yellow);
+            display: inline-block;
+            position: relative;
+        }
+        
+        .footer-column h3::after {
+            content: '';
+            position: absolute;
+            bottom: -2px;
+            left: 0;
+            width: 50px;
+            height: 2px;
+            background: rgba(255, 255, 255, 0.3);
+        }
+        
+        .footer-column p {
+            margin-bottom: 20px;
+            line-height: 1.6;
+            opacity: 0.9;
+        }
+        
+        .social-links {
+            display: flex;
+            gap: 15px;
+            margin-top: 20px;
+        }
+        
+        .social-icon {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 45px;
+            height: 45px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 50%;
+            color: white;
+            font-size: 1.3rem;
+            transition: all 0.3s ease;
+            text-decoration: none;
+        }
+        
+        .social-icon:hover {
+            background: rgba(255, 255, 255, 0.2);
+            transform: translateY(-5px);
+        }
+        
+        .footer-links {
+            list-style: none;
+        }
+        
+        .footer-links li {
+            margin-bottom: 12px;
+        }
+        
+        .footer-links a {
+            color: white;
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            transition: all 0.3s ease;
+            padding: 8px 0;
+        }
+        
+        .footer-links a:hover {
+            color: var(--sun-yellow);
+            transform: translateX(5px);
+        }
+        
+        .footer-links i {
+            margin-right: 10px;
+            font-size: 0.9rem;
+            color: var(--sun-yellow);
+            transition: transform 0.3s;
+        }
+        
+        .footer-links a:hover i {
+            transform: rotate(90deg);
+        }
+        
+        .contact-info {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 18px;
+            line-height: 1.5;
+        }
+        
+        .contact-icon {
+            margin-right: 15px;
+            font-size: 1.2rem;
+            color: var(--sun-yellow);
+            min-width: 20px;
+            margin-top: 3px;
+        }
+        
+        .copyright {
+            text-align: center;
+            padding-top: 30px;
+            border-top: 1px solid rgba(255, 255, 255, 0.2);
+            font-size: 0.9rem;
+            opacity: 0.8;
+            line-height: 1.6;
+        }
+        
+        .copyright p {
+            margin-bottom: 8px;
+        }
+        
+        .copyright a {
+            color: var(--sun-yellow);
+            text-decoration: none;
+            transition: all 0.3s;
+        }
+        
+        .copyright a:hover {
+            text-decoration: underline;
+        }
+        
+        /* 响应式设计 */
+        @media (max-width: 900px) {
+            .footer-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+            
+            .footer-column:last-child {
+                grid-column: span 2;
+            }
+        }
+        
+        @media (max-width: 600px) {
+            .footer-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .footer-column:last-child {
+                grid-column: span 1;
+            }
+            
+            .footer {
+                padding: 40px 5% 30px;
+            }
+            
+            .bird-footer {
+                display: none;
+            }
+        }
+        
+        @media (max-width: 480px) {
+            .social-links {
+                justify-content: center;
+            }
+            
+            .footer-column {
+                text-align: center;
+            }
+            
+            .contact-info {
+                justify-content: center;
+            }
+            
+            .footer-links a {
+                justify-content: center;
+            }
+            
+            .footer-column h3 {
+                text-align: center;
+                display: block;
+            }
+            
+            .footer-column h3::after {
+                left: 50%;
+                transform: translateX(-50%);
+            }
+        }
+    </style>
+</head>
+<body>
+    <footer class="footer">
+        <div class="bird-footer bird-1">
+            <i class="fas fa-dove"></i>
+        </div>
+        <div class="bird-footer bird-2">
+            <i class="fas fa-dove"></i>
         </div>
         
-        <div class="footer-column">
-            <h3>快速链接</h3>
-            <ul class="footer-links">
-                <li><a href="{{ '/about/' | relative_url }}"><i class="fas fa-angle-right"></i> 支队传承</a></li>
-                <li><a href="{{ '/species/' | relative_url }}"><i class="fas fa-angle-right"></i> 物种图鉴</a></li>
-                <li><a href="{{ '/reports/' | relative_url }}"><i class="fas fa-angle-right"></i> 调研报告</a></li>
-                <li><a href="{{ '/records/' | relative_url }}"><i class="fas fa-angle-right"></i> 行程纪实</a></li>
-                <li><a href="{{ '/contact/' | relative_url }}"><i class="fas fa-angle-right"></i> 联系我们</a></li>
-            </ul>
-        </div>
-        
-        <div class="footer-column">
-            <h3>参与我们</h3>
-            <ul class="footer-links">
-                <li><a href="{{ '/contact/#volunteer' | relative_url }}"><i class="fas fa-angle-right"></i> 志愿者招募</a></li>
-                <li><a href="{{ '/records/#summer' | relative_url }}"><i class="fas fa-angle-right"></i> 暑期实践计划</a></li>
-                <li><a href="{{ '/contact/#cooperation' | relative_url }}"><i class="fas fa-angle-right"></i> 科研合作</a></li>
-                <li><a href="{{ '/contact/#donation' | relative_url }}"><i class="fas fa-angle-right"></i> 捐赠支持</a></li>
-            </ul>
-        </div>
-        
-        <div class="footer-column">
-            <h3>联系我们</h3>
-            <div class="contact-info">
-                <i class="fas fa-map-marker-alt contact-icon"></i>
-                <span>清华大学生命学院，北京市海淀区</span>
+        <div class="footer-content">
+            <div class="footer-grid">
+                <div class="footer-column">
+                    <h3>关于我们</h3>
+                    <p>"鸟岛与少年"实践支队成立于2006年，是清华大学具有影响力的生态保护实践团队，致力于候鸟迁徙通道保护与生物多样性研究。</p>
+                    <div class="social-links">
+                        <a href="#" class="social-icon"><i class="fab fa-weixin"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-weibo"></i></a>
+                        <a href="https://github.com/zf-li23/tsinghua_birdisland.github.io" class="social-icon"><i class="fab fa-github"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>快速链接</h3>
+                    <ul class="footer-links">
+                        <li><a href="{{ '/about/' | relative_url }}"><i class="fas fa-angle-right"></i> 支队传承</a></li>
+                        <li><a href="{{ '/species/' | relative_url }}"><i class="fas fa-angle-right"></i> 物种图鉴</a></li>
+                        <li><a href="{{ '/reports/' | relative_url }}"><i class="fas fa-angle-right"></i> 调研报告</a></li>
+                        <li><a href="{{ '/records/' | relative_url }}"><i class="fas fa-angle-right"></i> 行程纪实</a></li>
+                        <li><a href="{{ '/contact/' | relative_url }}"><i class="fas fa-angle-right"></i> 联系我们</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>联系我们</h3>
+                    <div class="contact-info">
+                        <i class="fas fa-map-marker-alt contact-icon"></i>
+                        <span>清华大学生命学院，北京市海淀区</span>
+                    </div>
+                    <div class="contact-info">
+                        <i class="fas fa-envelope contact-icon"></i>
+                        <span>zf-li23@mails.tsinghua.edu.cn</span>
+                    </div>
+                    <div class="contact-info">
+                        <i class="fas fa-phone-alt contact-icon"></i>
+                        <span>+86 132 6905 2655</span>
+                    </div>
+                </div>
             </div>
-            <div class="contact-info">
-                <i class="fas fa-envelope contact-icon"></i>
-                <span>zf-li23@mails.tsinghua.edu.cn</span>
-            </div>
-            <div class="contact-info">
-                <i class="fas fa-phone-alt contact-icon"></i>
-                <span>+86 132 6905 2655</span>
+            
+            <div class="copyright">
+                <p>&copy; 2006-2025 清华大学"鸟岛与少年"实践支队 | 守护每一片羽翼，传递绿色希望</p>
+                <p>本网站由支队成员开发维护 | <a href="https://github.com/zf-li23/tsinghua_birdisland.github.io">Github仓库: tsinghua_birdisland.github.io</a></p>
             </div>
         </div>
-    </div>
-    
-    <div class="copyright">
-        <p>&copy; 2006-2025 清华大学"鸟岛与少年"实践支队 | 守护每一片羽翼，传递绿色希望</p>
-        <p>本网站由支队成员开发维护 | Github仓库: tsinghua_birdisland.github.io</p>
-    </div>
-</footer>
+    </footer>
+</body>
+</html>
