@@ -31,6 +31,8 @@
             overflow: hidden;
             padding: 0;
             height: auto;
+            overflow: visible; /* 允许菜单溢出 */
+            z-index: 1000; /* 确保足够高的层级 */
         }
         
         .navbar {
@@ -160,6 +162,7 @@
             /* 移动端导航布局 */
             .navbar {
                 padding: 10px 5%;
+                position: relative; /* 为绝对定位菜单提供参考 */
             }
             
             .mobile-menu-btn {
@@ -178,6 +181,8 @@
                 gap: 8px;
                 z-index: 100;
                 box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+                top: 80px; /* 从顶部下移避免被遮挡 */
+                z-index: 1001; /* 确保菜单在页眉之上 */
             }
             
             .nav-links.active {
@@ -297,10 +302,13 @@
                 const icon = this.querySelector('i');
                 icon.classList.toggle('fa-bars');
                 icon.classList.toggle('fa-times');
+                
+                // 添加滚动锁定防止页面滚动
+                document.body.style.overflow = navLinks.classList.contains('active') ? 'hidden' : '';
             });
         }
         
-        // 点击菜单项后关闭菜单
+        // 修改后的点击菜单项关闭功能
         document.querySelectorAll('.nav-links a').forEach(link => {
             link.addEventListener('click', () => {
                 if (window.innerWidth < 900) {
@@ -308,10 +316,13 @@
                     const icon = mobileMenuBtn.querySelector('i');
                     icon.classList.add('fa-bars');
                     icon.classList.remove('fa-times');
+                    
+                    // 恢复页面滚动
+                    document.body.style.overflow = '';
                 }
             });
         });
-        
+            
         // 窗口大小变化时调整菜单
         window.addEventListener('resize', function() {
             if (window.innerWidth >= 900) {
