@@ -1,6 +1,6 @@
 ---
 layout: home
-title: 鸟岛与少年 - 清华大学实践支队
+title: 首页
 ---
 
 <!-- 数据统计展示区 -->
@@ -19,7 +19,7 @@ title: 鸟岛与少年 - 清华大学实践支队
             <div class="stat-icon">
                 <i class="fas fa-calendar-day"></i>
             </div>
-            <div class="stat-number">12</div>
+            <div class="stat-number">20</div>
             <div class="stat-text">持续守护年份</div>
         </div>
         
@@ -31,13 +31,6 @@ title: 鸟岛与少年 - 清华大学实践支队
             <div class="stat-text">参与支队成员</div>
         </div>
         
-        <div class="stat-card">
-            <div class="stat-icon">
-                <i class="fas fa-tree"></i>
-            </div>
-            <div class="stat-number">45</div>
-            <div class="stat-text">栖息地修复项目</div>
-        </div>
     </div>
 </section>
 
@@ -74,6 +67,37 @@ title: 鸟岛与少年 - 清华大学实践支队
     </div>
 </section>
 
+<!-- 快速入口区 -->
+<section class="quick-access">
+    <div class="narrative-container">
+        <div class="narrative-text">
+            <h2 class="section-title">守护者的足迹</h2>
+            <p>自2011年起，一批批清华学子踏上这座江心小岛，用青春守护这片候鸟驿站。从最初的物种普查到建立长效监测机制，从生态研究到社区共建，我们记录下每个珍贵瞬间。</p>
+            <div class="access-grid">
+                <a href="{{ '/species/' | relative_url }}" class="access-card">
+                    <i class="fas fa-feather-alt"></i>
+                    <h3>物种图鉴</h3>
+                    <p>探索我们记录的黑脸琵鹭、东方白鹳等珍稀鸟类</p>
+                </a>
+                <a href="{{ '/reports/' | relative_url }}" class="access-card">
+                    <i class="fas fa-file-alt"></i>
+                    <h3>调研成果</h3>
+                    <p>查看湿地生态、鸟类迁徙等研究报告</p>
+                </a>
+                <a href="{{ '/records/' | relative_url }}" class="access-card">
+                    <i class="fas fa-camera"></i>
+                    <h3>行程纪实</h3>
+                    <p>跟随镜头走进我们的守护日常</p>
+                </a>
+            </div>
+        </div>
+        <div class="narrative-image">
+            <img src="https://images.unsplash.com/photo-1544197150-b99a580bb7a8?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="支队成员工作照">
+            <div class="image-caption">2023年支队成员在鸟岛进行植被样方调查</div>
+        </div>
+    </div>
+</section>
+
 <!-- 影像展示区 -->
 <section class="gallery-section">
     <h2 class="section-title">守护者影像志</h2>
@@ -101,6 +125,23 @@ title: 鸟岛与少年 - 清华大学实践支队
         <div class="gallery-item">
             <img src="https://images.unsplash.com/photo-1501854140801-50d01698950b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="自然景观">
             <div class="gallery-caption">鸟岛晨曦</div>
+        </div>
+    </div>
+</section>
+
+<!-- 支队故事 -->
+<section class="story-section">
+    <div class="story-container">
+        <div class="story-image">
+            <img src="https://images.unsplash.com/photo-1451188502541-13943edb6acb?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="支队合影">
+        </div>
+        <div class="story-content">
+            <h2 class="section-title">我们的故事</h2>
+            <blockquote>
+                "在鸟岛的每个清晨，我们带着望远镜和记录本走进湿地。当第一缕阳光照亮芦苇荡，听到东方白鹳的鸣叫，那一刻明白了守护的意义。"
+            </blockquote>
+            <p>—— 2019级队员 张晓鸥</p>
+            <a href="{{ '/about/' | relative_url }}" class="story-link">了解支队传承 <i class="fas fa-arrow-right"></i></a>
         </div>
     </div>
 </section>
@@ -133,7 +174,7 @@ title: 鸟岛与少年 - 清华大学实践支队
             });
         }, { threshold: 0.1 });
         
-        document.querySelectorAll('.stat-card, .feature-card, .gallery-item').forEach(card => {
+        document.querySelectorAll('.stat-card, .feature-card, .gallery-item, .access-card').forEach(card => {
             observer.observe(card);
         });
     });
