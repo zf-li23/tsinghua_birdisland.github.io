@@ -14,15 +14,15 @@ permalink: /about/
 
 ## 时间轴
 
-[查看支队发展历程 →](/about/timeline)
+[查看支队发展历程 →]({{ '/about/timeline' | relative_url }})
 
 ## 成员星群
 
-[认识历届支队成员 →](/about/members)
+[认识历届支队成员 →]({{ '/about/members' | relative_url }})
 
 ## 工作手册
 
-[获取支队工作指南 →](/about/handbook)
+[获取支队工作指南 →]({{ '/about/handbooke' | relative_url }})
 
 ---
 
