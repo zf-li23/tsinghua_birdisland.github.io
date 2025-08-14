@@ -146,6 +146,7 @@
         
         .nav-links li {
             display: flex;
+            position: relative;
         }
         
         .nav-links a {
@@ -183,6 +184,84 @@
             text-align: center;
             white-space: nowrap;
         }
+        
+        /* ========= 新增：PC端下拉菜单样式 ========= */
+        .has-dropdown .dropdown {
+            display: none;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            width: 180px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+            padding: 10px 0;
+            margin-top: 8px;
+            z-index: 1000;
+            animation: fadeIn 0.3s ease-out;
+        }
+        
+        .has-dropdown:hover .dropdown {
+            display: block;
+        }
+        
+        .has-dropdown .dropdown::before {
+            content: '';
+            position: absolute;
+            top: -8px;
+            left: 20px;
+            width: 0;
+            height: 0;
+            border-left: 8px solid transparent;
+            border-right: 8px solid transparent;
+            border-bottom: 8px solid white;
+        }
+        
+        .has-dropdown .dropdown li {
+            width: 100%;
+            display: block;
+        }
+        
+        .has-dropdown .dropdown a {
+            color: var(--text-dark);
+            padding: 10px 20px;
+            flex-direction: row;
+            justify-content: flex-start;
+            min-width: auto;
+            background: transparent;
+            border-radius: 0;
+            width: 100%;
+        }
+        
+        .has-dropdown .dropdown a:hover {
+            background: rgba(77, 157, 224, 0.1);
+            transform: none;
+        }
+        
+        .has-dropdown .dropdown a i {
+            font-size: 1rem;
+            margin-right: 10px;
+            margin-bottom: 0;
+            width: 20px;
+            text-align: center;
+        }
+        
+        .has-dropdown .dropdown .nav-label {
+            font-size: 0.9rem;
+            text-align: left;
+            white-space: nowrap;
+        }
+        
+        .has-dropdown .dropdown a:hover .nav-label {
+            color: var(--sky-blue-dark);
+            font-weight: 500;
+        }
+        
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(-10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        /* ========= 结束：PC端下拉菜单样式 ========= */
         
         /* 主视觉区域 */
         .hero {
@@ -383,6 +462,11 @@
                 text-align: left;
             }
             
+            /* 移动端隐藏下拉菜单 */
+            .has-dropdown .dropdown {
+                display: none !important;
+            }
+            
             /* 主视觉区域调整 */
             .hero {
                 padding: 50px 5% 70px;
@@ -506,7 +590,7 @@
                 <i class="fas fa-bars"></i>
             </div>
             
-            <!-- 优化后的导航链接 -->
+            <!-- 优化后的导航链接（添加下拉菜单） -->
             <ul class="nav-links">
                 <li>
                     <a href="{{ '/' | relative_url }}">
@@ -514,30 +598,125 @@
                         <span class="nav-label">首页</span>
                     </a>
                 </li>
-                <li>
+                
+                <!-- 支队传承 - 添加下拉菜单 -->
+                <li class="has-dropdown">
                     <a href="{{ '/about/' | relative_url }}">
                         <i class="fas fa-users"></i>
                         <span class="nav-label">支队传承</span>
                     </a>
+                    <ul class="dropdown">
+                        <li>
+                            <a href="{{ '/about/mission/' | relative_url }}">
+                                <i class="fas fa-bullseye"></i>
+                                <span class="nav-label">我们的使命</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="{{ '/about/timeline/' | relative_url }}">
+                                <i class="fas fa-history"></i>
+                                <span class="nav-label">时间轴</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="{{ '/about/members/' | relative_url }}">
+                                <i class="fas fa-star"></i>
+                                <span class="nav-label">成员星群</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="{{ '/about/handbook/' | relative_url }}">
+                                <i class="fas fa-book"></i>
+                                <span class="nav-label">工作手册</span>
+                            </a>
+                        </li>
+                    </ul>
                 </li>
-                <li>
+                
+                <!-- 物种图鉴 - 添加下拉菜单 -->
+                <li class="has-dropdown">
                     <a href="{{ '/species/' | relative_url }}">
                         <i class="fas fa-feather-alt"></i>
                         <span class="nav-label">物种图鉴</span>
                     </a>
+                    <ul class="dropdown">
+                        <li>
+                            <a href="{{ '/species/birds/' | relative_url }}">
+                                <i class="fas fa-dove"></i>
+                                <span class="nav-label">鸟类图鉴</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="{{ '/species/plants/' | relative_url }}">
+                                <i class="fas fa-leaf"></i>
+                                <span class="nav-label">植物图鉴</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="{{ '/species/insects/' | relative_url }}">
+                                <i class="fas fa-bug"></i>
+                                <span class="nav-label">昆虫图鉴</span>
+                            </a>
+                        </li>
+                    </ul>
                 </li>
-                <li>
+                
+                <!-- 调研成果 - 添加下拉菜单 -->
+                <li class="has-dropdown">
                     <a href="{{ '/reports/' | relative_url }}">
                         <i class="fas fa-file-alt"></i>
                         <span class="nav-label">调研成果</span>
                     </a>
+                    <ul class="dropdown">
+                        <li>
+                            <a href="{{ '/reports/biodiversity/' | relative_url }}">
+                                <i class="fas fa-tree"></i>
+                                <span class="nav-label">多样性调研</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="{{ '/reports/ecology/' | relative_url }}">
+                                <i class="fas fa-seedling"></i>
+                                <span class="nav-label">生态课题</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="{{ '/reports/humanities/' | relative_url }}">
+                                <i class="fas fa-users"></i>
+                                <span class="nav-label">人文调研</span>
+                            </a>
+                        </li>
+                    </ul>
                 </li>
-                <li>
+                
+                <!-- 行程纪实 - 添加下拉菜单 -->
+                <li class="has-dropdown">
                     <a href="{{ '/records/' | relative_url }}">
                         <i class="fas fa-camera"></i>
                         <span class="nav-label">行程纪实</span>
                     </a>
+                    <ul class="dropdown">
+                        <li>
+                            <a href="{{ '/records/photos/' | relative_url }}">
+                                <i class="fas fa-images"></i>
+                                <span class="nav-label">摄影集</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="{{ '/records/documentary/' | relative_url }}">
+                                <i class="fas fa-film"></i>
+                                <span class="nav-label">纪录片</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="{{ '/records/creative/' | relative_url }}">
+                                <i class="fas fa-palette"></i>
+                                <span class="nav-label">文创周边</span>
+                            </a>
+                        </li>
+                    </ul>
                 </li>
+                
                 <li>
                     <a href="{{ '/contact/' | relative_url }}">
                         <i class="fas fa-envelope"></i>
@@ -620,6 +799,22 @@
         }
         
         window.addEventListener('load', createClouds);
+        
+        // 新增：PC端下拉菜单延迟关闭（可选）
+        document.querySelectorAll('.has-dropdown').forEach(item => {
+            let timeout;
+            
+            item.addEventListener('mouseenter', () => {
+                clearTimeout(timeout);
+                item.querySelector('.dropdown').style.display = 'block';
+            });
+            
+            item.addEventListener('mouseleave', () => {
+                timeout = setTimeout(() => {
+                    item.querySelector('.dropdown').style.display = 'none';
+                }, 300);
+            });
+        });
     </script>
 </body>
 </html>
