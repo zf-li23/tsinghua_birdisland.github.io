@@ -190,7 +190,8 @@
             display: none;
             position: absolute;
             top: 100%;
-            left: 0;
+            left: 50%;
+            transform: translateX(-50%);
             width: 180px;
             background: white;
             border-radius: 8px;
@@ -209,7 +210,8 @@
             content: '';
             position: absolute;
             top: -8px;
-            left: 20px;
+            left: 50%;
+            transform: translateX(-50%);
             width: 0;
             height: 0;
             border-left: 8px solid transparent;
@@ -800,19 +802,37 @@
         
         window.addEventListener('load', createClouds);
         
-        // 新增：PC端下拉菜单延迟关闭（可选）
+        // 修改后的PC端下拉菜单控制逻辑
         document.querySelectorAll('.has-dropdown').forEach(item => {
+            const dropdown = item.querySelector('.dropdown');
             let timeout;
             
+            // 鼠标进入导航项
             item.addEventListener('mouseenter', () => {
                 clearTimeout(timeout);
-                item.querySelector('.dropdown').style.display = 'block';
+                dropdown.style.display = 'block';
             });
             
+            // 鼠标离开导航项
             item.addEventListener('mouseleave', () => {
                 timeout = setTimeout(() => {
-                    item.querySelector('.dropdown').style.display = 'none';
-                }, 300);
+                    if (!dropdown.matches(':hover')) {
+                        dropdown.style.display = 'none';
+                    }
+                }, 200);
+            });
+            
+            // 鼠标进入下拉菜单
+            dropdown.addEventListener('mouseenter', () => {
+                clearTimeout(timeout);
+                dropdown.style.display = 'block';
+            });
+            
+            // 鼠标离开下拉菜单
+            dropdown.addEventListener('mouseleave', () => {
+                timeout = setTimeout(() => {
+                    dropdown.style.display = 'none';
+                }, 200);
             });
         });
     </script>
