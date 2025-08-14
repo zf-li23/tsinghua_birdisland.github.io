@@ -1,8 +1,8 @@
 ---
 layout: default
-title: 我们的初心
+title: 我们的使命
 permalink: /about/mission
 ---
 
-# 我们的初心
+# 我们的使命
 
