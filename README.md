@@ -1,17 +1,32 @@
 # tsinghua_birdisland.github.io
 
-这是清华大学"鸟岛与少年"实践支队的官方网站，展示支队历年来的生态保护成果和实践活动。
+清华大学“鸟岛与少年”实践支队官方网站  
+展示支队生态保护成果、成员风采与调研纪实。
 
-## 网站结构
+---
+
+## 目录结构
 
 ```
 tsinghua_birdisland.github.io/
-├── index.html                  # 网站首页（已存在）
-├── _config.yml                 # Jekyll配置文件
-├── Gemfile                     # Ruby依赖文件
+├── index.html                  # 网站首页（Jekyll，layout: home）
+├── _config.yml                 # Jekyll 配置文件（含 baseurl 设置）
+├── Gemfile                     # Ruby 依赖
 ├── .gitignore                  # Git忽略文件
+├── assets/
+│   ├── css/
+│   │   ├── style.css           # 全局样式
+│   │   └── style_home.css      # 首页样式
+│   └── images/                 # 图片资源
+├── _layouts/                   # Jekyll 页面布局
+│   ├── default.html
+│   └── home.html
+├── _includes/                  # 可复用片段
+│   ├── header.html             # 通用页眉
+│   ├── header_home.html        # 首页专用页眉
+│   └── footer.html             # 页脚
 ├── README.md                   # 项目说明文档
-├── about/                      # 支队传承部分
+├── about/                      # 支队传承相关页面
 │   ├── index.md                # 支队传承主页面
 │   ├── mission.md              # 我们的使命
 │   ├── timeline.md             # 时间轴
@@ -32,56 +47,58 @@ tsinghua_birdisland.github.io/
 │   ├── photos.md               # 摄影集
 │   ├── documentary.md          # 纪录片
 │   └── creative.md             # 文创周边
-├── contact.md                  # 联系我们页面
-├── assets/                     # 静态资源
-│   ├── css/
-│   │   └── style.css           # 全局样式
-│   └── images/                 # 图片资源
-│       ├── logo.png            # 网站logo
-│       ├── banner.jpg          # 横幅图片
-│       └── ...                 # 其他图片
-└── _includes/                  # Jekyll包含文件
-    ├── header.html             # 头部导航
-    ├── footer.html             # 页脚
-    └── head.html               # HTML头部
+└── contact.md                  # 联系我们页面
 ```
 
-
-## 编辑指南
-
-### 编辑现有页面
-
-1. 找到对应的Markdown文件（例如：`about/mission.md`）
-2. 使用Markdown语法编辑内容
-3. 保存并提交更改
-
-### 添加新页面
-
-1. 在相应目录创建新的Markdown文件（例如：`species/new-bird.md`）
-2. 在文件顶部添加YAML front matter：
-
-```yaml
 ---
-layout: page
-title: 新鸟类介绍
-permalink: /species/new-bird/
+
+## 使用说明
+
+### 1. 本地预览
+
+1. 安装 Ruby 和 Bundler  
+   `gem install bundler`
+2. 安装依赖  
+   `bundle install`
+3. 启动本地服务  
+   `bundle exec jekyll serve`
+4. 访问  
+   `http://localhost:4000/tsinghua_birdisland.github.io/`
+
+### 2. 编辑内容
+
+- **首页**：编辑 `index.html`，使用 `layout: home`
+- **栏目页**：在对应目录（如 `about/`）下编辑或新增 `.md` 文件，YAML 头部指定 `layout: default`
+- **导航与页眉/页脚**：修改 `_includes/header.html`、`header_home.html`、`footer.html`
+- **样式**：编辑 `assets/css/style.css` 或 `style_home.css`
+
+### 3. 插入图片
+
+- 将图片放入 `assets/images/` 目录（如需新建请自行创建）
+- 在 Markdown 或 HTML 中引用图片：
+  ```markdown
+  ![描述]({{ '/assets/images/图片名.jpg' | relative_url }})
+  ```
+  或
+  ```html
+  <img src="{{ '/assets/images/图片名.jpg' | relative_url }}" alt="描述">
+  ```
+
+### 4. 路径与 baseurl
+
+- 所有资源和链接请使用 `{{ '/路径' | relative_url }}` 或 `{{ site.baseurl }}`，确保在 GitHub Pages 子路径下正常访问。
+
 ---
-```
-
-3. 使用Markdown语法编写内容
-4. 在导航中添加链接（编辑`_includes/header.html`）
-
-### 本地预览
-
-1. 安装Ruby和Jekyll：`gem install bundler jekyll`
-2. 安装依赖：`bundle install`
-3. 启动服务器：`bundle exec jekyll serve`
-4. 访问 `http://localhost:4000`
 
 ## 部署说明
 
-网站通过GitHub Pages自动部署，推送更改到main分支后会自动更新。
+- 推送到 GitHub 仓库的 `main` 分支后，GitHub Pages 会自动构建并发布到  
+  `https://zf-li23.github.io/tsinghua_birdisland.github.io/`
 
-## 贡献指南
+---
 
-欢迎所有支队成员贡献内容！
+## 贡献与维护
+
+- 欢迎支队成员共同维护和完善内容。
+- 编辑内容请遵循 Markdown 语法和 Jekyll 约定。
+- 如有问题可通过 Issues 反馈。
