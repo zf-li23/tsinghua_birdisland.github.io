@@ -185,83 +185,80 @@
             white-space: nowrap;
         }
         
-        /* ========= 新增：PC端下拉菜单样式 ========= */
-        .has-dropdown .dropdown {
-            display: none;
+        /* 下拉菜单样式 */
+        .dropdown-menu {
             position: absolute;
             top: 100%;
             left: 0;
-            width: 180px;
+            width: 200px;
             background: white;
             border-radius: 8px;
-            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+            list-style: none;
             padding: 10px 0;
-            margin-top: 8px;
-            z-index: 1000;
-            animation: fadeIn 0.3s ease-out;
+            margin-top: 10px;
+            opacity: 0;
+            visibility: hidden;
+            transform: translateY(10px);
+            transition: all 0.3s ease;
+            z-index: 100;
         }
         
-        .has-dropdown:hover .dropdown {
-            display: block;
-        }
-        
-        .has-dropdown .dropdown::before {
+        .dropdown-menu:before {
             content: '';
             position: absolute;
-            top: -8px;
+            bottom: 100%;
             left: 20px;
-            width: 0;
-            height: 0;
-            border-left: 8px solid transparent;
-            border-right: 8px solid transparent;
-            border-bottom: 8px solid white;
+            border-width: 8px;
+            border-style: solid;
+            border-color: transparent transparent white transparent;
         }
         
-        .has-dropdown .dropdown li {
+        .dropdown-menu li {
             width: 100%;
             display: block;
         }
         
-        .has-dropdown .dropdown a {
+        .dropdown-menu a {
+            display: flex;
+            align-items: center;
+            padding: 12px 20px;
             color: var(--text-dark);
-            padding: 10px 20px;
-            flex-direction: row;
-            justify-content: flex-start;
+            text-decoration: none;
+            transition: all 0.3s;
+            background: none;
             min-width: auto;
-            background: transparent;
             border-radius: 0;
-            width: 100%;
+            flex-direction: row;
+            text-align: left;
         }
         
-        .has-dropdown .dropdown a:hover {
+        .dropdown-menu a:hover {
             background: rgba(77, 157, 224, 0.1);
+            color: var(--sky-blue-dark);
             transform: none;
         }
         
-        .has-dropdown .dropdown a i {
+        .dropdown-menu a i {
             font-size: 1rem;
             margin-right: 10px;
             margin-bottom: 0;
+            color: var(--sky-blue);
             width: 20px;
             text-align: center;
         }
         
-        .has-dropdown .dropdown .nav-label {
+        .dropdown-menu .nav-label {
             font-size: 0.9rem;
             text-align: left;
-            white-space: nowrap;
+            white-space: normal;
         }
         
-        .has-dropdown .dropdown a:hover .nav-label {
-            color: var(--sky-blue-dark);
-            font-weight: 500;
+        .nav-links li:hover .dropdown-menu {
+            opacity: 1;
+            visibility: visible;
+            transform: translateY(0);
         }
-        
-        @keyframes fadeIn {
-            from { opacity: 0; transform: translateY(-10px); }
-            to { opacity: 1; transform: translateY(0); }
-        }
-        /* ========= 结束：PC端下拉菜单样式 ========= */
         
         /* 主视觉区域 */
         .hero {
@@ -462,9 +459,9 @@
                 text-align: left;
             }
             
-            /* 移动端隐藏下拉菜单 */
-            .has-dropdown .dropdown {
-                display: none !important;
+            /* 隐藏PC端下拉菜单 */
+            .dropdown-menu {
+                display: none;
             }
             
             /* 主视觉区域调整 */
@@ -560,7 +557,7 @@
             100% {
                 transform: translateX(100px) translateY(0);
             }
-        }        
+        }
     </style>
 </head>
 <body>
@@ -590,7 +587,7 @@
                 <i class="fas fa-bars"></i>
             </div>
             
-            <!-- 优化后的导航链接（添加下拉菜单） -->
+            <!-- 优化后的导航链接 -->
             <ul class="nav-links">
                 <li>
                     <a href="{{ '/' | relative_url }}">
@@ -598,17 +595,15 @@
                         <span class="nav-label">首页</span>
                     </a>
                 </li>
-                
-                <!-- 支队传承 - 添加下拉菜单 -->
-                <li class="has-dropdown">
+                <li>
                     <a href="{{ '/about/' | relative_url }}">
                         <i class="fas fa-users"></i>
                         <span class="nav-label">支队传承</span>
                     </a>
-                    <ul class="dropdown">
+                    <ul class="dropdown-menu">
                         <li>
                             <a href="{{ '/about/mission/' | relative_url }}">
-                                <i class="fas fa-bullseye"></i>
+                                <i class="fas fa-star"></i>
                                 <span class="nav-label">我们的使命</span>
                             </a>
                         </li>
@@ -620,7 +615,7 @@
                         </li>
                         <li>
                             <a href="{{ '/about/members/' | relative_url }}">
-                                <i class="fas fa-star"></i>
+                                <i class="fas fa-user-friends"></i>
                                 <span class="nav-label">成员星群</span>
                             </a>
                         </li>
@@ -632,14 +627,12 @@
                         </li>
                     </ul>
                 </li>
-                
-                <!-- 物种图鉴 - 添加下拉菜单 -->
-                <li class="has-dropdown">
+                <li>
                     <a href="{{ '/species/' | relative_url }}">
                         <i class="fas fa-feather-alt"></i>
                         <span class="nav-label">物种图鉴</span>
                     </a>
-                    <ul class="dropdown">
+                    <ul class="dropdown-menu">
                         <li>
                             <a href="{{ '/species/birds/' | relative_url }}">
                                 <i class="fas fa-dove"></i>
@@ -660,42 +653,38 @@
                         </li>
                     </ul>
                 </li>
-                
-                <!-- 调研成果 - 添加下拉菜单 -->
-                <li class="has-dropdown">
+                <li>
                     <a href="{{ '/reports/' | relative_url }}">
                         <i class="fas fa-file-alt"></i>
                         <span class="nav-label">调研成果</span>
                     </a>
-                    <ul class="dropdown">
+                    <ul class="dropdown-menu">
                         <li>
                             <a href="{{ '/reports/biodiversity/' | relative_url }}">
-                                <i class="fas fa-tree"></i>
+                                <i class="fas fa-seedling"></i>
                                 <span class="nav-label">多样性调研</span>
                             </a>
                         </li>
                         <li>
                             <a href="{{ '/reports/ecology/' | relative_url }}">
-                                <i class="fas fa-seedling"></i>
+                                <i class="fas fa-tree"></i>
                                 <span class="nav-label">生态课题</span>
                             </a>
                         </li>
                         <li>
                             <a href="{{ '/reports/humanities/' | relative_url }}">
-                                <i class="fas fa-users"></i>
+                                <i class="fas fa-landmark"></i>
                                 <span class="nav-label">人文调研</span>
                             </a>
                         </li>
                     </ul>
                 </li>
-                
-                <!-- 行程纪实 - 添加下拉菜单 -->
-                <li class="has-dropdown">
+                <li>
                     <a href="{{ '/records/' | relative_url }}">
                         <i class="fas fa-camera"></i>
                         <span class="nav-label">行程纪实</span>
                     </a>
-                    <ul class="dropdown">
+                    <ul class="dropdown-menu">
                         <li>
                             <a href="{{ '/records/photos/' | relative_url }}">
                                 <i class="fas fa-images"></i>
@@ -704,7 +693,7 @@
                         </li>
                         <li>
                             <a href="{{ '/records/documentary/' | relative_url }}">
-                                <i class="fas fa-film"></i>
+                                <i class="fas fa-video"></i>
                                 <span class="nav-label">纪录片</span>
                             </a>
                         </li>
@@ -716,7 +705,6 @@
                         </li>
                     </ul>
                 </li>
-                
                 <li>
                     <a href="{{ '/contact/' | relative_url }}">
                         <i class="fas fa-envelope"></i>
@@ -799,51 +787,6 @@
         }
         
         window.addEventListener('load', createClouds);
-        
-        // PC端下拉菜单延迟关闭
-        document.querySelectorAll('.has-dropdown').forEach(item => {
-            const dropdown = item.querySelector('.dropdown');
-            let timeout;
-            let isHovering = false;
-            
-            // 显示下拉菜单
-            const showDropdown = () => {
-                clearTimeout(timeout);
-                dropdown.style.display = 'block';
-                isHovering = true;
-            };
-            
-            // 隐藏下拉菜单（带延迟）
-            const hideDropdown = () => {
-                timeout = setTimeout(() => {
-                    if (!isHovering) {
-                        dropdown.style.display = 'none';
-                    }
-                }, 200); // 200ms延迟关闭
-            };
-            
-            // 父菜单项事件
-            item.addEventListener('mouseenter', () => {
-                isHovering = true;
-                showDropdown();
-            });
-            
-            item.addEventListener('mouseleave', () => {
-                isHovering = false;
-                hideDropdown();
-            });
-            
-            // 下拉菜单本身事件
-            dropdown.addEventListener('mouseenter', () => {
-                isHovering = true;
-                clearTimeout(timeout);
-            });
-            
-            dropdown.addEventListener('mouseleave', () => {
-                isHovering = false;
-                hideDropdown();
-            });
-        });
     </script>
 </body>
 </html>
