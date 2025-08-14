@@ -6,6 +6,7 @@
     <title>{{ page.title }} | 鸟岛与少年</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
     <style>
         /* 添加目录侧边栏样式 */
         :root {
@@ -36,15 +37,6 @@
             display: flex;
             flex: 1;
             position: relative;
-        }
-
-        /* 内容区域 */
-        .content-container {
-            flex: 1;
-            max-width: 900px;
-            margin: 2rem auto;
-            padding: 0 20px;
-            transition: all var(--transition-speed) ease;
         }
 
         /* 目录侧边栏 */
