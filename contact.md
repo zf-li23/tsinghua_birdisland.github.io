@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: 联系我们
 permalink: /contact/
 ---
