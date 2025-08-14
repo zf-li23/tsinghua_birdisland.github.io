@@ -800,38 +800,36 @@
         
         window.addEventListener('load', createClouds);
         
-        // 修改后的PC端下拉菜单控制逻辑
+        // PC端下拉菜单控制逻辑
         document.querySelectorAll('.has-dropdown').forEach(item => {
             const dropdown = item.querySelector('.dropdown');
             let timeout;
             
-            // 鼠标进入导航项
-            item.addEventListener('mouseenter', () => {
+            // 显示下拉菜单
+            const showDropdown = () => {
                 clearTimeout(timeout);
                 dropdown.style.display = 'block';
-            });
+            };
             
-            // 鼠标离开导航项
-            item.addEventListener('mouseleave', () => {
-                timeout = setTimeout(() => {
-                    if (!dropdown.matches(':hover')) {
-                        dropdown.style.display = 'none';
-                    }
-                }, 200);
-            });
-            
-            // 鼠标进入下拉菜单
-            dropdown.addEventListener('mouseenter', () => {
-                clearTimeout(timeout);
-                dropdown.style.display = 'block';
-            });
-            
-            // 鼠标离开下拉菜单
-            dropdown.addEventListener('mouseleave', () => {
+            // 隐藏下拉菜单（带延迟）
+            const hideDropdown = () => {
                 timeout = setTimeout(() => {
                     dropdown.style.display = 'none';
-                }, 200);
+                }, 200); // 200ms延迟关闭
+            };
+            
+            // 父菜单项事件
+            item.addEventListener('mouseenter', showDropdown);
+            item.addEventListener('mouseleave', () => {
+                // 只有当鼠标离开整个菜单区域时才隐藏
+                if (!dropdown.matches(':hover')) {
+                    hideDropdown();
+                }
             });
+            
+            // 下拉菜单本身事件
+            dropdown.addEventListener('mouseenter', showDropdown);
+            dropdown.addEventListener('mouseleave', hideDropdown);
         });
     </script>
 </body>
