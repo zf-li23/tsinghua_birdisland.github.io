@@ -22,7 +22,7 @@ permalink: /about/
 
 ## 工作手册
 
-[获取支队工作指南 →]({{ '/about/handbooke' | relative_url }})
+[获取支队工作指南 →]({{ '/about/handbook' | relative_url }})
 
 ---
 
