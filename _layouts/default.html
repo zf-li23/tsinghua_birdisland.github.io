@@ -10,15 +10,6 @@
     <style>
         /* 添加目录侧边栏样式 */
         :root {
-            --primary: #1a6b54;
-            --secondary: #2c8c76;
-            --accent: #f9a825;
-            --light: #e8f4f0;
-            --dark: #0d3b2e;
-            --text: #333333;
-            --border: rgba(13, 59, 46, 0.1);
-            --code-bg: rgba(13, 59, 46, 0.05);
-            --shadow: 0 4px 12px rgba(13, 59, 46, 0.08);
             --sidebar-width: 280px;
             --sidebar-collapsed-width: 50px;
             --sidebar-bg: rgba(255, 255, 255, 0.95);
@@ -168,6 +159,35 @@
             font-size: 1.2rem;
         }
 
+        /* 关闭按钮样式 - 重新设计 */
+        .toc-close-btn {
+            background: transparent;
+            border: none;
+            cursor: pointer;
+            width: 32px;
+            height: 32px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+            transition: all 0.3s ease;
+        }
+        
+        .toc-close-btn:hover {
+            background-color: rgba(249, 168, 37, 0.2);
+        }
+        
+        .toc-close-btn i {
+            font-size: 1.4rem;
+            color: var(--accent);
+            transition: transform 0.3s ease;
+        }
+        
+        .toc-close-btn:hover i {
+            color: var(--dark);
+            transform: rotate(90deg);
+        }
+
         /* 响应式设计 */
         @media (max-width: 1200px) {
             .toc-sidebar {
@@ -215,7 +235,7 @@
             <aside class="toc-sidebar" id="tocSidebar">
                 <div class="toc-title">
                     <span>文章目录</span>
-                    <button id="closeToc" class="toc-close-btn">
+                    <button id="closeToc" class="toc-close-btn" title="关闭目录">
                         <i class="fas fa-times"></i>
                     </button>
                 </div>
@@ -229,7 +249,7 @@
         {% include footer.html %}
         
         <!-- 目录控制按钮 -->
-        <div class="toc-toggle" id="tocToggle">
+        <div class="toc-toggle" id="tocToggle" title="显示/隐藏目录">
             <i class="fas fa-list"></i>
         </div>
     </div>
