@@ -804,32 +804,45 @@
         document.querySelectorAll('.has-dropdown').forEach(item => {
             const dropdown = item.querySelector('.dropdown');
             let timeout;
+            let isHovering = false;
             
             // 显示下拉菜单
             const showDropdown = () => {
                 clearTimeout(timeout);
                 dropdown.style.display = 'block';
+                isHovering = true;
             };
             
             // 隐藏下拉菜单（带延迟）
             const hideDropdown = () => {
                 timeout = setTimeout(() => {
-                    dropdown.style.display = 'none';
+                    if (!isHovering) {
+                        dropdown.style.display = 'none';
+                    }
                 }, 200); // 200ms延迟关闭
             };
             
             // 父菜单项事件
-            item.addEventListener('mouseenter', showDropdown);
+            item.addEventListener('mouseenter', () => {
+                isHovering = true;
+                showDropdown();
+            });
+            
             item.addEventListener('mouseleave', () => {
-                // 只有当鼠标离开整个菜单区域时才隐藏
-                if (!dropdown.matches(':hover')) {
-                    hideDropdown();
-                }
+                isHovering = false;
+                hideDropdown();
             });
             
             // 下拉菜单本身事件
-            dropdown.addEventListener('mouseenter', showDropdown);
-            dropdown.addEventListener('mouseleave', hideDropdown);
+            dropdown.addEventListener('mouseenter', () => {
+                isHovering = true;
+                clearTimeout(timeout);
+            });
+            
+            dropdown.addEventListener('mouseleave', () => {
+                isHovering = false;
+                hideDropdown();
+            });
         });
     </script>
 </body>
