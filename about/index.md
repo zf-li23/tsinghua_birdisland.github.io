@@ -10,7 +10,7 @@ permalink: /about/
 
 ## 我们的使命
 
-[了解我们的初心与价值观 →](/about/mission)
+[了解我们的初心与价值观 →]({{ '/about/mission' | relative_url }})
 
 ## 时间轴
 
