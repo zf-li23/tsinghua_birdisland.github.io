@@ -6,8 +6,6 @@ permalink: /about/members
 
 # 成员星群
 
-![logo]({{ '/assets/images/logo.jpg' | relative_url }})
-
 <section class="gallery-section">
     <h2 class="section-title">2025</h2>
     <div class="gallery-grid">
