@@ -213,20 +213,22 @@ body {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
     gap: 25px;
+    max-width: 1200px;
     margin: 60px auto 0;
 }
 
 .gallery-item {
     border-radius: 10px;
     overflow: hidden;
-    height: 250px;
     position: relative;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    aspect-ratio: 4/3; /* 关键修改：保持4:3比例 */
 }
 
 .gallery-item img {
     width: 100%;
     height: 100%;
+    display: block; /* 关键修改：消除白边 */
     object-fit: cover;
     transition: transform 0.5s;
 }
@@ -245,9 +247,27 @@ body {
     padding: 15px;
     transform: translateY(100%);
     transition: transform 0.3s;
+    z-index: 2; /* 确保在遮罩上方 */
 }
 
 .gallery-item:hover .gallery-caption {
     transform: translateY(0);
 }
 
+/* 添加悬停遮罩增强效果 */
+.gallery-item::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(to top, rgba(0,0,0,0.7) 0%, transparent 50%);
+    opacity: 0;
+    transition: opacity 0.3s;
+    z-index: 1;
+}
+
+.gallery-item:hover::before {
+    opacity: 1;
+}
