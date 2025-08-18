@@ -209,12 +209,6 @@ body {
     }
 }
 
-.gallery-section {
-    padding: 100px 5%;
-    background: var(--light);
-    text-align: center;
-}
-
 .gallery-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
