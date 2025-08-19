@@ -217,7 +217,6 @@ body {
     margin: 40px auto 0; /* 调整上边距 */
     max-width: 1200px; /* 增加最大宽度 */
     display: flex;
-    flex-direction: column;
 }
 
 .gallery-item {
