@@ -34,7 +34,6 @@
             min-height: 100vh;
         }
 
-        /* 导航栏样式 */
         .header {
             background: linear-gradient(135deg, var(--sky-blue), var(--sky-blue-light));
             color: white;
@@ -106,7 +105,6 @@
             z-index: 2;
         }
 
-        /* 优化Logo区域 */
         .logo {
             display: flex;
             align-items: center;
@@ -155,7 +153,6 @@
             font-weight: 800;
         }
 
-        /* 导航链接 - 垂直布局 */
         .nav-links {
             display: flex;
             list-style: none;
@@ -213,21 +210,47 @@
                 align-items: center;
             }
 
-            .nav-pc-dropdown>a {
+            .nav-pc-dropdown > .dropdown-main {
                 display: flex;
                 align-items: center;
-                gap: 6px;
+                gap: 0;
                 position: relative;
                 z-index: 2;
+                width: 100%;
+                padding: 0;
+                background: none;
+                border: none;
+                cursor: pointer;
             }
 
-            .nav-pc-dropdown .nav-arrow {
+            .dropdown-main .nav-arrow-btn {
+                display: flex;
+                align-items: flex-end;
+                justify-content: center;
+                width: 100%;
+                height: 36%;
+                min-height: 18px;
+                position: absolute;
+                left: 0;
+                bottom: 0;
+                background: transparent;
+                border: none;
+                cursor: pointer;
+                z-index: 3;
+                transition: background 0.18s;
+            }
+            .dropdown-main .nav-arrow-btn:focus {
+                outline: none;
+                background: rgba(120,185,240,0.13);
+            }
+            .dropdown-main .nav-arrow {
                 font-size: 0.9em;
                 margin-left: 3px;
                 transition: transform 0.2s;
+                pointer-events: none;
             }
-
-            .nav-pc-dropdown:hover .nav-arrow {
+            .nav-pc-dropdown.open .dropdown-main .nav-arrow,
+            .nav-pc-dropdown:hover .dropdown-main .nav-arrow {
                 transform: rotate(180deg);
             }
 
@@ -245,20 +268,13 @@
                 border-radius: 12px;
                 padding: 10px 0;
                 z-index: 20;
-                transition: opacity 0.22s, transform 0.22s;
+                transition: opacity 0.22s;
                 border: 1.5px solid var(--sky-blue-light);
             }
 
+            .nav-pc-dropdown.open .pc-dropdown-menu,
             .nav-pc-dropdown:hover .pc-dropdown-menu,
             .nav-pc-dropdown:focus-within .pc-dropdown-menu {
-                opacity: 1;
-                pointer-events: auto;
-                transform: translateX(-50%) translateY(0);
-            }
-
-            /* 鼠标移入菜单本身也保持显示 */
-            .nav-pc-dropdown .pc-dropdown-menu:hover,
-            .nav-pc-dropdown .pc-dropdown-menu:focus-within {
                 opacity: 1;
                 pointer-events: auto;
             }
@@ -289,23 +305,13 @@
                 background: var(--sky-blue-light);
                 color: #fff;
             }
-
-            /* 让下拉菜单在鼠标移入菜单本身时也保持显示 */
-            .nav-pc-dropdown .pc-dropdown-menu:hover,
-            .nav-pc-dropdown .pc-dropdown-menu:focus-within {
-                opacity: 1;
-                pointer-events: auto;
-                transform: translateX(-50%) translateY(0);
-            }
         }
 
-        /* 移动端隐藏PC下拉菜单 */
         @media (max-width: 900px) {
             .nav-pc-dropdown .pc-dropdown-menu {
                 display: none !important;
             }
-
-            .nav-pc-dropdown .nav-arrow {
+            .nav-pc-dropdown .nav-arrow-btn {
                 display: none !important;
             }
         }
@@ -404,7 +410,6 @@
             }
         }
 
-        /* 主视觉区域 */
         .hero {
             padding: 80px 5% 100px;
             text-align: center;
@@ -535,7 +540,6 @@
             background: rgba(255, 255, 255, 0.3);
         }
 
-        /* 动画效果 */
         @keyframes slideDown {
             from {
                 opacity: 0;
@@ -630,11 +634,15 @@
                     </a>
                 </li>
                 <li class="nav-pc-dropdown">
-                    <a href="{{ '/about/' | relative_url }}">
-                        <i class="fas fa-users"></i>
-                        <span class="nav-label">支队传承</span>
-                        <i class="fas fa-chevron-down nav-arrow"></i>
-                    </a>
+                    <div class="dropdown-main" style="position:relative;">
+                        <a href="{{ '/about/' | relative_url }}">
+                            <i class="fas fa-users"></i>
+                            <span class="nav-label">支队传承</span>
+                        </a>
+                        <button class="nav-arrow-btn" tabindex="0" aria-label="展开下拉菜单">
+                            <i class="fas fa-chevron-down nav-arrow"></i>
+                        </button>
+                    </div>
                     <div class="pc-dropdown-menu">
                         <a href="{{ '/about/mission/' | relative_url }}"><i class="fas fa-star"></i>我们的使命</a>
                         <a href="{{ '/about/timeline/' | relative_url }}"><i class="fas fa-history"></i>时间轴</a>
@@ -644,11 +652,15 @@
                 </li>
                 <!-- 物种图鉴 -->
                 <li class="nav-pc-dropdown">
-                    <a href="{{ '/species/' | relative_url }}">
-                        <i class="fas fa-feather-alt"></i>
-                        <span class="nav-label">物种图鉴</span>
-                        <i class="fas fa-chevron-down nav-arrow"></i>
-                    </a>
+                    <div class="dropdown-main" style="position:relative;">
+                        <a href="{{ '/species/' | relative_url }}">
+                            <i class="fas fa-feather-alt"></i>
+                            <span class="nav-label">物种图鉴</span>
+                        </a>
+                        <button class="nav-arrow-btn" tabindex="0" aria-label="展开下拉菜单">
+                            <i class="fas fa-chevron-down nav-arrow"></i>
+                        </button>
+                    </div>
                     <div class="pc-dropdown-menu">
                         <a href="{{ '/species/birds/' | relative_url }}"><i class="fas fa-dove"></i>鸟类图鉴</a>
                         <a href="{{ '/species/plants/' | relative_url }}"><i class="fas fa-leaf"></i>植物图鉴</a>
@@ -657,11 +669,15 @@
                 </li>
                 <!-- 调研成果 -->
                 <li class="nav-pc-dropdown">
-                    <a href="{{ '/reports/' | relative_url }}">
-                        <i class="fas fa-file-alt"></i>
-                        <span class="nav-label">调研成果</span>
-                        <i class="fas fa-chevron-down nav-arrow"></i>
-                    </a>
+                    <div class="dropdown-main" style="position:relative;">
+                        <a href="{{ '/reports/' | relative_url }}">
+                            <i class="fas fa-file-alt"></i>
+                            <span class="nav-label">调研成果</span>
+                        </a>
+                        <button class="nav-arrow-btn" tabindex="0" aria-label="展开下拉菜单">
+                            <i class="fas fa-chevron-down nav-arrow"></i>
+                        </button>
+                    </div>
                     <div class="pc-dropdown-menu">
                         <a href="{{ '/reports/biodiversity/' | relative_url }}"><i class="fas fa-seedling"></i>多样性调研</a>
                         <a href="{{ '/reports/ecology/' | relative_url }}"><i class="fas fa-tree"></i>生态课题</a>
@@ -670,11 +686,15 @@
                 </li>
                 <!-- 行程纪实 -->
                 <li class="nav-pc-dropdown">
-                    <a href="{{ '/records/' | relative_url }}">
-                        <i class="fas fa-camera"></i>
-                        <span class="nav-label">行程纪实</span>
-                        <i class="fas fa-chevron-down nav-arrow"></i>
-                    </a>
+                    <div class="dropdown-main" style="position:relative;">
+                        <a href="{{ '/records/' | relative_url }}">
+                            <i class="fas fa-camera"></i>
+                            <span class="nav-label">行程纪实</span>
+                        </a>
+                        <button class="nav-arrow-btn" tabindex="0" aria-label="展开下拉菜单">
+                            <i class="fas fa-chevron-down nav-arrow"></i>
+                        </button>
+                    </div>
                     <div class="pc-dropdown-menu">
                         <a href="{{ '/records/photos/' | relative_url }}"><i class="fas fa-images"></i>摄影集</a>
                         <a href="{{ '/records/documentary/' | relative_url }}"><i class="fas fa-video"></i>纪录片</a>
@@ -747,6 +767,28 @@
             }
         });
 
+        // PC端下拉菜单点击展开/收起
+        document.querySelectorAll('.nav-pc-dropdown').forEach(function (dropdown) {
+            const arrowBtn = dropdown.querySelector('.nav-arrow-btn');
+            if (arrowBtn) {
+                arrowBtn.addEventListener('click', function (e) {
+                    e.preventDefault();
+                    e.stopPropagation();
+                    // 关闭其它已展开的
+                    document.querySelectorAll('.nav-pc-dropdown.open').forEach(function (other) {
+                        if (other !== dropdown) other.classList.remove('open');
+                    });
+                    dropdown.classList.toggle('open');
+                });
+            }
+            // 点击菜单外部关闭所有下拉
+            document.addEventListener('click', function (e) {
+                if (!dropdown.contains(e.target)) {
+                    dropdown.classList.remove('open');
+                }
+            });
+        });
+
         // 创建云朵效果
         function createClouds() {
             const cloudsContainer = document.querySelector('.clouds');
@@ -765,5 +807,3 @@
         window.addEventListener('load', createClouds);
     </script>
 </body>
-
-</html>
