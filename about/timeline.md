@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 时间轴
-permalink: /about/timeline
+permalink: /about/timeline/
 ---
 
 # 时间轴
