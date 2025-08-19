@@ -1,15 +1,12 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>鸟岛与少年 - 响应式首页页眉+主视觉</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link
-        href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;700&family=Roboto:wght@300;400;500&display=swap"
-        rel="stylesheet">
-    <style>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <style>    
         :root {
             --sky-blue: #4d9de0;
             --sky-blue-light: #78b9f0;
@@ -19,13 +16,13 @@
             --text-dark: #1d3557;
             --accent: #ff6b6b;
         }
-
+        
         * {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
         }
-
+        
         body {
             font-family: 'Roboto', 'Noto Serif SC', sans-serif;
             background: linear-gradient(135deg, #fefee3, #fdf4d9);
@@ -33,7 +30,7 @@
             line-height: 1.6;
             min-height: 100vh;
         }
-
+        
         /* 导航栏样式 */
         .header {
             background: linear-gradient(135deg, var(--sky-blue), var(--sky-blue-light));
@@ -43,7 +40,7 @@
             overflow: hidden;
             padding-bottom: 30px;
         }
-
+        
         .header::before {
             content: "";
             position: absolute;
@@ -56,7 +53,7 @@
             background-position: bottom;
             opacity: 0.3;
         }
-
+        
         .clouds {
             position: absolute;
             top: 0;
@@ -66,35 +63,18 @@
             overflow: hidden;
             z-index: 1;
         }
-
+        
         .cloud {
             position: absolute;
             background: rgba(255, 255, 255, 0.7);
             border-radius: 50%;
             filter: blur(15px);
         }
-
-        .cloud-1 {
-            width: 150px;
-            height: 60px;
-            top: 20%;
-            left: 10%;
-        }
-
-        .cloud-2 {
-            width: 200px;
-            height: 80px;
-            top: 40%;
-            right: 15%;
-        }
-
-        .cloud-3 {
-            width: 180px;
-            height: 70px;
-            bottom: 30%;
-            left: 30%;
-        }
-
+        
+        .cloud-1 { width: 150px; height: 60px; top: 20%; left: 10%; }
+        .cloud-2 { width: 200px; height: 80px; top: 40%; right: 15%; }
+        .cloud-3 { width: 180px; height: 70px; bottom: 30%; left: 30%; }
+        
         .navbar {
             display: flex;
             justify-content: space-between;
@@ -105,7 +85,7 @@
             position: relative;
             z-index: 2;
         }
-
+        
         /* 优化Logo区域 */
         .logo {
             display: flex;
@@ -114,11 +94,11 @@
             transition: transform 0.3s ease;
             flex-shrink: 0;
         }
-
+        
         .logo:hover {
             transform: scale(1.05);
         }
-
+        
         .logo-icon {
             width: 50px;
             height: 50px;
@@ -130,17 +110,17 @@
             margin-right: 12px;
             transition: all 0.3s ease;
         }
-
+        
         .logo:hover .logo-icon {
             background: rgba(255, 255, 255, 0.3);
             transform: rotate(10deg);
         }
-
+        
         .logo-icon i {
             font-size: 1.8rem;
             color: white;
         }
-
+        
         .logo-text {
             font-family: 'Noto Serif SC', serif;
             font-size: 1.5rem;
@@ -149,12 +129,12 @@
             flex-direction: column;
             line-height: 1.2;
         }
-
+        
         .logo-text span {
             color: var(--sun-yellow);
             font-weight: 800;
         }
-
+        
         /* 导航链接 - 垂直布局 */
         .nav-links {
             display: flex;
@@ -163,12 +143,11 @@
             padding: 0;
             margin: 0;
         }
-
+        
         .nav-links li {
             display: flex;
-            position: relative;
         }
-
+        
         .nav-links a {
             color: white;
             text-decoration: none;
@@ -182,229 +161,29 @@
             min-width: 80px;
             background: rgba(0, 0, 0, 0.1);
         }
-
+        
         .nav-links a:hover {
             background: rgba(255, 255, 255, 0.2);
             transform: translateY(-3px);
         }
-
+        
         .nav-links a i {
             font-size: 1.4rem;
             margin-bottom: 8px;
             transition: transform 0.3s;
         }
-
+        
         .nav-links a:hover i {
             transform: scale(1.2);
         }
-
+        
         .nav-label {
             font-size: 0.85rem;
             font-weight: 500;
             text-align: center;
             white-space: nowrap;
         }
-
-        /* PC端专用下拉菜单 */
-        @media (min-width: 901px) {
-            .nav-pc-dropdown {
-                position: relative;
-                display: flex;
-                align-items: center;
-            }
-
-            .nav-pc-dropdown>a {
-                display: flex;
-                align-items: center;
-                gap: 6px;
-                position: relative;
-                z-index: 2;
-                cursor: pointer;
-            }
-
-            .nav-pc-dropdown .nav-arrow-btn {
-                background: none;
-                border: none;
-                padding: 0;
-                margin-left: 3px;
-                cursor: pointer;
-                display: flex;
-                align-items: center;
-                height: 100%;
-                width: 24px;
-                position: relative;
-                z-index: 3;
-            }
-
-            .nav-pc-dropdown .nav-arrow {
-                font-size: 0.9em;
-                transition: transform 0.2s;
-                pointer-events: none;
-            }
-
-            .nav-pc-dropdown.open>a .nav-arrow,
-            .nav-pc-dropdown:hover>a .nav-arrow {
-                transform: rotate(180deg);
-            }
-
-            .pc-dropdown-menu {
-                display: block;
-                opacity: 0;
-                pointer-events: none;
-                position: absolute;
-                left: 50%;
-                top: 100%;
-                transform: translateX(-50%);
-                min-width: 170px;
-                background: rgba(255, 255, 255, 0.98);
-                box-shadow: 0 8px 24px rgba(0, 0, 0, 0.10);
-                border-radius: 12px;
-                padding: 10px 0;
-                z-index: 20;
-                transition: opacity 0.22s;
-                border: 1.5px solid var(--sky-blue-light);
-            }
-
-            .nav-pc-dropdown.open .pc-dropdown-menu,
-            .nav-pc-dropdown:hover .pc-dropdown-menu,
-            .nav-pc-dropdown:focus-within .pc-dropdown-menu {
-                opacity: 1;
-                pointer-events: auto;
-            }
-
-            .pc-dropdown-menu a {
-                display: flex;
-                align-items: center;
-                gap: 10px;
-                padding: 12px 28px 12px 22px;
-                color: var(--text-dark);
-                text-decoration: none;
-                font-size: 1rem;
-                border-radius: 7px;
-                transition: background 0.18s, color 0.18s;
-                background: none;
-                font-weight: 500;
-                position: relative;
-            }
-
-            .pc-dropdown-menu a i {
-                color: var(--sky-blue);
-                font-size: 1.1em;
-                min-width: 18px;
-                text-align: center;
-            }
-
-            .pc-dropdown-menu a:hover {
-                background: var(--sky-blue-light);
-                color: #fff;
-            }
-        }
-
-        /* 移动端隐藏PC下拉菜单 */
-        @media (max-width: 900px) {
-            .nav-pc-dropdown .pc-dropdown-menu {
-                display: none !important;
-            }
-
-            .nav-pc-dropdown .nav-arrow {
-                display: none !important;
-            }
-        }
-
-        /* 移动端菜单与导航 */
-        @media (max-width: 900px) {
-            .navbar {
-                flex-wrap: wrap;
-                padding: 15px 5%;
-            }
-
-            .logo {
-                order: 1;
-                margin-right: auto;
-            }
-
-            .logo-text {
-                flex-direction: row;
-                gap: 5px;
-            }
-
-            .mobile-menu-btn {
-                display: flex;
-                order: 2;
-            }
-
-            .nav-links {
-                display: none;
-                order: 3;
-                width: 100%;
-                flex-direction: column;
-                margin-top: 20px;
-                background: rgba(0, 0, 0, 0.2);
-                border-radius: 12px;
-                padding: 15px;
-                gap: 10px;
-            }
-
-            .nav-links.active {
-                display: flex;
-                animation: slideDown 0.4s ease;
-            }
-
-            .nav-links li {
-                width: 100%;
-            }
-
-            .nav-links a {
-                flex-direction: row;
-                justify-content: center;
-                min-width: auto;
-                padding: 15px;
-                border-radius: 8px;
-                text-align: center;
-            }
-
-            .nav-links a i {
-                margin-bottom: 0;
-                margin-right: 15px;
-                font-size: 1.6rem;
-                flex-shrink: 0;
-                width: 30px;
-                text-align: center;
-            }
-
-            .nav-label {
-                font-size: 1.1rem;
-                width: 80px;
-                text-align: left;
-            }
-        }
-
-        @media (max-width: 480px) {
-            .hero-title {
-                font-size: clamp(1.4rem, 6vw, 1.6rem);
-                word-break: keep-all;
-                line-height: 1.4;
-            }
-
-            .hero p {
-                font-size: 1rem;
-            }
-
-            .cta-button {
-                padding: 12px 25px;
-                font-size: 1rem;
-            }
-
-            .logo-text {
-                font-size: 1.3rem;
-            }
-
-            .logo-icon {
-                width: 42px;
-                height: 42px;
-            }
-        }
-
+        
         /* 主视觉区域 */
         .hero {
             padding: 80px 5% 100px;
@@ -414,7 +193,7 @@
             max-width: 1200px;
             margin: 0 auto;
         }
-
+        
         .hero-title {
             font-family: 'Noto Serif SC', serif;
             font-size: 3rem;
@@ -427,7 +206,7 @@
             justify-content: center;
             gap: 12px;
         }
-
+        
         .hero-title span {
             display: inline-block;
             padding: 0;
@@ -435,7 +214,7 @@
             border-radius: 0;
             backdrop-filter: none;
         }
-
+        
         .hero p {
             font-size: 1.2rem;
             max-width: 700px;
@@ -443,7 +222,7 @@
             opacity: 0.9;
             text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
         }
-
+        
         .cta-button {
             display: inline-block;
             background: var(--sun-yellow);
@@ -459,7 +238,7 @@
             overflow: hidden;
             z-index: 1;
         }
-
+        
         .cta-button::before {
             content: '';
             position: absolute;
@@ -471,25 +250,25 @@
             transition: width 0.5s;
             z-index: -1;
         }
-
+        
         .cta-button:hover {
             transform: translateY(-5px);
             box-shadow: 0 7px 20px rgba(0, 0, 0, 0.2);
         }
-
+        
         .cta-button:hover::before {
             width: 100%;
         }
-
+        
         .cta-button i {
             margin-left: 8px;
             transition: transform 0.3s ease;
         }
-
+        
         .cta-button:hover i {
             transform: translateX(5px);
         }
-
+        
         .bird-animation {
             position: absolute;
             top: 20px;
@@ -500,7 +279,7 @@
             opacity: 0.3;
             color: white;
         }
-
+        
         .bird-animation-2 {
             position: absolute;
             top: 15%;
@@ -511,7 +290,7 @@
             color: white;
             z-index: 1;
         }
-
+        
         .mobile-menu-btn {
             display: none;
             background: rgba(255, 255, 255, 0.2);
@@ -526,75 +305,180 @@
             transition: all 0.3s;
             z-index: 3;
         }
-
+        
         .mobile-menu-btn i {
             color: white;
             font-size: 1.8rem;
         }
-
+        
         .mobile-menu-btn:hover {
             background: rgba(255, 255, 255, 0.3);
         }
-
+        
+        /* 响应式设计 */
+        @media (max-width: 900px) {
+            /* 移动端导航布局 */
+            .navbar {
+                flex-wrap: wrap;
+                padding: 15px 5%;
+            }
+            
+            .logo {
+                order: 1;
+                margin-right: auto;
+            }
+            
+            .logo-text {
+                flex-direction: row;
+                gap: 5px;
+            }
+            
+            .mobile-menu-btn {
+                display: flex;
+                order: 2;
+            }
+            
+            .nav-links {
+                display: none;
+                order: 3;
+                width: 100%;
+                flex-direction: column;
+                margin-top: 20px;
+                background: rgba(0, 0, 0, 0.2);
+                border-radius: 12px;
+                padding: 15px;
+                gap: 10px;
+            }
+            
+            .nav-links.active {
+                display: flex;
+                animation: slideDown 0.4s ease;
+            }
+            
+            .nav-links li {
+                width: 100%;
+            }
+            
+            .nav-links a {
+                flex-direction: row;
+                justify-content: center;
+                min-width: auto;
+                padding: 15px;
+                border-radius: 8px;
+                text-align: center;
+            }
+            
+            .nav-links a i {
+                margin-bottom: 0;
+                margin-right: 15px;
+                font-size: 1.6rem;
+                flex-shrink: 0;
+                width: 30px;
+                text-align: center;
+            }
+            
+            .nav-label {
+                font-size: 1.1rem;
+                width: 80px;
+                text-align: left;
+            }
+            
+            /* 主视觉区域调整 */
+            .hero {
+                padding: 50px 5% 70px;
+            }
+            
+            .hero-title {
+                font-size: 2rem;
+                flex-direction: column;
+                gap: 15px;
+            }
+            
+            .hero-title span {
+                width: fit-content;
+                margin: 0 auto;
+            }
+            
+            .hero p {
+                font-size: 1.1rem;
+            }
+        }
+        
+        @media (max-width: 480px) {
+            .hero-title {
+                font-size: clamp(1.4rem, 6vw, 1.6rem);
+                word-break: keep-all;
+                line-height: 1.4; 
+            }
+            
+            .hero p {
+                font-size: 1rem;
+            }
+            
+            .cta-button {
+                padding: 12px 25px;
+                font-size: 1rem;
+            }
+            
+            .logo-text {
+                font-size: 1.3rem;
+            }
+            
+            .logo-icon {
+                width: 42px;
+                height: 42px;
+            }
+        }
+        
         /* 动画效果 */
         @keyframes slideDown {
             from {
                 opacity: 0;
                 transform: translateY(-20px);
             }
-
             to {
                 opacity: 1;
                 transform: translateY(0);
             }
         }
-
+        
         @keyframes fly {
             0% {
                 transform: translateX(100px) translateY(0);
             }
-
             25% {
                 transform: translateX(50px) translateY(-20px);
             }
-
             50% {
                 transform: translateX(0) translateY(0);
             }
-
             75% {
                 transform: translateX(-50px) translateY(20px);
             }
-
             100% {
                 transform: translateX(-100px) translateY(0);
             }
         }
-
+        
         @keyframes fly-reverse {
             0% {
                 transform: translateX(-100px) translateY(0);
             }
-
             25% {
                 transform: translateX(-50px) translateY(20px);
             }
-
             50% {
                 transform: translateX(0) translateY(0);
             }
-
             75% {
                 transform: translateX(50px) translateY(-20px);
             }
-
             100% {
                 transform: translateX(100px) translateY(0);
             }
-        }
+        }        
     </style>
 </head>
-
 <body>
     <header class="header">
         <div class="clouds">
@@ -616,12 +500,12 @@
                 </div>
                 <div href="{{ '/' | relative_url }}" class="logo-text">鸟岛与<span>少年</span></div>
             </div>
-
+            
             <!-- 移动端菜单按钮 -->
             <div class="mobile-menu-btn">
                 <i class="fas fa-bars"></i>
             </div>
-
+            
             <!-- 优化后的导航链接 -->
             <ul class="nav-links">
                 <li>
@@ -630,65 +514,29 @@
                         <span class="nav-label">首页</span>
                     </a>
                 </li>
-                <li class="nav-pc-dropdown">
+                <li>
                     <a href="{{ '/about/' | relative_url }}">
                         <i class="fas fa-users"></i>
                         <span class="nav-label">支队传承</span>
-                        <button class="nav-arrow-btn" tabindex="0" aria-label="展开下拉菜单">
-                            <i class="fas fa-chevron-down nav-arrow"></i>
-                        </button>
                     </a>
-                    <div class="pc-dropdown-menu">
-                        <a href="{{ '/about/mission/' | relative_url }}"><i class="fas fa-star"></i>我们的使命</a>
-                        <a href="{{ '/about/timeline/' | relative_url }}"><i class="fas fa-history"></i>时间轴</a>
-                        <a href="{{ '/about/members/' | relative_url }}"><i class="fas fa-user-friends"></i>成员星群</a>
-                        <a href="{{ '/about/handbook/' | relative_url }}"><i class="fas fa-book"></i>工作手册</a>
-                    </div>
                 </li>
-                <!-- 物种图鉴 -->
-                <li class="nav-pc-dropdown">
+                <li>
                     <a href="{{ '/species/' | relative_url }}">
                         <i class="fas fa-feather-alt"></i>
                         <span class="nav-label">物种图鉴</span>
-                        <button class="nav-arrow-btn" tabindex="0" aria-label="展开下拉菜单">
-                            <i class="fas fa-chevron-down nav-arrow"></i>
-                        </button>
                     </a>
-                    <div class="pc-dropdown-menu">
-                        <a href="{{ '/species/birds/' | relative_url }}"><i class="fas fa-dove"></i>鸟类图鉴</a>
-                        <a href="{{ '/species/plants/' | relative_url }}"><i class="fas fa-leaf"></i>植物图鉴</a>
-                        <a href="{{ '/species/insects/' | relative_url }}"><i class="fas fa-bug"></i>昆虫图鉴</a>
-                    </div>
                 </li>
-                <!-- 调研成果 -->
-                <li class="nav-pc-dropdown">
+                <li>
                     <a href="{{ '/reports/' | relative_url }}">
                         <i class="fas fa-file-alt"></i>
                         <span class="nav-label">调研成果</span>
-                        <button class="nav-arrow-btn" tabindex="0" aria-label="展开下拉菜单">
-                            <i class="fas fa-chevron-down nav-arrow"></i>
-                        </button>
                     </a>
-                    <div class="pc-dropdown-menu">
-                        <a href="{{ '/reports/biodiversity/' | relative_url }}"><i class="fas fa-seedling"></i>多样性调研</a>
-                        <a href="{{ '/reports/ecology/' | relative_url }}"><i class="fas fa-tree"></i>生态课题</a>
-                        <a href="{{ '/reports/humanities/' | relative_url }}"><i class="fas fa-landmark"></i>人文调研</a>
-                    </div>
                 </li>
-                <!-- 行程纪实 -->
-                <li class="nav-pc-dropdown">
+                <li>
                     <a href="{{ '/records/' | relative_url }}">
                         <i class="fas fa-camera"></i>
                         <span class="nav-label">行程纪实</span>
-                        <button class="nav-arrow-btn" tabindex="0" aria-label="展开下拉菜单">
-                            <i class="fas fa-chevron-down nav-arrow"></i>
-                        </button>
                     </a>
-                    <div class="pc-dropdown-menu">
-                        <a href="{{ '/records/photos/' | relative_url }}"><i class="fas fa-images"></i>摄影集</a>
-                        <a href="{{ '/records/documentary/' | relative_url }}"><i class="fas fa-video"></i>纪录片</a>
-                        <a href="{{ '/records/creative/' | relative_url }}"><i class="fas fa-palette"></i>文创周边</a>
-                    </div>
                 </li>
                 <li>
                     <a href="{{ '/contact/' | relative_url }}">
@@ -698,7 +546,7 @@
                 </li>
             </ul>
         </nav>
-
+        
         <section class="hero">
             <h1 class="hero-title">
                 <span>守护飞羽家园</span>
@@ -710,28 +558,28 @@
     </header>
 
     <script>
-        // Logo点击动画
-        document.querySelector('.logo').addEventListener('click', function () {
+        // 简单的Logo点击效果
+        document.querySelector('.logo').addEventListener('click', function() {
             this.style.transform = 'scale(0.95)';
             setTimeout(() => {
                 window.location.href = '/';
                 this.style.transform = '';
             }, 300);
         });
-
+        
         // 移动端菜单功能
         const mobileMenuBtn = document.querySelector('.mobile-menu-btn');
         const navLinks = document.querySelector('.nav-links');
-
+        
         if (mobileMenuBtn) {
-            mobileMenuBtn.addEventListener('click', function () {
+            mobileMenuBtn.addEventListener('click', function() {
                 navLinks.classList.toggle('active');
                 const icon = this.querySelector('i');
                 icon.classList.toggle('fa-bars');
                 icon.classList.toggle('fa-times');
             });
         }
-
+        
         // 点击菜单项后关闭菜单
         document.querySelectorAll('.nav-links a').forEach(link => {
             link.addEventListener('click', () => {
@@ -743,9 +591,9 @@
                 }
             });
         });
-
+        
         // 窗口大小变化时调整菜单
-        window.addEventListener('resize', function () {
+        window.addEventListener('resize', function() {
             if (window.innerWidth >= 900) {
                 navLinks.classList.remove('active');
                 if (mobileMenuBtn) {
@@ -755,7 +603,7 @@
                 }
             }
         });
-
+        
         // 创建云朵效果
         function createClouds() {
             const cloudsContainer = document.querySelector('.clouds');
@@ -770,44 +618,8 @@
                 cloudsContainer.appendChild(cloud);
             }
         }
-        // PC端下拉菜单点击展开/收起
-        document.querySelectorAll('.nav-pc-dropdown').forEach(function (dropdown) {
-            const arrowBtn = dropdown.querySelector('.nav-arrow-btn');
-            if (arrowBtn) {
-                arrowBtn.addEventListener('click', function (e) {
-                    e.preventDefault();
-                    e.stopPropagation();
-                    // 关闭其它已展开的
-                    document.querySelectorAll('.nav-pc-dropdown.open').forEach(function (other) {
-                        if (other !== dropdown) other.classList.remove('open');
-                    });
-                    dropdown.classList.toggle('open');
-                });
-            }
-        });
-
-        // 点击菜单外部关闭所有下拉
-        document.addEventListener('click', function (e) {
-            document.querySelectorAll('.nav-pc-dropdown.open').forEach(function (dropdown) {
-                if (!dropdown.contains(e.target)) {
-                    dropdown.classList.remove('open');
-                }
-            });
-        });
-
-        // 鼠标移出下拉菜单时自动关闭（仅当不是点击展开时）
-        document.querySelectorAll('.nav-pc-dropdown').forEach(function (dropdown) {
-            dropdown.addEventListener('mouseleave', function () {
-                if (!dropdown.matches('.open')) {
-                    dropdown.classList.remove('open');
-                }
-            });
-            // 鼠标移入时不自动关闭
-        });
-
-
+        
         window.addEventListener('load', createClouds);
     </script>
 </body>
-
 </html>
