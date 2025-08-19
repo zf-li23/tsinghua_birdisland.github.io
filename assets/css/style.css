@@ -209,30 +209,39 @@ body {
     }
 }
 
+/* 成员画廊 - 修复白边问题并优化布局 */
 .gallery-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-    gap: 25px;
-    margin: 60px auto 0;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* 减小最小宽度 */
+    gap: 20px; /* 减小间隙 */
+    margin: 40px auto 0; /* 调整上边距 */
+    max-width: 1200px; /* 增加最大宽度 */
 }
 
 .gallery-item {
     border-radius: 10px;
     overflow: hidden;
-    height: 250px;
     position: relative;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    aspect-ratio: 3/4; /* 使用更适合人像的比例 */
+    transition: transform 0.3s ease; /* 添加整体动画效果 */
+}
+
+.gallery-item:hover {
+    transform: translateY(-5px); /* 悬停时轻微上浮 */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15); /* 增强阴影 */
 }
 
 .gallery-item img {
     width: 100%;
     height: 100%;
+    display: block; /* 关键修复：消除白边 */
     object-fit: cover;
     transition: transform 0.5s;
 }
 
 .gallery-item:hover img {
-    transform: scale(1.1);
+    transform: scale(1.05); /* 减小缩放比例 */
 }
 
 .gallery-caption {
@@ -240,13 +249,73 @@ body {
     bottom: 0;
     left: 0;
     right: 0;
-    background: rgba(0, 0, 0, 0.7);
+    background: rgba(0, 0, 0, 0.8); /* 加深背景 */
     color: white;
-    padding: 15px;
+    padding: 12px 15px; /* 调整内边距 */
     transform: translateY(100%);
     transition: transform 0.3s;
+    font-size: 0.9rem; /* 减小字体大小 */
+    line-height: 1.4; /* 调整行高 */
+    text-align: center; /* 居中文本 */
 }
 
 .gallery-item:hover .gallery-caption {
     transform: translateY(0);
+}
+
+/* 添加渐变遮罩增强效果 */
+.gallery-item::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(to top, rgba(0,0,0,0.7) 0%, transparent 60%);
+    opacity: 0;
+    transition: opacity 0.3s;
+    z-index: 1;
+}
+
+.gallery-item:hover::after {
+    opacity: 1;
+}
+
+/* 响应式调整 */
+@media (min-width: 1200px) {
+    .gallery-grid {
+        grid-template-columns: repeat(4, 1fr); /* 大屏固定4列 */
+    }
+}
+
+@media (max-width: 900px) {
+    .gallery-grid {
+        grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); /* 中等屏幕调整 */
+        gap: 15px;
+    }
+}
+
+@media (max-width: 768px) {
+    .gallery-grid {
+        grid-template-columns: repeat(2, 1fr); /* 移动端2列 */
+        gap: 15px;
+        margin: 30px auto 0;
+    }
+    
+    .section-title {
+        font-size: 1.5rem;
+        margin: 2rem 0 1rem;
+    }
+    
+    .gallery-caption {
+        padding: 10px;
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .gallery-grid {
+        grid-template-columns: 1fr; /* 小屏幕1列 */
+        max-width: 350px;
+    }
 }
