@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>鸟岛与少年 - 响应式首页页眉+主视觉</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
-    <style>    
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;700&family=Roboto:wght@300;400;500&display=swap"
+        rel="stylesheet">
+    <style>
         :root {
             --sky-blue: #4d9de0;
             --sky-blue-light: #78b9f0;
@@ -16,13 +19,13 @@
             --text-dark: #1d3557;
             --accent: #ff6b6b;
         }
-        
+
         * {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
         }
-        
+
         body {
             font-family: 'Roboto', 'Noto Serif SC', sans-serif;
             background: linear-gradient(135deg, #fefee3, #fdf4d9);
@@ -30,7 +33,7 @@
             line-height: 1.6;
             min-height: 100vh;
         }
-        
+
         /* 导航栏样式 */
         .header {
             background: linear-gradient(135deg, var(--sky-blue), var(--sky-blue-light));
@@ -40,7 +43,7 @@
             overflow: hidden;
             padding-bottom: 30px;
         }
-        
+
         .header::before {
             content: "";
             position: absolute;
@@ -53,7 +56,7 @@
             background-position: bottom;
             opacity: 0.3;
         }
-        
+
         .clouds {
             position: absolute;
             top: 0;
@@ -63,18 +66,35 @@
             overflow: hidden;
             z-index: 1;
         }
-        
+
         .cloud {
             position: absolute;
             background: rgba(255, 255, 255, 0.7);
             border-radius: 50%;
             filter: blur(15px);
         }
-        
-        .cloud-1 { width: 150px; height: 60px; top: 20%; left: 10%; }
-        .cloud-2 { width: 200px; height: 80px; top: 40%; right: 15%; }
-        .cloud-3 { width: 180px; height: 70px; bottom: 30%; left: 30%; }
-        
+
+        .cloud-1 {
+            width: 150px;
+            height: 60px;
+            top: 20%;
+            left: 10%;
+        }
+
+        .cloud-2 {
+            width: 200px;
+            height: 80px;
+            top: 40%;
+            right: 15%;
+        }
+
+        .cloud-3 {
+            width: 180px;
+            height: 70px;
+            bottom: 30%;
+            left: 30%;
+        }
+
         .navbar {
             display: flex;
             justify-content: space-between;
@@ -85,7 +105,7 @@
             position: relative;
             z-index: 2;
         }
-        
+
         /* 优化Logo区域 */
         .logo {
             display: flex;
@@ -94,11 +114,11 @@
             transition: transform 0.3s ease;
             flex-shrink: 0;
         }
-        
+
         .logo:hover {
             transform: scale(1.05);
         }
-        
+
         .logo-icon {
             width: 50px;
             height: 50px;
@@ -110,17 +130,17 @@
             margin-right: 12px;
             transition: all 0.3s ease;
         }
-        
+
         .logo:hover .logo-icon {
             background: rgba(255, 255, 255, 0.3);
             transform: rotate(10deg);
         }
-        
+
         .logo-icon i {
             font-size: 1.8rem;
             color: white;
         }
-        
+
         .logo-text {
             font-family: 'Noto Serif SC', serif;
             font-size: 1.5rem;
@@ -129,12 +149,12 @@
             flex-direction: column;
             line-height: 1.2;
         }
-        
+
         .logo-text span {
             color: var(--sun-yellow);
             font-weight: 800;
         }
-        
+
         /* 导航链接 - 垂直布局 */
         .nav-links {
             display: flex;
@@ -143,11 +163,11 @@
             padding: 0;
             margin: 0;
         }
-        
+
         .nav-links li {
             display: flex;
         }
-        
+
         .nav-links a {
             color: white;
             text-decoration: none;
@@ -161,29 +181,29 @@
             min-width: 80px;
             background: rgba(0, 0, 0, 0.1);
         }
-        
+
         .nav-links a:hover {
             background: rgba(255, 255, 255, 0.2);
             transform: translateY(-3px);
         }
-        
+
         .nav-links a i {
             font-size: 1.4rem;
             margin-bottom: 8px;
             transition: transform 0.3s;
         }
-        
+
         .nav-links a:hover i {
             transform: scale(1.2);
         }
-        
+
         .nav-label {
             font-size: 0.85rem;
             font-weight: 500;
             text-align: center;
             white-space: nowrap;
         }
-        
+
         /* 主视觉区域 */
         .hero {
             padding: 80px 5% 100px;
@@ -193,7 +213,7 @@
             max-width: 1200px;
             margin: 0 auto;
         }
-        
+
         .hero-title {
             font-family: 'Noto Serif SC', serif;
             font-size: 3rem;
@@ -206,7 +226,7 @@
             justify-content: center;
             gap: 12px;
         }
-        
+
         .hero-title span {
             display: inline-block;
             padding: 0;
@@ -214,7 +234,7 @@
             border-radius: 0;
             backdrop-filter: none;
         }
-        
+
         .hero p {
             font-size: 1.2rem;
             max-width: 700px;
@@ -222,7 +242,7 @@
             opacity: 0.9;
             text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
         }
-        
+
         .cta-button {
             display: inline-block;
             background: var(--sun-yellow);
@@ -238,7 +258,7 @@
             overflow: hidden;
             z-index: 1;
         }
-        
+
         .cta-button::before {
             content: '';
             position: absolute;
@@ -250,25 +270,25 @@
             transition: width 0.5s;
             z-index: -1;
         }
-        
+
         .cta-button:hover {
             transform: translateY(-5px);
             box-shadow: 0 7px 20px rgba(0, 0, 0, 0.2);
         }
-        
+
         .cta-button:hover::before {
             width: 100%;
         }
-        
+
         .cta-button i {
             margin-left: 8px;
             transition: transform 0.3s ease;
         }
-        
+
         .cta-button:hover i {
             transform: translateX(5px);
         }
-        
+
         .bird-animation {
             position: absolute;
             top: 20px;
@@ -279,7 +299,7 @@
             opacity: 0.3;
             color: white;
         }
-        
+
         .bird-animation-2 {
             position: absolute;
             top: 15%;
@@ -290,7 +310,7 @@
             color: white;
             z-index: 1;
         }
-        
+
         .mobile-menu-btn {
             display: none;
             background: rgba(255, 255, 255, 0.2);
@@ -305,39 +325,40 @@
             transition: all 0.3s;
             z-index: 3;
         }
-        
+
         .mobile-menu-btn i {
             color: white;
             font-size: 1.8rem;
         }
-        
+
         .mobile-menu-btn:hover {
             background: rgba(255, 255, 255, 0.3);
         }
-        
+
         /* 响应式设计 */
         @media (max-width: 900px) {
+
             /* 移动端导航布局 */
             .navbar {
                 flex-wrap: wrap;
                 padding: 15px 5%;
             }
-            
+
             .logo {
                 order: 1;
                 margin-right: auto;
             }
-            
+
             .logo-text {
                 flex-direction: row;
                 gap: 5px;
             }
-            
+
             .mobile-menu-btn {
                 display: flex;
                 order: 2;
             }
-            
+
             .nav-links {
                 display: none;
                 order: 3;
@@ -349,16 +370,16 @@
                 padding: 15px;
                 gap: 10px;
             }
-            
+
             .nav-links.active {
                 display: flex;
                 animation: slideDown 0.4s ease;
             }
-            
+
             .nav-links li {
                 width: 100%;
             }
-            
+
             .nav-links a {
                 flex-direction: row;
                 justify-content: center;
@@ -367,7 +388,7 @@
                 border-radius: 8px;
                 text-align: center;
             }
-            
+
             .nav-links a i {
                 margin-bottom: 0;
                 margin-right: 15px;
@@ -376,109 +397,174 @@
                 width: 30px;
                 text-align: center;
             }
-            
+
             .nav-label {
                 font-size: 1.1rem;
                 width: 80px;
                 text-align: left;
             }
-            
+
             /* 主视觉区域调整 */
             .hero {
                 padding: 50px 5% 70px;
             }
-            
+
             .hero-title {
                 font-size: 2rem;
                 flex-direction: column;
                 gap: 15px;
             }
-            
+
             .hero-title span {
                 width: fit-content;
                 margin: 0 auto;
             }
-            
+
             .hero p {
                 font-size: 1.1rem;
             }
         }
-        
+
         @media (max-width: 480px) {
             .hero-title {
                 font-size: clamp(1.4rem, 6vw, 1.6rem);
                 word-break: keep-all;
-                line-height: 1.4; 
+                line-height: 1.4;
             }
-            
+
             .hero p {
                 font-size: 1rem;
             }
-            
+
             .cta-button {
                 padding: 12px 25px;
                 font-size: 1rem;
             }
-            
+
             .logo-text {
                 font-size: 1.3rem;
             }
-            
+
             .logo-icon {
                 width: 42px;
                 height: 42px;
             }
         }
-        
+
         /* 动画效果 */
         @keyframes slideDown {
             from {
                 opacity: 0;
                 transform: translateY(-20px);
             }
+
             to {
                 opacity: 1;
                 transform: translateY(0);
             }
         }
-        
+
         @keyframes fly {
             0% {
                 transform: translateX(100px) translateY(0);
             }
+
             25% {
                 transform: translateX(50px) translateY(-20px);
             }
+
             50% {
                 transform: translateX(0) translateY(0);
             }
+
             75% {
                 transform: translateX(-50px) translateY(20px);
             }
+
             100% {
                 transform: translateX(-100px) translateY(0);
             }
         }
-        
+
         @keyframes fly-reverse {
             0% {
                 transform: translateX(-100px) translateY(0);
             }
+
             25% {
                 transform: translateX(-50px) translateY(20px);
             }
+
             50% {
                 transform: translateX(0) translateY(0);
             }
+
             75% {
                 transform: translateX(50px) translateY(-20px);
             }
+
             100% {
                 transform: translateX(100px) translateY(0);
             }
-        }        
+        }
+
+        /* 可添加到 <style> 内部，建议放在导航相关样式后面 */
+        .has-dropdown {
+            position: relative;
+        }
+
+        .dropdown-menu {
+            display: none;
+            position: absolute;
+            left: 50%;
+            top: 100%;
+            transform: translateX(-50%);
+            min-width: 140px;
+            background: rgba(255, 255, 255, 0.98);
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.10);
+            border-radius: 10px;
+            padding: 8px 0;
+            z-index: 99;
+            transition: opacity 0.2s;
+        }
+
+        .dropdown-menu li {
+            width: 100%;
+        }
+
+        .dropdown-menu a {
+            display: block;
+            padding: 10px 24px;
+            color: #1d3557;
+            text-decoration: none;
+            font-size: 1rem;
+            border-radius: 6px;
+            transition: background 0.2s, color 0.2s;
+            text-align: left;
+        }
+
+        .dropdown-menu a:hover {
+            background: #f9c74f;
+            color: #222;
+        }
+
+        @media (min-width: 901px) {
+            .has-dropdown:hover>.dropdown-menu {
+                display: block;
+                opacity: 1;
+                pointer-events: auto;
+            }
+        }
+
+        /* 移动端隐藏下拉菜单，仅主链接可点 */
+        @media (max-width: 900px) {
+            .dropdown-menu {
+                display: none !important;
+            }
+        }
     </style>
 </head>
+
 <body>
     <header class="header">
         <div class="clouds">
@@ -500,12 +586,12 @@
                 </div>
                 <div href="{{ '/' | relative_url }}" class="logo-text">鸟岛与<span>少年</span></div>
             </div>
-            
+
             <!-- 移动端菜单按钮 -->
             <div class="mobile-menu-btn">
                 <i class="fas fa-bars"></i>
             </div>
-            
+
             <!-- 优化后的导航链接 -->
             <ul class="nav-links">
                 <li>
@@ -514,29 +600,57 @@
                         <span class="nav-label">首页</span>
                     </a>
                 </li>
-                <li>
+                <!-- 支队传承（带下拉菜单） -->
+                <li class="has-dropdown">
                     <a href="{{ '/about/' | relative_url }}">
                         <i class="fas fa-users"></i>
                         <span class="nav-label">支队传承</span>
                     </a>
+                    <ul class="dropdown-menu">
+                        <li><a href="{{ '/about/mission/' | relative_url }}">我们的使命</a></li>
+                        <li><a href="{{ '/about/timeline/' | relative_url }}">时间轴</a></li>
+                        <li><a href="{{ '/about/members/' | relative_url }}">成员星群</a></li>
+                        <li><a href="{{ '/about/handbook/' | relative_url }}">工作手册</a></li>
+                    </ul>
                 </li>
-                <li>
+
+                <!-- 物种图鉴（带下拉菜单） -->
+                <li class="has-dropdown">
                     <a href="{{ '/species/' | relative_url }}">
                         <i class="fas fa-feather-alt"></i>
                         <span class="nav-label">物种图鉴</span>
                     </a>
+                    <ul class="dropdown-menu">
+                        <li><a href="{{ '/species/birds/' | relative_url }}">鸟类图鉴</a></li>
+                        <li><a href="{{ '/species/plants/' | relative_url }}">植物图鉴</a></li>
+                        <li><a href="{{ '/species/insects/' | relative_url }}">昆虫图鉴</a></li>
+                    </ul>
                 </li>
-                <li>
+
+                <!-- 调研成果（带下拉菜单） -->
+                <li class="has-dropdown">
                     <a href="{{ '/reports/' | relative_url }}">
                         <i class="fas fa-file-alt"></i>
                         <span class="nav-label">调研成果</span>
                     </a>
+                    <ul class="dropdown-menu">
+                        <li><a href="{{ '/reports/biodiversity/' | relative_url }}">多样性调研报告</a></li>
+                        <li><a href="{{ '/reports/ecology/' | relative_url }}">生态课题调研报告</a></li>
+                        <li><a href="{{ '/reports/humanities/' | relative_url }}">人文调研报告</a></li>
+                    </ul>
                 </li>
-                <li>
+
+                <!-- 行程纪实（带下拉菜单） -->
+                <li class="has-dropdown">
                     <a href="{{ '/records/' | relative_url }}">
                         <i class="fas fa-camera"></i>
                         <span class="nav-label">行程纪实</span>
                     </a>
+                    <ul class="dropdown-menu">
+                        <li><a href="{{ '/records/photos/' | relative_url }}">摄影集</a></li>
+                        <li><a href="{{ '/records/documentary/' | relative_url }}">纪录片</a></li>
+                        <li><a href="{{ '/records/creative/' | relative_url }}">文创周边</a></li>
+                    </ul>
                 </li>
                 <li>
                     <a href="{{ '/contact/' | relative_url }}">
@@ -546,7 +660,7 @@
                 </li>
             </ul>
         </nav>
-        
+
         <section class="hero">
             <h1 class="hero-title">
                 <span>守护飞羽家园</span>
@@ -559,27 +673,27 @@
 
     <script>
         // 简单的Logo点击效果
-        document.querySelector('.logo').addEventListener('click', function() {
+        document.querySelector('.logo').addEventListener('click', function () {
             this.style.transform = 'scale(0.95)';
             setTimeout(() => {
                 window.location.href = '/';
                 this.style.transform = '';
             }, 300);
         });
-        
+
         // 移动端菜单功能
         const mobileMenuBtn = document.querySelector('.mobile-menu-btn');
         const navLinks = document.querySelector('.nav-links');
-        
+
         if (mobileMenuBtn) {
-            mobileMenuBtn.addEventListener('click', function() {
+            mobileMenuBtn.addEventListener('click', function () {
                 navLinks.classList.toggle('active');
                 const icon = this.querySelector('i');
                 icon.classList.toggle('fa-bars');
                 icon.classList.toggle('fa-times');
             });
         }
-        
+
         // 点击菜单项后关闭菜单
         document.querySelectorAll('.nav-links a').forEach(link => {
             link.addEventListener('click', () => {
@@ -591,9 +705,9 @@
                 }
             });
         });
-        
+
         // 窗口大小变化时调整菜单
-        window.addEventListener('resize', function() {
+        window.addEventListener('resize', function () {
             if (window.innerWidth >= 900) {
                 navLinks.classList.remove('active');
                 if (mobileMenuBtn) {
@@ -603,7 +717,7 @@
                 }
             }
         });
-        
+
         // 创建云朵效果
         function createClouds() {
             const cloudsContainer = document.querySelector('.clouds');
@@ -618,8 +732,9 @@
                 cloudsContainer.appendChild(cloud);
             }
         }
-        
+
         window.addEventListener('load', createClouds);
     </script>
 </body>
+
 </html>
