@@ -334,8 +334,19 @@ body {
     }
 
     .gallery-item {
+        display: flex;
+        flex-direction: column;
         aspect-ratio: 3/4.2;
-        /* 稍微减小高度比例 */
+        min-height: 0;
+    }
+
+    .gallery-item img {
+        flex: 1 1 0%;
+        width: 100%;
+        height: auto;
+        min-height: 0;
+        object-fit: cover;
+        display: block;
     }
 
     .section-title {
@@ -344,8 +355,14 @@ body {
     }
 
     .gallery-caption {
+        min-height: 48px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
         padding: 10px;
         font-size: 0.8rem;
+        background: rgba(255,255,255,0.92);
+        border-radius: 0 0 18px 18px;
     }
 }
 
