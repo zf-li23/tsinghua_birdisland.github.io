@@ -240,8 +240,6 @@ body {
     display: block; /* 关键修复：消除白边 */
     object-fit: cover;
     transition: transform 0.5s;
-    flex: 1 1 auto;
-    min-height: 0;
 }
 
 .gallery-item:hover img {
