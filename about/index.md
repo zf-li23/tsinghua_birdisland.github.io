@@ -12,22 +12,22 @@ permalink: /about/
 
 ## 我们的使命
 
-[了解我们的初心与价值观 →]({{ '/about/mission' | relative_url }})
+[了解我们的初心与价值观 →]({{ '/about/mission/' | relative_url }})
 
 ---
 
 ## 时间轴
 
-[查看支队发展历程 →]({{ '/about/timeline' | relative_url }})
+[查看支队发展历程 →]({{ '/about/timeline/' | relative_url }})
 
 ---
 
 ## 成员星群
 
-[认识历届支队成员 →]({{ '/about/members' | relative_url }})
+[认识历届支队成员 →]({{ '/about/members/' | relative_url }})
 
 ---
 
 ## 工作手册
 
-[获取支队工作指南 →]({{ '/about/handbook' | relative_url }})
+[获取支队工作指南 →]({{ '/about/handbook/' | relative_url }})
