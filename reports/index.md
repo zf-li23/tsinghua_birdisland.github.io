@@ -10,15 +10,15 @@ permalink: /reports/
 
 ## 生物多样性调研
 
-[查看物种多样性研究报告 →]({{ '/reports/biodiversity' | relative_url }})
+[查看物种多样性研究报告 →]({{ '/reports/biodiversity/' | relative_url }})
 
 ## 生态课题研究
 
-[探索生态系统保护方案 →]({{ '/reports/ecology' | relative_url }})
+[探索生态系统保护方案 →]({{ '/reports/ecology/' | relative_url }})
 
 ## 人文调研成果
 
-[了解当地社区文化保护 →]({{ '/reports/humanities' | relative_url }})
+[了解当地社区文化保护 →]({{ '/reports/humanities/' | relative_url }})
 
 ---
 
