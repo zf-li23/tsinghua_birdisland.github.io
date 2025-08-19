@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>鸟岛与少年 - 响应式导航优化</title>
+    <title>鸟岛与少年 - 响应式首页页眉+主视觉</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
     <style>    
@@ -29,16 +29,6 @@
             color: #333;
             line-height: 1.6;
             min-height: 100vh;
-            padding: 20px;
-        }
-        
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-            background: white;
-            border-radius: 20px;
-            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
-            overflow: hidden;
         }
         
         /* 导航栏样式 */
@@ -159,12 +149,6 @@
             position: relative;
         }
         
-        /* 导航项容器 - 解决间隙问题 */
-        .nav-item-container {
-            position: relative;
-            padding-bottom: 15px; /* 为下拉菜单创建悬停区域 */
-        }
-        
         .nav-links a {
             color: white;
             text-decoration: none;
@@ -177,8 +161,6 @@
             transition: all 0.3s;
             min-width: 80px;
             background: rgba(0, 0, 0, 0.1);
-            position: relative;
-            z-index: 10;
         }
         
         .nav-links a:hover {
@@ -206,7 +188,7 @@
         /* 下拉菜单样式 */
         .dropdown-menu {
             position: absolute;
-            top: calc(100% + 5px); /* 消除间隙 */
+            top: 100%;
             left: 0;
             width: 200px;
             background: white;
@@ -214,6 +196,7 @@
             box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
             list-style: none;
             padding: 10px 0;
+            margin-top: 10px;
             opacity: 0;
             visibility: hidden;
             transform: translateY(10px);
@@ -221,15 +204,14 @@
             z-index: 100;
         }
         
-        /* 下拉菜单顶部连接区域 - 消除间隙 */
-        .dropdown-menu::before {
+        .dropdown-menu:before {
             content: '';
             position: absolute;
             bottom: 100%;
-            left: 0;
-            width: 100%;
-            height: 15px; /* 连接区域高度 */
-            background: transparent;
+            left: 20px;
+            border-width: 8px;
+            border-style: solid;
+            border-color: transparent transparent white transparent;
         }
         
         .dropdown-menu li {
@@ -249,12 +231,12 @@
             border-radius: 0;
             flex-direction: row;
             text-align: left;
-            transform: none;
         }
         
         .dropdown-menu a:hover {
             background: rgba(77, 157, 224, 0.1);
             color: var(--sky-blue-dark);
+            transform: none;
         }
         
         .dropdown-menu a i {
@@ -272,8 +254,7 @@
             white-space: normal;
         }
         
-        /* 悬停在导航项或下拉菜单上时显示 */
-        .nav-item-container:hover .dropdown-menu {
+        .nav-links li:hover .dropdown-menu {
             opacity: 1;
             visibility: visible;
             transform: translateY(0);
@@ -502,10 +483,6 @@
             .hero p {
                 font-size: 1.1rem;
             }
-            
-            .nav-item-container {
-                padding-bottom: 0;
-            }
         }
         
         @media (max-width: 480px) {
@@ -581,261 +558,171 @@
                 transform: translateX(100px) translateY(0);
             }
         }
-        
-        /* 示例内容样式 */
-        .content {
-            padding: 40px;
-            max-width: 1200px;
-            margin: 0 auto;
-        }
-        
-        .content h2 {
-            font-family: 'Noto Serif SC', serif;
-            color: var(--sky-blue-dark);
-            margin-bottom: 20px;
-            border-bottom: 2px solid var(--sun-yellow);
-            padding-bottom: 10px;
-        }
-        
-        .features {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 30px;
-            margin-top: 40px;
-        }
-        
-        .feature-card {
-            background: white;
-            border-radius: 15px;
-            overflow: hidden;
-            box-shadow: 0 5px 15px rgba(0,0,0,0.08);
-            transition: transform 0.3s ease, box-shadow 0.3s ease;
-        }
-        
-        .feature-card:hover {
-            transform: translateY(-10px);
-            box-shadow: 0 15px 30px rgba(0,0,0,0.15);
-        }
-        
-        .feature-icon {
-            height: 120px;
-            background: linear-gradient(135deg, var(--sky-blue-light), var(--sky-blue));
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            color: white;
-            font-size: 3rem;
-        }
-        
-        .feature-content {
-            padding: 25px;
-        }
-        
-        .feature-content h3 {
-            color: var(--sky-blue-dark);
-            margin-bottom: 15px;
-            font-family: 'Noto Serif SC', serif;
-        }
-        
-        .feature-content p {
-            color: #555;
-            line-height: 1.7;
-        }
-        
-        .code-block {
-            background: #2d2d2d;
-            color: #f8f8f2;
-            border-radius: 8px;
-            padding: 20px;
-            margin: 30px 0;
-            font-family: 'Fira Code', monospace;
-            font-size: 14px;
-            line-height: 1.5;
-            overflow-x: auto;
-        }
-        
-        .code-comment {
-            color: #75715e;
-        }
-        
-        .code-keyword {
-            color: #f92672;
-        }
-        
-        .code-function {
-            color: #66d9ef;
-        }
-        
-        .code-string {
-            color: #a6e22e;
-        }
     </style>
 </head>
 <body>
-    <div class="container">
-        <header class="header">
-            <div class="clouds">
-                <div class="cloud cloud-1"></div>
-                <div class="cloud cloud-2"></div>
-                <div class="cloud cloud-3"></div>
-            </div>
-            <div class="bird-animation">
-                <i class="fas fa-dove"></i>
-            </div>
-            <div class="bird-animation-2">
-                <i class="fas fa-dove"></i>
-            </div>
-            <nav class="navbar">
-                <!-- 优化的Logo区域 -->
-                <div class="logo" onclick="window.location.href='{{ '/' | relative_url }}'">
-                    <div class="logo-icon">
-                        <i class="fas fa-dove"></i>
-                    </div>
-                    <div href="{{ '/' | relative_url }}" class="logo-text">鸟岛与<span>少年</span></div>
+    <header class="header">
+        <div class="clouds">
+            <div class="cloud cloud-1"></div>
+            <div class="cloud cloud-2"></div>
+            <div class="cloud cloud-3"></div>
+        </div>
+        <div class="bird-animation">
+            <i class="fas fa-dove"></i>
+        </div>
+        <div class="bird-animation-2">
+            <i class="fas fa-dove"></i>
+        </div>
+        <nav class="navbar">
+            <!-- 优化的Logo区域 -->
+            <div class="logo" onclick="window.location.href='{{ '/' | relative_url }}'">
+                <div class="logo-icon">
+                    <i class="fas fa-dove"></i>
                 </div>
-                
-                <!-- 移动端菜单按钮 -->
-                <div class="mobile-menu-btn">
-                    <i class="fas fa-bars"></i>
-                </div>
-                
-                <!-- 优化后的导航链接 -->
-                <ul class="nav-links">
-                    <li>
-                        <a href="{{ '/' | relative_url }}">
-                            <i class="fas fa-home"></i>
-                            <span class="nav-label">首页</span>
-                        </a>
-                    </li>
-                    <li class="nav-item-container">
-                        <a href="{{ '/about/' | relative_url }}">
-                            <i class="fas fa-users"></i>
-                            <span class="nav-label">支队传承</span>
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li>
-                                <a href="{{ '/about/mission/' | relative_url }}">
-                                    <i class="fas fa-star"></i>
-                                    <span class="nav-label">我们的使命</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="{{ '/about/timeline/' | relative_url }}">
-                                    <i class="fas fa-history"></i>
-                                    <span class="nav-label">时间轴</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="{{ '/about/members/' | relative_url }}">
-                                    <i class="fas fa-user-friends"></i>
-                                    <span class="nav-label">成员星群</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="{{ '/about/handbook/' | relative_url }}">
-                                    <i class="fas fa-book"></i>
-                                    <span class="nav-label">工作手册</span>
-                                </a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="nav-item-container">
-                        <a href="{{ '/species/' | relative_url }}">
-                            <i class="fas fa-feather-alt"></i>
-                            <span class="nav-label">物种图鉴</span>
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li>
-                                <a href="{{ '/species/birds/' | relative_url }}">
-                                    <i class="fas fa-dove"></i>
-                                    <span class="nav-label">鸟类图鉴</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="{{ '/species/plants/' | relative_url }}">
-                                    <i class="fas fa-leaf"></i>
-                                    <span class="nav-label">植物图鉴</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="{{ '/species/insects/' | relative_url }}">
-                                    <i class="fas fa-bug"></i>
-                                    <span class="nav-label">昆虫图鉴</span>
-                                </a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="nav-item-container">
-                        <a href="{{ '/reports/' | relative_url }}">
-                            <i class="fas fa-file-alt"></i>
-                            <span class="nav-label">调研成果</span>
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li>
-                                <a href="{{ '/reports/biodiversity/' | relative_url }}">
-                                    <i class="fas fa-seedling"></i>
-                                    <span class="nav-label">多样性调研</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="{{ '/reports/ecology/' | relative_url }}">
-                                    <i class="fas fa-tree"></i>
-                                    <span class="nav-label">生态课题</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="{{ '/reports/humanities/' | relative_url }}">
-                                    <i class="fas fa-landmark"></i>
-                                    <span class="nav-label">人文调研</span>
-                                </a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="nav-item-container">
-                        <a href="{{ '/records/' | relative_url }}">
-                            <i class="fas fa-camera"></i>
-                            <span class="nav-label">行程纪实</span>
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li>
-                                <a href="{{ '/records/photos/' | relative_url }}">
-                                    <i class="fas fa-images"></i>
-                                    <span class="nav-label">摄影集</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="{{ '/records/documentary/' | relative_url }}">
-                                    <i class="fas fa-video"></i>
-                                    <span class="nav-label">纪录片</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="{{ '/records/creative/' | relative_url }}">
-                                    <i class="fas fa-palette"></i>
-                                    <span class="nav-label">文创周边</span>
-                                </a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a href="{{ '/contact/' | relative_url }}">
-                            <i class="fas fa-envelope"></i>
-                            <span class="nav-label">联系我们</span>
-                        </a>
-                    </li>
-                </ul>
-            </nav>
+                <div href="{{ '/' | relative_url }}" class="logo-text">鸟岛与<span>少年</span></div>
+            </div>
             
-            <section class="hero">
-                <h1 class="hero-title">
-                    <span>守护飞羽家园</span>
-                    <span>谱写青春华章</span>
-                </h1>
-                <p>清华大学"鸟岛与少年"实践支队，二十年如一日守护候鸟迁徙通道，用青春记录生态变迁，用行动践行绿色使命</p>
-                <a href="{{ '/about/' | relative_url }}" class="cta-button">探索我们的故事 <i class="fas fa-arrow-right"></i></a>
-            </section>
-        </header>
-    </div>
+            <!-- 移动端菜单按钮 -->
+            <div class="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+            
+            <!-- 优化后的导航链接 -->
+            <ul class="nav-links">
+                <li>
+                    <a href="{{ '/' | relative_url }}">
+                        <i class="fas fa-home"></i>
+                        <span class="nav-label">首页</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="{{ '/about/' | relative_url }}">
+                        <i class="fas fa-users"></i>
+                        <span class="nav-label">支队传承</span>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li>
+                            <a href="{{ '/about/mission/' | relative_url }}">
+                                <i class="fas fa-star"></i>
+                                <span class="nav-label">我们的使命</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="{{ '/about/timeline/' | relative_url }}">
+                                <i class="fas fa-history"></i>
+                                <span class="nav-label">时间轴</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="{{ '/about/members/' | relative_url }}">
+                                <i class="fas fa-user-friends"></i>
+                                <span class="nav-label">成员星群</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="{{ '/about/handbook/' | relative_url }}">
+                                <i class="fas fa-book"></i>
+                                <span class="nav-label">工作手册</span>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="{{ '/species/' | relative_url }}">
+                        <i class="fas fa-feather-alt"></i>
+                        <span class="nav-label">物种图鉴</span>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li>
+                            <a href="{{ '/species/birds/' | relative_url }}">
+                                <i class="fas fa-dove"></i>
+                                <span class="nav-label">鸟类图鉴</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="{{ '/species/plants/' | relative_url }}">
+                                <i class="fas fa-leaf"></i>
+                                <span class="nav-label">植物图鉴</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="{{ '/species/insects/' | relative_url }}">
+                                <i class="fas fa-bug"></i>
+                                <span class="nav-label">昆虫图鉴</span>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="{{ '/reports/' | relative_url }}">
+                        <i class="fas fa-file-alt"></i>
+                        <span class="nav-label">调研成果</span>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li>
+                            <a href="{{ '/reports/biodiversity/' | relative_url }}">
+                                <i class="fas fa-seedling"></i>
+                                <span class="nav-label">多样性调研</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="{{ '/reports/ecology/' | relative_url }}">
+                                <i class="fas fa-tree"></i>
+                                <span class="nav-label">生态课题</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="{{ '/reports/humanities/' | relative_url }}">
+                                <i class="fas fa-landmark"></i>
+                                <span class="nav-label">人文调研</span>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="{{ '/records/' | relative_url }}">
+                        <i class="fas fa-camera"></i>
+                        <span class="nav-label">行程纪实</span>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li>
+                            <a href="{{ '/records/photos/' | relative_url }}">
+                                <i class="fas fa-images"></i>
+                                <span class="nav-label">摄影集</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="{{ '/records/documentary/' | relative_url }}">
+                                <i class="fas fa-video"></i>
+                                <span class="nav-label">纪录片</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="{{ '/records/creative/' | relative_url }}">
+                                <i class="fas fa-palette"></i>
+                                <span class="nav-label">文创周边</span>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="{{ '/contact/' | relative_url }}">
+                        <i class="fas fa-envelope"></i>
+                        <span class="nav-label">联系我们</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        
+        <section class="hero">
+            <h1 class="hero-title">
+                <span>守护飞羽家园</span>
+                <span>谱写青春华章</span>
+            </h1>
+            <p>清华大学"鸟岛与少年"实践支队，二十年如一日守护候鸟迁徙通道，用青春记录生态变迁，用行动践行绿色使命</p>
+            <a href="{{ '/about/' | relative_url }}" class="cta-button">探索我们的故事 <i class="fas fa-arrow-right"></i></a>
+        </section>
+    </header>
 
     <script>
         // 简单的Logo点击效果
