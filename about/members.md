@@ -11,6 +11,7 @@ permalink: /about/members
 <div class="gallery-grid">
     <div class="gallery-item">
         <img src="{{ '/assets/images/members/2025/鲍韵涵.jpg' | relative_url }}" alt="鲍韵涵">
+        <div class="gallery-caption-overlay">这里是一句话简介内容</div>
         <div class="gallery-caption">鲍韵涵</div>
     </div>
     <div class="gallery-item">
