@@ -10,15 +10,15 @@ permalink: /records/
 
 ## 摄影集
 
-[浏览高原风光摄影 →]({{ '/records/photos' | relative_url }})
+[浏览高原风光摄影 →]({{ '/records/photos/' | relative_url }})
 
 ## 纪录片
 
-[观看支队纪实影片 →]({{ '/records/documentary' | relative_url }})
+[观看支队纪实影片 →]({{ '/records/documentary/' | relative_url }})
 
 ## 文创周边
 
-[探索我们的创意作品 →]({{ '/records/creative' | relative_url }})
+[探索我们的创意作品 →]({{ '/records/creative/' | relative_url }})
 
 ---
 
