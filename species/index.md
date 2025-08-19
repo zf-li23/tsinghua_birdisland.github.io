@@ -10,15 +10,15 @@ permalink: /species/
 
 ## 鸟类图鉴
 
-[查看候鸟与留鸟图鉴 →]({{ '/species/birds' | relative_url }})
+[查看候鸟与留鸟图鉴 →]({{ '/species/birds/' | relative_url }})
 
 ## 植物图鉴
 
-[认识高原特有植物 →]({{ '/species/plants' | relative_url }})
+[认识高原特有植物 →]({{ '/species/plants/' | relative_url }})
 
 ## 昆虫图鉴
 
-[发现微观世界之美 →]({{ '/species/insects' | relative_url }})
+[发现微观世界之美 →]({{ '/species/insects/' | relative_url }})
 
 ---
 
