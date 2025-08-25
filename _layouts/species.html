@@ -236,7 +236,10 @@
                 html += `
                 <div class="species-card" data-species="${species.name}">
                     <div class="card-image">
-                        <img src="{{ '/assets/images/species/${currentPageType}/${species.image}' | relative_url }}" alt="${species.name}" onerror="this.src='{{ '/assets/images/placeholder.jpg' | relative_url }}'">
+                        {% capture img_src %}/assets/images/species/{{ currentPageType }}/{{ species.image }}{% endcapture %}
+                        <img src="{{ img_src | relative_url }}"
+                             alt="{{ species.name | default: 'species' }}"
+                             onerror="this.src='{{ '/assets/images/placeholder.jpg' | relative_url }}'">
                         <div class="conservation-badge ${statusClass}">${species.conservation_status || '未知'}</div>
                     </div>
                     <div class="card-content">
