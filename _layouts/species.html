@@ -414,7 +414,10 @@
                     
                     <div class="detail-content">
                         <div class="detail-image">
-                            <img src="{{ '/assets/images/species/${currentPageType}/${species.image}' | relative_url }}" alt="${species.name}" onerror="this.src='{{ '/assets/images/placeholder.jpg' | relative_url }}'">
+                            {% capture img_src %}/assets/images/species/{{ currentPageType }}/{{ species.image }}{% endcapture %}
+                            <img src="{{ img_src | relative_url }}"
+                                 alt="{{ species.name | default: 'species' }}"
+                                 onerror="this.src='{{ '/assets/images/placeholder.jpg' | relative_url }}'">
                         </div>
                         
                         <div class="detail-info">
