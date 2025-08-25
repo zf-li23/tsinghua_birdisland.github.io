@@ -1,0 +1,556 @@
+/* 物种图鉴专用样式 */
+
+/* 布局容器 */
+.species-container {
+    display: flex;
+    min-height: calc(100vh - 120px);
+}
+
+/* 左侧分类侧边栏 */
+.species-sidebar {
+    width: 320px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-right: 1px solid var(--border);
+    padding: 20px;
+    overflow-y: auto;
+    transition: all 0.3s ease;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.05);
+}
+
+.species-sidebar.collapsed {
+    width: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.sidebar-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+    border-bottom: 2px solid var(--primary);
+}
+
+.sidebar-header h2 {
+    margin: 0;
+    color: var(--dark);
+    font-size: 1.4rem;
+}
+
+.search-toggle {
+    background: none;
+    border: none;
+    color: var(--primary);
+    cursor: pointer;
+    font-size: 1.2rem;
+    padding: 5px;
+    border-radius: 4px;
+    transition: background-color 0.2s;
+}
+
+.search-toggle:hover {
+    background-color: var(--light);
+}
+
+/* 搜索容器 */
+.search-container {
+    margin-bottom: 20px;
+    position: relative;
+    display: none;
+}
+
+.search-container.visible {
+    display: block;
+}
+
+#speciesSearch {
+    width: 100%;
+    padding: 10px 40px 10px 15px;
+    border: 1px solid var(--border);
+    border-radius: 20px;
+    font-size: 0.9rem;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+#speciesSearch:focus {
+    border-color: var(--primary);
+}
+
+.clear-search {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    color: #999;
+    cursor: pointer;
+    font-size: 0.9rem;
+}
+
+.clear-search:hover {
+    color: var(--dark);
+}
+
+/* 分类树样式 */
+.taxonomy-tree {
+    max-height: calc(100vh - 200px);
+    overflow-y: auto;
+}
+
+.taxonomy-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.taxonomy-item {
+    margin-bottom: 5px;
+}
+
+.taxonomy-node {
+    padding: 8px 12px;
+    border-radius: 6px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    transition: background-color 0.2s;
+}
+
+.taxonomy-node:hover {
+    background-color: var(--light);
+}
+
+.taxonomy-node.species-node {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px 15px;
+}
+
+.toggle-icon {
+    margin-right: 8px;
+    width: 16px;
+    text-align: center;
+}
+
+.taxonomy-name {
+    font-weight: 500;
+    color: var(--dark);
+}
+
+.scientific-name {
+    font-size: 0.85rem;
+    color: #666;
+    font-style: italic;
+    margin-top: 2px;
+}
+
+.taxonomy-sublist {
+    list-style: none;
+    padding-left: 20px;
+    margin: 5px 0;
+    display: none;
+}
+
+.taxonomy-item.expanded .taxonomy-sublist {
+    display: block;
+}
+
+/* 右侧内容区域 */
+.species-content {
+    flex: 1;
+    padding: 30px;
+    overflow-y: auto;
+}
+
+.species-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+    padding-bottom: 15px;
+    border-bottom: 2px solid var(--border);
+}
+
+.species-header h1 {
+    margin: 0;
+    color: var(--dark);
+}
+
+.view-controls {
+    display: flex;
+    gap: 10px;
+}
+
+.view-btn {
+    background: none;
+    border: 1px solid var(--border);
+    color: var(--text);
+    padding: 8px 12px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.view-btn.active, .view-btn:hover {
+    background-color: var(--primary);
+    color: white;
+    border-color: var(--primary);
+}
+
+/* 筛选控制 */
+.filter-controls {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 25px;
+    flex-wrap: wrap;
+}
+
+.filter-group {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.filter-group label {
+    font-weight: 500;
+    color: var(--dark);
+}
+
+.filter-group select {
+    padding: 8px 12px;
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    background-color: white;
+    outline: none;
+    cursor: pointer;
+}
+
+.filter-group select:focus {
+    border-color: var(--primary);
+}
+
+/* 物种网格 */
+.species-grid {
+    display: grid;
+    gap: 25px;
+}
+
+.species-grid.grid-view {
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+}
+
+.species-grid.list-view {
+    grid-template-columns: 1fr;
+}
+
+.species-card {
+    background: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s, box-shadow 0.3s;
+    cursor: pointer;
+}
+
+.species-grid.list-view .species-card {
+    display: flex;
+}
+
+.species-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.12);
+}
+
+.card-image {
+    position: relative;
+    height: 200px;
+    overflow: hidden;
+}
+
+.species-grid.list-view .card-image {
+    width: 250px;
+    height: 180px;
+    flex-shrink: 0;
+}
+
+.card-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s;
+}
+
+.species-card:hover .card-image img {
+    transform: scale(1.05);
+}
+
+.conservation-badge {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 0.75rem;
+    font-weight: 500;
+    color: white;
+}
+
+.conservation-badge.critical { background-color: #d32f2f; }
+.conservation-badge.endangered { background-color: #f57c00; }
+.conservation-badge.vulnerable { background-color: #fbc02d; }
+.conservation-badge.near-threatened { background-color: #7b1fa2; }
+.conservation-badge.least-concern { background-color: #388e3c; }
+.conservation-badge.unknown { background-color: #616161; }
+
+.card-content {
+    padding: 15px;
+}
+
+.species-grid.list-view .card-content {
+    flex: 1;
+}
+
+.species-name {
+    margin: 0 0 5px 0;
+    color: var(--dark);
+    font-size: 1.2rem;
+}
+
+.species-desc {
+    margin: 10px 0 0 0;
+    color: #666;
+    font-size: 0.9rem;
+    line-height: 1.5;
+}
+
+/* 物种详情模态框 */
+.species-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s;
+}
+
+.species-modal.active {
+    opacity: 1;
+    visibility: visible;
+}
+
+.modal-content {
+    background: white;
+    border-radius: 12px;
+    width: 90%;
+    max-width: 800px;
+    max-height: 90vh;
+    overflow-y: auto;
+    position: relative;
+    transform: scale(0.9);
+    transition: transform 0.3s;
+}
+
+.species-modal.active .modal-content {
+    transform: scale(1);
+}
+
+.modal-close {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    color: #999;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.modal-close:hover {
+    color: var(--dark);
+}
+
+.modal-body {
+    padding: 30px;
+}
+
+/* 物种详情样式 */
+.species-detail .detail-header {
+    margin-bottom: 25px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid var(--border);
+}
+
+.species-detail .detail-header h2 {
+    margin: 0 0 5px 0;
+    color: var(--dark);
+}
+
+.detail-header .scientific-name {
+    font-size: 1.1rem;
+    color: #666;
+    font-style: italic;
+    margin-right: 15px;
+}
+
+.conservation-status {
+    padding: 4px 10px;
+    border-radius: 4px;
+    font-size: 0.85rem;
+    font-weight: 500;
+    color: white;
+}
+
+.detail-content {
+    display: flex;
+    gap: 30px;
+}
+
+.detail-image {
+    flex: 0 0 300px;
+}
+
+.detail-image img {
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.detail-info {
+    flex: 1;
+}
+
+.detail-info h3 {
+    color: var(--primary);
+    margin: 20px 0 10px 0;
+    font-size: 1.1rem;
+}
+
+.detail-info p {
+    line-height: 1.6;
+    color: #444;
+}
+
+/* 无数据/无结果样式 */
+.no-data, .no-results {
+    text-align: center;
+    padding: 40px 20px;
+    color: #888;
+    font-style: italic;
+}
+
+/* 侧边栏控制按钮 */
+.sidebar-toggle {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    width: 50px;
+    height: 50px;
+    background-color: var(--primary);
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    z-index: 200;
+    transition: all 0.3s ease;
+}
+
+.sidebar-toggle:hover {
+    background-color: var(--secondary);
+    transform: scale(1.05);
+}
+
+/* 响应式设计 */
+@media (max-width: 992px) {
+    .species-sidebar {
+        width: 280px;
+    }
+    
+    .detail-content {
+        flex-direction: column;
+    }
+    
+    .detail-image {
+        flex: none;
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .species-container {
+        flex-direction: column;
+    }
+    
+    .species-sidebar {
+        width: 100%;
+        border-right: none;
+        border-bottom: 1px solid var(--border);
+        max-height: 40vh;
+    }
+    
+    .species-sidebar.collapsed {
+        width: 100%;
+        max-height: 0;
+        padding: 0;
+    }
+    
+    .species-content {
+        padding: 20px;
+    }
+    
+    .species-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 15px;
+    }
+    
+    .filter-controls {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 15px;
+    }
+    
+    .species-grid.grid-view {
+        grid-template-columns: 1fr;
+    }
+    
+    .species-grid.list-view .species-card {
+        flex-direction: column;
+    }
+    
+    .species-grid.list-view .card-image {
+        width: 100%;
+        height: 200px;
+    }
+    
+    .modal-content {
+        width: 95%;
+        margin: 20px;
+    }
+    
+    .modal-body {
+        padding: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .sidebar-toggle {
+        bottom: 20px;
+        right: 20px;
+        width: 45px;
+        height: 45px;
+    }
+}
