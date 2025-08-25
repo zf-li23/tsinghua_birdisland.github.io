@@ -1,36 +1,40 @@
-- family: "禾本科"
-  genera:
-    - genus: "针茅属"
-      species:
-        - name: "西北针茅"
-          scientific_name: "Stipa sareptana"
-          description: "多年生草本植物，高30-70厘米。叶片细长卷曲，圆锥花序狭窄。适应干旱环境，是草原和荒漠草原的重要组成物种。"
-          image: "northwest_needlegrass.jpg"
-          conservation_status: "LC"
-          habitat: "草原、荒漠草原"
-          distribution: "中国西北地区、蒙古、中亚"
-          conservation_notes: "种群稳定，是重要的牧草资源"
-
-    - genus: "芨芨草属"
-      species:
-        - name: "芨芨草"
-          scientific_name: "Achnatherum splendens"
-          description: "高大丛生草本植物，高可达2.5米。叶片坚韧，圆锥花序大型。耐盐碱、抗旱，是盐碱地的重要植被。"
-          image: "splendid_achnatherum.jpg"
-          conservation_status: "LC"
-          habitat: "盐碱地、河岸、荒漠"
-          distribution: "中国西北、华北、东北及蒙古、中亚"
-          conservation_notes: "种群稳定，具有固沙和改良盐碱地的作用"
-
-- family: "菊科"
-  genera:
-    - genus: "紫菀属"
-      species:
-        - name: "青藏狗娃花"
-          scientific_name: "Heteropappus boweri"
-          description: "多年生草本植物，高10-30厘米。头状花序单生枝顶，舌状花蓝紫色。适应高寒环境，是高山草甸的常见植物。"
-          image: "tibetan_heteropappus.jpg"
-          conservation_status: "LC"
-          habitat: "高山草甸、草原"
-          distribution: "青藏高原及周边地区"
-          conservation_notes: "种群稳定，高原生态系统的重要组成部分"
+- order: "禾本目"
+  families:
+    - family: "禾本科"
+      genera:
+        - genus: "针茅属"
+          species:
+            - name: "西北针茅"
+              scientific_name: "Stipa sareptana"
+              description: "多年生草本植物，高30-70厘米。叶片细长卷曲，圆锥花序狭窄。适应干旱环境，是草原和荒漠草原的重要组成物种。"
+              image: "northwest_needlegrass.jpg"
+              conservation_status: "LC"
+              habitat: "草原、荒漠草原"
+              distribution: "中国西北地区、蒙古、中亚"
+              conservation_notes: "种群稳定，是重要的牧草资源"
+    
+        - genus: "芨芨草属"
+          species:
+            - name: "芨芨草"
+              scientific_name: "Achnatherum splendens"
+              description: "高大丛生草本植物，高可达2.5米。叶片坚韧，圆锥花序大型。耐盐碱、抗旱，是盐碱地的重要植被。"
+              image: "splendid_achnatherum.jpg"
+              conservation_status: "LC"
+              habitat: "盐碱地、河岸、荒漠"
+              distribution: "中国西北、华北、东北及蒙古、中亚"
+              conservation_notes: "种群稳定，具有固沙和改良盐碱地的作用"
+    
+- order: "菊目"
+  families:
+    - family: "菊科"
+      genera:
+        - genus: "紫菀属"
+          species:
+            - name: "青藏狗娃花"
+              scientific_name: "Heteropappus boweri"
+              description: "多年生草本植物，高10-30厘米。头状花序单生枝顶，舌状花蓝紫色。适应高寒环境，是高山草甸的常见植物。"
+              image: "tibetan_heteropappus.jpg"
+              conservation_status: "LC"
+              habitat: "高山草甸、草原"
+              distribution: "青藏高原及周边地区"
+              conservation_notes: "种群稳定，高原生态系统的重要组成部分"
