@@ -1,0 +1,62 @@
+- order: "雁形目"
+  families:
+    - family: "鸭科"
+      genera:
+        - genus: "雁属"
+          species:
+            - name: "灰雁"
+              scientific_name: "Anser anser"
+              description: "大型雁类，体长70-90厘米，体重2.5-4千克。嘴和脚肉色，上体灰褐色，下体污白色，飞行时浅色的翼前区和深色的飞羽形成对比。栖息于湖泊、河流和沼泽地带，以植物性食物为食。"
+              image: "grey_goose.jpg"
+              conservation_status: "LC"
+              habitat: "湖泊、河流、沼泽"
+              distribution: "欧亚大陆广泛分布"
+              conservation_notes: "种群数量稳定，无生存危机"
+
+            - name: "白额雁"
+              scientific_name: "Anser albifrons"
+              description: "中等体型雁类，体长64-80厘米。额部有一明显白斑，胸部和颈部有黑色横斑。栖息于苔原、沼泽和农田，以植物嫩芽、根茎和谷物为食。"
+              image: "white-fronted_goose.jpg"
+              conservation_status: "LC"
+              habitat: "苔原、沼泽、农田"
+              distribution: "繁殖于北极地区，越冬于温带地区"
+              conservation_notes: "种群数量较多，但受栖息地丧失威胁"
+
+        - genus: "鸭属"
+          species:
+            - name: "绿头鸭"
+              scientific_name: "Anas platyrhynchos"
+              description: "最常见的野鸭，体长50-65厘米。雄鸟头颈部绿色，颈部有白色颈环，胸部栗色；雌鸟全身棕褐色带有深色斑点。栖息于各种水域环境，适应性强。"
+              image: "mallard.jpg"
+              conservation_status: "LC"
+              habitat: "湖泊、河流、池塘、沼泽"
+              distribution: "北半球广泛分布"
+              conservation_notes: "种群数量丰富，是最常见的野鸭之一"
+
+    - family: "鹈鹕科"
+      genera:
+        - genus: "鹈鹕属"
+          species:
+            - name: "白鹈鹕"
+              scientific_name: "Pelecanus onocrotalus"
+              description: "大型水禽，体长140-175厘米，翼展可达3米。具有巨大的喉囊，用于捕鱼。全身白色，飞羽黑色。集群繁殖，善于游泳和飞行。"
+              image: "white_pelican.jpg"
+              conservation_status: "LC"
+              habitat: "大型湖泊、沼泽、河口"
+              distribution: "欧洲东南部至中亚和非洲"
+              conservation_notes: "局部地区数量下降，但整体种群稳定"
+
+- order: "鹤形目"
+  families:
+    - family: "鹤科"
+      genera:
+        - genus: "鹤属"
+          species:
+            - name: "黑颈鹤"
+              scientific_name: "Grus nigricollis"
+              description: "大型涉禽，体长约115厘米。头、颈和飞羽黑色，身体灰白色，头顶有红色皮肤裸露。栖息于高原湿地，是世界上唯一生长、繁殖在高原的鹤类。"
+              image: "black-necked_crane.jpg"
+              conservation_status: "VU"
+              habitat: "高原湖泊、沼泽、河流"
+              distribution: "青藏高原及周边地区"
+              conservation_notes: "受栖息地丧失和人为干扰威胁，中国国家一级保护动物"
