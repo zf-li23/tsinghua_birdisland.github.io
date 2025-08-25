@@ -54,21 +54,13 @@ tsinghua_birdisland.github.io/
 
 ## 使用说明
 
-### 1. 本地预览
-
-1. 安装 Ruby 和 Bundler  
-   `gem install bundler`
-2. 安装依赖  
-   `bundle install`
-3. 启动本地服务  
-   `bundle exec jekyll serve`
-4. 访问  
-   `http://localhost:4000/tsinghua_birdisland.github.io/`
+### 1. 预览
+访问`[鸟岛与少年](https://zf-li23.github.io/tsinghua_birdisland.github.io/)`
 
 ### 2. 编辑内容
 
 - **首页**：编辑 `index.html`，使用 `layout: home`
-- **栏目页**：在对应目录（如 `about/`）下编辑或新增 `.md` 文件，YAML 头部指定 `layout: default`
+- **栏目页**：在对应目录（如 `about/`）下编辑 `.md` 文件，YAML 头部指定 `layout: default`
 - **导航与页眉/页脚**：修改 `_includes/header.html`、`header_home.html`、`footer.html`
 - **样式**：编辑 `assets/css/style.css` 或 `style_home.css`
 
@@ -86,7 +78,7 @@ tsinghua_birdisland.github.io/
 
 ### 4. 路径与 baseurl
 
-- 所有资源和链接请使用 `{{ '/路径' | relative_url }}` 或 `{{ site.baseurl }}`，确保在 GitHub Pages 子路径下正常访问。
+- 所有资源和链接请使用 `{{ '/路径/' | relative_url }}` 或 `{{ site.baseurl }}`，确保在 GitHub Pages 子路径下正常访问。
 
 ---
 
