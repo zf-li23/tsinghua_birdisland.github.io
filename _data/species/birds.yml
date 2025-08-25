@@ -11,8 +11,7 @@
               conservation_status: "LC"
               habitat: "湖泊、河流、沼泽"
               distribution: "欧亚大陆广泛分布"
-              conservation_notes: "种群数量稳定，无生存危机"
-
+              
             - name: "白额雁"
               scientific_name: "Anser albifrons"
               description: "中等体型雁类，体长64-80厘米。额部有一明显白斑，胸部和颈部有黑色横斑。栖息于苔原、沼泽和农田，以植物嫩芽、根茎和谷物为食。"
