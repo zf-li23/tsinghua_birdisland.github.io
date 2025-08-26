@@ -33,3 +33,7 @@ permalink: /about/
 ## 工作手册
 
 [获取支队工作指南 →]({{ '/about/handbook/' | relative_url }})
+
+---
+
+_“我们肩负传承的使命，也肩负崭新的未来”_
