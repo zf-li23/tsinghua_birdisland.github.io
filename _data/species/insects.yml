@@ -1,20 +1,277 @@
-- order: "鳞翅目"
+- order: 鳞翅目
   families:
-    - family: "凤蝶科"
-      genera:
-        - genus: "凤蝶属"
-          species:
-            - name: "金凤蝶"
-              scientific_name: "Papilio machaon"
-              description: "翅展74～95 毫米。翅黄色，前翅外缘有黑色宽带，宽带内嵌有8个黄色椭圆斑，中室端部有2个黑斑，翅基部1/3为黑色，宽带及基部黑色区上散生黄色鳞粉；后翅外缘黑色宽带嵌有6个黄色新月斑，其内方另有略呈新月形的蓝斑，臀角有1个赭黄色斑，大而明显，中间没有黑点。翅反面斑纹同正面，但色较浅。本种分春、夏两型。5-6月发生的为春型，个体较小；7-8月发生的为夏型，体型较大。"
-              images:
-                - "金凤蝶.jpg"
-              conservation_status: "LC"
-              habitat: "广泛栖息，寄主为伞形科植物"
-              distribution: "欧洲及亚洲的全北区，并北美洲"
-              conservation_notes: "在欧亚大陆非常普遍，在物种层面并未有危害，但在韩国、奥地利及以往的苏联被列为易危"
-              references:
-                - name: "iNaturalist-金凤蝶"
-                  url: "https://www.inaturalist.org/taxa/56529-Papilio-machaon"
-                - name: "国家动物标本资源库-金凤蝶"
-                  url: "https://www.inaturalist.org/taxa/56529-Papilio-machaon"
+  - family: 凤蝶科
+    genera:
+    - genus: 凤蝶属
+      species:
+      - name: 金凤蝶
+        scientific_name: Papilio machaon
+        description: 翅展74～95 毫米。翅黄色，前翅外缘有黑色宽带，宽带内嵌有8个黄色椭圆斑，中室端部有2个黑斑，翅基部1/3为黑色，宽带及基部黑色区上散生黄色鳞粉；后翅外缘黑色宽带嵌有6个黄色新月斑，其内方另有略呈新月形的蓝斑，臀角有1个赭黄色斑，大而明显，中间没有黑点。翅反面斑纹同正面，但色较浅。本种分春、夏两型。5-6月发生的为春型，个体较小；7-8月发生的为夏型，体型较大。
+        images:
+        - 金凤蝶.jpg
+        conservation_status: LC
+        habitat: 广泛栖息，寄主为伞形科植物
+        distribution: 欧洲及亚洲的全北区，并北美洲
+        conservation_notes: 在欧亚大陆非常普遍，在物种层面并未有危害，但在韩国、奥地利及以往的苏联被列为易危
+        references:
+        - name: iNaturalist-金凤蝶
+          url: https://www.inaturalist.org/taxa/56529-Papilio-machaon
+        - name: 国家动物标本资源库-金凤蝶
+          url: http://museum.ioz.ac.cn/species_detail.aspx?id=43152
+  - family: 灰蝶科
+    genera:
+    - genus: 眼灰蝶属
+      species:
+      - name: 多眼灰蝶
+        scientific_name: Polyommatus eros
+        description: 雄蝶翅面呈蓝紫色并带有黑色缘带及外缘圆点列，雌蝶则为暗褐色并具橙红色斑纹。
+        images:
+        - 多眼灰蝶.jpg
+        conservation_status: LC
+        habitat: 从海拔800米的丘陵地带至4500米的高山草甸，寄主为豆科
+        distribution: 中国黑龙江、吉林、河北、西藏等12个省份，以及日本、朝鲜和欧洲地区
+        conservation_notes: 无需保护
+        references:
+        - name: iNaturalist-多眼灰蝶
+          url: https://www.inaturalist.org/taxa/479968-Polyommatus-eros
+        - name: 国家动物标本资源库-多眼灰蝶
+          url: http://museum.ioz.ac.cn/species_detail.aspx?id=16710
+    - genus: 红珠灰蝶属
+      species:
+      - name: 红珠灰蝶
+        scientific_name: Lycaeides argyrognomon
+        description: 即Plebejus argyrognomon，一些研究认为属豆灰蝶属。翅呈白色半透明羽毛状，前翅及前缘覆盖橙色鳞片，翅面分布黑色斑纹且雌雄异型特征显著。雄蝶翅面呈篮紫色，前翅无斑纹，后翅外缘具黑色斑纹；雌蝶翅面为黑褐色，后翅外缘黑斑带有不明显的红色环纹。
+        images:
+        - 红珠灰蝶.jpg
+        conservation_status: LC
+        habitat: 草原、荒地
+        distribution: 亚欧大陆温带广泛分布
+        conservation_notes: 无需保护
+        references:
+        - name: iNaturalist-红珠灰蝶
+          url: https://www.inaturalist.org/taxa/346129-Plebejus-argyrognomon
+        - name: 国家动物标本资源库-红珠灰蝶
+          url: http://museum.ioz.ac.cn/species_detail.aspx?id=16746
+  - family: 粉蝶科
+    genera:
+    - genus: 云粉蝶属
+      species:
+      - name: 云粉蝶
+        scientific_name: Pontia edusa
+        description: 翅展33-53毫米，翅面以白色为主，具黑褐色斑纹，雄蝶前翅顶角有黑带及小白斑，雌蝶前翅基部覆盖黑褐色鳞粉。春型个体较小且后翅反面呈深褐色，夏型较大且黄绿色斑纹显著。
+        images:
+        - 云粉蝶.jpg
+        conservation_status: LC
+        habitat: 林缘、荒地及城市绿地，寄主包括萝卜、白菜等十字花科蔬菜和豆科植物
+        distribution: 中国20余个省区及欧洲、北非至西伯利亚等地
+        conservation_notes: 无需保护
+        references:
+        - name: iNaturalist-云粉蝶
+          url: https://www.inaturalist.org/taxa/127103-Pontia-edusa
+        - name: 国家动物标本资源库-云粉蝶
+          url: http://museum.ioz.ac.cn/topic_detail.aspx?id=14918
+    - genus: 粉蝶属
+      species:
+      - name: 菜粉蝶
+        scientific_name: Pieris rapae
+        description: 体灰黑色，翅粉白色；雌蝶前翅基部大部分灰黑色，顶角有1个三角形黑斑；雄蝶前翅基部黑色部分和顶角的三角形黑斑均较小。
+        images:
+        - 菜粉蝶.jpg
+        conservation_status: LC
+        habitat: 农田，特别是菜地、荒地及城市公园绿化地等
+        distribution: 中国各地，美洲北部到印度东部均有分布
+        conservation_notes: 无需保护，需防治
+        references:
+        - name: iNaturalist-菜粉蝶
+          url: https://www.inaturalist.org/taxa/55626-Pieris-rapae
+        - name: 国家动物标本资源库-菜粉蝶
+          url: http://museum.ioz.ac.cn/species_detail.aspx?id=16910
+    - genus: 豆粉蝶属
+      species:
+      - name: 橙黄豆粉蝶
+        scientific_name: Colias fieldii
+        description: 翅为橙红色，前后翅外缘有黑色的宽带，雌蝶在带中有1列橙黄色的斑纹，雄蝶则无斑纹，但黑带的内侧边缘较雌蝶整齐；前后翅中室端的黑斑及橙黄色点都较斑缘豆粉蝶大。缘毛粉红色。翅反面颜色较淡，亚端有1列暗色斑。
+        images:
+        - 橙黄豆粉蝶.jpg
+        conservation_status: LC
+        habitat: 山谷、溪流及林缘，寄主为以豆科植物如大豆、苜蓿
+        distribution: 中国中西部及甘肃、青海、陕西、四川等地
+        conservation_notes: 无需保护，零星发生，不单独采取防治措施
+        references:
+        - name: iNaturalist-橙黄豆粉蝶
+          url: https://www.inaturalist.org/taxa/125602-Colias-fieldii
+        - name: 国家动物标本资源库-橙黄豆粉蝶
+          url: http://museum.ioz.ac.cn/species_detail.aspx?id=32992
+      - name: 斑缘豆粉蝶
+        scientific_name: Colias erate
+        description: 前翅长23-30 mm，呈翅三角形，前缘略凸，后缘直。翅背面底色黄色，前翅外缘有明显黑褐色边及窗格状小纹，中室末端有黑斑；后翅外缘有黑褐斑列，中室末端具橙黄色斑。翅腹面多为橙黄色，前翅有列状黑褐斑与中室黑斑；后翅有银斑及弧形红褐点列，中室末端另有两枚白斑。
+        images:
+        - 斑缘豆粉蝶.jpg
+        conservation_status: LC
+        habitat: 开阔草地、森林边缘及荒地，寄主为豆科植物如白花三叶草、天蓝苜蓿、草木樨和印度草木樨
+        distribution: 从东南欧、经由土耳其横跨中亚，一直到日本与台湾。往南延伸则达至索马里与埃塞俄比亚
+        conservation_notes: 无需保护
+        references:
+        - name: iNaturalist-斑缘豆粉蝶
+          url: https://www.inaturalist.org/taxa/345997-Colias-erate
+        - name: 国家动物标本资源库-斑缘豆粉蝶
+          url: http://museum.ioz.ac.cn/species_detail.aspx?id=9119
+  - family: 蛱蝶科
+    genera:
+    - genus: 仁眼蝶属
+      species:
+      - name: 仁眼蝶
+        scientific_name: Hipparchia autonoe
+        description: 翅棕褐色。前翅亚外缘前后有2个黄白色斑，斑内各有1个黑色眼斑。后翅有1条白色曲折的中带。前后翅反面各有1条黑褐色亚外缘线，后翅脉纹白色，近臀角有1个小的黑色眼斑。
+        images:
+        - 仁眼蝶.jpg
+        conservation_status: LC
+        habitat: 高山草甸以及富含丰富水源的地方
+        distribution: 陕西、山西、甘肃、黑龙江、内蒙古、青海、河北、蒙古、俄罗斯、哈萨克斯坦
+        conservation_notes: 无需保护
+        references:
+        - name: iNaturalist-仁眼蝶
+          url: https://www.inaturalist.org/taxa/779100-Hipparchia-autonoe
+        - name: 国家动物标本资源库-仁眼蝶
+          url: http://museum.ioz.ac.cn/species_detail.aspx?id=42391
+    - genus: 珍眼蝶属
+      species:
+      - name: 牧女珍眼蝶
+        scientific_name: Coenonympha amaryllis
+        description: 棒状触角，触角端部逐渐加粗，足纤细，翅面土黄色，前翅翅脉基部加粗，其前翅基部三条脉明显膨大；但是翅背色淡，前翅亚缘区有一列黑色眼纹，后翅亚缘区一列6个黄圈黑眼纹；前后翅，亚前缘线呈银白色，波状，内侧有橙色条纹。
+        images:
+        - 牧女珍眼蝶.jpg
+        conservation_status: LC
+        habitat: 草地，寄主为莎草科薹草属
+        distribution: 中国东北、华北、西北地区、蒙古、俄罗斯
+        conservation_notes: 无需保护
+        references:
+        - name: iNaturalist-牧女珍眼蝶
+          url: https://www.inaturalist.org/taxa/777342-Coenonympha-amaryllis
+        - name: 国家动物标本资源库-牧女珍眼蝶
+          url: http://museum.ioz.ac.cn/species_detail.aspx?id=18011
+    - genus: 珠蛱蝶属
+      species:
+      - name: 曲斑珠蛱蝶
+        scientific_name: Issoria eugenia
+        description: '翅面橙红色，前翅基部和后翅基半部黑色。前翅反面顶角有1个紫血色三角斑，外缘上段有珍珠白色斑冠以黑边。后翅反面底色紫红色，外缘珍珠白色斑列围有黑边，亚外缘黑斑列附有珍珠白色三角形斑，翅基半部有5个形状不同的珍珠白色斑，中室内1个小，中室端外m:室基珍珠白斑呈扭曲三角形。
+
+          '
+        images:
+        - 曲斑珠蛱蝶.jpg
+        conservation_status: LC
+        habitat: 高寒草甸
+        distribution: 陕西、四川、西藏、青海、甘肃、云南、蒙古、俄罗斯
+        conservation_notes: 无需保护
+        references:
+        - name: iNaturalist-曲斑珠蛱蝶
+          url: https://www.inaturalist.org/taxa/780111-Issoria-eugenia
+        - name: 国家动物标本资源库-曲斑珠蛱蝶
+          url: http://museum.ioz.ac.cn/species_detail.aspx?id=8570
+    - genus: 白眼蝶属
+      species:
+      - name: 甘藏白眼蝶
+        scientific_name: Melanargia ganymedes
+        description: 与白眼蝶M. halimede近似，前翅与后翅的白色区域均较大，后翅Cu1、Cu2和2A室的黑斑显著小于其他近缘种，翅反面外缘线清晰完整，亚外缘区域的眼状斑纹呈现完整环形结构。
+        images:
+        - 甘藏白眼蝶.jpg
+        conservation_status: LC
+        habitat: 中高海拔林缘开阔地带，高寒草甸
+        distribution: 甘肃天水、甘南地区、四川、青海
+        conservation_notes: 中国特有种，目前无需保护
+        references:
+        - name: iNaturalist-甘藏白眼蝶
+          url: https://www.inaturalist.org/taxa/1021034-Melanargia-ganymedes
+        - name: 国家动物标本资源库-甘藏白眼蝶
+          url: http://museum.ioz.ac.cn/species_detail.aspx?id=53342
+    - genus: 红蛱蝶属
+      species:
+      - name: 小红蛱蝶
+        scientific_name: Vanessa cardui
+        description: 色彩鲜艳，花纹相当复杂。体较细小；翅较大；触角笔直，呈棒状；前足相当退化，短小无爪。前翅R脉5条，常共柄。卵呈多种形状，如半圆球形、馒头形、香瓜形或钵形。
+        images:
+        - 小红蛱蝶.jpg
+        conservation_status: LC
+        habitat: 温带广布
+        distribution: 除了南极洲及南美洲以外的所有大陆
+        conservation_notes: 无需保护
+        references:
+        - name: iNaturalist-小红蛱蝶
+          url: https://www.inaturalist.org/taxa/48548-Vanessa-cardui
+        - name: 国家动物标本资源库-小红蛱蝶
+          url: http://museum.ioz.ac.cn/species_detail.aspx?id=37188
+    - genus: 网蛱蝶属
+      species:
+      - name: 网蛱蝶（未定种）
+        scientific_name: Melitaea sp.
+        description: nan
+        images:
+        - 网蛱蝶（未定种）.jpg
+        conservation_status: LC
+        habitat: nan
+        distribution: nan
+        conservation_notes: nan
+        references:
+        - name: iNaturalist-网蛱蝶（未定种）
+          url: https://www.inaturalist.org/taxa/57496-Melitaea
+    - genus: 蛇眼蝶属
+      species:
+      - name: 异点蛇眼蝶
+        scientific_name: Minois dryas ssp. paupera
+        description: 即Minois paupera，蛇眼蝶亚种，似蛇眼蝶Minois dryas (Scopoli)，前翅眼斑2枚，前大后小，眶浅黄色；后翅外缘平滑，于M3脉处略向外突出；亚缘眼斑2~4枚，自前向后渐大；眶暗橙红色。
+          前翅反面眼斑较正面大。后翅反面亚缘线及内、外横线皆模糊；亚缘区cu1室内具1枚黑色小斑，外缘线内侧区域灰黄色。
+        images:
+        - 异点蛇眼蝶.jpg
+        conservation_status: LC
+        habitat: 林缘、灌丛、草甸
+        distribution: 青海、甘肃、四川唐家河
+        conservation_notes: 部分研究将其视为独立种，无需保护
+        references:
+        - name: iNaturalist-异点蛇眼蝶
+          url: https://www.inaturalist.org/taxa/326385-Minois-dryas-paupera
+        - name: 国家动物标本资源库-异点蛇眼蝶
+          url: http://museum.ioz.ac.cn/species_detail.aspx?id=44753
+    - genus: 闪蛱蝶属
+      species:
+      - name: 柳紫闪蛱蝶
+        scientific_name: Apatura ilia
+        description: 成虫翅展59～64mm。翅黑褐色，翅膀在阳光下能闪烁出强烈的紫光。前翅约有10个白斑，中室内有4个黑点；反面有1个黑色蓝瞳眼斑，围有棕色眶。后翅中央有1条白色横带，并有1个与域前翅相似的小眼斑。反面白色带上端很宽，下端尖削成楔形带，中室端部尖出显著。
+        images:
+        - 柳紫闪蛱蝶.jpg
+        conservation_status: LC
+        habitat: 寄主为杨柳科
+        distribution: 大部分欧洲地区及横跨古北界直到日本
+        conservation_notes: 无需保护
+        references:
+        - name: iNaturalist-柳紫闪蛱蝶
+          url: https://www.inaturalist.org/taxa/322024-Apatura-ilia
+        - name: 国家动物标本资源库-柳紫闪蛱蝶
+          url: http://museum.ioz.ac.cn/species_detail.aspx?id=11840
+    - genus: 麻蛱蝶属
+      species:
+      - name: 荨麻蛱蝶
+        scientific_name: Aglais urticae
+        description: 翅橘红色。前翅前缘黄色，有3块黑斑，后缘中部有1个大黑斑，中域有2个较小黑斑；后翅基半部灰色。两翅亚缘黑色带中有淡蓝色三角形斑列。反面前翅黑赭色，3个黑色前缘斑与正面一样，顶角和端缘带黑色；后翅褐色，基半部黑色。外缘有模糊的蓝色新月纹。
+        images:
+        - 荨麻蛱蝶.jpg
+        conservation_status: LC
+        habitat: 温带广布，寄主为荨麻科
+        distribution: 北京、西藏、东北、甘肃、青海、新疆、欧洲
+        conservation_notes: 无需保护
+        references:
+        - name: iNaturalist-荨麻蛱蝶
+          url: https://www.inaturalist.org/taxa/54468-Aglais-urticae
+        - name: 国家动物标本资源库-荨麻蛱蝶
+          url: http://museum.ioz.ac.cn/species_detail.aspx?id=12379
+      - name: 西藏麻蛱蝶
+        scientific_name: Aglais ladakensis
+        description: 翅展46–53mm，前翅外缘弧形，不呈镰刀状，翅端在第五、六脉之间不突出。上翅底色与斑纹与藏麻蛱蝶相似：前翅中域有一宽大黑色斑，延伸至中脉并与中室内的横带相连；基部第三条间隙有一长三角形黑斑连接中室后方的短横带；第二、三间隙各有一小黑圆点位于黄色带上。后翅亚端部有一列较大的黑色锥形斑，每个中心具蓝色大斑。
+        images:
+        - 西藏麻蛱蝶.jpg
+        conservation_status: LC
+        habitat: 海拔3000-4500米的高山草甸、灌丛、流石滩等
+        distribution: 青海、西藏
+        conservation_notes: 无需保护
+        references:
+        - name: iNaturalist-西藏麻蛱蝶
+          url: https://www.inaturalist.org/taxa/357613-Aglais-ladakensis
