@@ -172,8 +172,7 @@
             data.forEach(order => {
                 html += `
                 <li class="taxonomy-item">
-                    <div class="taxonomy-node" data-type="order" data-id="${order.order}" 
-                         data-path="${order.order}">
+                    <div class="taxonomy-node" data-type="order" data-id="${order.order}">
                         <span class="toggle-icon"><i class="fas fa-caret-right"></i></span>
                         <span class="taxonomy-name">${order.order}</span>
                     </div>
@@ -182,8 +181,7 @@
                 order.families.forEach(family => {
                     html += `
                     <li class="taxonomy-item">
-                        <div class="taxonomy-node" data-type="family" data-id="${family.family}" 
-                             data-path="${order.order}/${family.family}">
+                        <div class="taxonomy-node" data-type="family" data-id="${family.family}">
                             <span class="toggle-icon"><i class="fas fa-caret-right"></i></span>
                             <span class="taxonomy-name">${family.family}</span>
                         </div>
@@ -192,8 +190,7 @@
                     family.genera.forEach(genus => {
                         html += `
                         <li class="taxonomy-item">
-                            <div class="taxonomy-node" data-type="genus" data-id="${genus.genus}" 
-                                 data-path="${order.order}/${family.family}/${genus.genus}">
+                            <div class="taxonomy-node" data-type="genus" data-id="${genus.genus}">
                                 <span class="toggle-icon"><i class="fas fa-caret-right"></i></span>
                                 <span class="taxonomy-name">${genus.genus}</span>
                             </div>
@@ -202,8 +199,7 @@
                         genus.species.forEach(species => {
                             html += `
                             <li class="taxonomy-item">
-                                <div class="taxonomy-node species-node" data-type="species" data-id="${species.name}" 
-                                     data-path="${order.order}/${family.family}/${genus.genus}/${species.name}">
+                                <div class="taxonomy-node species-node" data-type="species" data-id="${species.name}">
                                     <span class="taxonomy-name">${species.name}</span>
                                     <span class="scientific-name">${species.scientific_name}</span>
                                 </div>
@@ -218,7 +214,7 @@
                 
                 html += `</ul></li>`;
             });
-                
+            
             html += '</ul>';
             taxonomyTree.innerHTML = html;
         }
@@ -280,19 +276,7 @@
               });
             });
           });
-            
-            // 应用分类路径筛选
-            if (currentFilters.taxonomy) {
-                const { type, path } = currentFilters.taxonomy;
-                if (type === 'order') {
-                    allSpecies = allSpecies.filter(species => species.path.startsWith(path));
-                } else if (type === 'family') {
-                    allSpecies = allSpecies.filter(species => species.path.startsWith(path));
-                } else if (type === 'genus') {
-                    allSpecies = allSpecies.filter(species => species.path.startsWith(path));
-                }
-            }
-              
+          
           // 应用搜索过滤
           if (currentFilters.search) {
             const searchTerm = currentFilters.search.toLowerCase();
@@ -368,7 +352,6 @@
                 
                 const type = node.dataset.type;
                 const id = node.dataset.id;
-                const path = node.dataset.path;
                 
                 if (type === 'species') {
                     // 显示物种详情
@@ -383,33 +366,17 @@
                         const icon = node.querySelector('.toggle-icon i');
                         if (parentItem.classList.contains('expanded')) {
                             icon.className = 'fas fa-caret-down';
-                            
-                            // 自动展开所有父级节点
-                            let currentParent = parentItem.parentElement.closest('.taxonomy-item');
-                            while (currentParent) {
-                                currentParent.classList.add('expanded');
-                                const parentIcon = currentParent.querySelector('.toggle-icon i');
-                                if (parentIcon) parentIcon.className = 'fas fa-caret-down';
-                                currentParent = currentParent.parentElement.closest('.taxonomy-item');
-                            }
                         } else {
                             icon.className = 'fas fa-caret-right';
-                            
-                            // 折叠所有子节点
-                            const subItems = parentItem.querySelectorAll('.taxonomy-item');
-                            subItems.forEach(item => {
-                                item.classList.remove('expanded');
-                                const subIcon = item.querySelector('.toggle-icon i');
-                                if (subIcon) subIcon.className = 'fas fa-caret-right';
-                            });
                         }
                     }
                     
-                    // 更新筛选 - 点击任何分类节点都进行筛选
-                    currentFilters.taxonomy = { type, id, path };
+                    // 更新筛选
+                    currentFilters.taxonomy = { type, id };
                     renderSpeciesGrid();
                 }
-            });            
+            });
+            
             // 物种卡片点击事件
             speciesGrid.addEventListener('click', function(e) {
                 const card = e.target.closest('.species-card');
