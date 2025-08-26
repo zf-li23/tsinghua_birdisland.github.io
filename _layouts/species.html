@@ -456,6 +456,7 @@
             const statusClass = getConservationStatusClass(species.conservation_status);
             
             // 构建图片HTML - 支持多张图片，纵向排列
+            {% raw %}
             let imagesHTML = '';
             if (species.images && species.images.length > 0) {
                 imagesHTML = species.images.map(img => `
@@ -480,6 +481,7 @@
                     </div>
                 `;
             }
+            {% endraw %}
             
             // 构建参考资料HTML
             let referencesHTML = '';
