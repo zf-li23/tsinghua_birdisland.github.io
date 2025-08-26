@@ -234,21 +234,32 @@
             filteredSpecies.forEach(species => {
                 const statusClass = getConservationStatusClass(species.conservation_status);
                 
-                html += `
-                <div class="species-card" data-species="${species.name}">
-                    <div class="card-image">
-                        {% capture img_src %}/assets/images/species/{{ currentPageType }}/{{ species.image }}{% endcapture %}
-                        <img src="{{ img_src | relative_url }}"
-                             alt="{{ species.name | default: 'species' }}"
-                             onerror="this.src='{{ '/assets/images/placeholder.jpg' | relative_url }}'">
-                        <div class="conservation-badge ${statusClass}">${species.conservation_status || '未知'}</div>
-                    </div>
-                    <div class="card-content">
-                        <h3 class="species-name">${species.name}</h3>
-                        <p class="scientific-name">${species.scientific_name}</p>
-                        <p class="species-desc">${truncateText(species.description, 100)}</p>
-                    </div>
-                </div>`;
+            // 获取封面图片路径
+            let coverImagePath = "{{ '/assets/images/placeholder.jpg' | relative_url }}";
+            if (species.images && species.images.length > 0) {
+                // 使用第一张图片作为封面
+                const coverImage = `${IMG_BASE}${currentPageType}/${encodeURIComponent(species.order)}/${encodeURIComponent(species.family)}/${encodeURIComponent(species.genus)}/${species.images[0]}`;
+                coverImagePath = coverImage;
+            } else if (species.image) {
+                // 向后兼容：如果只有单张图片
+                const coverImage = `${IMG_BASE}${currentPageType}/${encodeURIComponent(species.order)}/${encodeURIComponent(species.family)}/${encodeURIComponent(species.genus)}/${species.image}`;
+                coverImagePath = coverImage;
+            }
+            
+            html += `
+            <div class="species-card" data-species="${species.name}">
+                <div class="card-image">
+                    <img src="${coverImagePath}"
+                         alt="${species.name}"
+                         onerror="this.src='{{ '/assets/images/placeholder.jpg' | relative_url }}'">
+                    <div class="conservation-badge ${statusClass}">${species.conservation_status || '未知'}</div>
+                </div>
+                <div class="card-content">
+                    <h3 class="species-name">${species.name}</h3>
+                    <p class="scientific-name">${species.scientific_name}</p>
+                    <p class="species-desc">${truncateText(species.description, 100)}</p>
+                </div>
+            </div>`;
             });
             
             speciesGrid.innerHTML = html;
