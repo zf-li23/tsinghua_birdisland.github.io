@@ -460,7 +460,7 @@
             if (species.images && species.images.length > 0) {
                 imagesHTML = species.images.map(img => `
                     <div class="detail-image">
-                        <img src="${img}" alt="${species.name}" 
+                        <img src="{{ '${img}' | relative_url }}" alt="${species.name}" 
                              onerror="this.src='{{ '/assets/images/placeholder.jpg' | relative_url }}'">
                     </div>
                 `).join('');
@@ -468,7 +468,7 @@
                 // 向后兼容：如果只有单张图片
                 imagesHTML = `
                     <div class="detail-image">
-                        <img src="${species.image}" alt="${species.name}" 
+                        <img src="{{ '${species.image}' | relative_url }}" alt="${species.name}" 
                              onerror="this.src='{{ '/assets/images/placeholder.jpg' | relative_url }}'">
                     </div>
                 `;
@@ -480,7 +480,7 @@
                     </div>
                 `;
             }
-                        
+            
             // 构建参考资料HTML
             let referencesHTML = '';
             if (species.references && species.references.length > 0) {
@@ -528,7 +528,7 @@
             speciesModal.classList.add('active');
             document.body.style.overflow = 'hidden';
         }
-        
+                
         // 关闭模态框
         function closeModal() {
             speciesModal.classList.remove('active');
