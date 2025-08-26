@@ -22,7 +22,7 @@ permalink: /records/
 
 ---
 
-## 文创周边
+## 文创/科普作品
 
 [画之所现，心之所向 →]({{ '/records/creative/' | relative_url }})
 
