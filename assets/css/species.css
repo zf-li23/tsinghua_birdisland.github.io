@@ -416,8 +416,15 @@
     gap: 30px;
 }
 
-.detail-image {
+.detail-images-container {
     flex: 0 0 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.detail-image {
+    width: 100%;
 }
 
 .detail-image img {
