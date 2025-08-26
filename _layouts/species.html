@@ -73,6 +73,7 @@
                     <div class="filter-group">
                         <label for="sortBy">排序:</label>
                         <select id="sortBy">
+                            <option value="taxonomic">按分类顺序</option>
                             <option value="name">按名称</option>
                             <option value="scientific">按学名</option>
                             <option value="conservation">按保护等级</option>
@@ -138,11 +139,12 @@
         const conservationFilter = document.getElementById('conservationFilter');
         const sortBy = document.getElementById('sortBy');
         const IMG_BASE = "{{ '/assets/images/species' | relative_url }}/";
+        
         // 状态变量
         let currentView = 'grid';
         let currentFilters = {
             conservation: 'all',
-            sort: 'name',
+            sort: 'taxonomic', // 默认按分类顺序
             search: '',
             taxonomy: null
         };
@@ -234,32 +236,32 @@
             filteredSpecies.forEach(species => {
                 const statusClass = getConservationStatusClass(species.conservation_status);
                 
-            // 获取封面图片路径
-            let coverImagePath = "{{ '/assets/images/placeholder.jpg' | relative_url }}";
-            if (species.images && species.images.length > 0) {
-                // 使用第一张图片作为封面
-                const coverImage = `${IMG_BASE}${currentPageType}/${encodeURIComponent(species.order)}/${encodeURIComponent(species.family)}/${encodeURIComponent(species.genus)}/${species.images[0]}`;
-                coverImagePath = coverImage;
-            } else if (species.image) {
-                // 向后兼容：如果只有单张图片
-                const coverImage = `${IMG_BASE}${currentPageType}/${encodeURIComponent(species.order)}/${encodeURIComponent(species.family)}/${encodeURIComponent(species.genus)}/${species.image}`;
-                coverImagePath = coverImage;
-            }
-            
-            html += `
-            <div class="species-card" data-species="${species.name}">
-                <div class="card-image">
-                    <img src="${coverImagePath}"
-                         alt="${species.name}"
-                         onerror="this.src='{{ '/assets/images/placeholder.jpg' | relative_url }}'">
-                    <div class="conservation-badge ${statusClass}">${species.conservation_status || '未知'}</div>
-                </div>
-                <div class="card-content">
-                    <h3 class="species-name">${species.name}</h3>
-                    <p class="scientific-name">${species.scientific_name}</p>
-                    <p class="species-desc">${truncateText(species.description, 100)}</p>
-                </div>
-            </div>`;
+                // 获取封面图片路径
+                let coverImagePath = "{{ '/assets/images/placeholder.jpg' | relative_url }}";
+                if (species.images && species.images.length > 0) {
+                    // 使用第一张图片作为封面
+                    const coverImage = `${IMG_BASE}${currentPageType}/${encodeURIComponent(species.order)}/${encodeURIComponent(species.family)}/${encodeURIComponent(species.genus)}/${species.images[0]}`;
+                    coverImagePath = coverImage;
+                } else if (species.image) {
+                    // 向后兼容：如果只有单张图片
+                    const coverImage = `${IMG_BASE}${currentPageType}/${encodeURIComponent(species.order)}/${encodeURIComponent(species.family)}/${encodeURIComponent(species.genus)}/${species.image}`;
+                    coverImagePath = coverImage;
+                }
+                
+                html += `
+                <div class="species-card" data-species="${species.name}">
+                    <div class="card-image">
+                        <img src="${coverImagePath}"
+                             alt="${species.name}"
+                             onerror="this.src='{{ '/assets/images/placeholder.jpg' | relative_url }}'">
+                        <div class="conservation-badge ${statusClass}">${species.conservation_status || '未知'}</div>
+                    </div>
+                    <div class="card-content">
+                        <h3 class="species-name">${species.name}</h3>
+                        <p class="scientific-name">${species.scientific_name}</p>
+                        <p class="species-desc">${truncateText(species.description, 100)}</p>
+                    </div>
+                </div>`;
             });
             
             speciesGrid.innerHTML = html;
@@ -267,71 +269,75 @@
         }
         
         // 过滤物种数据
-        // 在 filterSpecies 函数中添加搜索过滤
         function filterSpecies() {
-          let allSpecies = [];
-          
-          // 获取所有物种
-          speciesData[currentPageType]?.forEach(order => {
-            order.families.forEach(family => {
-              family.genera.forEach(genus => {
-                genus.species.forEach(species => {
-                  // 添加分类路径信息，用于后续筛选
-                  allSpecies.push({
-                    ...species,
-                    order: order.order,
-                    family: family.family,
-                    genus: genus.genus
-                  });
+            let allSpecies = [];
+            let taxonomicIndex = 0;
+            
+            // 获取所有物种，并保持分类学顺序
+            speciesData[currentPageType]?.forEach(order => {
+                order.families.forEach(family => {
+                    family.genera.forEach(genus => {
+                        genus.species.forEach(species => {
+                            // 添加分类路径信息和分类顺序索引
+                            allSpecies.push({
+                                ...species,
+                                order: order.order,
+                                family: family.family,
+                                genus: genus.genus,
+                                taxonomicOrder: taxonomicIndex++ // 保持原始分类顺序
+                            });
+                        });
+                    });
                 });
-              });
             });
-          });
-          
-          // 应用搜索过滤
-          if (currentFilters.search) {
-            const searchTerm = currentFilters.search.toLowerCase();
-            allSpecies = allSpecies.filter(species => 
-              species.name.toLowerCase().includes(searchTerm) ||
-              species.scientific_name.toLowerCase().includes(searchTerm)
-            );
-          }
-          
-          // 应用分类筛选
-          if (currentFilters.taxonomy) {
-            const { type, id } = currentFilters.taxonomy;
-            if (type === 'order') {
-              allSpecies = allSpecies.filter(species => species.order === id);
-            } else if (type === 'family') {
-              allSpecies = allSpecies.filter(species => species.family === id);
-            } else if (type === 'genus') {
-              allSpecies = allSpecies.filter(species => species.genus === id);
+            
+            // 应用搜索过滤
+            if (currentFilters.search) {
+                const searchTerm = currentFilters.search.toLowerCase();
+                allSpecies = allSpecies.filter(species => 
+                    species.name.toLowerCase().includes(searchTerm) ||
+                    species.scientific_name.toLowerCase().includes(searchTerm)
+                );
             }
-          }
-          
-          // 应用保护等级筛选
-          if (currentFilters.conservation !== 'all') {
-            allSpecies = allSpecies.filter(species => 
-              species.conservation_status === currentFilters.conservation
-            );
-          }
-          
-          // 应用排序
-          if (currentFilters.sort === 'name') {
-            allSpecies.sort((a, b) => a.name.localeCompare(b.name));
-          } else if (currentFilters.sort === 'scientific') {
-            allSpecies.sort((a, b) => a.scientific_name.localeCompare(b.scientific_name));
-          } else if (currentFilters.sort === 'conservation') {
-            // 定义保护等级优先级
-            const statusOrder = { 'CR': 1, 'EN': 2, 'VU': 3, 'NT': 4, 'LC': 5, '': 6 };
-            allSpecies.sort((a, b) => {
-              const aStatus = a.conservation_status || '';
-              const bStatus = b.conservation_status || '';
-              return statusOrder[aStatus] - statusOrder[bStatus];
-            });
-          }
-          
-          return allSpecies;
+            
+            // 应用分类筛选
+            if (currentFilters.taxonomy) {
+                const { type, id } = currentFilters.taxonomy;
+                if (type === 'order') {
+                    allSpecies = allSpecies.filter(species => species.order === id);
+                } else if (type === 'family') {
+                    allSpecies = allSpecies.filter(species => species.family === id);
+                } else if (type === 'genus') {
+                    allSpecies = allSpecies.filter(species => species.genus === id);
+                }
+            }
+            
+            // 应用保护等级筛选
+            if (currentFilters.conservation !== 'all') {
+                allSpecies = allSpecies.filter(species => 
+                    species.conservation_status === currentFilters.conservation
+                );
+            }
+            
+            // 应用排序
+            if (currentFilters.sort === 'name') {
+                allSpecies.sort((a, b) => a.name.localeCompare(b.name));
+            } else if (currentFilters.sort === 'scientific') {
+                allSpecies.sort((a, b) => a.scientific_name.localeCompare(b.scientific_name));
+            } else if (currentFilters.sort === 'conservation') {
+                // 定义保护等级优先级
+                const statusOrder = { 'CR': 1, 'EN': 2, 'VU': 3, 'NT': 4, 'LC': 5, '': 6 };
+                allSpecies.sort((a, b) => {
+                    const aStatus = a.conservation_status || '';
+                    const bStatus = b.conservation_status || '';
+                    return statusOrder[aStatus] - statusOrder[bStatus];
+                });
+            } else if (currentFilters.sort === 'taxonomic') {
+                // 按分类顺序排序（数据中的原始顺序）
+                allSpecies.sort((a, b) => a.taxonomicOrder - b.taxonomicOrder);
+            }
+            
+            return allSpecies;
         }
         
         // 获取保护等级对应的CSS类
@@ -593,41 +599,29 @@
         
         // 添加恢复按钮事件监听
         document.getElementById('resetFilters').addEventListener('click', function() {
-          // 重置所有筛选条件
-          currentFilters = {
-            conservation: 'all',
-            sort: 'name',
-            search: '',
-            taxonomy: null
-          };
-          
-          // 重置UI元素
-          conservationFilter.value = 'all';
-          sortBy.value = 'name';
-          speciesSearch.value = '';
-          
-          // 折叠所有展开的分类节点
-          document.querySelectorAll('.taxonomy-item.expanded').forEach(item => {
-            item.classList.remove('expanded');
-            const icon = item.querySelector('.toggle-icon i');
-            if (icon) icon.className = 'fas fa-caret-right';
-          });
-          
-          // 重新渲染网格
-          renderSpeciesGrid();
+            // 重置所有筛选条件
+            currentFilters = {
+                conservation: 'all',
+                sort: 'taxonomic', // 重置为分类顺序
+                search: '',
+                taxonomy: null
+            };
+            
+            // 重置UI元素
+            conservationFilter.value = 'all';
+            sortBy.value = 'taxonomic'; // 设置下拉菜单为分类顺序
+            speciesSearch.value = '';
+            
+            // 折叠所有展开的分类节点
+            document.querySelectorAll('.taxonomy-item.expanded').forEach(item => {
+                item.classList.remove('expanded');
+                const icon = item.querySelector('.toggle-icon i');
+                if (icon) icon.className = 'fas fa-caret-right';
+            });
+            
+            // 重新渲染网格
+            renderSpeciesGrid();
         });
-        
-        // 确保筛选变化时更新状态并重新渲染
-        conservationFilter.addEventListener('change', function() {
-          currentFilters.conservation = this.value;
-          renderSpeciesGrid();
-        });
-        
-        sortBy.addEventListener('change', function() {
-          currentFilters.sort = this.value;
-          renderSpeciesGrid();
-        });
-        
     </script>
 </body>
 
