@@ -77,6 +77,7 @@
                             <option value="scientific">按学名</option>
                             <option value="conservation">按保护等级</option>
                         </select>
+                        <button id="resetFilters" class="reset-btn">恢复默认排序</button>
                     </div>
                 </div>
                 
@@ -255,20 +256,71 @@
         }
         
         // 过滤物种数据
+        // 在 filterSpecies 函数中添加搜索过滤
         function filterSpecies() {
-            // 这里需要实现过滤逻辑
-            // 简化实现：返回当前类型的所有物种
-            let allSpecies = [];
-            
-            speciesData[currentPageType]?.forEach(order => {
-                order.families.forEach(family => {
-                    family.genera.forEach(genus => {
-                        allSpecies = allSpecies.concat(genus.species);
-                    });
+          let allSpecies = [];
+          
+          // 获取所有物种
+          speciesData[currentPageType]?.forEach(order => {
+            order.families.forEach(family => {
+              family.genera.forEach(genus => {
+                genus.species.forEach(species => {
+                  // 添加分类路径信息，用于后续筛选
+                  allSpecies.push({
+                    ...species,
+                    order: order.order,
+                    family: family.family,
+                    genus: genus.genus
+                  });
                 });
+              });
             });
-            
-            return allSpecies;
+          });
+          
+          // 应用搜索过滤
+          if (currentFilters.search) {
+            const searchTerm = currentFilters.search.toLowerCase();
+            allSpecies = allSpecies.filter(species => 
+              species.name.toLowerCase().includes(searchTerm) ||
+              species.scientific_name.toLowerCase().includes(searchTerm)
+            );
+          }
+          
+          // 应用分类筛选
+          if (currentFilters.taxonomy) {
+            const { type, id } = currentFilters.taxonomy;
+            if (type === 'order') {
+              allSpecies = allSpecies.filter(species => species.order === id);
+            } else if (type === 'family') {
+              allSpecies = allSpecies.filter(species => species.family === id);
+            } else if (type === 'genus') {
+              allSpecies = allSpecies.filter(species => species.genus === id);
+            }
+          }
+          
+          // 应用保护等级筛选
+          if (currentFilters.conservation !== 'all') {
+            allSpecies = allSpecies.filter(species => 
+              species.conservation_status === currentFilters.conservation
+            );
+          }
+          
+          // 应用排序
+          if (currentFilters.sort === 'name') {
+            allSpecies.sort((a, b) => a.name.localeCompare(b.name));
+          } else if (currentFilters.sort === 'scientific') {
+            allSpecies.sort((a, b) => a.scientific_name.localeCompare(b.scientific_name));
+          } else if (currentFilters.sort === 'conservation') {
+            // 定义保护等级优先级
+            const statusOrder = { 'CR': 1, 'EN': 2, 'VU': 3, 'NT': 4, 'LC': 5, '': 6 };
+            allSpecies.sort((a, b) => {
+              const aStatus = a.conservation_status || '';
+              const bStatus = b.conservation_status || '';
+              return statusOrder[aStatus] - statusOrder[bStatus];
+            });
+          }
+          
+          return allSpecies;
         }
         
         // 获取保护等级对应的CSS类
@@ -469,6 +521,44 @@
         
         // 初始化页面
         document.addEventListener('DOMContentLoaded', initSpeciesPage);
+        
+        // 添加恢复按钮事件监听
+document.getElementById('resetFilters').addEventListener('click', function() {
+  // 重置所有筛选条件
+  currentFilters = {
+    conservation: 'all',
+    sort: 'name',
+    search: '',
+    taxonomy: null
+  };
+  
+  // 重置UI元素
+  conservationFilter.value = 'all';
+  sortBy.value = 'name';
+  speciesSearch.value = '';
+  
+  // 折叠所有展开的分类节点
+  document.querySelectorAll('.taxonomy-item.expanded').forEach(item => {
+    item.classList.remove('expanded');
+    const icon = item.querySelector('.toggle-icon i');
+    if (icon) icon.className = 'fas fa-caret-right';
+  });
+  
+  // 重新渲染网格
+  renderSpeciesGrid();
+});
+
+// 确保筛选变化时更新状态并重新渲染
+conservationFilter.addEventListener('change', function() {
+  currentFilters.conservation = this.value;
+  renderSpeciesGrid();
+});
+
+sortBy.addEventListener('change', function() {
+  currentFilters.sort = this.value;
+  renderSpeciesGrid();
+});
+
     </script>
 </body>
 
