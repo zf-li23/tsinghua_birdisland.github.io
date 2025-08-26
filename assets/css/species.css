@@ -554,3 +554,57 @@
         height: 45px;
     }
 }
+
+/* 多图片展示样式 */
+.detail-images {
+  margin-bottom: 20px;
+}
+
+.main-image {
+  margin-bottom: 15px;
+}
+
+.main-image img {
+  width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.image-thumbnails {
+  display: flex;
+  gap: 10px;
+  overflow-x: auto;
+  padding-bottom: 10px;
+}
+
+.image-thumbnails .thumbnail {
+  width: 80px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 4px;
+  cursor: pointer;
+  opacity: 0.7;
+  transition: opacity 0.3s;
+}
+
+.image-thumbnails .thumbnail:hover,
+.image-thumbnails .thumbnail.active {
+  opacity: 1;
+  border: 2px solid var(--primary);
+}
+
+/* 恢复按钮样式 */
+.reset-btn {
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  color: #333;
+  padding: 8px 15px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.reset-btn:hover {
+  background-color: #e0e0e0;
+  border-color: #999;
+}
