@@ -137,7 +137,7 @@
         const listViewBtn = document.getElementById('listViewBtn');
         const conservationFilter = document.getElementById('conservationFilter');
         const sortBy = document.getElementById('sortBy');
-        
+        const IMG_BASE = "{{ '/assets/images/species' | relative_url }}/";
         // 状态变量
         let currentView = 'grid';
         let currentFilters = {
@@ -439,66 +439,52 @@
         
         // 显示物种详情
         function showSpeciesDetail(speciesName) {
-            // 查找物种数据
+            // 1. 查找物种数据
             let species = null;
-            
-            speciesData[currentPageType]?.forEach(order => {
-                order.families.forEach(family => {
+            speciesData[currentPageType]?.forEach(order =>
+                order.families.forEach(family =>
                     family.genera.forEach(genus => {
                         const found = genus.species.find(s => s.name === speciesName);
                         if (found) species = found;
-                    });
-                });
-            });
-            
+                    })
+                )
+            );
             if (!species) return;
-            
+        
             const statusClass = getConservationStatusClass(species.conservation_status);
-            
-            // 构建图片HTML - 支持多张图片，纵向排列
-            {% raw %}
-            let imagesHTML = '';
-            if (species.images && species.images.length > 0) {
-                imagesHTML = species.images.map(img => `
+        
+            // 2. 统一处理图片列表
+            const imgList = species.images?.length
+                ? species.images
+                : species.image
+                ? [species.image]
+                : [];
+            const imagesHTML = imgList.length
+                ? imgList.map(name => `
                     <div class="detail-image">
-                        <img src="{{ '${img}' | relative_url }}" alt="${species.name}" 
-                             onerror="this.src='{{ '/assets/images/placeholder.jpg' | relative_url }}'">
-                    </div>
-                `).join('');
-            } else if (species.image) {
-                // 向后兼容：如果只有单张图片
-                imagesHTML = `
+                        <img src="${IMG_BASE}${currentPageType}/${name}"
+                             alt="${species.name}"
+                             onerror="this.src='${IMG_BASE}placeholder.jpg'">
+                    </div>`).join('')
+                : `
                     <div class="detail-image">
-                        <img src="{{ '${species.image}' | relative_url }}" alt="${species.name}" 
-                             onerror="this.src='{{ '/assets/images/placeholder.jpg' | relative_url }}'">
-                    </div>
-                `;
-            } else {
-                // 没有图片时使用占位图
-                imagesHTML = `
-                    <div class="detail-image">
-                        <img src="{{ '/assets/images/placeholder.jpg' | relative_url }}" alt="${species.name}">
-                    </div>
-                `;
-            }
-            {% endraw %}
-            
-            // 构建参考资料HTML
-            let referencesHTML = '';
-            if (species.references && species.references.length > 0) {
-                referencesHTML = `
+                        <img src="${IMG_BASE}placeholder.jpg" alt="${species.name}">
+                    </div>`;
+        
+            // 3. 参考资料
+            const referencesHTML = species.references?.length
+                ? `
                     <div class="references-section">
                         <h3>参考资料</h3>
                         <ul class="references-list">
-                            ${species.references.map(ref => `
-                                <li><a href="${ref.url}" target="_blank" rel="noopener">${ref.name}</a></li>
-                            `).join('')}
+                            ${species.references.map(ref =>
+                                `<li><a href="${ref.url}" target="_blank" rel="noopener">${ref.name}</a></li>`
+                            ).join('')}
                         </ul>
-                    </div>
-                `;
-            }
-            
-            // 填充模态框内容
+                    </div>`
+                : '';
+        
+            // 4. 填充模态框
             modalBody.innerHTML = `
                 <div class="species-detail">
                     <div class="detail-header">
@@ -506,31 +492,28 @@
                         <span class="scientific-name">${species.scientific_name}</span>
                         <span class="conservation-status ${statusClass}">${species.conservation_status || '未知'}</span>
                     </div>
-                    
+        
                     <div class="detail-content">
-                        <div class="detail-images-container">
-                            ${imagesHTML}
-                        </div>
-                        
+                        <div class="detail-images-container">${imagesHTML}</div>
+        
                         <div class="detail-info">
                             <h3>物种描述</h3>
                             <p>${species.description || '暂无描述'}</p>
-                            
+        
                             ${species.habitat ? `<h3>栖息环境</h3><p>${species.habitat}</p>` : ''}
                             ${species.distribution ? `<h3>分布范围</h3><p>${species.distribution}</p>` : ''}
                             ${species.conservation_notes ? `<h3>保护状况</h3><p>${species.conservation_notes}</p>` : ''}
-                            
+        
                             ${referencesHTML}
                         </div>
                     </div>
-                </div>
-            `;
-            
-            // 显示模态框
+                </div>`;
+        
+            // 5. 显示模态框
             speciesModal.classList.add('active');
             document.body.style.overflow = 'hidden';
         }
-                
+        
         // 关闭模态框
         function closeModal() {
             speciesModal.classList.remove('active');
