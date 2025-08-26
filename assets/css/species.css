@@ -417,7 +417,7 @@
 }
 
 .detail-images-container {
-    flex: 0 0 300px;
+    flex: 0 0 150px;
     display: flex;
     flex-direction: column;
     gap: 15px;
