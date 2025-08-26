@@ -8,7 +8,7 @@
               scientific_name: "Papilio machaon"
               description: "翅展74～95 毫米。翅黄色，前翅外缘有黑色宽带，宽带内嵌有8个黄色椭圆斑，中室端部有2个黑斑，翅基部1/3为黑色，宽带及基部黑色区上散生黄色鳞粉；后翅外缘黑色宽带嵌有6个黄色新月斑，其内方另有略呈新月形的蓝斑，臀角有1个赭黄色斑，大而明显，中间没有黑点。翅反面斑纹同正面，但色较浅。本种分春、夏两型。5-6月发生的为春型，个体较小；7-8月发生的为夏型，体型较大。"
               images:
-                - "{{ '/assets/images/species/insects/鳞翅目/凤蝶科/凤蝶属/金凤蝶.jpg' | relative_url }}"
+                - - "/assets/images/species/insects/鳞翅目/凤蝶科/凤蝶属/金凤蝶.jpg"
               conservation_status: "LC"
               habitat: "广泛栖息，寄主为伞形科植物"
               distribution: "欧洲及亚洲的全北区，并北美洲"
