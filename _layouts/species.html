@@ -523,42 +523,42 @@
         document.addEventListener('DOMContentLoaded', initSpeciesPage);
         
         // 添加恢复按钮事件监听
-document.getElementById('resetFilters').addEventListener('click', function() {
-  // 重置所有筛选条件
-  currentFilters = {
-    conservation: 'all',
-    sort: 'name',
-    search: '',
-    taxonomy: null
-  };
-  
-  // 重置UI元素
-  conservationFilter.value = 'all';
-  sortBy.value = 'name';
-  speciesSearch.value = '';
-  
-  // 折叠所有展开的分类节点
-  document.querySelectorAll('.taxonomy-item.expanded').forEach(item => {
-    item.classList.remove('expanded');
-    const icon = item.querySelector('.toggle-icon i');
-    if (icon) icon.className = 'fas fa-caret-right';
-  });
-  
-  // 重新渲染网格
-  renderSpeciesGrid();
-});
-
-// 确保筛选变化时更新状态并重新渲染
-conservationFilter.addEventListener('change', function() {
-  currentFilters.conservation = this.value;
-  renderSpeciesGrid();
-});
-
-sortBy.addEventListener('change', function() {
-  currentFilters.sort = this.value;
-  renderSpeciesGrid();
-});
-
+        document.getElementById('resetFilters').addEventListener('click', function() {
+          // 重置所有筛选条件
+          currentFilters = {
+            conservation: 'all',
+            sort: 'name',
+            search: '',
+            taxonomy: null
+          };
+          
+          // 重置UI元素
+          conservationFilter.value = 'all';
+          sortBy.value = 'name';
+          speciesSearch.value = '';
+          
+          // 折叠所有展开的分类节点
+          document.querySelectorAll('.taxonomy-item.expanded').forEach(item => {
+            item.classList.remove('expanded');
+            const icon = item.querySelector('.toggle-icon i');
+            if (icon) icon.className = 'fas fa-caret-right';
+          });
+          
+          // 重新渲染网格
+          renderSpeciesGrid();
+        });
+        
+        // 确保筛选变化时更新状态并重新渲染
+        conservationFilter.addEventListener('change', function() {
+          currentFilters.conservation = this.value;
+          renderSpeciesGrid();
+        });
+        
+        sortBy.addEventListener('change', function() {
+          currentFilters.sort = this.value;
+          renderSpeciesGrid();
+        });
+        
     </script>
 </body>
 
