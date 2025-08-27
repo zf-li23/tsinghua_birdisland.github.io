@@ -30,6 +30,12 @@ permalink: /about/
 
 ---
 
+## 支队荣誉
+
+[了解支队历史荣誉 →]({{ '/about/honour/' | relative_url }})
+
+---
+
 ## 工作手册
 
 [获取支队工作指南 →]({{ '/about/handbook/' | relative_url }})
