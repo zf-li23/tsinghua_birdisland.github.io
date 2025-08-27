@@ -28,3 +28,10 @@ permalink: /about/honour/
 
 ### 参考资料
 
+[^1]: [2019生院年度人物](https://mp.weixin.qq.com/s/ybceS9sUvdmRvg5iY4E4XA)
+[^2]: [2020生院年度人物](https://mp.weixin.qq.com/s/vsOD27hQghg-JM-E62w8Xg)
+[^3]: [2023生院暑期实践支队评级](https://mp.weixin.qq.com/s/zEbKOcG6GGYelmWfJGX2EA)
+[^4]: [2024生院暑期实践支队评级](https://mp.weixin.qq.com/s/us3SY9oBkMEJRokk70pq7g)
+[^5]: [2020鸟岛支队成果总结](https://mp.weixin.qq.com/s/Fk6c4Qt3ySR-DQHRCM_gTQ)
+[^6]: [2021清华学生实践评级](https://mp.weixin.qq.com/s/TA9_CitvFk716EAq2cZ0ZQ)
+[^7]: [2022清华学生实践评级](https://mp.weixin.qq.com/s/MlGklKm3u-EwsWePabH4cA)
