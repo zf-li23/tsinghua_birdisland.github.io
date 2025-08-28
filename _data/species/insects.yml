@@ -10,8 +10,8 @@
           随着年龄增长会不断变成棕色。其翅膀的底部则有黄色的小斑块。
         images:
         - 黑赤蜻.jpg
-        - 黑赤蜻1.jpg
-        - 黑赤蜻2.jpg
+        - 黑赤蜻1.JPG
+        - 黑赤蜻2.JPG
         conservation_status: LC
         habitat: 酸性浅水区域，如湖泊边缘、水沟边、荒野和沼泽等地区
         distribution: 北欧、亚洲和北美
@@ -57,7 +57,7 @@
         scientific_name: Enallagma cyathigerum
         description: 雄性面部黑色具蓝色斑纹；胸部和腹部大面积蓝色具黑色斑纹。雌性与雄性相似但色彩稍淡。体长 29~36mm,腹长22~28mm,后翅15~21mm。
         images:
-        - 心斑绿蟌.jpg
+        - 心斑绿蟌.JPG
         - 心斑绿蟌1.jpg
         - 心斑绿蟌2.jpg
         - 心斑绿蟌3.jpg
@@ -85,7 +85,7 @@
         distribution: 未知
         conservation_notes: 无需保护
         references:
-        - name: iNaturalist-丝蟌（未定种）
+        - name: iNaturalist-丝蟌属
           url: https://www.inaturalist.org/taxa/89475-Lestes
 - order: 直翅目
   families:
@@ -265,13 +265,13 @@
         scientific_name: Planaphrodes sp.
         description: 未知
         images:
-        - Planaphrodes属（未定种）.jpg
+        - Planaphrodes属（未定种）.png
         conservation_status: LC
         habitat: 未知
         distribution: 未知
         conservation_notes: 未知
         references:
-        - name: iNaturalist-Planaphrodes属（未定种）
+        - name: iNaturalist-Planaphrodes属
           url: https://www.inaturalist.org/taxa/451691-Planaphrodes
     - genus: 大叶蝉属
       species:
@@ -281,7 +281,7 @@
           两单眼间有1 对黑斑, 复眼绿色, 前胸背板淡黄绿色, 后半部深青绿色, 前翅绿色, 具青蓝色泽, 翅脉青黄色, 后翅烟灰色, 半透明。腹部背面蓝黑色,
           两侧及末节色淡。胸、腹部腹面及足橙黄色, 附爪及后足胫节内侧有细条纹, 刺列的每一刺基部黑色。
         images:
-        - 大青叶蝉.jpg
+        - 大青叶蝉.png
         conservation_status: LC
         habitat: 喜潮湿背风处，多集中在生长茂密，嫩绿多汁的杂草与农作物上
         distribution: 中国、俄罗斯、朝鲜、日本、印度、马来西亚、加拿大及欧洲等地
@@ -293,17 +293,17 @@
           url: http://museum.ioz.ac.cn/species_detail.aspx?id=40113
     - genus: 双钩叶蝉属
       species:
-      - name: 双沟叶蝉（未定种）
+      - name: 双钩叶蝉（未定种）
         scientific_name: Arthaldeus sp.
         description: 未知
         images:
-        - 双沟叶蝉（未定种）.jpg
+        - 双钩叶蝉（未定种）.png
         conservation_status: LC
         habitat: 未知
         distribution: 未知
         conservation_notes: 未知
         references:
-        - name: iNaturalist-双沟叶蝉（未定种）
+        - name: iNaturalist-双钩叶蝉属
           url: https://www.inaturalist.org/taxa/735332-Arthaldeus
   - family: 盲蝽科
     genera:
@@ -313,7 +313,8 @@
         scientific_name: Trigonotylus caelestialium
         description: 成虫身体细长，长5mm至6mm，宽1mm至2mm，细长，鲜绿色或浅绿色。头部略成三角形，顶端向前方突出，头顶中央有一纵沟。触角4节，红色（故称赤须盲蝽），等于或略短于体长，第一节粗短，第二、三节细长，第四节短而细。喙4节，黄绿色，顶端黑色，伸向后足基节处。前胸背板梯形，具暗色条纹4个，前缘具不完整的鳞片，四边略向里凹，中央有纵脊。小盾板三角形，基部不被前胸背板后缘覆盖，中部有横沟将小盾板分为前后两部分，基半部隆起，端半部中央有浅色纵脊。前翅略长于腹部末端，革片绿色，膜片白色，半透明，长度超过腹端。后翅白色透明。足黄绿色，胫节末端和跗节黑色，跗节3节，爪黑色。
         images:
-        - 赤须盲蝽.jpg
+        - 赤须盲蝽.png
+        - 赤须盲蝽1.png
         conservation_status: LC
         habitat: 草原和农田，为害禾本科
         distribution: 北半球广泛分布
@@ -337,7 +338,7 @@
         distribution: 未知
         conservation_notes: 未知
         references:
-        - name: iNaturalist-烁划蝽（未定种）
+        - name: iNaturalist-烁划蝽属
           url: https://www.inaturalist.org/taxa/211532-Sigara
   - family: 蝽科
     genera:
@@ -347,7 +348,7 @@
         scientific_name: Pentatoma metallifera
         description: 椭圆形，体背金绿色，密布同色刻点。头三角形，表面刻点清晰；复眼黑褐色，单眼橘红；触角5节，被半倒伏短毛；喙伸达第二腹板中央。前胸背板背面中纵线微隆起。前翅革质部密被刻点，膜片烟色，半透明。腹基突仅伸达后足基节间。胸部腹面黄褐，略带一些红色，被黑色刻点。腹部腹面黄褐至红褐色，被较小的黑色刻点。雄虫抱器。足黄褐至黑绿色，腿节常散生许多不规则黑斑，胫节具短绒毛，跗节黑褐色具绒毛。
         images:
-        - 金绿真蝽.jpg
+        - 金绿真蝽.png
         conservation_status: LC
         habitat: 主要栖息于榆属植物
         distribution: 主要分布于中国北方地区
