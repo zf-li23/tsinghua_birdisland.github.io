@@ -1028,6 +1028,7 @@
           mellifera caucasica subspecies group）杂交产生的后代。
         images:
         - 西方蜜蜂.jpg
+        - 西方蜜蜂1.png
         conservation_status: LC
         habitat: 野生、半野生或家养
         distribution: 全球广泛分布
@@ -1044,6 +1045,9 @@
         description: 雌蜂体长可达18.4毫米，雄蜂约10毫米，头顶及中胸背板被黑色毛，腹部第2-5节背板具锈红色毛，后足花粉篮网纹稠密。
         images:
         - 火红熊蜂.jpg
+        - 火红熊蜂1.jpg
+        - 火红熊蜂2.jpg
+        - 火红熊蜂3.jpg
         conservation_status: LC
         habitat: 未知
         distribution: 中国特有种，分布于内蒙、河北、陕西、陕西、宁夏、甘肃、青海等省份
@@ -1055,7 +1059,9 @@
         scientific_name: Bombus sushkini
         description: 未知
         images:
-        - 苏氏熊蜂.jpg
+        - 苏氏熊蜂.png
+        - 苏氏熊蜂1.jpg
+        - 苏氏熊蜂2.jpg
         conservation_status: LC
         habitat: 未知
         distribution: 未知
@@ -1067,19 +1073,19 @@
         scientific_name: Bombus sichuansis
         description: 未知
         images:
-        - 川熊蜂.jpg
+        - 川熊蜂.png
         conservation_status: LC
         habitat: 未知
         distribution: 未知
         conservation_notes: 未知
         references:
-        - name: iNaturalist-川熊蜂
+        - name: iNaturalist-熊蜂属
           url: https://www.inaturalist.org/taxa/52775-Bombus
       - name: Bombus difficillimus
         scientific_name: Bombus difficillimus
         description: 未知
         images:
-        - Bombus difficillimus.jpg
+        - Bombus difficillimus.png
         conservation_status: LC
         habitat: 未知
         distribution: 未知
@@ -1092,48 +1098,55 @@
         description: 未知
         images:
         - 熊蜂（未定种）1.jpg
+        - 熊蜂（未定种）1-1.jpg
+        - 熊蜂（未定种）1-2.jpg
+        - 熊蜂（未定种）1-3.jpg
         conservation_status: LC
         habitat: 未知
         distribution: 未知
         conservation_notes: 未知
         references:
-        - name: iNaturalist-熊蜂（未定种）1
+        - name: iNaturalist-熊蜂属
           url: https://www.inaturalist.org/taxa/52775-Bombus
       - name: 熊蜂（未定种）2
         scientific_name: Bombus sp.
         description: 未知
         images:
         - 熊蜂（未定种）2.jpg
+        - 熊蜂（未定种）2-1.jpg
+        - 熊蜂（未定种）2-2.jpg
+        - 熊蜂（未定种）2-3.jpg
+        - 熊蜂（未定种）2-4.jpg
         conservation_status: LC
         habitat: 未知
         distribution: 未知
         conservation_notes: 未知
         references:
-        - name: iNaturalist-熊蜂（未定种）2
+        - name: iNaturalist-熊蜂属
           url: https://www.inaturalist.org/taxa/52775-Bombus
       - name: 熊蜂（未定种）3
         scientific_name: Bombus sp.
         description: 未知
         images:
-        - 熊蜂（未定种）3.jpg
+        - 熊蜂（未定种）3.png
         conservation_status: LC
         habitat: 未知
         distribution: 未知
         conservation_notes: 未知
         references:
-        - name: iNaturalist-熊蜂（未定种）3
+        - name: iNaturalist-熊蜂属
           url: https://www.inaturalist.org/taxa/52775-Bombus
       - name: 熊蜂（未定种）4
         scientific_name: Bombus sp.
         description: 未知
         images:
-        - 熊蜂（未定种）4.jpg
+        - 熊蜂（未定种）4.png
         conservation_status: LC
         habitat: 未知
         distribution: 未知
         conservation_notes: 未知
         references:
-        - name: iNaturalist-熊蜂（未定种）4
+        - name: iNaturalist-熊蜂属
           url: https://www.inaturalist.org/taxa/52775-Bombus
   - family: 泥蜂科
     genera:
@@ -1143,13 +1156,13 @@
         scientific_name: Podalonia sp.
         description: 未知
         images:
-        - 长足泥蜂（未定种）.jpg
+        - 长足泥蜂（未定种）.png
         conservation_status: LC
         habitat: 未知
         distribution: 未知
         conservation_notes: 未知
         references:
-        - name: iNaturalist-长足泥蜂（未定种）
+        - name: iNaturalist-长足泥蜂属
           url: https://www.inaturalist.org/taxa/154665-Podalonia
   - family: 姬蜂科
     genera:
@@ -1159,13 +1172,13 @@
         scientific_name: Dusona sp.
         description: 未知
         images:
-        - 都姬蜂（未定种）.jpg
+        - 都姬蜂（未定种）.png
         conservation_status: LC
         habitat: 未知
         distribution: 未知
         conservation_notes: 未知
         references:
-        - name: iNaturalist-都姬蜂（未定种）
+        - name: iNaturalist-都姬蜂属
           url: https://www.inaturalist.org/taxa/250139-Dusona
   - family: 蚁科
     genera:
@@ -1175,7 +1188,9 @@
         scientific_name: Lasius niger
         description: 正面观头呈圆形，前部窄于后部，后缘微凸，后角圆。上颚三角形。唇基中部凸，中脊微弱。触角柄节后1/4超过头后角。复眼相对较大，最大直径等于两触角窝之间的距离。侧面观前中胸背面凸，中胸背面前后缘清晰，分界线明显，并胸腹节背面前低后高，长为斜面的0.5倍，两者之间钝角状。背面观前胸背板宽大，中胸背面长和宽近相等。腹柄前面观平或微凹陷。上颚具细微纵纹，唇基较平滑光亮，头部和体具细微刻点、具一定光泽。头周缘具立毛唇基前缘具长毛，触角柄节具丰富的立毛，并腹胸背面立毛丰富，后腹部脊丰富立毛，头部和并腹胸具丰富绒毛，后腹部具密集绒毛。体红棕色至黑棕色。
         images:
-        - 黑毛蚁.jpg
+        - 黑毛蚁.png
+        - 黑毛蚁1.jpg
+        - 黑毛蚁2.jpg
         conservation_status: LC
         habitat: 未知
         distribution: 中国部分省、欧洲
