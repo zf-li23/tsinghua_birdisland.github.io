@@ -16,7 +16,7 @@ permalink: /about/timeline/
 - **2014-2017年**：与管理局合作，连续四年进行青海湖西岸草原鸣禽繁殖期调查[^5]。
 
 ## 2017年：基地晋升，鸟岛关闭  
-- 基地晋升为“清华大学青海湖国家级自然保护区社会实践基地”，实践对象和实践内容全面扩容[^6]。
+- 基地晋升为“清华大学青海湖国家级自然保护区社会实践基地”，实践对象和实践内容全面扩容[^1]。
 - 青海湖景区全面关停鸟岛旅游经营活动，鸟岛支队成为为数不多能深入保护区的团体[^7]。
 
 ## 2019年：深化调研，科普推广
@@ -46,13 +46,13 @@ permalink: /about/timeline/
 > ——2020年支队纪实《吉光片羽》[^18]
 
 ### 参考资料
-[^1]: [清华大学社会实践基地设立公告](https://www.tsinghua.edu.cn/info/1024/12345.htm)
+[^1]: [清华大学社会实践基地设立报道](https://mp.weixin.qq.com/s/BjVS2JA2wG2AOeVmKjzOtg)
 [^2]: [2006年青海湖候鸟普查报告](https://www.qhh.gov.cn/kpzs/stbh/200612/t20061201_123456.shtml)
 [^3]: [斑头雁繁殖行为研究](https://journal.ecologica.cn/article/2011/1000-0933/1000-0933-2011-31-06-1234.shtml)
 [^4]: [普氏原羚保护项目启动](https://www.qhh.gov.cn/xwzx/qhdt/201306/t20130615_234567.shtml)
 [^5]: [青海湖水鸟迁徙研究白皮书](https://www.tsinghua.edu.cn/info/1024/23456.htm)
 [^6]: [青海湖鸟岛关闭旅游公告](https://www.qhh.gov.cn/zwgk/zfxxgkml/tzgg/201704/t20170415_345678.shtml)
-[^7]: [旅游关闭生态评估报告摘要](https://www.tsinghua.edu.cn/info/1024/34567.htm)
+[^7]: [青海湖鸟岛景区关闭通告](http://www.qinghai.gov.cn/zwgk/system/2018/09/03/010311256.shtml)
 [^8]: [青海湖候鸟数量回升报道](https://www.cyol.com/content/2017-10/20/content_16654389.htm)
 [^9]: [鸟类行为日节律研究](https://journal.ecologica.cn/article/2020/1000-0933/1000-0933-2020-40-09-5678.shtml)
 [^10]: [石乃亥乡人文访谈录](https://www.tsinghua.edu.cn/info/1024/45678.htm)
