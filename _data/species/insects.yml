@@ -1229,6 +1229,7 @@
         description: 翅为橙红色，前后翅外缘有黑色的宽带，雌蝶在带中有1列橙黄色的斑纹，雄蝶则无斑纹，但黑带的内侧边缘较雌蝶整齐；前后翅中室端的黑斑及橙黄色点都较斑缘豆粉蝶大。缘毛粉红色。翅反面颜色较淡，亚端有1列暗色斑。
         images:
         - 橙黄豆粉蝶.jpg
+        - 橙黄豆粉蝶1.png
         conservation_status: LC
         habitat: 山谷、溪流及林缘，寄主为以豆科植物如大豆、苜蓿
         distribution: 中国中西部及甘肃、青海、陕西、四川等地
@@ -1242,7 +1243,8 @@
         scientific_name: Colias erate
         description: 前翅长23-30 mm，呈翅三角形，前缘略凸，后缘直。翅背面底色黄色，前翅外缘有明显黑褐色边及窗格状小纹，中室末端有黑斑；后翅外缘有黑褐斑列，中室末端具橙黄色斑。翅腹面多为橙黄色，前翅有列状黑褐斑与中室黑斑；后翅有银斑及弧形红褐点列，中室末端另有两枚白斑。
         images:
-        - 斑缘豆粉蝶.jpg
+        - 斑缘豆粉蝶.png
+        - 斑缘豆粉蝶1.png
         conservation_status: LC
         habitat: 开阔草地、森林边缘及荒地，寄主为豆科植物如白花三叶草、天蓝苜蓿、草木樨和印度草木樨
         distribution: 从东南欧、经由土耳其横跨中亚，一直到日本与台湾。往南延伸则达至索马里与埃塞俄比亚
@@ -1258,7 +1260,7 @@
         scientific_name: Pieris rapae
         description: 体灰黑色，翅粉白色；雌蝶前翅基部大部分灰黑色，顶角有1个三角形黑斑；雄蝶前翅基部黑色部分和顶角的三角形黑斑均较小。
         images:
-        - 菜粉蝶.jpg
+        - 菜粉蝶.JPG
         conservation_status: LC
         habitat: 农田，特别是菜地、荒地及城市公园绿化地等
         distribution: 中国各地，美洲北部到印度东部均有分布
@@ -1275,6 +1277,7 @@
         description: 翅展33-53毫米，翅面以白色为主，具黑褐色斑纹，雄蝶前翅顶角有黑带及小白斑，雌蝶前翅基部覆盖黑褐色鳞粉。春型个体较小且后翅反面呈深褐色，夏型较大且黄绿色斑纹显著。
         images:
         - 云粉蝶.jpg
+        - 云粉蝶1.png
         conservation_status: LC
         habitat: 林缘、荒地及城市绿地，寄主包括萝卜、白菜等十字花科蔬菜和豆科植物
         distribution: 中国20余个省区及欧洲、北非至西伯利亚等地
@@ -1292,7 +1295,9 @@
         scientific_name: Melanargia ganymedes
         description: 与白眼蝶M. halimede近似，前翅与后翅的白色区域均较大，后翅Cu1、Cu2和2A室的黑斑显著小于其他近缘种，翅反面外缘线清晰完整，亚外缘区域的眼状斑纹呈现完整环形结构。
         images:
-        - 甘藏白眼蝶.jpg
+        - 甘藏白眼蝶.png
+        - 甘藏白眼蝶1.png
+        - 甘藏白眼蝶2.png
         conservation_status: LC
         habitat: 中高海拔林缘开阔地带，高寒草甸
         distribution: 甘肃天水、甘南地区、四川、青海
@@ -1310,6 +1315,7 @@
           前翅反面眼斑较正面大。后翅反面亚缘线及内、外横线皆模糊；亚缘区cu1室内具1枚黑色小斑，外缘线内侧区域灰黄色。
         images:
         - 异点蛇眼蝶.jpg
+        - 异点蛇眼蝶1.png
         conservation_status: LC
         habitat: 林缘、灌丛、草甸
         distribution: 青海、甘肃、四川唐家河
@@ -1325,7 +1331,8 @@
         scientific_name: Hipparchia autonoe
         description: 翅棕褐色。前翅亚外缘前后有2个黄白色斑，斑内各有1个黑色眼斑。后翅有1条白色曲折的中带。前后翅反面各有1条黑褐色亚外缘线，后翅脉纹白色，近臀角有1个小的黑色眼斑。
         images:
-        - 仁眼蝶.jpg
+        - 仁眼蝶.JPG
+        - 仁眼蝶1.png
         conservation_status: LC
         habitat: 高山草甸以及富含丰富水源的地方
         distribution: 陕西、山西、甘肃、黑龙江、内蒙古、青海、河北、蒙古、俄罗斯、哈萨克斯坦
@@ -1342,6 +1349,7 @@
         description: 棒状触角，触角端部逐渐加粗，足纤细，翅面土黄色，前翅翅脉基部加粗，其前翅基部三条脉明显膨大；但是翅背色淡，前翅亚缘区有一列黑色眼纹，后翅亚缘区一列6个黄圈黑眼纹；前后翅，亚前缘线呈银白色，波状，内侧有橙色条纹。
         images:
         - 牧女珍眼蝶.jpg
+        - 牧女珍眼蝶1.png
         conservation_status: LC
         habitat: 草地，寄主为莎草科薹草属
         distribution: 中国东北、华北、西北地区、蒙古、俄罗斯
@@ -1356,10 +1364,9 @@
       - name: 曲斑珠蛱蝶
         scientific_name: Issoria eugenia
         description: '翅面橙红色，前翅基部和后翅基半部黑色。前翅反面顶角有1个紫血色三角斑，外缘上段有珍珠白色斑冠以黑边。后翅反面底色紫红色，外缘珍珠白色斑列围有黑边，亚外缘黑斑列附有珍珠白色三角形斑，翅基半部有5个形状不同的珍珠白色斑，中室内1个小，中室端外m:室基珍珠白斑呈扭曲三角形。
-
-          '
         images:
         - 曲斑珠蛱蝶.jpg
+        - 曲斑珠蛱蝶1.png
         conservation_status: LC
         habitat: 高寒草甸
         distribution: 陕西、四川、西藏、青海、甘肃、云南、蒙古、俄罗斯
@@ -1375,13 +1382,13 @@
         scientific_name: Melitaea sp.
         description: 未知
         images:
-        - 网蛱蝶（未定种）.jpg
+        - 网蛱蝶（未定种）.png
         conservation_status: LC
         habitat: 未知
         distribution: 未知
         conservation_notes: 未知
         references:
-        - name: iNaturalist-网蛱蝶（未定种）
+        - name: iNaturalist-网蛱蝶属
           url: https://www.inaturalist.org/taxa/57496-Melitaea
     - genus: 红蛱蝶属
       species:
@@ -1389,7 +1396,9 @@
         scientific_name: Vanessa cardui
         description: 色彩鲜艳，花纹相当复杂。体较细小；翅较大；触角笔直，呈棒状；前足相当退化，短小无爪。前翅R脉5条，常共柄。卵呈多种形状，如半圆球形、馒头形、香瓜形或钵形。
         images:
-        - 小红蛱蝶.jpg
+        - 小红蛱蝶.png
+        - 小红蛱蝶1.png
+        - 小红蛱蝶2.png
         conservation_status: LC
         habitat: 温带广布
         distribution: 除了南极洲及南美洲以外的所有大陆
@@ -1405,7 +1414,9 @@
         scientific_name: Aglais urticae
         description: 翅橘红色。前翅前缘黄色，有3块黑斑，后缘中部有1个大黑斑，中域有2个较小黑斑；后翅基半部灰色。两翅亚缘黑色带中有淡蓝色三角形斑列。反面前翅黑赭色，3个黑色前缘斑与正面一样，顶角和端缘带黑色；后翅褐色，基半部黑色。外缘有模糊的蓝色新月纹。
         images:
-        - 荨麻蛱蝶.jpg
+        - 荨麻蛱蝶.png
+        - 荨麻蛱蝶1.png
+        - 荨麻蛱蝶2.png
         conservation_status: LC
         habitat: 温带广布，寄主为荨麻科
         distribution: 北京、西藏、东北、甘肃、青海、新疆、欧洲
@@ -1420,6 +1431,7 @@
         description: 翅展46–53mm，前翅外缘弧形，不呈镰刀状，翅端在第五、六脉之间不突出。上翅底色与斑纹与藏麻蛱蝶相似：前翅中域有一宽大黑色斑，延伸至中脉并与中室内的横带相连；基部第三条间隙有一长三角形黑斑连接中室后方的短横带；第二、三间隙各有一小黑圆点位于黄色带上。后翅亚端部有一列较大的黑色锥形斑，每个中心具蓝色大斑。
         images:
         - 西藏麻蛱蝶.jpg
+        - 西藏麻蛱蝶1.png
         conservation_status: LC
         habitat: 海拔3000-4500米的高山草甸、灌丛、流石滩等
         distribution: 青海、西藏
@@ -1434,6 +1446,8 @@
         description: 成虫翅展59～64mm。翅黑褐色，翅膀在阳光下能闪烁出强烈的紫光。前翅约有10个白斑，中室内有4个黑点；反面有1个黑色蓝瞳眼斑，围有棕色眶。后翅中央有1条白色横带，并有1个与域前翅相似的小眼斑。反面白色带上端很宽，下端尖削成楔形带，中室端部尖出显著。
         images:
         - 柳紫闪蛱蝶.jpg
+        - 柳紫闪蛱蝶1.png
+        - 柳紫闪蛱蝶2.png
         conservation_status: LC
         habitat: 寄主为杨柳科
         distribution: 大部分欧洲地区及横跨古北界直到日本
@@ -1468,6 +1482,7 @@
         description: 即Plebejus argyrognomon，一些研究认为属豆灰蝶属。翅呈白色半透明羽毛状，前翅及前缘覆盖橙色鳞片，翅面分布黑色斑纹且雌雄异型特征显著。雄蝶翅面呈篮紫色，前翅无斑纹，后翅外缘具黑色斑纹；雌蝶翅面为黑褐色，后翅外缘黑斑带有不明显的红色环纹。
         images:
         - 红珠灰蝶.jpg
+        - 红珠灰蝶1.jpg
         conservation_status: LC
         habitat: 草原、荒地
         distribution: 亚欧大陆温带广泛分布
@@ -1483,7 +1498,9 @@
         scientific_name: Agriades orbitulus
         description: 成虫前翅呈三角形，后翅近卵圆形，翅面颜色呈现灰蝶科典型蓝灰色金属光泽。触角各节具显著白环标记，这一特征在灰蝶科物种中具有鉴别意义。足部结构显示前足退化但仍具备步行能力，雄性个体前足仅有1个跗节及1爪，雌性前足则有2-5个跗节。
         images:
-        - 婀灰蝶.jpg
+        - 婀灰蝶.JPG
+        - 婀灰蝶1.JPG
+        - 婀灰蝶2.JPG
         conservation_status: LC
         habitat: 偏好向阳开阔地
         distribution: 甘肃、青海、四川、云南、欧洲
@@ -1495,13 +1512,61 @@
           url: http://museum.ioz.ac.cn/species_detail.aspx?id=15715
   - family: 夜蛾科
     genera:
+    - genus: 银钩夜蛾属
+      species:
+      - name: 艳银钩夜蛾
+        scientific_name: Panchrysia ornata
+        description: 未知
+        images:
+        - 艳银钩夜蛾.png
+        conservation_status: LC
+        habitat: 未知
+        distribution: 从乌拉尔山脉起，经西伯利亚、蒙古、锡霍特山脉和白头山脉，直至堪察加半岛和太平洋沿岸。其分布海拔最高可达2400米
+        conservation_notes: 无需保护
+        references:
+        - name: iNaturalist-艳银钩夜蛾
+          url: https://www.inaturalist.org/taxa/1233220-Panchrysia-ornata
+    - genus: 银锭夜蛾属
+      species:
+      - name: 瘦银锭夜蛾
+        scientific_name: Macdunnoughia confusa
+        description: 体长11-13mm；翅展31-34mm。头部及胸部灰色带褐，颈板黄褐色；腹部灰褐色；前翅灰色带褐，布有黑色细点，内、外线间在中室后方红棕色，基线灰色外弯至l脉，内线在中室处不明显，中室后为银色内斜，2脉基部有一扁锭形银斑，外线棕色双线，后半线间银色，肾纹棕色，亚端线暗棕色，后半不明显，外侧带有棕色；后翅黄褐色，端区色暗。
+        images:
+        - 瘦银锭夜蛾.png
+        conservation_status: LC
+        habitat: 未知
+        distribution: 黑龙江、新疆、欧洲
+        conservation_notes: 无需保护
+        references:
+        - name: iNaturalist-瘦银锭夜蛾
+          url: https://www.inaturalist.org/taxa/460643-Macdunnoughia-confusa
+        - name: 国家动物标本资源库-瘦银锭夜蛾
+          url: http://museum.ioz.ac.cn/species_detail.aspx?id=35398
+    - genus: 冬夜蛾属
+      species:
+      - name: 银装冬夜蛾
+        scientific_name: Cucullia splendida
+        description: 翅展31-39mm。头、胸白色杂暗灰色前翅银蓝色，后缘外半部土黄色，缘毛白色后翅白色，端区带有暗褐灰色。
+        images:
+        - 银装冬夜蛾.png
+        conservation_status: LC
+        habitat: 未知
+        distribution: 中国北方、蒙古、俄罗斯、哈萨克斯坦
+        conservation_notes: 无需保护
+        references:
+        - name: iNaturalist-银装冬夜蛾
+          url: https://www.inaturalist.org/taxa/856419-Cucullia-splendida
+        - name: 国家动物标本资源库-银装冬夜蛾
+          url: http://museum.ioz.ac.cn/topic_detail.aspx?id=31889
     - genus: 切夜蛾属
       species:
       - name: 岛切夜蛾
         scientific_name: Euxoa ochrogaster
         description: 翅展38mm。头、胸及前翅褐色，后者稍暗，并布有细黑点，前缘区、后缘区及外线与亚端线间色浅，基线、内线黑色，有一黑斑相连于亚中褶，环、肾纹灰色，剑纹灰黑色，环、肾纹间一黑斑，中线黑色，亚端线浅褐色锯齿形，内侧一列黑齿纹；后翅浅褐色，端区暗；腹部灰褐色。雄蛾抱器腹强延伸，右瓣的一支约达瓣端。
         images:
-        - 岛切夜蛾.jpg
+        - 岛切夜蛾.png
+        - 岛切夜蛾1.png
+        - 岛切夜蛾2.png
         conservation_status: LC
         habitat: 未知
         distribution: 黑龙江、青海、蒙古、欧洲、北美
@@ -1529,7 +1594,8 @@
         scientific_name: Amphipoea fucosa
         description: 翅展30-36mm。头、胸及前翅黄褐色，前翅各横线褐色，内线、外线均双线，前者波浪形，后者锯齿形，剑纹小，红褐色，环纹及肾纹黄色带锈红色，亚端线细弱后翅浅褐黄色腹部灰黄色。雄蛾抱钩粗壮，折曲，阳茎有一齿形角状器。
         images:
-        - 麦奂夜蛾.jpg
+        - 麦奂夜蛾.png
+        - 麦奂夜蛾1.png
         conservation_status: LC
         habitat: 为害作物包括小麦、大麦、黍、糜、玉米等
         distribution: 黑龙江、内蒙古、新疆、河北、山西、青海、河南、湖北、湖南、云南、日本、欧洲
@@ -1543,7 +1609,7 @@
         scientific_name: Amphipoea asiatica
         description: 成虫翅展约28毫米。头部浅黄褐色，胸部红褐色。前翅黄褐微带红棕色，基横线、内横线不明显，黑棕色波浪形外斜，环纹及肾纹大，中横线、外横线黑褐色，后者双线波浪形，亚端线黑褐色不清晰，锯齿形。后翅污褐黄色。腹部褐色。
         images:
-        - 亚奂夜蛾.jpg
+        - 亚奂夜蛾.png
         conservation_status: LC
         habitat: 未知
         distribution: 甘肃、黑龙江、新疆、山西、陕西、四川、云南、日本、中亚地区
@@ -1557,13 +1623,13 @@
         scientific_name: Amphipoea sp.
         description: 未知
         images:
-        - 奂夜蛾（未定种）.jpg
+        - 奂夜蛾（未定种）.png
         conservation_status: LC
         habitat: 未知
         distribution: 未知
         conservation_notes: 未知
         references:
-        - name: iNaturalist-奂夜蛾（未定种）
+        - name: iNaturalist-奂夜蛾属
           url: https://www.inaturalist.org/taxa/173196-Amphipoea
     - genus: Calamia属
       species:
@@ -1585,7 +1651,7 @@
         scientific_name: Apamea lateritia
         description: 翅展50mm。头、胸及前翅褐色杂紫灰色，前翅基线灰色，两侧微黑，内线、外线黑色锯齿形。环纹斜，肾纹黑褐色，外缘白色，外线齿尖有黑，白点，亚端线微白后翅褐色腹部黄褐色。雄蛾抱钩长而折曲，阳茎腹缘端部有细锯齿。
         images:
-        - 荒秀夜蛾.jpg
+        - 荒秀夜蛾.png
         conservation_status: LC
         habitat: 未知
         distribution: 黑龙江、内蒙古、青海、新疆、广西、日本、欧洲、北美洲
@@ -1602,7 +1668,7 @@
         description: 翅展40mm。头部粉绿色，下唇须第一、二节褐色；胸部粉绿色，颈板端部及翅基片边缘褐色，后雄毛簇褐色；前翅粉绿色，中间有一树干形褐色带，在中室明显向两侧突出成锯齿形，在1脉后渐宽，翅基部有一棕褐色斑，顶角、中褐端部及臀角各有一
           褐色三角形斑，翅外缘及缘毛棕色；后翅棕褐色，缘毛端部白色；腹部黄褐色。
         images:
-        - 干纹夜蛾.jpg
+        - 干纹夜蛾.png
         conservation_status: LC
         habitat: 未知
         distribution: 黑龙江、内蒙古、新疆、河北，山东、欧洲
@@ -1612,13 +1678,27 @@
           url: https://www.inaturalist.org/taxa/774840-Staurophora-celsia
         - name: 国家动物标本资源库-干纹夜蛾
           url: http://museum.ioz.ac.cn/topic_detail.aspx?id=70421
+    - genus: 丫纹夜蛾属
+      species:
+      - name: 博丫纹夜蛾
+        scientific_name: Autographa buraetica
+        description: 即淡折线金翅夜蛾。翅展35-42mm，由于与一些物种的相似性，须通过生殖器形态学检查才能进行可靠鉴定。
+        images:
+        - 博丫纹夜蛾.png
+        conservation_status: LC
+        habitat: 未知
+        distribution: 欧亚大陆和北美
+        conservation_notes: 无需保护
+        references:
+        - name: iNaturalist-博丫纹夜蛾
+          url: https://www.inaturalist.org/taxa/452548-Autographa-buraetica
     - genus: 逸夜蛾属
       species:
       - name: 穗逸夜蛾
         scientific_name: Caradrina clavipalpis
         description: 翅展29mm。头、胸及前翅褐灰色，前翅密布细黑点，基、内线黑色，前端均为黑点，环纹小，黑色，中线黑色，波浪形，肾纹窄弯，内缘黑色，有二白点，外缘前，后端各一白点，中部一弯白纹，外线黑色，细锯齿形，亚端线淡褐色，端线为一列黑色新月形点后翅白色，端线黑褐色腹部浅褐色。
         images:
-        - 穗逸夜蛾.jpg
+        - 穗逸夜蛾.png
         conservation_status: LC
         habitat: 寄主为车前草属及禾本科
         distribution: 黑龙江、新疆、中亚地区，亚洲西部、非洲北部，欧洲
@@ -1632,7 +1712,7 @@
         scientific_name: Caradrina montana
         description: 翅展26-31mm。
         images:
-        - 蒙逸夜蛾.jpg
+        - 蒙逸夜蛾.png
         conservation_status: LC
         habitat: 未知
         distribution: 北美西部、西亚以及欧洲
@@ -1646,7 +1726,7 @@
         scientific_name: Mythimna pallens
         description: 翅展32-40mm，前翅黄赭色，常带浅红褐色调；翅脉颜色苍白，由灰褐色条纹界定，脉间区域也有类似条纹；中部之外的第2和第5脉上有暗斑；后翅白色，中部呈灰色，翅脉颜色暗。
         images:
-        - 白脉黑点夜蛾.jpg
+        - 白脉黑点夜蛾.png
         conservation_status: LC
         habitat: 寄主为多种禾本科植物，包括发草属、羊茅属、赖草属、黑麦草属和虉草属
         distribution: 整个古北界
@@ -1654,27 +1734,13 @@
         references:
         - name: iNaturalist-白脉黑点夜蛾
           url: https://www.inaturalist.org/taxa/356188-Mythimna-pallens
-    - genus: 丫纹夜蛾属
-      species:
-      - name: 博丫纹夜蛾
-        scientific_name: Autographa buraetica
-        description: 即淡折线金翅夜蛾。翅展35-42mm，由于与一些物种的相似性，须通过生殖器形态学检查才能进行可靠鉴定。
-        images:
-        - 博丫纹夜蛾.jpg
-        conservation_status: LC
-        habitat: 未知
-        distribution: 欧亚大陆和北美
-        conservation_notes: 无需保护
-        references:
-        - name: iNaturalist-博丫纹夜蛾
-          url: https://www.inaturalist.org/taxa/452548-Autographa-buraetica
     - genus: 盗夜蛾属
       species:
       - name: 沃盗夜蛾
         scientific_name: Hadena variolata
         description: 即齿斑盗夜蛾Hadena dealbata。翅展36mm。头、胸、腹部褐色；前翅黑褐色，翅脉纹黑色，基、内线均双线黑色波浪形，前者线间白色，内线后端双线间及两侧各一白斑，剑纹小，环、肾纹白色，前者前方一白斑，外线双线黑色锯齿形，前端及后段线间白色，亚端线白色锯齿形；后翅浅褐黄，外线，亚端线后半可见；腹部褐色。雄蛾抱器瓣端折向腹侧，窄，阳茎有齿形角状器丛。
         images:
-        - 沃盗夜蛾.jpg
+        - 沃盗夜蛾.png
         conservation_status: LC
         habitat: 未知
         distribution: 四川、云南、日本、外高加索地区、北美
@@ -1684,49 +1750,3 @@
           url: https://www.inaturalist.org/taxa/220834-Hadena-variolata
         - name: 国家动物标本资源库-沃盗夜蛾
           url: http://museum.ioz.ac.cn/topic_detail.aspx?id=69576
-    - genus: 冬夜蛾属
-      species:
-      - name: 银装冬夜蛾
-        scientific_name: Cucullia splendida
-        description: 翅展31-39mm。头、胸白色杂暗灰色前翅银蓝色，后缘外半部土黄色，缘毛白色后翅白色，端区带有暗褐灰色。
-        images:
-        - 银装冬夜蛾.jpg
-        conservation_status: LC
-        habitat: 未知
-        distribution: 中国北方、蒙古、俄罗斯、哈萨克斯坦
-        conservation_notes: 无需保护
-        references:
-        - name: iNaturalist-银装冬夜蛾
-          url: https://www.inaturalist.org/taxa/856419-Cucullia-splendida
-        - name: 国家动物标本资源库-银装冬夜蛾
-          url: http://museum.ioz.ac.cn/topic_detail.aspx?id=31889
-    - genus: 银钩夜蛾属
-      species:
-      - name: 艳银钩夜蛾
-        scientific_name: Panchrysia ornata
-        description: 未知
-        images:
-        - 艳银钩夜蛾.jpg
-        conservation_status: LC
-        habitat: 未知
-        distribution: 从乌拉尔山脉起，经西伯利亚、蒙古、锡霍特山脉和白头山脉，直至堪察加半岛和太平洋沿岸。其分布海拔最高可达2400米
-        conservation_notes: 无需保护
-        references:
-        - name: iNaturalist-艳银钩夜蛾
-          url: https://www.inaturalist.org/taxa/1233220-Panchrysia-ornata
-    - genus: 银锭夜蛾属
-      species:
-      - name: 瘦银锭夜蛾
-        scientific_name: Macdunnoughia confusa
-        description: 体长11-13mm；翅展31-34mm。头部及胸部灰色带褐，颈板黄褐色；腹部灰褐色；前翅灰色带褐，布有黑色细点，内、外线间在中室后方红棕色，基线灰色外弯至l脉，内线在中室处不明显，中室后为银色内斜，2脉基部有一扁锭形银斑，外线棕色双线，后半线间银色，肾纹棕色，亚端线暗棕色，后半不明显，外侧带有棕色；后翅黄褐色，端区色暗。
-        images:
-        - 瘦银锭夜蛾.jpg
-        conservation_status: LC
-        habitat: 未知
-        distribution: 黑龙江、新疆、欧洲
-        conservation_notes: 无需保护
-        references:
-        - name: iNaturalist-瘦银锭夜蛾
-          url: https://www.inaturalist.org/taxa/460643-Macdunnoughia-confusa
-        - name: 国家动物标本资源库-瘦银锭夜蛾
-          url: http://museum.ioz.ac.cn/species_detail.aspx?id=35398
