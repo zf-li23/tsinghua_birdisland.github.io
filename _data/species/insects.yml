@@ -10,6 +10,8 @@
           随着年龄增长会不断变成棕色。其翅膀的底部则有黄色的小斑块。
         images:
         - 黑赤蜻.jpg
+        - 黑赤蜻1.jpg
+        - 黑赤蜻2.jpg
         conservation_status: LC
         habitat: 酸性浅水区域，如湖泊边缘、水沟边、荒野和沼泽等地区
         distribution: 北欧、亚洲和北美
@@ -26,7 +28,8 @@
         description: 胸部侧面的蓝黄条纹笔直且宽阔。其外观与A. subarctica相似，但区别在于具有笔直的胸部条纹（而非略带缺刻）。与A.
           interrupta亦有些许相似，但不同之处在于具有更宽的胸部条纹。通过其胸部条纹图案可轻松与其他同属物种区分。
         images:
-        - 竣蜓.jpg
+        - 竣蜓.png
+        - 竣蜓1.png
         conservation_status: LC
         habitat: 清洁水域及水生植物丰富的环境
         distribution: 全北界广泛分布
@@ -38,7 +41,7 @@
         scientific_name: Aeshna crenata
         description: 未知
         images:
-        - 琉璃蜓.jpg
+        - 琉璃蜓.png
         conservation_status: LC
         habitat: 林区淡水湖泊栖息地
         distribution: 欧洲、俄罗斯、日本、韩国、东北地区
@@ -55,6 +58,10 @@
         description: 雄性面部黑色具蓝色斑纹；胸部和腹部大面积蓝色具黑色斑纹。雌性与雄性相似但色彩稍淡。体长 29~36mm,腹长22~28mm,后翅15~21mm。
         images:
         - 心斑绿蟌.jpg
+        - 心斑绿蟌1.jpg
+        - 心斑绿蟌2.jpg
+        - 心斑绿蟌3.jpg
+        - 心斑绿蟌4.jpg
         conservation_status: LC
         habitat: 海拔500m以下的静水环境
         distribution: 黑龙江、吉林、内蒙古、新疆、西藏、宁夏、河北；整个欧洲、亚洲的大部分温带地区和俄罗斯远东。
@@ -84,6 +91,20 @@
   families:
   - family: 蝗科
     genera:
+    - genus: 凹背蝗属
+      species:
+      - name: 凹背蝗（未定种）
+        scientific_name: Ptygonotus sp.
+        description: 未知
+        images:
+        - 凹背蝗（未定种）.png
+        conservation_status: LC
+        habitat: 未知
+        distribution: 未知
+        conservation_notes: 未知
+        references:
+        - name: iNaturalist-凹背蝗属
+          url: https://www.inaturalist.org/taxa/753785-Ptygonotus
     - genus: 雏蝗属
       species:
       - name: 白边雏蝗
@@ -100,23 +121,16 @@
           url: https://www.inaturalist.org/taxa/335580-Chorthippus-albomarginatus
         - name: 国家动物标本资源库-白边雏蝗
           url: http://museum.ioz.ac.cn/species_detail.aspx?id=51466
-      - name: 雏蝗（未定种）
-        scientific_name: Chorthippus sp.
-        description: 未知
-        images:
-        - 雏蝗（未定种）.jpg
-        conservation_status: LC
-        habitat: 未知
-        distribution: 未知
-        conservation_notes: 未知
-        references:
-        - name: iNaturalist-雏蝗（未定种）
-          url: https://www.inaturalist.org/taxa/57651-Chorthippus
       - name: 翠饰雏蝗
         scientific_name: Chorthippus dichrous
         description: 雄性体长14.7—19毫米，雌性17.8—30毫米，体黄褐色，偶现棕褐色背纹，前翅具褐色斑点。头部短，头顶呈锐角状；雄性触角细长超后足股节基部，雌性仅达前胸背板后缘。前胸背板侧隆线近平行，后足股节内侧音齿锥形排列整齐，音齿数约132个。前翅雄性发达，超过后足股节顶端，径脉域窄于前缘脉域；雌性产卵瓣长且边缘光滑。
         images:
-        - 翠饰雏蝗.jpg
+        - 翠饰雏蝗.png
+        - 翠饰雏蝗1.png
+        - 翠饰雏蝗2.png
+        - 翠饰雏蝗3.png
+        - 翠饰雏蝗4.jpg
+        - 翠饰雏蝗5.png
         conservation_status: LC
         habitat: 未知
         distribution: 新疆、欧洲
@@ -130,7 +144,13 @@
         scientific_name: Chorthippus fallax
         description: 成虫体色黄褐色或绿褐色。头部较短，短于前胸背板，头侧窝明显呈狭长四方形，颜面向后倾斜，颜面隆起宽平。前胸背板中隆线较低，侧隆线在沟前区略向内弯曲，后横沟位于其中部。雄性前翅短，顶端宽阔，不到达足股节的顶端，其前缘脉域近基部明显扩大，顶端不超过前翅的中部；中脉域的宽度为肘脉域宽的3-5倍，后翅很短，呈鳞片状。前足跗第一节短于第三节。后足股节黑色，胫节黄褐色，爪间中垫较长，顶端超过爪的中部。尾须长圆锥形，通常到达腹部第三节，且在背部明显地分开。背面有较宽的间隔。后翅退化为片状物。
         images:
-        - 小翅雏蝗.jpg
+        - 小翅雏蝗.png
+        - 小翅雏蝗1.png
+        - 小翅雏蝗2.png
+        - 小翅雏蝗3.png
+        - 小翅雏蝗4.png
+        - 小翅雏蝗5.png
+        - 小翅雏蝗6.jpg
         conservation_status: LC
         habitat: 高山草原，取食禾本科、莎草科牧草及苜蓿、谷子、麦类等作物
         distribution: 青海、甘肃、新疆、内蒙古等11省区，西伯利亚、哈萨克斯坦和蒙古
@@ -140,27 +160,27 @@
           url: https://www.inaturalist.org/taxa/757851-Chorthippus-fallax
         - name: 国家动物标本资源库-小翅雏蝗
           url: http://museum.ioz.ac.cn/species_detail.aspx?id=32515
-    - genus: 凹背蝗属
-      species:
-      - name: 凹背蝗（未定种）
-        scientific_name: Ptygonotus sp.
+      - name: 雏蝗（未定种）
+        scientific_name: Chorthippus sp.
         description: 未知
         images:
-        - 凹背蝗（未定种）.jpg
+        - 雏蝗（未定种）.png
         conservation_status: LC
         habitat: 未知
         distribution: 未知
         conservation_notes: 未知
         references:
-        - name: iNaturalist-凹背蝗（未定种）
-          url: https://www.inaturalist.org/taxa/753785-Ptygonotus
+        - name: iNaturalist-雏蝗属
+          url: https://www.inaturalist.org/taxa/57651-Chorthippus
     - genus: 牧草蝗属
       species:
       - name: 红腹牧草蝗
         scientific_name: Omocestus haemorrhoidalis
         description: 雄性体小型。颜面倾斜，颜茴隆起全长略凹陷。触角端部超过前胸背板的后缘。复眼的垂直直径为眼下沟长的1.7倍。头侧窝长方形，长约为宽的2.5倍。前胸背板后横沟位于中部，侧隆线在沟前区弯曲。前翅较长，到达或超过后足股节的端部，径脉域的宽度同亚前缘脉域的宽度约相等，中脉域较宽，其宽度约为肘脉域宽的2倍。鼓膜孔呈宽缝状。体绿色或黑褐色。前胸背板侧隆线前半段外侧及后半段内侧具黑色带纹。后足股节内侧、底侧黄褐色，末端褐色；后足胫节黑褐色。一腹部背面和底面红色。雌性颜面略倾斜，颜面隆起在中眼之下低凹。触角端部到达前胸背板的后缘。复眼垂直直径为眼下沟长的1.2倍。前翅端部到达或稍不到达后足股节的端部，径脉域的宽度甚宽于亚前缘脉域的宽度，中脉域的宽度约为肘脉域宽度的1.5—2倍。腹部底面红色。余相似于雄性。
         images:
-        - 红腹牧草蝗.jpg
+        - 红腹牧草蝗.png
+        - 红腹牧草蝗1.png
+        - 红腹牧草蝗2.png
         conservation_status: LC
         habitat: 草原或植被茂密生境
         distribution: 内蒙、新疆、山西、西藏、青海；酒泉、张掖、武威、甘南、临夏、天水、定西、平凉、陇南、欧洲
@@ -174,7 +194,10 @@
         scientific_name: Omocestus petraeus
         description: 雄性体长10.7-13.2毫米，颜面倾斜，复眼纵径为头顶宽的2.5倍；前胸背板侧隆线在沟前区呈角形弯曲，前翅中脉域宽度为肘脉域的2.0-2.5倍，翅面具4-5个暗斑，后足胫节黄褐色。雌性体长13.6-17.3毫米，前翅较短且不达后足股节端部
         images:
-        - 曲线牧草蝗.jpg
+        - 曲线牧草蝗.png
+        - 曲线牧草蝗1.png
+        - 曲线牧草蝗2.png
+        - 曲线牧草蝗3.png
         conservation_status: LC
         habitat: 贝加尔针茅+羽茅群落、中华糙隐子草+兴安胡枝子群落
         distribution: 内蒙、陕西、新疆、青海、欧洲
@@ -188,7 +211,7 @@
         scientific_name: Omocestus viridulus
         description: 雄性体长2.6-16.0毫米，头部具长方形头侧窝，前胸背板侧隆线呈弧形弯曲，前翅覆盖后足股节端部，体色呈黄褐或绿褐色，后足股节长10.0-10.5毫米；雌性体长19.7-25.0毫米，前翅肘脉域和臀脉域呈绿色，后足股节长13.0-13.5毫米，产卵瓣端部钩状弯曲。
         images:
-        - 绿牧草蝗.jpg
+        - 绿牧草蝗.png
         conservation_status: LC
         habitat: 未知
         distribution: 内蒙、新疆、青海、欧洲
@@ -198,27 +221,16 @@
           url: https://www.inaturalist.org/taxa/132419-Omocestus-viridulus
         - name: 国家动物标本资源库-绿牧草蝗
           url: http://museum.ioz.ac.cn/species_detail.aspx?id=17828
-    - genus: 痂蝗属
-      species:
-      - name: 印度痂蝗
-        scientific_name: Bryodema luctuosum
-        description: 前翅具明显的暗色斑点，后翅基部暗色，沿外缘具较宽的淡色边缘。雌雄两性身体异形。雄性细长，前后翅很发达；雌性粗短，前后翅均短小，不到达后足股节的顶端。后足股节内侧和底侧均呈黑蓝色。后足股节内侧和上侧暗蓝色，胫节红色，附节黄褐色。（股节内侧红色则为朱腿痂蝗）
-        images:
-        - 印度痂蝗.jpg
-        conservation_status: LC
-        habitat: 高原
-        distribution: 青藏高原、蒙古高原
-        conservation_notes: 无需保护
-        references:
-        - name: iNaturalist-印度痂蝗
-          url: https://www.inaturalist.org/taxa/523494-Bryodema-luctuosum
     - genus: 皱膝蝗属
       species:
       - name: 鼓翅皱膝蝗
         scientific_name: Angaracris barabensis
         description: 呈灰绿色、棕绿色或灰棕色，具明显的黑斑。前胸背板下缘常呈白色或黄白色。后翅基部黄色或黄绿色，主要纵脉黄一绿色或仅在其基部呈黄色而在端部多少呈暗色；外缘部分透明，在第一和第二翅叶端部1／3处不呈暗色或具暗斑；轭脉几乎全长暗色。后足股节基部内侧和下侧的基半部黑色，在端半部的中间具黑带；端部近于膝部处的内侧和下侧黑色；外侧具不甚明显的横带。后足胫节黄色或稍呈红色，胫节刺端部黑色。
         images:
-        - 鼓翅皱膝蝗.jpg
+        - 鼓翅皱膝蝗.JPG
+        - 鼓翅皱膝蝗1.jpg
+        - 鼓翅皱膝蝗2.jpg
+        - 鼓翅皱膝蝗3.jpg
         conservation_status: LC
         habitat: 农田与退化草场等环境
         distribution: 黑龙江、内蒙古、甘肃、河北等地及蒙古、俄罗斯、哈萨克斯坦
@@ -228,6 +240,21 @@
           url: https://www.inaturalist.org/taxa/523493-Angaracris-barabensis
         - name: 国家动物标本资源库-鼓翅皱膝蝗
           url: http://museum.ioz.ac.cn/bbimgxx.aspx?id=2115CX001600038646
+    - genus: 痂蝗属
+      species:
+      - name: 印度痂蝗
+        scientific_name: Bryodema luctuosum
+        description: 前翅具明显的暗色斑点，后翅基部暗色，沿外缘具较宽的淡色边缘。雌雄两性身体异形。雄性细长，前后翅很发达；雌性粗短，前后翅均短小，不到达后足股节的顶端。后足股节内侧和底侧均呈黑蓝色。后足股节内侧和上侧暗蓝色，胫节红色，附节黄褐色。（股节内侧红色则为朱腿痂蝗）
+        images:
+        - 印度痂蝗.jpg
+        - 印度痂蝗1.jpg
+        conservation_status: LC
+        habitat: 高原
+        distribution: 青藏高原、蒙古高原
+        conservation_notes: 无需保护
+        references:
+        - name: iNaturalist-印度痂蝗
+          url: https://www.inaturalist.org/taxa/523494-Bryodema-luctuosum
 - order: 半翅目
   families:
   - family: 叶蝉科
@@ -246,20 +273,6 @@
         references:
         - name: iNaturalist-Planaphrodes属（未定种）
           url: https://www.inaturalist.org/taxa/451691-Planaphrodes
-    - genus: 双钩叶蝉属
-      species:
-      - name: 双沟叶蝉（未定种）
-        scientific_name: Arthaldeus sp.
-        description: 未知
-        images:
-        - 双沟叶蝉（未定种）.jpg
-        conservation_status: LC
-        habitat: 未知
-        distribution: 未知
-        conservation_notes: 未知
-        references:
-        - name: iNaturalist-双沟叶蝉（未定种）
-          url: https://www.inaturalist.org/taxa/735332-Arthaldeus
     - genus: 大叶蝉属
       species:
       - name: 大青叶蝉
@@ -278,6 +291,20 @@
           url: https://www.inaturalist.org/taxa/52447-Cicadella-viridis
         - name: 国家动物标本资源库-大青叶蝉
           url: http://museum.ioz.ac.cn/species_detail.aspx?id=40113
+    - genus: 双钩叶蝉属
+      species:
+      - name: 双沟叶蝉（未定种）
+        scientific_name: Arthaldeus sp.
+        description: 未知
+        images:
+        - 双沟叶蝉（未定种）.jpg
+        conservation_status: LC
+        habitat: 未知
+        distribution: 未知
+        conservation_notes: 未知
+        references:
+        - name: iNaturalist-双沟叶蝉（未定种）
+          url: https://www.inaturalist.org/taxa/735332-Arthaldeus
   - family: 盲蝽科
     genera:
     - genus: 赤须盲蝽属
@@ -296,6 +323,22 @@
           url: https://www.inaturalist.org/taxa/360018-Trigonotylus-caelestialium
         - name: 国家动物标本资源库-赤须盲蝽
           url: http://museum.ioz.ac.cn/species_detail.aspx?id=42717
+  - family: 划蝽科
+    genera:
+    - genus: 烁划蝽属
+      species:
+      - name: 烁划蝽（未定种）
+        scientific_name: Sigara sp.
+        description: 未知
+        images:
+        - 烁划蝽（未定种）.jpg
+        conservation_status: LC
+        habitat: 未知
+        distribution: 未知
+        conservation_notes: 未知
+        references:
+        - name: iNaturalist-烁划蝽（未定种）
+          url: https://www.inaturalist.org/taxa/211532-Sigara
   - family: 蝽科
     genera:
     - genus: 真蝽属
@@ -314,56 +357,10 @@
           url: https://www.inaturalist.org/taxa/546055-Pentatoma-metallifera
         - name: 国家动物标本资源库-金绿真蝽
           url: http://museum.ioz.ac.cn/species_detail.aspx?id=2816
-  - family: 划蝽科
-    genera:
-    - genus: 烁划蝽属
-      species:
-      - name: 烁划蝽（未定种）
-        scientific_name: Sigara sp.
-        description: 未知
-        images:
-        - 烁划蝽（未定种）.jpg
-        conservation_status: LC
-        habitat: 未知
-        distribution: 未知
-        conservation_notes: 未知
-        references:
-        - name: iNaturalist-烁划蝽（未定种）
-          url: https://www.inaturalist.org/taxa/211532-Sigara
 - order: 鞘翅目
   families:
   - family: 步甲科
     genera:
-    - genus: 心步甲属
-      species:
-      - name: 黄缘心步甲
-        scientific_name: Nebria livida
-        description: 成虫体长15.5-17.5毫米；体宽6.2-7毫米。背面大部分黑色，复眼间有两个黄斑，触角、颚须、唇须、前胸背板、翅缘两侧、鞘翅端末约1/4-1/5及足（除基节褐色外）全为黄色。虫体腹面褐色。头近方形，在复眼后方不窄缩，头顶宽平，前部靠近复眼两侧及头后部中央各有1凹洼，后者有时不明显；表面有刻点，多位于凹洼中，两侧凹洼有皱褶；额中部平滑，有微隆起；上颚槽中有毛1根，颚须及唇须末节渐向端部加大，接近斧形。前胸背板横宽，心形，两侧在前部明显膨出，向后方窄缩；背中线明显，前后横沟深凹；侧缘边宽，并上翘；背板中央隆起，光滑无刻点，沿侧缘及前后横沟中有粗刻点，基部有刻点及皱褶。小盾片三角形，表面皱褶。鞘翅狭长，两侧近平行，末端窄缩；每鞘翅除小盾片刻点行外，尚有9行刻点沟，行距平坦，第七、八行间距较宽，有1列弱刻点。雄虫前足跗节基部3节微较雌虫膨大，但可以其下方的毛垫与雌虫区别。
-        images:
-        - 黄缘心步甲.jpg
-        conservation_status: LC
-        habitat: 未知
-        distribution: 辽宁、青海、河北等省份、俄罗斯、欧洲
-        conservation_notes: 无需保护
-        references:
-        - name: iNaturalist-黄缘心步甲
-          url: https://www.inaturalist.org/taxa/703194-Nebria-livida
-        - name: 国家动物标本资源库-黄缘心步甲
-          url: http://museum.ioz.ac.cn/species_detail.aspx?id=14793
-    - genus: 细胫步甲属
-      species:
-      - name: 点刻细胫步甲
-        scientific_name: Agonum sp.
-        description: 体长约10mm,背面红铜色具金属光泽,足及触角黑色。前胸背板圆形,盘区光滑,基凹处具细刻点,后角圆。鞘翅方形,条沟深,在第3行距处具一列大刻点,刻点共6～8个。
-        images:
-        - 点刻细胫步甲.jpg
-        conservation_status: LC
-        habitat: 未知
-        distribution: 未知
-        conservation_notes: 未知
-        references:
-        - name: iNaturalist-点刻细胫步甲
-          url: https://www.inaturalist.org/taxa/154600-Agonum
     - genus: 脊角步甲属
       species:
       - name: 格脊角步甲
@@ -380,38 +377,52 @@
           url: https://www.inaturalist.org/taxa/1521880-Poecilus-gebleri
         - name: 国家动物标本资源库-格脊角步甲
           url: http://museum.ioz.ac.cn/bbimgxx.aspx?id=2113C0001600280735
-  - family: 葬甲科
-    genera:
-    - genus: 覆葬甲属
+    - genus: 细胫步甲属
       species:
-      - name: 普氏覆葬甲
-        scientific_name: Nicrophorus przewalskii
-        description: 腐食性昆虫，会搬运已死亡的动物尸体至其巢中，并用消化液使尸体变成一团球，供幼虫食用。
+      - name: 点刻细胫步甲
+        scientific_name: Agonum sp.
+        description: 体长约10mm,背面红铜色具金属光泽,足及触角黑色。前胸背板圆形,盘区光滑,基凹处具细刻点,后角圆。鞘翅方形,条沟深,在第3行距处具一列大刻点,刻点共6～8个。
         images:
-        - 普氏覆葬甲.jpg
+        - 点刻细胫步甲.jpg
         conservation_status: LC
         habitat: 未知
-        distribution: 青藏高原
-        conservation_notes: 可药用
+        distribution: 未知
+        conservation_notes: 未知
         references:
-        - name: iNaturalist-普氏覆葬甲
-          url: https://www.inaturalist.org/taxa/949236-Nicrophorus-przewalskii
-  - family: 金龟科
-    genera:
-    - genus: 嗡蜣螂属
+        - name: iNaturalist-点刻细胫步甲
+          url: https://www.inaturalist.org/taxa/154600-Agonum
+    - genus: 心步甲属
       species:
-      - name: 三角帕嗡蜣螂
-        scientific_name: Onthophagus vacca
-        description: 头，腿和前胸背板为黑色或深绿色，而鞘翅为淡黄色，带有绿色小点，通常合并成纵向条纹。
+      - name: 黄缘心步甲
+        scientific_name: Nebria livida
+        description: 成虫体长15.5-17.5毫米；体宽6.2-7毫米。背面大部分黑色，复眼间有两个黄斑，触角、颚须、唇须、前胸背板、翅缘两侧、鞘翅端末约1/4-1/5及足（除基节褐色外）全为黄色。虫体腹面褐色。头近方形，在复眼后方不窄缩，头顶宽平，前部靠近复眼两侧及头后部中央各有1凹洼，后者有时不明显；表面有刻点，多位于凹洼中，两侧凹洼有皱褶；额中部平滑，有微隆起；上颚槽中有毛1根，颚须及唇须末节渐向端部加大，接近斧形。前胸背板横宽，心形，两侧在前部明显膨出，向后方窄缩；背中线明显，前后横沟深凹；侧缘边宽，并上翘；背板中央隆起，光滑无刻点，沿侧缘及前后横沟中有粗刻点，基部有刻点及皱褶。小盾片三角形，表面皱褶。鞘翅狭长，两侧近平行，末端窄缩；每鞘翅除小盾片刻点行外，尚有9行刻点沟，行距平坦，第七、八行间距较宽，有1列弱刻点。雄虫前足跗节基部3节微较雌虫膨大，但可以其下方的毛垫与雌虫区别。
         images:
-        - 三角帕嗡蜣螂.jpg
+        - 黄缘心步甲.jpg
         conservation_status: LC
         habitat: 未知
-        distribution: 亚欧大陆
+        distribution: 辽宁、青海、河北等省份、俄罗斯、欧洲
         conservation_notes: 无需保护
         references:
-        - name: iNaturalist-三角帕嗡蜣螂
-          url: https://www.inaturalist.org/taxa/131900-Onthophagus-vacca
+        - name: iNaturalist-黄缘心步甲
+          url: https://www.inaturalist.org/taxa/703194-Nebria-livida
+        - name: 国家动物标本资源库-黄缘心步甲
+          url: http://museum.ioz.ac.cn/species_detail.aspx?id=14793
+  - family: 叶甲科
+    genera:
+    - genus: 跳甲属
+      species:
+      - name: 跳甲（未定种）
+        scientific_name: Altica sp.
+        description: 未知
+        images:
+        - 跳甲（未定种）.jpg
+        conservation_status: LC
+        habitat: 未知
+        distribution: 未知
+        conservation_notes: 未知
+        references:
+        - name: iNaturalist-跳甲（未定种）
+          url: https://www.inaturalist.org/taxa/173228-Altica
   - family: 瓢虫科
     genera:
     - genus: 瓢虫属
@@ -445,36 +456,56 @@
           url: https://www.inaturalist.org/taxa/205977-Coccinella-undecimpunctata
         - name: 国家动物标本资源库-十一星瓢虫
           url: http://museum.ioz.ac.cn/species_detail.aspx?id=44116
+  - family: 象甲科
+    genera:
+    - genus: 冠象属
+      species:
+      - name: 冠象（未定种）
+        scientific_name: Stephanocleonus sp.
+        description: 未知
+        images:
+        - 冠象（未定种）.jpg
+        conservation_status: LC
+        habitat: 未知
+        distribution: 未知
+        conservation_notes: 未知
+        references:
+        - name: iNaturalist-冠象（未定种）
+          url: https://www.inaturalist.org/taxa/211384-Stephanocleonus
+  - family: 芫菁科
+    genera:
+    - genus: 豆芫菁属
+      species:
+      - name: 豆芫菁（未定种）
+        scientific_name: Epicauta sp.
+        description: 未知
+        images:
+        - 豆芫菁（未定种）.jpg
+        conservation_status: LC
+        habitat: 未知
+        distribution: 未知
+        conservation_notes: 未知
+        references:
+        - name: iNaturalist-豆芫菁（未定种）
+          url: https://www.inaturalist.org/taxa/59506-Epicauta
+  - family: 金龟科
+    genera:
+    - genus: 嗡蜣螂属
+      species:
+      - name: 三角帕嗡蜣螂
+        scientific_name: Onthophagus vacca
+        description: 头，腿和前胸背板为黑色或深绿色，而鞘翅为淡黄色，带有绿色小点，通常合并成纵向条纹。
+        images:
+        - 三角帕嗡蜣螂.jpg
+        conservation_status: LC
+        habitat: 未知
+        distribution: 亚欧大陆
+        conservation_notes: 无需保护
+        references:
+        - name: iNaturalist-三角帕嗡蜣螂
+          url: https://www.inaturalist.org/taxa/131900-Onthophagus-vacca
   - family: 拟步甲科
     genera:
-    - genus: 圆鳖甲属
-      species:
-      - name: 狭胸圆鳖甲
-        scientific_name: Scytosoma humeridens
-        description: 体长卵形，黑色，无光泽，跗节黑色至棕褐色。鞘翅扁阔，长大于宽1.6倍，大于前胸背板2.8倍；基部宽凹，具短纵沟，肩角指状前伸；侧缘在基部稍收缩，在中部稍外扩；翅背具细横皱纹和小刻点。前胸侧板粗刻点木锉状；腹突棱形，中凹，♂后缘角状突起，♀无突起。
-        images:
-        - 狭胸圆鳖甲.jpg
-        conservation_status: LC
-        habitat: 未知
-        distribution: 未知
-        conservation_notes: 未知
-        references:
-        - name: iNaturalist-狭胸圆鳖甲
-          url: http://museum.ioz.ac.cn/topic_detail.aspx?id=15287
-    - genus: 小琵甲属
-      species:
-      - name: 红足小琵甲
-        scientific_name: Gnaptorina rufipes
-        description: 体黑色，具光泽；触角第1节、端4节及口须黑棕色，触角第2~7节及足为红棕色；上唇长方形，前缘两侧弧形，中部略突，有金黄色毛；唇基前缘微凹，触角窝上方头侧缘浅凹，前颊向端部斜直地收缩，后颊弧形收缩强烈，较复眼突出，为头部最宽处；盘区刻点浅小，前部刻点较粗较深，中间隆起；额唇基沟细，梯形；触角向后长过前胸背板基部；前胸背板近方形，前胸腹突中凹浅，于基节前方缓降、后方垂降，末端变宽且形成突起。鞘翅长卵形，翅面均匀隆起，无皱纹，刻点较稀，翅坡缓降；鞘翅饰边由背面完全可见；腹部稀布浅黄色具浮毛刻点。
-        images:
-        - 红足小琵甲.jpg
-        conservation_status: LC
-        habitat: 未知
-        distribution: 未知
-        conservation_notes: 未知
-        references:
-        - name: iNaturalist-红足小琵甲
-          url: http://museum.ioz.ac.cn/bbimgxx.aspx?id=2113C0001600000520
     - genus: 琵甲属
       species:
       - name: 侧脊琵甲
@@ -503,54 +534,52 @@
         references:
         - name: iNaturalist-步行琵甲
           url: http://museum.ioz.ac.cn/bbimgxx.aspx?id=2113C0001600018040
-  - family: 芫菁科
-    genera:
-    - genus: 豆芫菁属
+    - genus: 小琵甲属
       species:
-      - name: 豆芫菁（未定种）
-        scientific_name: Epicauta sp.
-        description: 未知
+      - name: 红足小琵甲
+        scientific_name: Gnaptorina rufipes
+        description: 体黑色，具光泽；触角第1节、端4节及口须黑棕色，触角第2~7节及足为红棕色；上唇长方形，前缘两侧弧形，中部略突，有金黄色毛；唇基前缘微凹，触角窝上方头侧缘浅凹，前颊向端部斜直地收缩，后颊弧形收缩强烈，较复眼突出，为头部最宽处；盘区刻点浅小，前部刻点较粗较深，中间隆起；额唇基沟细，梯形；触角向后长过前胸背板基部；前胸背板近方形，前胸腹突中凹浅，于基节前方缓降、后方垂降，末端变宽且形成突起。鞘翅长卵形，翅面均匀隆起，无皱纹，刻点较稀，翅坡缓降；鞘翅饰边由背面完全可见；腹部稀布浅黄色具浮毛刻点。
         images:
-        - 豆芫菁（未定种）.jpg
+        - 红足小琵甲.jpg
         conservation_status: LC
         habitat: 未知
         distribution: 未知
         conservation_notes: 未知
         references:
-        - name: iNaturalist-豆芫菁（未定种）
-          url: https://www.inaturalist.org/taxa/59506-Epicauta
-  - family: 叶甲科
+        - name: iNaturalist-红足小琵甲
+          url: http://museum.ioz.ac.cn/bbimgxx.aspx?id=2113C0001600000520
+  - family: 葬甲科
     genera:
-    - genus: 跳甲属
+    - genus: 覆葬甲属
       species:
-      - name: 跳甲（未定种）
-        scientific_name: Altica sp.
-        description: 未知
+      - name: 普氏覆葬甲
+        scientific_name: Nicrophorus przewalskii
+        description: 腐食性昆虫，会搬运已死亡的动物尸体至其巢中，并用消化液使尸体变成一团球，供幼虫食用。
         images:
-        - 跳甲（未定种）.jpg
+        - 普氏覆葬甲.jpg
+        conservation_status: LC
+        habitat: 未知
+        distribution: 青藏高原
+        conservation_notes: 可药用
+        references:
+        - name: iNaturalist-普氏覆葬甲
+          url: https://www.inaturalist.org/taxa/949236-Nicrophorus-przewalskii
+  - family: 拟步甲科
+    genera:
+    - genus: 圆鳖甲属
+      species:
+      - name: 狭胸圆鳖甲
+        scientific_name: Scytosoma humeridens
+        description: 体长卵形，黑色，无光泽，跗节黑色至棕褐色。鞘翅扁阔，长大于宽1.6倍，大于前胸背板2.8倍；基部宽凹，具短纵沟，肩角指状前伸；侧缘在基部稍收缩，在中部稍外扩；翅背具细横皱纹和小刻点。前胸侧板粗刻点木锉状；腹突棱形，中凹，♂后缘角状突起，♀无突起。
+        images:
+        - 狭胸圆鳖甲.jpg
         conservation_status: LC
         habitat: 未知
         distribution: 未知
         conservation_notes: 未知
         references:
-        - name: iNaturalist-跳甲（未定种）
-          url: https://www.inaturalist.org/taxa/173228-Altica
-  - family: 象甲科
-    genera:
-    - genus: 冠象属
-      species:
-      - name: 冠象（未定种）
-        scientific_name: Stephanocleonus sp.
-        description: 未知
-        images:
-        - 冠象（未定种）.jpg
-        conservation_status: LC
-        habitat: 未知
-        distribution: 未知
-        conservation_notes: 未知
-        references:
-        - name: iNaturalist-冠象（未定种）
-          url: https://www.inaturalist.org/taxa/211384-Stephanocleonus
+        - name: iNaturalist-狭胸圆鳖甲
+          url: http://museum.ioz.ac.cn/topic_detail.aspx?id=15287
 - order: 双翅目
   families:
   - family: 大蚊科
@@ -615,6 +644,20 @@
           url: https://www.inaturalist.org/taxa/130461-Stratiomys
   - family: 食虫虻科
     genera:
+    - genus: 瘦芒食虫虻属
+      species:
+      - name: 瘦芒食虫虻（未定种）
+        scientific_name: Stenopogon sp.
+        description: 未知
+        images:
+        - 瘦芒食虫虻（未定种）.jpg
+        conservation_status: LC
+        habitat: 未知
+        distribution: 未知
+        conservation_notes: 未知
+        references:
+        - name: iNaturalist-瘦芒食虫虻（未定种）
+          url: https://www.inaturalist.org/taxa/209844-Stenopogon
     - genus: 未定
       species:
       - name: 食虫虻科未定1
@@ -653,20 +696,22 @@
         references:
         - name: iNaturalist-食虫虻科未定2
           url: https://www.inaturalist.org/taxa/47982-Asilidae
-    - genus: 瘦芒食虫虻属
+  - family: 剑虻科
+    genera:
+    - genus: 剑虻属
       species:
-      - name: 瘦芒食虫虻（未定种）
-        scientific_name: Stenopogon sp.
+      - name: 剑虻（未定种）
+        scientific_name: Thereva sp.
         description: 未知
         images:
-        - 瘦芒食虫虻（未定种）.jpg
+        - 剑虻（未定种）.jpg
         conservation_status: LC
         habitat: 未知
         distribution: 未知
         conservation_notes: 未知
         references:
-        - name: iNaturalist-瘦芒食虫虻（未定种）
-          url: https://www.inaturalist.org/taxa/209844-Stenopogon
+        - name: iNaturalist-剑虻（未定种）
+          url: https://www.inaturalist.org/taxa/243661-Thereva
   - family: 蜂虻科
     genera:
     - genus: 未定
@@ -695,22 +740,6 @@
         references:
         - name: iNaturalist-蜂虻科未定2
           url: https://www.inaturalist.org/taxa/415425-Bombyliini
-  - family: 剑虻科
-    genera:
-    - genus: 剑虻属
-      species:
-      - name: 剑虻（未定种）
-        scientific_name: Thereva sp.
-        description: 未知
-        images:
-        - 剑虻（未定种）.jpg
-        conservation_status: LC
-        habitat: 未知
-        distribution: 未知
-        conservation_notes: 未知
-        references:
-        - name: iNaturalist-剑虻（未定种）
-          url: https://www.inaturalist.org/taxa/243661-Thereva
   - family: 食蚜蝇科
     genera:
     - genus: 管蚜蝇属
@@ -757,6 +786,22 @@
           url: https://www.inaturalist.org/taxa/69190-Eupeodes-corollae
         - name: 国家动物标本资源库-大灰优食蚜蝇
           url: http://museum.ioz.ac.cn/species_detail.aspx?id=49306
+    - genus: 鼓额食蚜蝇属
+      species:
+      - name: 斜斑鼓额食蚜蝇
+        scientific_name: Scaeva pyrastri
+        description: 体长14毫米左右。头部棕黄色，眼毛密，雄性复眼上部小眼面较大；额鼓出，尤以雄性更显，毛黑色，长密；颜毛黄色，雄性在两侧沿眼缘处具明显黑毛。小盾片黄棕色，大部被黑长毛，仅前缘及侧缘混以少数黄毛。腹部黑色，有黄斑3对，第1对平置，第2、3对略作向外倾斜，即黄斑的内、外前角不在同一横线上，前缘凹入明显，第4、5背板后缘黄色。
+        images:
+        - 斜斑鼓额食蚜蝇.jpg
+        conservation_status: LC
+        habitat: 幼虫捕食棉蚜及其他各种蚜虫
+        distribution: 中国，蒙古，日本，阿富汗，欧洲，北美洲，北非
+        conservation_notes: 无需保护
+        references:
+        - name: iNaturalist-斜斑鼓额食蚜蝇
+          url: https://www.inaturalist.org/taxa/52160-Scaeva-pyrastri
+        - name: 国家动物标本资源库-斜斑鼓额食蚜蝇
+          url: http://museum.ioz.ac.cn/species_detail.aspx?id=2761
     - genus: 细腹食蚜蝇属
       species:
       - name: 短翅细腹食蚜蝇
@@ -789,22 +834,6 @@
           url: https://www.inaturalist.org/taxa/52482-Episyrphus-balteatus
         - name: 国家动物标本资源库-黑带食蚜蝇
           url: http://museum.ioz.ac.cn/species_detail.aspx?id=33959
-    - genus: 鼓额食蚜蝇属
-      species:
-      - name: 斜斑鼓额食蚜蝇
-        scientific_name: Scaeva pyrastri
-        description: 体长14毫米左右。头部棕黄色，眼毛密，雄性复眼上部小眼面较大；额鼓出，尤以雄性更显，毛黑色，长密；颜毛黄色，雄性在两侧沿眼缘处具明显黑毛。小盾片黄棕色，大部被黑长毛，仅前缘及侧缘混以少数黄毛。腹部黑色，有黄斑3对，第1对平置，第2、3对略作向外倾斜，即黄斑的内、外前角不在同一横线上，前缘凹入明显，第4、5背板后缘黄色。
-        images:
-        - 斜斑鼓额食蚜蝇.jpg
-        conservation_status: LC
-        habitat: 幼虫捕食棉蚜及其他各种蚜虫
-        distribution: 中国，蒙古，日本，阿富汗，欧洲，北美洲，北非
-        conservation_notes: 无需保护
-        references:
-        - name: iNaturalist-斜斑鼓额食蚜蝇
-          url: https://www.inaturalist.org/taxa/52160-Scaeva-pyrastri
-        - name: 国家动物标本资源库-斜斑鼓额食蚜蝇
-          url: http://museum.ioz.ac.cn/species_detail.aspx?id=2761
   - family: 丽蝇科
     genera:
     - genus: 丽蝇属
@@ -838,22 +867,36 @@
           url: https://www.inaturalist.org/taxa/119115-Calliphora-vicina
         - name: 国家动物标本资源库-红头丽蝇
           url: http://museum.ioz.ac.cn/species_detail.aspx?id=35425
-    - genus: 原伏蝇属
+    - genus: 陪丽蝇属
       species:
-      - name: 新陆原伏蝇
-        scientific_name: Protophormia terraenovae
-        description: 成虫体长可达13毫米，体色呈现暗青蓝色并带紫色光泽，触须红黄色，腹部第二节外黑色，前中鬃与后中鬃不发达，后背中鬃具4-5个鬃位。
+      - name: 陪丽蝇（未定种）
+        scientific_name: Bellardia sp.
+        description: 未知
         images:
-        - 新陆原伏蝇.jpg
+        - 陪丽蝇（未定种）.jpg
         conservation_status: LC
-        habitat: 常栖息于人类活动区域的厕所、动物尸体、畜圈等场所
-        distribution: 主要分布于青藏高原及新疆、黑龙江等19个省级行政区，国外见于日本、蒙古及北美等地
+        habitat: 未知
+        distribution: 未知
+        conservation_notes: 无需保护，需防治疾病传播
+        references:
+        - name: iNaturalist-陪丽蝇（未定种）
+          url: https://www.inaturalist.org/taxa/490426-Bellardia
+    - genus: 蓝蝇属
+      species:
+      - name: 尸蓝蝇
+        scientific_name: Cynomya mortuorum
+        description: 成虫体长9-12毫米，两性形态差异显著。雄虫头部橙黄色具金色粉被，胸腹部呈蓝绿色，胫节红棕色，腹部密布黑长毛；雌虫额宽占头宽的1/3，第五背板鬃毛密集。翅脉棕黄色，足部鬃毛排列具种属鉴别特征。
+        images:
+        - 尸蓝蝇.jpg
+        conservation_status: LC
+        habitat: 山麓草原及高山草甸，幼虫以腐肉为滋生环境
+        distribution: 青藏高原、欧洲
         conservation_notes: 无需保护
         references:
-        - name: iNaturalist-新陆原伏蝇
-          url: https://www.inaturalist.org/taxa/490429-Protophormia-terraenovae
-        - name: 国家动物标本资源库-新陆原伏蝇
-          url: https://baike.baidu.com/item/%E6%96%B0%E9%99%86%E5%8E%9F%E4%BC%8F%E8%9D%87/7121079
+        - name: iNaturalist-尸蓝蝇
+          url: https://www.inaturalist.org/taxa/322691-Cynomya-mortuorum
+        - name: 国家动物标本资源库-尸蓝蝇
+          url: http://museum.ioz.ac.cn/species_detail.aspx?id=20812
     - genus: 绿蝇属
       species:
       - name: 丝光绿蝇
@@ -882,66 +925,24 @@
         references:
         - name: iNaturalist-林绿蝇
           url: https://www.inaturalist.org/taxa/447133-Lucilia-silvarum
-    - genus: 蓝蝇属
+    - genus: 原伏蝇属
       species:
-      - name: 尸蓝蝇
-        scientific_name: Cynomya mortuorum
-        description: 成虫体长9-12毫米，两性形态差异显著。雄虫头部橙黄色具金色粉被，胸腹部呈蓝绿色，胫节红棕色，腹部密布黑长毛；雌虫额宽占头宽的1/3，第五背板鬃毛密集。翅脉棕黄色，足部鬃毛排列具种属鉴别特征。
+      - name: 新陆原伏蝇
+        scientific_name: Protophormia terraenovae
+        description: 成虫体长可达13毫米，体色呈现暗青蓝色并带紫色光泽，触须红黄色，腹部第二节外黑色，前中鬃与后中鬃不发达，后背中鬃具4-5个鬃位。
         images:
-        - 尸蓝蝇.jpg
+        - 新陆原伏蝇.jpg
         conservation_status: LC
-        habitat: 山麓草原及高山草甸，幼虫以腐肉为滋生环境
-        distribution: 青藏高原、欧洲
+        habitat: 常栖息于人类活动区域的厕所、动物尸体、畜圈等场所
+        distribution: 主要分布于青藏高原及新疆、黑龙江等19个省级行政区，国外见于日本、蒙古及北美等地
         conservation_notes: 无需保护
         references:
-        - name: iNaturalist-尸蓝蝇
-          url: https://www.inaturalist.org/taxa/322691-Cynomya-mortuorum
-        - name: 国家动物标本资源库-尸蓝蝇
-          url: http://museum.ioz.ac.cn/species_detail.aspx?id=20812
-    - genus: 陪丽蝇属
-      species:
-      - name: 陪丽蝇（未定种）
-        scientific_name: Bellardia sp.
-        description: 未知
-        images:
-        - 陪丽蝇（未定种）.jpg
-        conservation_status: LC
-        habitat: 未知
-        distribution: 未知
-        conservation_notes: 无需保护，需防治疾病传播
-        references:
-        - name: iNaturalist-陪丽蝇（未定种）
-          url: https://www.inaturalist.org/taxa/490426-Bellardia
+        - name: iNaturalist-新陆原伏蝇
+          url: https://www.inaturalist.org/taxa/490429-Protophormia-terraenovae
+        - name: 国家动物标本资源库-新陆原伏蝇
+          url: https://baike.baidu.com/item/%E6%96%B0%E9%99%86%E5%8E%9F%E4%BC%8F%E8%9D%87/7121079
   - family: 寄蝇科
     genera:
-    - genus: 叶甲寄蝇属
-      species:
-      - name: 叶甲寄蝇（未定种）
-        scientific_name: Macquartia sp.
-        description: 未知
-        images:
-        - 叶甲寄蝇（未定种）.jpg
-        conservation_status: LC
-        habitat: 未知
-        distribution: 未知
-        conservation_notes: 未知
-        references:
-        - name: iNaturalist-叶甲寄蝇（未定种）
-          url: https://www.inaturalist.org/taxa/625010-Macquartia
-    - genus: 寄蝇属
-      species:
-      - name: 弥寄蝇
-        scientific_name: Tachina micado Kirby
-        description: 未知
-        images:
-        - 弥寄蝇.jpg
-        conservation_status: LC
-        habitat: 未知
-        distribution: 中国青海省、甘肃省甘南地区（卓尼）以及日本
-        conservation_notes: 未知
-        references:
-        - name: iNaturalist-弥寄蝇
-          url: https://www.inaturalist.org/taxa/55696-Tachina
     - genus: 腹膜寄蝇属
       species:
       - name: 普通腹膜寄蝇
@@ -956,42 +957,55 @@
         references:
         - name: iNaturalist-普通腹膜寄蝇
           url: https://www.inaturalist.org/taxa/460533-Gymnosoma-rotundatum
+    - genus: 寄蝇属
+      species:
+      - name: 弥寄蝇
+        scientific_name: Tachina micado Kirby
+        description: 未知
+        images:
+        - 弥寄蝇.jpg
+        conservation_status: LC
+        habitat: 未知
+        distribution: 中国青海省、甘肃省甘南地区（卓尼）以及日本
+        conservation_notes: 未知
+        references:
+        - name: iNaturalist-弥寄蝇
+          url: https://www.inaturalist.org/taxa/55696-Tachina
+    - genus: 叶甲寄蝇属
+      species:
+      - name: 叶甲寄蝇（未定种）
+        scientific_name: Macquartia sp.
+        description: 未知
+        images:
+        - 叶甲寄蝇（未定种）.jpg
+        conservation_status: LC
+        habitat: 未知
+        distribution: 未知
+        conservation_notes: 未知
+        references:
+        - name: iNaturalist-叶甲寄蝇（未定种）
+          url: https://www.inaturalist.org/taxa/625010-Macquartia
 - order: 膜翅目
   families:
-  - family: 姬蜂科
-    genera:
-    - genus: 都姬蜂属
-      species:
-      - name: 都姬蜂（未定种）
-        scientific_name: Dusona sp.
-        description: 未知
-        images:
-        - 都姬蜂（未定种）.jpg
-        conservation_status: LC
-        habitat: 未知
-        distribution: 未知
-        conservation_notes: 未知
-        references:
-        - name: iNaturalist-都姬蜂（未定种）
-          url: https://www.inaturalist.org/taxa/250139-Dusona
-  - family: 泥蜂科
-    genera:
-    - genus: 长足泥蜂属
-      species:
-      - name: 长足泥蜂（未定种）
-        scientific_name: Podalonia sp.
-        description: 未知
-        images:
-        - 长足泥蜂（未定种）.jpg
-        conservation_status: LC
-        habitat: 未知
-        distribution: 未知
-        conservation_notes: 未知
-        references:
-        - name: iNaturalist-长足泥蜂（未定种）
-          url: https://www.inaturalist.org/taxa/154665-Podalonia
   - family: 蜜蜂科
     genera:
+    - genus: 蜜蜂属
+      species:
+      - name: 西方蜜蜂
+        scientific_name: Apis mellifera
+        description: 工蜂体长12-14毫米，后翅中脉无分叉，第6腹节背板无绒毛带，喙长5.5-7.2毫米，群体分化明显且具采胶习性。观察到的蜜蜂属于西方蜜蜂物种，但在形态与颜色上和意大利蜜蜂有显著区别，可能为从东欧引进我国的多种高加索亚种组西方蜜蜂（Apis
+          mellifera caucasica subspecies group）杂交产生的后代。
+        images:
+        - 西方蜜蜂.jpg
+        conservation_status: LC
+        habitat: 野生、半野生或家养
+        distribution: 全球广泛分布
+        conservation_notes: 无需保护
+        references:
+        - name: iNaturalist-西方蜜蜂
+          url: https://www.inaturalist.org/taxa/47219-Apis-mellifera
+        - name: 国家动物标本资源库-西方蜜蜂
+          url: http://museum.ioz.ac.cn/species_detail.aspx?id=41275
     - genus: 熊蜂属
       species:
       - name: 火红熊蜂
@@ -1090,23 +1104,38 @@
         references:
         - name: iNaturalist-熊蜂（未定种）4
           url: https://www.inaturalist.org/taxa/52775-Bombus
-    - genus: 蜜蜂属
+  - family: 泥蜂科
+    genera:
+    - genus: 长足泥蜂属
       species:
-      - name: 西方蜜蜂
-        scientific_name: Apis mellifera
-        description: 工蜂体长12-14毫米，后翅中脉无分叉，第6腹节背板无绒毛带，喙长5.5-7.2毫米，群体分化明显且具采胶习性。观察到的蜜蜂属于西方蜜蜂物种，但在形态与颜色上和意大利蜜蜂有显著区别，可能为从东欧引进我国的多种高加索亚种组西方蜜蜂（Apis
-          mellifera caucasica subspecies group）杂交产生的后代。
+      - name: 长足泥蜂（未定种）
+        scientific_name: Podalonia sp.
+        description: 未知
         images:
-        - 西方蜜蜂.jpg
+        - 长足泥蜂（未定种）.jpg
         conservation_status: LC
-        habitat: 野生、半野生或家养
-        distribution: 全球广泛分布
-        conservation_notes: 无需保护
+        habitat: 未知
+        distribution: 未知
+        conservation_notes: 未知
         references:
-        - name: iNaturalist-西方蜜蜂
-          url: https://www.inaturalist.org/taxa/47219-Apis-mellifera
-        - name: 国家动物标本资源库-西方蜜蜂
-          url: http://museum.ioz.ac.cn/species_detail.aspx?id=41275
+        - name: iNaturalist-长足泥蜂（未定种）
+          url: https://www.inaturalist.org/taxa/154665-Podalonia
+  - family: 姬蜂科
+    genera:
+    - genus: 都姬蜂属
+      species:
+      - name: 都姬蜂（未定种）
+        scientific_name: Dusona sp.
+        description: 未知
+        images:
+        - 都姬蜂（未定种）.jpg
+        conservation_status: LC
+        habitat: 未知
+        distribution: 未知
+        conservation_notes: 未知
+        references:
+        - name: iNaturalist-都姬蜂（未定种）
+          url: https://www.inaturalist.org/taxa/250139-Dusona
   - family: 蚁科
     genera:
     - genus: 毛蚁属
@@ -1177,22 +1206,6 @@
           url: https://www.inaturalist.org/taxa/345997-Colias-erate
         - name: 国家动物标本资源库-斑缘豆粉蝶
           url: http://museum.ioz.ac.cn/species_detail.aspx?id=9119
-    - genus: 云粉蝶属
-      species:
-      - name: 云粉蝶
-        scientific_name: Pontia edusa
-        description: 翅展33-53毫米，翅面以白色为主，具黑褐色斑纹，雄蝶前翅顶角有黑带及小白斑，雌蝶前翅基部覆盖黑褐色鳞粉。春型个体较小且后翅反面呈深褐色，夏型较大且黄绿色斑纹显著。
-        images:
-        - 云粉蝶.jpg
-        conservation_status: LC
-        habitat: 林缘、荒地及城市绿地，寄主包括萝卜、白菜等十字花科蔬菜和豆科植物
-        distribution: 中国20余个省区及欧洲、北非至西伯利亚等地
-        conservation_notes: 无需保护
-        references:
-        - name: iNaturalist-云粉蝶
-          url: https://www.inaturalist.org/taxa/127103-Pontia-edusa
-        - name: 国家动物标本资源库-云粉蝶
-          url: http://museum.ioz.ac.cn/topic_detail.aspx?id=14918
     - genus: 粉蝶属
       species:
       - name: 菜粉蝶
@@ -1209,6 +1222,22 @@
           url: https://www.inaturalist.org/taxa/55626-Pieris-rapae
         - name: 国家动物标本资源库-菜粉蝶
           url: http://museum.ioz.ac.cn/species_detail.aspx?id=16910
+    - genus: 云粉蝶属
+      species:
+      - name: 云粉蝶
+        scientific_name: Pontia edusa
+        description: 翅展33-53毫米，翅面以白色为主，具黑褐色斑纹，雄蝶前翅顶角有黑带及小白斑，雌蝶前翅基部覆盖黑褐色鳞粉。春型个体较小且后翅反面呈深褐色，夏型较大且黄绿色斑纹显著。
+        images:
+        - 云粉蝶.jpg
+        conservation_status: LC
+        habitat: 林缘、荒地及城市绿地，寄主包括萝卜、白菜等十字花科蔬菜和豆科植物
+        distribution: 中国20余个省区及欧洲、北非至西伯利亚等地
+        conservation_notes: 无需保护
+        references:
+        - name: iNaturalist-云粉蝶
+          url: https://www.inaturalist.org/taxa/127103-Pontia-edusa
+        - name: 国家动物标本资源库-云粉蝶
+          url: http://museum.ioz.ac.cn/topic_detail.aspx?id=14918
   - family: 蛱蝶科
     genera:
     - genus: 白眼蝶属
@@ -1227,38 +1256,6 @@
           url: https://www.inaturalist.org/taxa/1021034-Melanargia-ganymedes
         - name: 国家动物标本资源库-甘藏白眼蝶
           url: http://museum.ioz.ac.cn/species_detail.aspx?id=53342
-    - genus: 珍眼蝶属
-      species:
-      - name: 牧女珍眼蝶
-        scientific_name: Coenonympha amaryllis
-        description: 棒状触角，触角端部逐渐加粗，足纤细，翅面土黄色，前翅翅脉基部加粗，其前翅基部三条脉明显膨大；但是翅背色淡，前翅亚缘区有一列黑色眼纹，后翅亚缘区一列6个黄圈黑眼纹；前后翅，亚前缘线呈银白色，波状，内侧有橙色条纹。
-        images:
-        - 牧女珍眼蝶.jpg
-        conservation_status: LC
-        habitat: 草地，寄主为莎草科薹草属
-        distribution: 中国东北、华北、西北地区、蒙古、俄罗斯
-        conservation_notes: 无需保护
-        references:
-        - name: iNaturalist-牧女珍眼蝶
-          url: https://www.inaturalist.org/taxa/777342-Coenonympha-amaryllis
-        - name: 国家动物标本资源库-牧女珍眼蝶
-          url: http://museum.ioz.ac.cn/species_detail.aspx?id=18011
-    - genus: 仁眼蝶属
-      species:
-      - name: 仁眼蝶
-        scientific_name: Hipparchia autonoe
-        description: 翅棕褐色。前翅亚外缘前后有2个黄白色斑，斑内各有1个黑色眼斑。后翅有1条白色曲折的中带。前后翅反面各有1条黑褐色亚外缘线，后翅脉纹白色，近臀角有1个小的黑色眼斑。
-        images:
-        - 仁眼蝶.jpg
-        conservation_status: LC
-        habitat: 高山草甸以及富含丰富水源的地方
-        distribution: 陕西、山西、甘肃、黑龙江、内蒙古、青海、河北、蒙古、俄罗斯、哈萨克斯坦
-        conservation_notes: 无需保护
-        references:
-        - name: iNaturalist-仁眼蝶
-          url: https://www.inaturalist.org/taxa/779100-Hipparchia-autonoe
-        - name: 国家动物标本资源库-仁眼蝶
-          url: http://museum.ioz.ac.cn/species_detail.aspx?id=42391
     - genus: 蛇眼蝶属
       species:
       - name: 异点蛇眼蝶
@@ -1276,6 +1273,38 @@
           url: https://www.inaturalist.org/taxa/326385-Minois-dryas-paupera
         - name: 国家动物标本资源库-异点蛇眼蝶
           url: http://museum.ioz.ac.cn/species_detail.aspx?id=44753
+    - genus: 仁眼蝶属
+      species:
+      - name: 仁眼蝶
+        scientific_name: Hipparchia autonoe
+        description: 翅棕褐色。前翅亚外缘前后有2个黄白色斑，斑内各有1个黑色眼斑。后翅有1条白色曲折的中带。前后翅反面各有1条黑褐色亚外缘线，后翅脉纹白色，近臀角有1个小的黑色眼斑。
+        images:
+        - 仁眼蝶.jpg
+        conservation_status: LC
+        habitat: 高山草甸以及富含丰富水源的地方
+        distribution: 陕西、山西、甘肃、黑龙江、内蒙古、青海、河北、蒙古、俄罗斯、哈萨克斯坦
+        conservation_notes: 无需保护
+        references:
+        - name: iNaturalist-仁眼蝶
+          url: https://www.inaturalist.org/taxa/779100-Hipparchia-autonoe
+        - name: 国家动物标本资源库-仁眼蝶
+          url: http://museum.ioz.ac.cn/species_detail.aspx?id=42391
+    - genus: 珍眼蝶属
+      species:
+      - name: 牧女珍眼蝶
+        scientific_name: Coenonympha amaryllis
+        description: 棒状触角，触角端部逐渐加粗，足纤细，翅面土黄色，前翅翅脉基部加粗，其前翅基部三条脉明显膨大；但是翅背色淡，前翅亚缘区有一列黑色眼纹，后翅亚缘区一列6个黄圈黑眼纹；前后翅，亚前缘线呈银白色，波状，内侧有橙色条纹。
+        images:
+        - 牧女珍眼蝶.jpg
+        conservation_status: LC
+        habitat: 草地，寄主为莎草科薹草属
+        distribution: 中国东北、华北、西北地区、蒙古、俄罗斯
+        conservation_notes: 无需保护
+        references:
+        - name: iNaturalist-牧女珍眼蝶
+          url: https://www.inaturalist.org/taxa/777342-Coenonympha-amaryllis
+        - name: 国家动物标本资源库-牧女珍眼蝶
+          url: http://museum.ioz.ac.cn/species_detail.aspx?id=18011
     - genus: 珠蛱蝶属
       species:
       - name: 曲斑珠蛱蝶
@@ -1324,22 +1353,6 @@
           url: https://www.inaturalist.org/taxa/48548-Vanessa-cardui
         - name: 国家动物标本资源库-小红蛱蝶
           url: http://museum.ioz.ac.cn/species_detail.aspx?id=37188
-    - genus: 闪蛱蝶属
-      species:
-      - name: 柳紫闪蛱蝶
-        scientific_name: Apatura ilia
-        description: 成虫翅展59～64mm。翅黑褐色，翅膀在阳光下能闪烁出强烈的紫光。前翅约有10个白斑，中室内有4个黑点；反面有1个黑色蓝瞳眼斑，围有棕色眶。后翅中央有1条白色横带，并有1个与域前翅相似的小眼斑。反面白色带上端很宽，下端尖削成楔形带，中室端部尖出显著。
-        images:
-        - 柳紫闪蛱蝶.jpg
-        conservation_status: LC
-        habitat: 寄主为杨柳科
-        distribution: 大部分欧洲地区及横跨古北界直到日本
-        conservation_notes: 无需保护
-        references:
-        - name: iNaturalist-柳紫闪蛱蝶
-          url: https://www.inaturalist.org/taxa/322024-Apatura-ilia
-        - name: 国家动物标本资源库-柳紫闪蛱蝶
-          url: http://museum.ioz.ac.cn/species_detail.aspx?id=11840
     - genus: 麻蛱蝶属
       species:
       - name: 荨麻蛱蝶
@@ -1368,24 +1381,24 @@
         references:
         - name: iNaturalist-西藏麻蛱蝶
           url: https://www.inaturalist.org/taxa/357613-Aglais-ladakensis
-  - family: 灰蝶科
-    genera:
-    - genus: 灿灰蝶属
+    - genus: 闪蛱蝶属
       species:
-      - name: 婀灰蝶
-        scientific_name: Agriades orbitulus
-        description: 成虫前翅呈三角形，后翅近卵圆形，翅面颜色呈现灰蝶科典型蓝灰色金属光泽。触角各节具显著白环标记，这一特征在灰蝶科物种中具有鉴别意义。足部结构显示前足退化但仍具备步行能力，雄性个体前足仅有1个跗节及1爪，雌性前足则有2-5个跗节。
+      - name: 柳紫闪蛱蝶
+        scientific_name: Apatura ilia
+        description: 成虫翅展59～64mm。翅黑褐色，翅膀在阳光下能闪烁出强烈的紫光。前翅约有10个白斑，中室内有4个黑点；反面有1个黑色蓝瞳眼斑，围有棕色眶。后翅中央有1条白色横带，并有1个与域前翅相似的小眼斑。反面白色带上端很宽，下端尖削成楔形带，中室端部尖出显著。
         images:
-        - 婀灰蝶.jpg
+        - 柳紫闪蛱蝶.jpg
         conservation_status: LC
-        habitat: 偏好向阳开阔地
-        distribution: 甘肃、青海、四川、云南、欧洲
+        habitat: 寄主为杨柳科
+        distribution: 大部分欧洲地区及横跨古北界直到日本
         conservation_notes: 无需保护
         references:
-        - name: iNaturalist-婀灰蝶
-          url: https://www.inaturalist.org/taxa/780120-Agriades-orbitulus
-        - name: 国家动物标本资源库-婀灰蝶
-          url: http://museum.ioz.ac.cn/species_detail.aspx?id=15715
+        - name: iNaturalist-柳紫闪蛱蝶
+          url: https://www.inaturalist.org/taxa/322024-Apatura-ilia
+        - name: 国家动物标本资源库-柳紫闪蛱蝶
+          url: http://museum.ioz.ac.cn/species_detail.aspx?id=11840
+  - family: 灰蝶科
+    genera:
     - genus: 眼灰蝶属
       species:
       - name: 多眼灰蝶
@@ -1418,54 +1431,24 @@
           url: https://www.inaturalist.org/taxa/346129-Plebejus-argyrognomon
         - name: 国家动物标本资源库-红珠灰蝶
           url: http://museum.ioz.ac.cn/species_detail.aspx?id=16746
+    - genus: 灿灰蝶属
+      species:
+      - name: 婀灰蝶
+        scientific_name: Agriades orbitulus
+        description: 成虫前翅呈三角形，后翅近卵圆形，翅面颜色呈现灰蝶科典型蓝灰色金属光泽。触角各节具显著白环标记，这一特征在灰蝶科物种中具有鉴别意义。足部结构显示前足退化但仍具备步行能力，雄性个体前足仅有1个跗节及1爪，雌性前足则有2-5个跗节。
+        images:
+        - 婀灰蝶.jpg
+        conservation_status: LC
+        habitat: 偏好向阳开阔地
+        distribution: 甘肃、青海、四川、云南、欧洲
+        conservation_notes: 无需保护
+        references:
+        - name: iNaturalist-婀灰蝶
+          url: https://www.inaturalist.org/taxa/780120-Agriades-orbitulus
+        - name: 国家动物标本资源库-婀灰蝶
+          url: http://museum.ioz.ac.cn/species_detail.aspx?id=15715
   - family: 夜蛾科
     genera:
-    - genus: 银钩夜蛾属
-      species:
-      - name: 艳银钩夜蛾
-        scientific_name: Panchrysia ornata
-        description: 未知
-        images:
-        - 艳银钩夜蛾.jpg
-        conservation_status: LC
-        habitat: 未知
-        distribution: 从乌拉尔山脉起，经西伯利亚、蒙古、锡霍特山脉和白头山脉，直至堪察加半岛和太平洋沿岸。其分布海拔最高可达2400米
-        conservation_notes: 无需保护
-        references:
-        - name: iNaturalist-艳银钩夜蛾
-          url: https://www.inaturalist.org/taxa/1233220-Panchrysia-ornata
-    - genus: 银锭夜蛾属
-      species:
-      - name: 瘦银锭夜蛾
-        scientific_name: Macdunnoughia confusa
-        description: 体长11-13mm；翅展31-34mm。头部及胸部灰色带褐，颈板黄褐色；腹部灰褐色；前翅灰色带褐，布有黑色细点，内、外线间在中室后方红棕色，基线灰色外弯至l脉，内线在中室处不明显，中室后为银色内斜，2脉基部有一扁锭形银斑，外线棕色双线，后半线间银色，肾纹棕色，亚端线暗棕色，后半不明显，外侧带有棕色；后翅黄褐色，端区色暗。
-        images:
-        - 瘦银锭夜蛾.jpg
-        conservation_status: LC
-        habitat: 未知
-        distribution: 黑龙江、新疆、欧洲
-        conservation_notes: 无需保护
-        references:
-        - name: iNaturalist-瘦银锭夜蛾
-          url: https://www.inaturalist.org/taxa/460643-Macdunnoughia-confusa
-        - name: 国家动物标本资源库-瘦银锭夜蛾
-          url: http://museum.ioz.ac.cn/species_detail.aspx?id=35398
-    - genus: 冬夜蛾属
-      species:
-      - name: 银装冬夜蛾
-        scientific_name: Cucullia splendida
-        description: 翅展31-39mm。头、胸白色杂暗灰色前翅银蓝色，后缘外半部土黄色，缘毛白色后翅白色，端区带有暗褐灰色。
-        images:
-        - 银装冬夜蛾.jpg
-        conservation_status: LC
-        habitat: 未知
-        distribution: 中国北方、蒙古、俄罗斯、哈萨克斯坦
-        conservation_notes: 无需保护
-        references:
-        - name: iNaturalist-银装冬夜蛾
-          url: https://www.inaturalist.org/taxa/856419-Cucullia-splendida
-        - name: 国家动物标本资源库-银装冬夜蛾
-          url: http://museum.ioz.ac.cn/topic_detail.aspx?id=31889
     - genus: 切夜蛾属
       species:
       - name: 岛切夜蛾
@@ -1536,6 +1519,20 @@
         references:
         - name: iNaturalist-奂夜蛾（未定种）
           url: https://www.inaturalist.org/taxa/173196-Amphipoea
+    - genus: Calamia属
+      species:
+      - name: 特雷夜蛾
+        scientific_name: Calamia tridens
+        description: 翅展37-42mm，体色为白绿色。前翅通常或多或少弥漫着灰色（除前缘外），显示出一条浅色的弯曲外带；缘毛为白色。
+        images:
+        - 特雷夜蛾.jpg
+        conservation_status: LC
+        habitat: 寄主为禾本科
+        distribution: 新疆、欧洲
+        conservation_notes: 无需保护
+        references:
+        - name: iNaturalist-特雷夜蛾
+          url: https://www.inaturalist.org/taxa/483509-Calamia-tridens
     - genus: 秀夜蛾属
       species:
       - name: 荒秀夜蛾
@@ -1552,34 +1549,6 @@
           url: https://www.inaturalist.org/taxa/362608-Apamea-lateritia
         - name: 国家动物标本资源库-荒秀夜蛾
           url: http://museum.ioz.ac.cn/topic_detail.aspx?id=31617
-    - genus: Calamia属
-      species:
-      - name: 特雷夜蛾
-        scientific_name: Calamia tridens
-        description: 翅展37-42mm，体色为白绿色。前翅通常或多或少弥漫着灰色（除前缘外），显示出一条浅色的弯曲外带；缘毛为白色。
-        images:
-        - 特雷夜蛾.jpg
-        conservation_status: LC
-        habitat: 寄主为禾本科
-        distribution: 新疆、欧洲
-        conservation_notes: 无需保护
-        references:
-        - name: iNaturalist-特雷夜蛾
-          url: https://www.inaturalist.org/taxa/483509-Calamia-tridens
-    - genus: 丫纹夜蛾属
-      species:
-      - name: 博丫纹夜蛾
-        scientific_name: Autographa buraetica
-        description: 即淡折线金翅夜蛾。翅展35-42mm，由于与一些物种的相似性，须通过生殖器形态学检查才能进行可靠鉴定。
-        images:
-        - 博丫纹夜蛾.jpg
-        conservation_status: LC
-        habitat: 未知
-        distribution: 欧亚大陆和北美
-        conservation_notes: 无需保护
-        references:
-        - name: iNaturalist-博丫纹夜蛾
-          url: https://www.inaturalist.org/taxa/452548-Autographa-buraetica
     - genus: 干纹夜蛾属
       species:
       - name: 干纹夜蛾
@@ -1597,36 +1566,6 @@
           url: https://www.inaturalist.org/taxa/774840-Staurophora-celsia
         - name: 国家动物标本资源库-干纹夜蛾
           url: http://museum.ioz.ac.cn/topic_detail.aspx?id=70421
-    - genus: 盗夜蛾属
-      species:
-      - name: 沃盗夜蛾
-        scientific_name: Hadena variolata
-        description: 即齿斑盗夜蛾Hadena dealbata。翅展36mm。头、胸、腹部褐色；前翅黑褐色，翅脉纹黑色，基、内线均双线黑色波浪形，前者线间白色，内线后端双线间及两侧各一白斑，剑纹小，环、肾纹白色，前者前方一白斑，外线双线黑色锯齿形，前端及后段线间白色，亚端线白色锯齿形；后翅浅褐黄，外线，亚端线后半可见；腹部褐色。雄蛾抱器瓣端折向腹侧，窄，阳茎有齿形角状器丛。
-        images:
-        - 沃盗夜蛾.jpg
-        conservation_status: LC
-        habitat: 未知
-        distribution: 四川、云南、日本、外高加索地区、北美
-        conservation_notes: 无需保护
-        references:
-        - name: iNaturalist-沃盗夜蛾
-          url: https://www.inaturalist.org/taxa/220834-Hadena-variolata
-        - name: 国家动物标本资源库-沃盗夜蛾
-          url: http://museum.ioz.ac.cn/topic_detail.aspx?id=69576
-    - genus: 秘夜蛾属
-      species:
-      - name: 白脉黑点夜蛾
-        scientific_name: Mythimna pallens
-        description: 翅展32-40mm，前翅黄赭色，常带浅红褐色调；翅脉颜色苍白，由灰褐色条纹界定，脉间区域也有类似条纹；中部之外的第2和第5脉上有暗斑；后翅白色，中部呈灰色，翅脉颜色暗。
-        images:
-        - 白脉黑点夜蛾.jpg
-        conservation_status: LC
-        habitat: 寄主为多种禾本科植物，包括发草属、羊茅属、赖草属、黑麦草属和虉草属
-        distribution: 整个古北界
-        conservation_notes: 无需保护
-        references:
-        - name: iNaturalist-白脉黑点夜蛾
-          url: https://www.inaturalist.org/taxa/356188-Mythimna-pallens
     - genus: 逸夜蛾属
       species:
       - name: 穗逸夜蛾
@@ -1655,3 +1594,93 @@
         references:
         - name: iNaturalist-蒙逸夜蛾
           url: https://www.inaturalist.org/taxa/216095-Caradrina-montana
+    - genus: 秘夜蛾属
+      species:
+      - name: 白脉黑点夜蛾
+        scientific_name: Mythimna pallens
+        description: 翅展32-40mm，前翅黄赭色，常带浅红褐色调；翅脉颜色苍白，由灰褐色条纹界定，脉间区域也有类似条纹；中部之外的第2和第5脉上有暗斑；后翅白色，中部呈灰色，翅脉颜色暗。
+        images:
+        - 白脉黑点夜蛾.jpg
+        conservation_status: LC
+        habitat: 寄主为多种禾本科植物，包括发草属、羊茅属、赖草属、黑麦草属和虉草属
+        distribution: 整个古北界
+        conservation_notes: 无需保护
+        references:
+        - name: iNaturalist-白脉黑点夜蛾
+          url: https://www.inaturalist.org/taxa/356188-Mythimna-pallens
+    - genus: 丫纹夜蛾属
+      species:
+      - name: 博丫纹夜蛾
+        scientific_name: Autographa buraetica
+        description: 即淡折线金翅夜蛾。翅展35-42mm，由于与一些物种的相似性，须通过生殖器形态学检查才能进行可靠鉴定。
+        images:
+        - 博丫纹夜蛾.jpg
+        conservation_status: LC
+        habitat: 未知
+        distribution: 欧亚大陆和北美
+        conservation_notes: 无需保护
+        references:
+        - name: iNaturalist-博丫纹夜蛾
+          url: https://www.inaturalist.org/taxa/452548-Autographa-buraetica
+    - genus: 盗夜蛾属
+      species:
+      - name: 沃盗夜蛾
+        scientific_name: Hadena variolata
+        description: 即齿斑盗夜蛾Hadena dealbata。翅展36mm。头、胸、腹部褐色；前翅黑褐色，翅脉纹黑色，基、内线均双线黑色波浪形，前者线间白色，内线后端双线间及两侧各一白斑，剑纹小，环、肾纹白色，前者前方一白斑，外线双线黑色锯齿形，前端及后段线间白色，亚端线白色锯齿形；后翅浅褐黄，外线，亚端线后半可见；腹部褐色。雄蛾抱器瓣端折向腹侧，窄，阳茎有齿形角状器丛。
+        images:
+        - 沃盗夜蛾.jpg
+        conservation_status: LC
+        habitat: 未知
+        distribution: 四川、云南、日本、外高加索地区、北美
+        conservation_notes: 无需保护
+        references:
+        - name: iNaturalist-沃盗夜蛾
+          url: https://www.inaturalist.org/taxa/220834-Hadena-variolata
+        - name: 国家动物标本资源库-沃盗夜蛾
+          url: http://museum.ioz.ac.cn/topic_detail.aspx?id=69576
+    - genus: 冬夜蛾属
+      species:
+      - name: 银装冬夜蛾
+        scientific_name: Cucullia splendida
+        description: 翅展31-39mm。头、胸白色杂暗灰色前翅银蓝色，后缘外半部土黄色，缘毛白色后翅白色，端区带有暗褐灰色。
+        images:
+        - 银装冬夜蛾.jpg
+        conservation_status: LC
+        habitat: 未知
+        distribution: 中国北方、蒙古、俄罗斯、哈萨克斯坦
+        conservation_notes: 无需保护
+        references:
+        - name: iNaturalist-银装冬夜蛾
+          url: https://www.inaturalist.org/taxa/856419-Cucullia-splendida
+        - name: 国家动物标本资源库-银装冬夜蛾
+          url: http://museum.ioz.ac.cn/topic_detail.aspx?id=31889
+    - genus: 银钩夜蛾属
+      species:
+      - name: 艳银钩夜蛾
+        scientific_name: Panchrysia ornata
+        description: 未知
+        images:
+        - 艳银钩夜蛾.jpg
+        conservation_status: LC
+        habitat: 未知
+        distribution: 从乌拉尔山脉起，经西伯利亚、蒙古、锡霍特山脉和白头山脉，直至堪察加半岛和太平洋沿岸。其分布海拔最高可达2400米
+        conservation_notes: 无需保护
+        references:
+        - name: iNaturalist-艳银钩夜蛾
+          url: https://www.inaturalist.org/taxa/1233220-Panchrysia-ornata
+    - genus: 银锭夜蛾属
+      species:
+      - name: 瘦银锭夜蛾
+        scientific_name: Macdunnoughia confusa
+        description: 体长11-13mm；翅展31-34mm。头部及胸部灰色带褐，颈板黄褐色；腹部灰褐色；前翅灰色带褐，布有黑色细点，内、外线间在中室后方红棕色，基线灰色外弯至l脉，内线在中室处不明显，中室后为银色内斜，2脉基部有一扁锭形银斑，外线棕色双线，后半线间银色，肾纹棕色，亚端线暗棕色，后半不明显，外侧带有棕色；后翅黄褐色，端区色暗。
+        images:
+        - 瘦银锭夜蛾.jpg
+        conservation_status: LC
+        habitat: 未知
+        distribution: 黑龙江、新疆、欧洲
+        conservation_notes: 无需保护
+        references:
+        - name: iNaturalist-瘦银锭夜蛾
+          url: https://www.inaturalist.org/taxa/460643-Macdunnoughia-confusa
+        - name: 国家动物标本资源库-瘦银锭夜蛾
+          url: http://museum.ioz.ac.cn/species_detail.aspx?id=35398
