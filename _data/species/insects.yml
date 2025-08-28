@@ -368,7 +368,8 @@
         scientific_name: Poecilus gebleri
         description: 体长15.0-19.0mm，体宽6.0-6.5mm。黑色，无金属光泽，触角和足棕黑色。头小，头顶光洁无毛，无刻点，额沟内有少量粗刻点；上颚中度长，外额沟无刚毛；眼半圆形，具眉毛2根；触角自第4节起密被绒毛，第2-3节压扁状；颊在眼后不肿胀，颈部不缢缩；唇舌端缘有毛2根。前胸背板横宽，略呈方形，宽约为长的1.3倍；前角略突出；侧缘从前角均匀弧圆至中部略后，在后角前平直，侧边沟窄细，前后宽度一致；后角稍大于直角，顶端无小齿突，后角毛1根；侧沟在中部之后不加宽，均匀到达后角；盘区略平，光洁无毛，中沟两侧几乎无细横皱；中沟极浅，近达前后缘；基凹两个，深，内侧凹内光洁或有极少量粗刻点，长度为外侧基凹的2倍，外侧凹浅，无刻点。鞘翅行距平，微纹明显，呈等直径网格状，第3行距有3个毛穴，均匀分布于第3行距上，全靠近第3条沟；条沟深，沟内刻点清晰。后胸前侧片长为宽的1.5倍。后足末跗节腹面有毛3-4对；爪简单，无梳齿。
         images:
-        - 格脊角步甲.jpg
+        - 格脊角步甲.png
+        - 格脊角步甲1.png
         conservation_status: LC
         habitat: 未知
         distribution: 主要分布于中国北方地区
@@ -384,13 +385,13 @@
         scientific_name: Agonum sp.
         description: 体长约10mm,背面红铜色具金属光泽,足及触角黑色。前胸背板圆形,盘区光滑,基凹处具细刻点,后角圆。鞘翅方形,条沟深,在第3行距处具一列大刻点,刻点共6～8个。
         images:
-        - 点刻细胫步甲.jpg
+        - 点刻细胫步甲.png
         conservation_status: LC
         habitat: 未知
         distribution: 未知
         conservation_notes: 未知
         references:
-        - name: iNaturalist-点刻细胫步甲
+        - name: iNaturalist-细胫步甲属
           url: https://www.inaturalist.org/taxa/154600-Agonum
     - genus: 心步甲属
       species:
@@ -398,7 +399,8 @@
         scientific_name: Nebria livida
         description: 成虫体长15.5-17.5毫米；体宽6.2-7毫米。背面大部分黑色，复眼间有两个黄斑，触角、颚须、唇须、前胸背板、翅缘两侧、鞘翅端末约1/4-1/5及足（除基节褐色外）全为黄色。虫体腹面褐色。头近方形，在复眼后方不窄缩，头顶宽平，前部靠近复眼两侧及头后部中央各有1凹洼，后者有时不明显；表面有刻点，多位于凹洼中，两侧凹洼有皱褶；额中部平滑，有微隆起；上颚槽中有毛1根，颚须及唇须末节渐向端部加大，接近斧形。前胸背板横宽，心形，两侧在前部明显膨出，向后方窄缩；背中线明显，前后横沟深凹；侧缘边宽，并上翘；背板中央隆起，光滑无刻点，沿侧缘及前后横沟中有粗刻点，基部有刻点及皱褶。小盾片三角形，表面皱褶。鞘翅狭长，两侧近平行，末端窄缩；每鞘翅除小盾片刻点行外，尚有9行刻点沟，行距平坦，第七、八行间距较宽，有1列弱刻点。雄虫前足跗节基部3节微较雌虫膨大，但可以其下方的毛垫与雌虫区别。
         images:
-        - 黄缘心步甲.jpg
+        - 黄缘心步甲.png
+        - 黄缘心步甲1.png
         conservation_status: LC
         habitat: 未知
         distribution: 辽宁、青海、河北等省份、俄罗斯、欧洲
@@ -416,13 +418,14 @@
         scientific_name: Altica sp.
         description: 未知
         images:
-        - 跳甲（未定种）.jpg
+        - 跳甲（未定种）.png
+        - 跳甲（未定种）1.png
         conservation_status: LC
         habitat: 未知
         distribution: 未知
         conservation_notes: 未知
         references:
-        - name: iNaturalist-跳甲（未定种）
+        - name: iNaturalist-跳甲属
           url: https://www.inaturalist.org/taxa/173228-Altica
   - family: 瓢虫科
     genera:
@@ -432,7 +435,8 @@
         scientific_name: Coccinella longifasciata
         description: 体长4.0～5.0mm，体宽3.2～3.8mm。虫体长卵圆形，扁平隆起。头黑色，复眼内侧各具一黄色斑，与下部内凹处小黄斑相连，触角黑褐色，口器黑色。前胸背板中部具一横宽的黑色斑，前缘两端尖突，前、侧缘与前角有黄色条纹，并伸至腹面缘折形成一大的三角形斑。小盾片黑色，三角形。鞘翅黄色，自基部沿肩胛有1条较宽的黑色条纹，向后伸至近端部；沿鞘缝有一黑色纵条纹，基部宽，近端部变窄，呈细纹达鞘翅的7/8处。腹面黑色覆白色毛，后基节外支不达腹板前缘。足黑色。雄虫前足基节有黄色斑点。
         images:
-        - 纵条瓢虫.jpg
+        - 纵条瓢虫.png
+        - 纵条瓢虫1.png
         conservation_status: LC
         habitat: 中高海拔山区
         distribution: 中国甘肃、青海、西藏等西北高寒地区
@@ -447,7 +451,8 @@
         description: 体长4.0-5.6毫米；体宽3.0-4.l毫米。虫体周缘卵圆形。头黑色，复眼黑色，内侧黄斑不及眼宽之半，不紧靠复眼，复眼下部内凹处有小黄斑，不与眼侧相连；唇基黑色，前缘常有细窄的黄色条纹；上唇黑色，上颚外面黄色。前胸背板黑色，前角有三角形黄白色斑。小盾片黑色。鞘翅基色为黄色，密生细毛。在小盾片两侧有三角形白斑（有时不明显），小盾片下鞘缝上有一圆形黑斑，此外每一鞘翅上各有5个黑色斑：肩胛上的黑斑最小，鞘翅外缘1/3和2
           /3处各有一黑斑，前斑大干后斑，鞘翅中部略前近鞘缝处有较大的黑色横斑，鞘翅3/4处有一小黑斑，此斑与外缘2/3处的黑斑斜列。腹面黑色，中、后胸腹板后侧片黄色。足黑色。
         images:
-        - 十一星瓢虫.jpg
+        - 十一星瓢虫.png
+        - 十一星瓢虫1.png
         conservation_status: LC
         habitat: 主要危害茄科植物
         distribution: 亚洲、欧洲、非洲北部等地区
@@ -465,13 +470,14 @@
         scientific_name: Stephanocleonus sp.
         description: 未知
         images:
-        - 冠象（未定种）.jpg
+        - 冠象（未定种）.png
+        - 冠象（未定种）1.jpg
         conservation_status: LC
         habitat: 未知
         distribution: 未知
         conservation_notes: 未知
         references:
-        - name: iNaturalist-冠象（未定种）
+        - name: iNaturalist-冠象属
           url: https://www.inaturalist.org/taxa/211384-Stephanocleonus
   - family: 芫菁科
     genera:
@@ -481,13 +487,13 @@
         scientific_name: Epicauta sp.
         description: 未知
         images:
-        - 豆芫菁（未定种）.jpg
+        - 豆芫菁（未定种）.png
         conservation_status: LC
         habitat: 未知
         distribution: 未知
         conservation_notes: 未知
         references:
-        - name: iNaturalist-豆芫菁（未定种）
+        - name: iNaturalist-豆芫菁属
           url: https://www.inaturalist.org/taxa/59506-Epicauta
   - family: 金龟科
     genera:
@@ -498,6 +504,7 @@
         description: 头，腿和前胸背板为黑色或深绿色，而鞘翅为淡黄色，带有绿色小点，通常合并成纵向条纹。
         images:
         - 三角帕嗡蜣螂.jpg
+        - 三角帕嗡蜣螂1.png
         conservation_status: LC
         habitat: 未知
         distribution: 亚欧大陆
@@ -514,26 +521,28 @@
         description: 体长卵形；黑色，弱光亮。鞘翅卵形，基部较前胸背板基部略宽；侧缘宽弧形，背观仅见基部和尾部饰边；盘区稍隆起，具粗大皱纹，端半部具三四条向后渐消失的纵沟槽；肩肋突出且完整；翅尾扁阔，顶圆，长约1.5
           mm；假缘折宽阔，自基1/5处向后急剧地收缩，具稀疏细刻纹和小颗粒。
         images:
-        - 侧脊琵甲.jpg
+        - 侧脊琵甲.png
+        - 侧脊琵甲1.png
+        - 侧脊琵甲2.png
         conservation_status: LC
         habitat: 未知
         distribution: 未知
         conservation_notes: 未知
         references:
-        - name: iNaturalist-侧脊琵甲
+        - name: iNaturalist-琵甲属
           url: https://www.inaturalist.org/taxa/245844-Blaps
       - name: 步行琵甲
         scientific_name: Blaps gressoria
         description: 体中型略大，长卵形；黑色，弱光亮。鞘翅长卵形；长为宽1.5倍，约为前胸背板长3.0倍；基部略宽于前胸背板基部，略凹陷；侧缘长弧形，中部之后最宽，由背面可见饰边全长；翅面略拱，鲨皮状，具稠
           密的小颗粒和略稀疏的圆刻点，翅坡较陡；假缘折宽阔，于第2可见腹板后缘向后急收， 具稠密的杂细刻纹；翅尾较长 (2.0～4.0 mm)，背面有纵沟宽深。
         images:
-        - 步行琵甲.jpg
+        - 步行琵甲.png
         conservation_status: LC
         habitat: 未知
         distribution: 未知
         conservation_notes: 未知
         references:
-        - name: iNaturalist-步行琵甲
+        - name: 国家动物标本资源库-步行琵甲
           url: http://museum.ioz.ac.cn/bbimgxx.aspx?id=2113C0001600018040
     - genus: 小琵甲属
       species:
@@ -541,14 +550,32 @@
         scientific_name: Gnaptorina rufipes
         description: 体黑色，具光泽；触角第1节、端4节及口须黑棕色，触角第2~7节及足为红棕色；上唇长方形，前缘两侧弧形，中部略突，有金黄色毛；唇基前缘微凹，触角窝上方头侧缘浅凹，前颊向端部斜直地收缩，后颊弧形收缩强烈，较复眼突出，为头部最宽处；盘区刻点浅小，前部刻点较粗较深，中间隆起；额唇基沟细，梯形；触角向后长过前胸背板基部；前胸背板近方形，前胸腹突中凹浅，于基节前方缓降、后方垂降，末端变宽且形成突起。鞘翅长卵形，翅面均匀隆起，无皱纹，刻点较稀，翅坡缓降；鞘翅饰边由背面完全可见；腹部稀布浅黄色具浮毛刻点。
         images:
-        - 红足小琵甲.jpg
+        - 红足小琵甲.png
+        - 红足小琵甲1.png
+        - 红足小琵甲2.png
         conservation_status: LC
         habitat: 未知
         distribution: 未知
         conservation_notes: 未知
         references:
-        - name: iNaturalist-红足小琵甲
+        - name: 国家动物标本资源库-红足小琵甲
           url: http://museum.ioz.ac.cn/bbimgxx.aspx?id=2113C0001600000520
+    - genus: 圆鳖甲属
+      species:
+      - name: 狭胸圆鳖甲
+        scientific_name: Scytosoma humeridens
+        description: 体长卵形，黑色，无光泽，跗节黑色至棕褐色。鞘翅扁阔，长大于宽1.6倍，大于前胸背板2.8倍；基部宽凹，具短纵沟，肩角指状前伸；侧缘在基部稍收缩，在中部稍外扩；翅背具细横皱纹和小刻点。前胸侧板粗刻点木锉状；腹突棱形，中凹，♂后缘角状突起，♀无突起。
+        images:
+        - 狭胸圆鳖甲.png
+        - 狭胸圆鳖甲1.png
+        - 狭胸圆鳖甲2.png
+        conservation_status: LC
+        habitat: 未知
+        distribution: 未知
+        conservation_notes: 未知
+        references:
+        - name: 国家动物标本资源库-狭胸圆鳖甲
+          url: http://museum.ioz.ac.cn/topic_detail.aspx?id=15287
   - family: 葬甲科
     genera:
     - genus: 覆葬甲属
@@ -557,7 +584,8 @@
         scientific_name: Nicrophorus przewalskii
         description: 腐食性昆虫，会搬运已死亡的动物尸体至其巢中，并用消化液使尸体变成一团球，供幼虫食用。
         images:
-        - 普氏覆葬甲.jpg
+        - 普氏覆葬甲.JPG
+        - 普氏覆葬甲1.png
         conservation_status: LC
         habitat: 未知
         distribution: 青藏高原
@@ -565,22 +593,6 @@
         references:
         - name: iNaturalist-普氏覆葬甲
           url: https://www.inaturalist.org/taxa/949236-Nicrophorus-przewalskii
-  - family: 拟步甲科
-    genera:
-    - genus: 圆鳖甲属
-      species:
-      - name: 狭胸圆鳖甲
-        scientific_name: Scytosoma humeridens
-        description: 体长卵形，黑色，无光泽，跗节黑色至棕褐色。鞘翅扁阔，长大于宽1.6倍，大于前胸背板2.8倍；基部宽凹，具短纵沟，肩角指状前伸；侧缘在基部稍收缩，在中部稍外扩；翅背具细横皱纹和小刻点。前胸侧板粗刻点木锉状；腹突棱形，中凹，♂后缘角状突起，♀无突起。
-        images:
-        - 狭胸圆鳖甲.jpg
-        conservation_status: LC
-        habitat: 未知
-        distribution: 未知
-        conservation_notes: 未知
-        references:
-        - name: iNaturalist-狭胸圆鳖甲
-          url: http://museum.ioz.ac.cn/topic_detail.aspx?id=15287
 - order: 双翅目
   families:
   - family: 大蚊科
