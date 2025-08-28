@@ -51,4 +51,6 @@ permalink: /about/
 [^5]: [2024年鸟岛支队成员名单](https://mp.weixin.qq.com/s/SFq9LYjYmu5E1iAQfdk4kg)
 [^6]: [2025年鸟岛支队成员名单](https://mp.weixin.qq.com/s/aHKJgnWccsV3Y4QxhnieNQ)
 
+---
+
 _“我们肩负传承的使命，也肩负崭新的未来”_
