@@ -610,7 +610,7 @@
         distribution: 未知
         conservation_notes: 未知
         references:
-        - name: iNaturalist-大蚊属
+        - name: iNaturalist-尖大蚊亚属
           url: https://www.inaturalist.org/taxa/548107-Acutipula
   - family: 摇蚊科
     genera:
@@ -678,7 +678,7 @@
         scientific_name: Asilidae indet.
         description: 未知
         images:
-        - 食虫虻科未定1.jpg
+        - 食虫虻科未定1.JPG
         conservation_status: LC
         habitat: 未知
         distribution: 未知
@@ -690,7 +690,7 @@
         scientific_name: Asilidae indet.
         description: 未知
         images:
-        - 食虫虻科未定2.jpg
+        - 食虫虻科未定2.JPG
         conservation_status: LC
         habitat: 未知
         distribution: 未知
@@ -702,8 +702,8 @@
         scientific_name: Asilidae indet.
         description: 未知
         images:
-        - 食虫虻科未定3.jpg
-        - 食虫虻科未定3-1.jpg
+        - 食虫虻科未定3.JPG
+        - 食虫虻科未定3-1.JPG
         conservation_status: LC
         habitat: 未知
         distribution: 未知
@@ -748,8 +748,8 @@
         scientific_name: Bombyliidae indet.
         description: Bombyliini蜂虻族
         images:
-        - 蜂虻科未定2.jpg
-        - 蜂虻科未定2-1.jpg
+        - 蜂虻科未定2.JPG
+        - 蜂虻科未定2-1.JPG
         conservation_status: LC
         habitat: 未知
         distribution: 未知
@@ -765,8 +765,8 @@
         scientific_name: Eristalis campestris
         description: 体长：11-13mm。 雄性复眼密被棕色长密毛，下部毛淡黄色；头顶黑色，被暗棕色毛，并混以黄毛；额黑色，具棕黑或黑毛；颜黑色，覆金黄色粉被和黄白毛；颊覆灰白色粉被。触角黑色；芒基部为羽状毛。中胸背板黑褐色，具薄淡色粉被，前部正中具灰白粉被纵条，沿盾沟处具淡粉被横带，前缘及后缘各具较狭及较宽横带，肩胛灰色；小盾片黄色，密被黄白或棕黄色长毛，中间混以黑毛。腹部棕黄至红黄色；第一背板覆青灰色粉被；第二、三背板中部各具“I”字形黑斑；第二至四背板后缘黄色；第五背板黑色；雌性第三背板大部黑色；背板被毛与底色一致。足黑色，腿节末端、胫节基半部及前足跗节基部黄至棕黄色。
         images:
-        - 灰带管蚜蝇.jpg
-        - 灰带管蚜蝇1.jpg
+        - 灰带管蚜蝇.JPG
+        - 灰带管蚜蝇1.JPG
         conservation_status: LC
         habitat: 幼虫以蚜虫等农业害虫为食
         distribution: 河北、内蒙古、辽宁、黑龙江、江苏、浙江、安徽、福建、江西、山东、河南、湖北、湖南、广东、四川、云南、西藏、陕西、甘肃、青海、新疆、台湾；原苏联，朝鲜，日本，东洋区
@@ -794,7 +794,7 @@
         scientific_name: Eupeodes corollae
         description: 即大灰食蚜蝇（Syrphus corollae），食蚜蝇属。小盾片棕黄色，毛同色，有时混以少数黑毛。足大部棕黄色。腹部两侧具边，底色黑，第2～4背板各具大形黄斑1对；雄性第3、4背板黄斑中间常相连接，第4、5背板后缘黄色，第5背板大部黄色，露尾节大，亮黑色。雌性第3、4背板黄斑完全分开，第5背板大部黑色。腹背毛与底色一致。
         images:
-        - 大灰优食蚜蝇.jpg
+        - 大灰优食蚜蝇.JPG
         - 大灰优食蚜蝇1.png
         conservation_status: LC
         habitat: 幼虫捕食棉蚜、棉长管蚜、豆蚜、桃蚜等
@@ -977,7 +977,7 @@
         scientific_name: Gymnosoma rotundatum
         description: 即普通球腹寄蝇。体长5-6毫米的小型蝇类。其胸部深色，雄性呈金色；腹部球形、橙黄色，沿中线具深色圆斑。翅基部为黄褐色。
         images:
-        - 普通腹膜寄蝇.jpg
+        - 普通腹膜寄蝇.JPG
         - 普通腹膜寄蝇1.png
         conservation_status: LC
         habitat: 幼虫以蝽科昆虫为寄生对象
@@ -1007,8 +1007,8 @@
         scientific_name: Macquartia sp.
         description: 未知
         images:
-        - 叶甲寄蝇（未定种）.jpg
-        - 叶甲寄蝇（未定种）1.jpg
+        - 叶甲寄蝇（未定种）.JPG
+        - 叶甲寄蝇（未定种）1.JPG
         conservation_status: LC
         habitat: 未知
         distribution: 未知
