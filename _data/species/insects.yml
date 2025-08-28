@@ -604,13 +604,13 @@
         scientific_name: Tipula sp.
         description: Acutipula亚属
         images:
-        - 尖大蚊（未定种）.jpg
+        - 尖大蚊（未定种）.png
         conservation_status: LC
         habitat: 未知
         distribution: 未知
         conservation_notes: 未知
         references:
-        - name: iNaturalist-尖大蚊（未定种）
+        - name: iNaturalist-大蚊属
           url: https://www.inaturalist.org/taxa/548107-Acutipula
   - family: 摇蚊科
     genera:
@@ -620,14 +620,14 @@
         scientific_name: Chironomus sp.
         description: Chironomus亚属
         images:
-        - 双叶摇蚊（未定种）.jpg
+        - 双叶摇蚊（未定种）.png
         conservation_status: LC
         habitat: 未知
         distribution: 未知
         conservation_notes: 未知
         references:
-        - name: iNaturalist-双叶摇蚊（未定种）
-          url: https://www.inaturalist.org/taxa/129409-Chironomus
+        - name: iNaturalist-双叶摇蚊亚属
+          url: https://www.inaturalist.org/taxa/545869-Chironomus
   - family: 水虻科
     genera:
     - genus: 水虻属
@@ -636,25 +636,25 @@
         scientific_name: Stratiomys sp.
         description: 未知
         images:
-        - 水虻（未定种）1.jpg
+        - 水虻（未定种）1.png
         conservation_status: LC
         habitat: 未知
         distribution: 未知
         conservation_notes: 未知
         references:
-        - name: iNaturalist-水虻（未定种）1
+        - name: iNaturalist-水虻属
           url: https://www.inaturalist.org/taxa/130461-Stratiomys
       - name: 水虻（未定种）2
         scientific_name: Stratiomys sp.
         description: 未知
         images:
-        - 水虻（未定种）2.jpg
+        - 水虻（未定种）2.png
         conservation_status: LC
         habitat: 未知
         distribution: 未知
         conservation_notes: 未知
         references:
-        - name: iNaturalist-水虻（未定种）2
+        - name: iNaturalist-水虻属
           url: https://www.inaturalist.org/taxa/130461-Stratiomys
   - family: 食虫虻科
     genera:
@@ -664,13 +664,13 @@
         scientific_name: Stenopogon sp.
         description: 未知
         images:
-        - 瘦芒食虫虻（未定种）.jpg
+        - 瘦芒食虫虻（未定种）.png
         conservation_status: LC
         habitat: 未知
         distribution: 未知
         conservation_notes: 未知
         references:
-        - name: iNaturalist-瘦芒食虫虻（未定种）
+        - name: iNaturalist-瘦芒食虫虻属
           url: https://www.inaturalist.org/taxa/209844-Stenopogon
     - genus: 未定
       species:
@@ -684,7 +684,7 @@
         distribution: 未知
         conservation_notes: 未知
         references:
-        - name: iNaturalist-食虫虻科未定1
+        - name: iNaturalist-食虫虻科
           url: https://www.inaturalist.org/taxa/47982-Asilidae
       - name: 食虫虻科未定2
         scientific_name: Asilidae indet.
@@ -696,19 +696,20 @@
         distribution: 未知
         conservation_notes: 未知
         references:
-        - name: iNaturalist-食虫虻科未定2
+        - name: iNaturalist-食虫虻科
           url: https://www.inaturalist.org/taxa/47982-Asilidae
-      - name: 食虫虻科未定2
+      - name: 食虫虻科未定3
         scientific_name: Asilidae indet.
         description: 未知
         images:
-        - 食虫虻科未定2.jpg
+        - 食虫虻科未定3.jpg
+        - 食虫虻科未定3-1.jpg
         conservation_status: LC
         habitat: 未知
         distribution: 未知
         conservation_notes: 未知
         references:
-        - name: iNaturalist-食虫虻科未定2
+        - name: iNaturalist-食虫虻科
           url: https://www.inaturalist.org/taxa/47982-Asilidae
   - family: 剑虻科
     genera:
@@ -718,13 +719,13 @@
         scientific_name: Thereva sp.
         description: 未知
         images:
-        - 剑虻（未定种）.jpg
+        - 剑虻（未定种）.png
         conservation_status: LC
         habitat: 未知
         distribution: 未知
         conservation_notes: 未知
         references:
-        - name: iNaturalist-剑虻（未定种）
+        - name: iNaturalist-剑虻属
           url: https://www.inaturalist.org/taxa/243661-Thereva
   - family: 蜂虻科
     genera:
@@ -735,24 +736,26 @@
         description: Bombyliini蜂虻族
         images:
         - 蜂虻科未定1.jpg
+        - 蜂虻科未定1-1.png
         conservation_status: LC
         habitat: 未知
         distribution: 未知
         conservation_notes: 未知
         references:
-        - name: iNaturalist-蜂虻科未定1
+        - name: iNaturalist-蜂虻科
           url: https://www.inaturalist.org/taxa/415425-Bombyliini
       - name: 蜂虻科未定2
         scientific_name: Bombyliidae indet.
         description: Bombyliini蜂虻族
         images:
         - 蜂虻科未定2.jpg
+        - 蜂虻科未定2-1.jpg
         conservation_status: LC
         habitat: 未知
         distribution: 未知
         conservation_notes: 未知
         references:
-        - name: iNaturalist-蜂虻科未定2
+        - name: iNaturalist-蜂虻科
           url: https://www.inaturalist.org/taxa/415425-Bombyliini
   - family: 食蚜蝇科
     genera:
@@ -763,6 +766,7 @@
         description: 体长：11-13mm。 雄性复眼密被棕色长密毛，下部毛淡黄色；头顶黑色，被暗棕色毛，并混以黄毛；额黑色，具棕黑或黑毛；颜黑色，覆金黄色粉被和黄白毛；颊覆灰白色粉被。触角黑色；芒基部为羽状毛。中胸背板黑褐色，具薄淡色粉被，前部正中具灰白粉被纵条，沿盾沟处具淡粉被横带，前缘及后缘各具较狭及较宽横带，肩胛灰色；小盾片黄色，密被黄白或棕黄色长毛，中间混以黑毛。腹部棕黄至红黄色；第一背板覆青灰色粉被；第二、三背板中部各具“I”字形黑斑；第二至四背板后缘黄色；第五背板黑色；雌性第三背板大部黑色；背板被毛与底色一致。足黑色，腿节末端、胫节基半部及前足跗节基部黄至棕黄色。
         images:
         - 灰带管蚜蝇.jpg
+        - 灰带管蚜蝇1.jpg
         conservation_status: LC
         habitat: 幼虫以蚜虫等农业害虫为食
         distribution: 河北、内蒙古、辽宁、黑龙江、江苏、浙江、安徽、福建、江西、山东、河南、湖北、湖南、广东、四川、云南、西藏、陕西、甘肃、青海、新疆、台湾；原苏联，朝鲜，日本，东洋区
@@ -776,7 +780,7 @@
         scientific_name: Eristalis campestris
         description: 未知
         images:
-        - 田管蚜蝇.jpg
+        - 田管蚜蝇.png
         conservation_status: LC
         habitat: 未知
         distribution: 未知
@@ -791,6 +795,7 @@
         description: 即大灰食蚜蝇（Syrphus corollae），食蚜蝇属。小盾片棕黄色，毛同色，有时混以少数黑毛。足大部棕黄色。腹部两侧具边，底色黑，第2～4背板各具大形黄斑1对；雄性第3、4背板黄斑中间常相连接，第4、5背板后缘黄色，第5背板大部黄色，露尾节大，亮黑色。雌性第3、4背板黄斑完全分开，第5背板大部黑色。腹背毛与底色一致。
         images:
         - 大灰优食蚜蝇.jpg
+        - 大灰优食蚜蝇1.png
         conservation_status: LC
         habitat: 幼虫捕食棉蚜、棉长管蚜、豆蚜、桃蚜等
         distribution: 中国、日本、印度东部、马来西亚、亚洲北部、小亚细亚、欧洲、北非、南非
@@ -806,7 +811,9 @@
         scientific_name: Scaeva pyrastri
         description: 体长14毫米左右。头部棕黄色，眼毛密，雄性复眼上部小眼面较大；额鼓出，尤以雄性更显，毛黑色，长密；颜毛黄色，雄性在两侧沿眼缘处具明显黑毛。小盾片黄棕色，大部被黑长毛，仅前缘及侧缘混以少数黄毛。腹部黑色，有黄斑3对，第1对平置，第2、3对略作向外倾斜，即黄斑的内、外前角不在同一横线上，前缘凹入明显，第4、5背板后缘黄色。
         images:
-        - 斜斑鼓额食蚜蝇.jpg
+        - 斜斑鼓额食蚜蝇.png
+        - 斜斑鼓额食蚜蝇1.png
+        - 斜斑鼓额食蚜蝇2.png
         conservation_status: LC
         habitat: 幼虫捕食棉蚜及其他各种蚜虫
         distribution: 中国，蒙古，日本，阿富汗，欧洲，北美洲，北非
@@ -822,7 +829,8 @@
         scientific_name: Sphaerophoria scripta
         description: 体细长，长8-12mm。头部黄色；单眼三角区黑色；雌额条斑黑色，长直达触角基部。中胸盾片黑色，前后肩胛两侧边缘及小盾片黄色，毛同色。腹部极细长，远超过翅长，腹长约为宽的4-6倍；腹面黄色，背面黑色，2-4节背板中部生有黄色宽横带；雌第5节背板两侧各有1黄斑，使之呈黑色倒“T”字形；第6节大部黄色，具3个小黑斑；雄第5背板黄斑形状变异大，有时微呈雁飞状，有时整个背板黄色，只有几个小黑点。
         images:
-        - 短翅细腹食蚜蝇.jpg
+        - 短翅细腹食蚜蝇.png
+        - 短翅细腹食蚜蝇1.png
         conservation_status: LC
         habitat: 在麦穗、棉株等作物上繁殖，捕食蚜虫
         distribution: 陕西、甘肃、新疆、四川、云南等地
@@ -838,7 +846,8 @@
         scientific_name: Episyrphus balteatus
         description: 体长8-10 mm。雄性头顶三角灰黑覆黄粉，额棕黄，前端具一对小黑斑。颜面橘黄，中突裸。触角橘红，鞭节长高比1.5:1。胸背黑绿闪光的，具灰条纹，侧板多黄粉毛。小盾片暗黄，混生黑黄毛。足橘黄，后足胫跗节色深且具黑短毛。翅透明，平衡棒橘黄。腹部长卵形，背面具黄黑相间斑纹：第1背板中黑，第2-4背板具黑横带及箭状斑，第5背板有小黑斑。雌性额宽约为头顶2倍，头顶与额黑绿覆黄粉，第5背板具箭头状黑狭带。
         images:
-        - 黑带食蚜蝇.jpg
+        - 黑带食蚜蝇.png
+        - 黑带食蚜蝇1.png
         conservation_status: LC
         habitat: 幼虫专吃危害棉花等作物的蚜虫
         distribution: 亚欧大陆广泛分布
@@ -857,7 +866,7 @@
         description: 成虫的外表有光泽的金属色，一般都是蓝色、绿色或黑色。触角分三节及有芒。整条触角芒都呈羽毛状，第二节的触角上有明显的凹陷位。丽蝇一般都有额缝及腋瓣。
           反吐丽蝇的副基节上有刚毛，特别是在侧至前接缝有两条背侧刚毛及最后的肩后刚毛。 胸部背上有连续的接缝。没有后楯板，或是发育不良。有完整的前缘脉及明显的亚前缘脉。
         images:
-        - 反吐丽蝇.jpg
+        - 反吐丽蝇.png
         conservation_status: LC
         habitat: 食腐及粪便
         distribution: 广泛分布于温带及热带地区
@@ -871,7 +880,7 @@
         scientific_name: Calliphora vicina
         description: 成虫体长6～13毫米，多呈蓝色，不十分光亮。体表粉被较密，尤以胸部为甚。雄性眼离生。额最狭处约与触角第 3节等宽或稍宽。主要特征为额前方大部橙色到红棕色，具黑毛，在口缘处几乎全部红棕色；触角第3节为第2节长的4倍左右；前气门黄色或橙色；上、下腋瓣淡褐色；前缘基鳞黄褐或褐黑色。
         images:
-        - 红头丽蝇.jpg
+        - 红头丽蝇.png
         conservation_status: LC
         habitat: 喜食人畜粪便、腐败动物质
         distribution: 广泛分布
@@ -887,7 +896,7 @@
         scientific_name: Bellardia sp.
         description: 未知
         images:
-        - 陪丽蝇（未定种）.jpg
+        - 陪丽蝇（未定种）.png
         conservation_status: LC
         habitat: 未知
         distribution: 未知
@@ -901,7 +910,10 @@
         scientific_name: Cynomya mortuorum
         description: 成虫体长9-12毫米，两性形态差异显著。雄虫头部橙黄色具金色粉被，胸腹部呈蓝绿色，胫节红棕色，腹部密布黑长毛；雌虫额宽占头宽的1/3，第五背板鬃毛密集。翅脉棕黄色，足部鬃毛排列具种属鉴别特征。
         images:
-        - 尸蓝蝇.jpg
+        - 尸蓝蝇.png
+        - 尸蓝蝇1.png
+        - 尸蓝蝇2.png
+        - 尸蓝蝇3.png
         conservation_status: LC
         habitat: 山麓草原及高山草甸，幼虫以腐肉为滋生环境
         distribution: 青藏高原、欧洲
@@ -917,7 +929,8 @@
         scientific_name: Lucilia sericata
         description: 体长5～10毫米，具金绿色的的金属光泽。触角黑褐色，第3节为第2节的3~4倍，触角芒短，两侧有羽状分枝。雄性两眼分离，额最狭处，侧额宽为间额的一半，雌性侧额亦为间额的一半宽；后侧顶鬃一般2对以上；肩胛的肩鬃后区有小毛6个以上；胸部背板横缝的后方有3对中鬃，从后背面看，第2对前中鬃长达到第1对后中鬃的基部；胸部小毛较长密；后胸基腹片具纤毛；侧面观，雄性腹部不拱起（见图）。翅第4纵脉强弯曲，与第3纵脉相距颇近。肛尾叶后视端部向末端尖削。
         images:
-        - 丝光绿蝇.jpg
+        - 丝光绿蝇.png
+        - 丝光绿蝇1.png
         conservation_status: LC
         habitat: 住区附近及野外常见，活动范围广
         distribution: 全球广泛分布
@@ -931,7 +944,7 @@
         scientific_name: Lucilia silvarum
         description: 雄性额宽较窄，复眼裸露，触角第三节长为宽的2.9倍；体表呈亮绿色带黄铜光泽，胸背及腹部金属光泽显著，足黑色，翅透明带淡棕色。雌性额宽约为头宽的0.43倍，触角第三节更长，其余特征与雄性相似。
         images:
-        - 林绿蝇.jpg
+        - 林绿蝇.png
         conservation_status: LC
         habitat: 常见于多种开放生境
         distribution: 新疆、内蒙古、甘肃等地，国外见于蒙古、中亚、欧洲及北美部分地区
@@ -945,7 +958,8 @@
         scientific_name: Protophormia terraenovae
         description: 成虫体长可达13毫米，体色呈现暗青蓝色并带紫色光泽，触须红黄色，腹部第二节外黑色，前中鬃与后中鬃不发达，后背中鬃具4-5个鬃位。
         images:
-        - 新陆原伏蝇.jpg
+        - 新陆原伏蝇.png
+        - 新陆原伏蝇1.png
         conservation_status: LC
         habitat: 常栖息于人类活动区域的厕所、动物尸体、畜圈等场所
         distribution: 主要分布于青藏高原及新疆、黑龙江等19个省级行政区，国外见于日本、蒙古及北美等地
@@ -964,6 +978,7 @@
         description: 即普通球腹寄蝇。体长5-6毫米的小型蝇类。其胸部深色，雄性呈金色；腹部球形、橙黄色，沿中线具深色圆斑。翅基部为黄褐色。
         images:
         - 普通腹膜寄蝇.jpg
+        - 普通腹膜寄蝇1.png
         conservation_status: LC
         habitat: 幼虫以蝽科昆虫为寄生对象
         distribution: 广泛分布于欧洲（包括不列颠群岛、中欧、东欧、南欧及西欧多国）、亚洲（俄罗斯、外高加索、中国、日本、韩国、伊朗、土耳其等）地区
@@ -977,13 +992,14 @@
         scientific_name: Tachina micado Kirby
         description: 未知
         images:
-        - 弥寄蝇.jpg
+        - 弥寄蝇.png
+        - 弥寄蝇1.png
         conservation_status: LC
         habitat: 未知
         distribution: 中国青海省、甘肃省甘南地区（卓尼）以及日本
         conservation_notes: 未知
         references:
-        - name: iNaturalist-弥寄蝇
+        - name: iNaturalist-寄蝇属
           url: https://www.inaturalist.org/taxa/55696-Tachina
     - genus: 叶甲寄蝇属
       species:
@@ -992,12 +1008,13 @@
         description: 未知
         images:
         - 叶甲寄蝇（未定种）.jpg
+        - 叶甲寄蝇（未定种）1.jpg
         conservation_status: LC
         habitat: 未知
         distribution: 未知
         conservation_notes: 未知
         references:
-        - name: iNaturalist-叶甲寄蝇（未定种）
+        - name: iNaturalist-叶甲寄蝇属
           url: https://www.inaturalist.org/taxa/625010-Macquartia
 - order: 膜翅目
   families:
