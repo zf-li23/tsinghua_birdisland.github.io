@@ -34,27 +34,18 @@ permalink: /species/
   <div class="file-icon">📄</div>
   <div class="file-info">
     <div class="file-name">青海湖水鸟_2009.pdf</div>
-    <div class="file-meta">PDF文档 · 27 MB</div>
+    <div class="file-meta">PDF文档 · 18 MB</div>
   </div>
-  <a href="{{ '/assets/files/青海湖水鸟_2009.pdf' | relative_url }}" class="file-download-link">下载</a>
+  <a href="{{ '/assets/files/图鉴/青海湖水鸟_2009.pdf' | relative_url }}" class="file-download-link">下载</a>
 </div>
 
 <div class="file-download">
   <div class="file-icon">📄</div>
   <div class="file-info">
-    <div class="file-name">青海湖野花（上）_2009.pdf</div>
-    <div class="file-meta">PDF文档 · 53 MB</div>
+    <div class="file-name">青海湖野花_2009.pdf</div>
+    <div class="file-meta">PDF文档 · 55 MB</div>
   </div>
-  <a href="{{ '/assets/files/青海湖野花（上）_2009.pdf' | relative_url }}" class="file-download-link">下载</a>
-</div>
-
-<div class="file-download">
-  <div class="file-icon">📄</div>
-  <div class="file-info">
-    <div class="file-name">青海湖野花（下）_2009.pdf</div>
-    <div class="file-meta">PDF文档 · 56 MB</div>
-  </div>
-  <a href="{{ '/assets/files/青海湖野花（下）_2009.pdf' | relative_url }}" class="file-download-link">下载</a>
+  <a href="{{ '/assets/files/图鉴/青海湖野花_2009.pdf' | relative_url }}" class="file-download-link">下载</a>
 </div>
 
 <div class="file-download">
@@ -63,7 +54,7 @@ permalink: /species/
     <div class="file-name">青海湖周边植物及访花昆虫图鉴_2022.pdf</div>
     <div class="file-meta">PDF文档 · 10 MB</div>
   </div>
-  <a href="{{ '/assets/files/青海湖周边植物及访花昆虫图鉴_2022.pdf' | relative_url }}" class="file-download-link">下载</a>
+  <a href="{{ '/assets/files/图鉴/青海湖周边植物及访花昆虫图鉴_2022.pdf' | relative_url }}" class="file-download-link">下载</a>
 </div>
 
 ---
