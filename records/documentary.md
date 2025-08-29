@@ -15,7 +15,7 @@ permalink: /records/documentary/
 
 ## 2019
 <div class="video-container">
-  <iframe src="//player.bilibili.com/player.html?bvid=1tt411J7XD?t=1.1&page=1" 
+  <iframe src="//player.bilibili.com/player.html?bvid=BV1tt411J7XD&page=1" 
           scrolling="no" border="0" frameborder="no" framespacing="0" 
           allowfullscreen="true"></iframe>
 </div>
