@@ -28,5 +28,45 @@ permalink: /species/
 
 ---
 
+## 更多精美图鉴
+
+<div class="file-download">
+  <div class="file-icon">📄</div>
+  <div class="file-info">
+    <div class="file-name">青海湖水鸟_2009.pdf</div>
+    <div class="file-meta">PDF文档 · 27 MB</div>
+  </div>
+  <a href="{{ '/assets/files/青海湖水鸟_2009.pdf' | relative_url }}" class="file-download-link">下载</a>
+</div>
+
+<div class="file-download">
+  <div class="file-icon">📄</div>
+  <div class="file-info">
+    <div class="file-name">青海湖野花（上）_2009.pdf</div>
+    <div class="file-meta">PDF文档 · 53 MB</div>
+  </div>
+  <a href="{{ '/assets/files/青海湖野花（上）_2009.pdf' | relative_url }}" class="file-download-link">下载</a>
+</div>
+
+<div class="file-download">
+  <div class="file-icon">📄</div>
+  <div class="file-info">
+    <div class="file-name">青海湖野花（下）_2009.pdf</div>
+    <div class="file-meta">PDF文档 · 56 MB</div>
+  </div>
+  <a href="{{ '/assets/files/青海湖野花（下）_2009.pdf' | relative_url }}" class="file-download-link">下载</a>
+</div>
+
+<div class="file-download">
+  <div class="file-icon">📄</div>
+  <div class="file-info">
+    <div class="file-name">青海湖周边植物及访花昆虫图鉴_2022.pdf</div>
+    <div class="file-meta">PDF文档 · 10 MB</div>
+  </div>
+  <a href="{{ '/assets/files/青海湖周边植物及访花昆虫图鉴_2022.pdf' | relative_url }}" class="file-download-link">下载</a>
+</div>
+
+---
+
 _"有些地方，也许一辈子只能去一次。但去过一次，就如同走过千万次。"_\
 _————2020鸟岛支队队员_
