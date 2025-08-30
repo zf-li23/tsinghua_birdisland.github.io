@@ -57,6 +57,15 @@ permalink: /species/
   <a href="{{ '/assets/files/图鉴/青海湖周边植物及访花昆虫图鉴_2022.pdf' | relative_url }}" class="file-download-link">下载</a>
 </div>
 
+<div class="file-download">
+  <div class="file-icon">📝</div>
+  <div class="file-info">
+    <div class="file-name">青海湖周边地区被子植物野外观察简易检索表_2024.docx</div>
+    <div class="file-meta">Word文档 · 50 MB</div>
+  </div>
+  <a href="{{ '/assets/files/图鉴/青海湖周边地区被子植物野外观察简易检索表_2024.docx' | relative_url }}" class="file-download-link">下载</a>
+</div>
+
 ---
 
 _"有些地方，也许一辈子只能去一次。但去过一次，就如同走过千万次。"_\
