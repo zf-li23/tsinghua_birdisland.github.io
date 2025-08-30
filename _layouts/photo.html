@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title }} | 鸟岛与少年</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;700&family=Roboto:wght@300;400;500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="{{ '/assets/css/style_photo.css' | relative_url }}">
+    <style>
+        /* 添加目录侧边栏样式 */
+        :root {
+            --sidebar-width: 280px;
+            --sidebar-collapsed-width: 50px;
+            --sidebar-bg: rgba(210, 230, 225, 0.95);
+            --transition-speed: 0.3s;
+        }
+
+        /* 布局容器 */
+        .page-wrapper {
+            display: flex;
+            min-height: 100vh;
+            flex-direction: column;
+        }
+
+        /* 主要内容区域 */
+        .main-container {
+            display: flex;
+            flex: 1;
+            position: relative;
+        }
+
+        /* 目录侧边栏 */
+        .toc-sidebar {
+            width: var(--sidebar-width);
+            background-color: var(--sidebar-bg);
+            border-left: 1px solid var(--border);
+            height: 100vh;
+            position: sticky;
+            top: 0;
+            overflow-y: auto;
+            padding: 20px;
+            box-shadow: -2px 0 10px rgba(0, 0, 0, 0.05);
+            transition: all var(--transition-speed) ease;
+            z-index: 100;
+        }
+
+        /* 收起状态 */
+        .toc-sidebar.collapsed {
+            width: var(--sidebar-collapsed-width);
+            padding: 20px 5px;
+        }
+
+        .toc-sidebar.collapsed .toc-title,
+        .toc-sidebar.collapsed .toc-list {
+            display: none;
+        }
+
+        /* 目录标题 */
+        .toc-title {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-bottom: 15px;
+            margin-bottom: 15px;
+            border-bottom: 2px solid var(--primary);
+            color: var(--dark);
+            font-size: 1.2rem;
+            font-weight: 600;
+        }
+
+        /* 目录列表 */
+        .toc-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .toc-list li {
+            margin-bottom: 8px;
+            position: relative;
+            transition: all 0.2s ease;
+        }
+
+        .toc-list a {
+            color: var(--text);
+            text-decoration: none;
+            display: block;
+            padding: 5px 10px;
+            border-radius: 4px;
+            transition: all 0.2s ease;
+        }
+
+        .toc-list a:hover {
+            background-color: var(--light);
+            color: var(--primary);
+            padding-left: 15px;
+        }
+
+        .toc-list a.active {
+            background-color: rgba(26, 107, 84, 0.1);
+            color: var(--primary);
+            font-weight: 500;
+        }
+
+        /* 一级标题 */
+        .toc-h1 {
+            font-weight: 600;
+            font-size: 1.05rem;
+            margin-top: 15px;
+            padding-left: 5px;
+        }
+
+        /* 二级标题 */
+        .toc-h2 {
+            font-size: 0.95rem;
+            padding-left: 20px;
+            color: var(--secondary);
+            position: relative;
+        }
+
+        .toc-h2::before {
+            content: "";
+            position: absolute;
+            left: 10px;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 5px;
+            height: 5px;
+            background-color: var(--accent);
+            border-radius: 50%;
+        }
+
+        /* 控制按钮 */
+        .toc-toggle {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            width: 50px;
+            height: 50px;
+            background-color: var(--primary);
+            color: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            z-index: 200;
+            transition: all 0.3s ease;
+        }
+
+        .toc-toggle:hover {
+            background-color: var(--secondary);
+            transform: scale(1.05);
+        }
+
+        .toc-toggle i {
+            font-size: 1.2rem;
+        }
+
+        /* 关闭按钮样式 - 重新设计 */
+        .toc-close-btn {
+            background: transparent;
+            border: none;
+            cursor: pointer;
+            width: 32px;
+            height: 32px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+            transition: all 0.3s ease;
+        }
+
+        .toc-close-btn:hover {
+            background-color: rgba(249, 168, 37, 0.2);
+        }
+
+        .toc-close-btn i {
+            font-size: 1.4rem;
+            color: var(--accent);
+            transition: transform 0.3s ease;
+        }
+
+        .toc-close-btn:hover i {
+            color: var(--dark);
+            transform: rotate(90deg);
+        }
+
+        /* 响应式设计 */
+        @media (max-width: 1200px) {
+            .toc-sidebar {
+                position: fixed;
+                right: 0;
+                top: 0;
+                transform: translateX(100%);
+                z-index: 1000;
+            }
+
+            .toc-sidebar.active {
+                transform: translateX(0);
+            }
+
+            .toc-sidebar.collapsed {
+                transform: translateX(100%);
+            }
+        }
+
+        @media (max-width: 768px) {
+            .toc-sidebar {
+                width: 80%;
+                max-width: 300px;
+            }
+
+            .toc-toggle {
+                bottom: 20px;
+                right: 20px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="page-wrapper">
+        <!-- 顶部导航栏 -->
+        {% include header.html %}
+
+        <div class="main-container">
+            <!-- 主要内容区域 -->
+            <main class="content-container">
+                {{ content }}
+            </main>
+
+            <!-- 目录侧边栏 -->
+            <aside class="toc-sidebar" id="tocSidebar">
+                <div class="toc-title">
+                    <span>目录</span>
+                    <button id="closeToc" class="toc-close-btn" title="关闭目录">
+                        <i class="fas fa-times"></i>
+                    </button>
+                </div>
+                <ul class="toc-list" id="tocList">
+                    <!-- 目录将由JavaScript动态生成 -->
+                </ul>
+            </aside>
+        </div>
+
+        <!-- 页脚区域 -->
+        {% include footer.html %}
+
+        <!-- 目录控制按钮 -->
+        <div class="toc-toggle" id="tocToggle" title="显示/隐藏目录">
+            <i class="fas fa-list"></i>
+        </div>
+    </div>
+
+    <script>
+        document.querySelectorAll('.gallery-item').forEach(item => {
+            item.addEventListener('click', function (e) {
+                // 只在触摸设备或小屏下启用，PC端可保留 hover
+                if (window.innerWidth <= 900) {
+                    // 关闭其它已打开的
+                    document.querySelectorAll('.gallery-item.show-overlay').forEach(i => {
+                        if (i !== item) i.classList.remove('show-overlay');
+                    });
+                    // 切换当前
+                    item.classList.toggle('show-overlay');
+                    e.stopPropagation();
+                }
+            });
+        });
+
+        // 点击空白处关闭
+        document.addEventListener('click', function () {
+            document.querySelectorAll('.gallery-item.show-overlay').forEach(i => i.classList.remove('show-overlay'));
+        });
+        // 目录生成与交互脚本
+        document.addEventListener('DOMContentLoaded', function () {
+            // 获取DOM元素
+            const tocSidebar = document.getElementById('tocSidebar');
+            const tocList = document.getElementById('tocList');
+            const tocToggle = document.getElementById('tocToggle');
+            const closeToc = document.getElementById('closeToc');
+
+            // 生成目录
+            function generateTOC() {
+                const content = document.querySelector('.content-container');
+                const headings = content.querySelectorAll('h1, h2');
+                let tocHTML = '';
+
+                headings.forEach((heading, index) => {
+                    // 为标题添加ID（如果还没有）
+                    if (!heading.id) {
+                        heading.id = 'heading-' + index;
+                    }
+
+                    // 创建目录项
+                    if (heading.tagName === 'H1') {
+                        tocHTML += `<li class="toc-h1"><a href="#${heading.id}">${heading.textContent}</a></li>`;
+                    } else if (heading.tagName === 'H2') {
+                        tocHTML += `<li class="toc-h2"><a href="#${heading.id}">${heading.textContent}</a></li>`;
+                    }
+                });
+
+                tocList.innerHTML = tocHTML || '<li>暂无目录</li>';
+            }
+
+            // 滚动时高亮当前标题
+            function highlightActiveHeading() {
+                const headings = document.querySelectorAll('h1, h2');
+                const links = tocList.querySelectorAll('a');
+
+                // 清除所有活动状态
+                links.forEach(link => link.classList.remove('active'));
+
+                // 找到当前可见的标题
+                let currentActive = null;
+                for (let i = headings.length - 1; i >= 0; i--) {
+                    const heading = headings[i];
+                    const rect = heading.getBoundingClientRect();
+
+                    if (rect.top <= 150) {
+                        currentActive = heading;
+                        break;
+                    }
+                }
+
+                // 高亮对应的目录项
+                if (currentActive) {
+                    const activeLink = tocList.querySelector(`a[href="#${currentActive.id}"]`);
+                    if (activeLink) {
+                        activeLink.classList.add('active');
+
+                        // 滚动到活动项（如果需要）
+                        if (tocSidebar.contains(activeLink)) {
+                            const rect = activeLink.getBoundingClientRect();
+                            const sidebarRect = tocSidebar.getBoundingClientRect();
+
+                            if (rect.top < sidebarRect.top || rect.bottom > sidebarRect.bottom) {
+                                activeLink.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                            }
+                        }
+                    }
+                }
+            }
+
+            // 切换侧边栏状态
+            function toggleSidebar() {
+                if (window.innerWidth > 1200) {
+                    // 大屏幕：展开/收起
+                    tocSidebar.classList.toggle('collapsed');
+                } else {
+                    // 小屏幕：显示/隐藏
+                    tocSidebar.classList.toggle('active');
+                }
+
+                // 更新按钮图标
+                updateToggleIcon();
+            }
+
+            // 更新按钮图标
+            function updateToggleIcon() {
+                if (tocSidebar.classList.contains('collapsed') ||
+                    !tocSidebar.classList.contains('active')) {
+                    tocToggle.innerHTML = '<i class="fas fa-list"></i>';
+                } else {
+                    tocToggle.innerHTML = '<i class="fas fa-times"></i>';
+                }
+            }
+
+            // 平滑滚动到锚点
+            function smoothScrollToAnchor(e) {
+                if (e.target.tagName === 'A' && e.target.getAttribute('href').startsWith('#')) {
+                    e.preventDefault();
+
+                    const targetId = e.target.getAttribute('href');
+                    const targetElement = document.querySelector(targetId);
+
+                    if (targetElement) {
+                        // 计算偏移量（考虑页眉高度）
+                        const headerHeight = document.querySelector('header').offsetHeight || 80;
+                        const targetPosition = targetElement.getBoundingClientRect().top + window.pageYOffset - headerHeight;
+
+                        window.scrollTo({
+                            top: targetPosition,
+                            behavior: 'smooth'
+                        });
+
+                        // 在移动设备上点击后关闭侧边栏
+                        if (window.innerWidth <= 1200) {
+                            tocSidebar.classList.remove('active');
+                            updateToggleIcon();
+                        }
+                    }
+                }
+            }
+
+            // 初始化
+            generateTOC();
+            updateToggleIcon();
+
+            // 事件监听
+            tocToggle.addEventListener('click', toggleSidebar);
+            closeToc.addEventListener('click', toggleSidebar);
+            tocList.addEventListener('click', smoothScrollToAnchor);
+
+            // 滚动时高亮当前标题
+            window.addEventListener('scroll', highlightActiveHeading);
+
+            // 初始高亮
+            setTimeout(highlightActiveHeading, 500);
+        });
+    </script>
+</body>
+
+</html>
