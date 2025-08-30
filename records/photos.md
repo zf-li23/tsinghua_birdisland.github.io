@@ -25,7 +25,13 @@ permalink: /records/photos/
         <img src="{{ '/assets/photo/2025/青海湖鸟瞰1.jpg' | relative_url }}" alt="占位图片">
     </div>
     <div class="gallery-item">
+        <img src="{{ '/assets/photo/2025/青海湖鸟瞰2.jpg' | relative_url }}" alt="占位图片">
+    </div>
+    <div class="gallery-item">
         <img src="{{ '/assets/photo/2025/展翅高飞的棕头鸥.JPG' | relative_url }}" alt="占位图片">
+    </div>
+    <div class="gallery-item">
+        <img src="{{ '/assets/photo/2025/佛塔.JPG' | relative_url }}" alt="占位图片">
     </div>
     <!-- 更多图片 -->
 </div>
