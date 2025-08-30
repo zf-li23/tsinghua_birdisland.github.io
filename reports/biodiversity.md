@@ -39,6 +39,17 @@ permalink: /reports/biodiversity/
   <a href="{{ '/assets/files/多样性报告/刚察县鸟岛集镇年乃索麻村附近鸟类多样性研究报告_2024.pdf' | relative_url }}" class="file-download-link">下载</a>
 </div>
 
+## 2023
+
+<div class="file-download">
+  <div class="file-icon">📄</div>
+  <div class="file-info">
+    <div class="file-name">探究青海湖流域鸟类多样性的影响因素_2023.pdf</div>
+    <div class="file-meta">PDF文档</div>
+  </div>
+  <a href="{{ '/assets/files/多样性报告/探究青海湖流域鸟类多样性的影响因素_2023.pdf' | relative_url }}" class="file-download-link">下载</a>
+</div>
+
 ## 2022
 
 <div class="file-download">
