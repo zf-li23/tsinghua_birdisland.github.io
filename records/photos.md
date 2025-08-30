@@ -14,6 +14,18 @@ permalink: /records/photos/
     <div class="gallery-item">
         <img src="{{ '/assets/images/placeholder.jpg' | relative_url }}" alt="占位图片">
     </div>
+    <div class="gallery-item">
+        <img src="{{ '/assets/images/placeholder.jpg' | relative_url }}" alt="占位图片">
+    </div>
+    <div class="gallery-item">
+        <img src="{{ '/assets/images/placeholder.jpg' | relative_url }}" alt="占位图片">
+    </div>
+    <div class="gallery-item">
+        <img src="{{ '/assets/images/placeholder.jpg' | relative_url }}" alt="占位图片">
+    </div>
+    <div class="gallery-item">
+        <img src="{{ '/assets/images/placeholder.jpg' | relative_url }}" alt="占位图片">
+    </div>
     <!-- 更多图片 -->
 </div>
 
