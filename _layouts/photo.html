@@ -414,6 +414,47 @@
             // 初始高亮
             setTimeout(highlightActiveHeading, 500);
         });
+        
+            document.addEventListener('DOMContentLoaded', function() {
+            const galleryItems = document.querySelectorAll('.gallery-item');
+            const modalOverlay = document.querySelector('.modal-overlay');
+            const modalContent = document.querySelector('.modal-content');
+            const closeModal = document.querySelector('.close-modal');
+            
+            // 点击图片打开模态框
+            galleryItems.forEach(item => {
+                item.addEventListener('click', function() {
+                    const imgSrc = this.querySelector('img').src;
+                    modalContent.src = imgSrc;
+                    modalOverlay.classList.add('active');
+                    
+                    // 添加动画延迟
+                    setTimeout(() => {
+                        modalContent.classList.add('zoomed');
+                    }, 50);
+                });
+            });
+            
+            // 关闭模态框
+            closeModal.addEventListener('click', function() {
+                modalContent.classList.remove('zoomed');
+                
+                setTimeout(() => {
+                    modalOverlay.classList.remove('active');
+                }, 300);
+            });
+            
+            // 点击模态框背景也关闭
+            modalOverlay.addEventListener('click', function(e) {
+                if (e.target === modalOverlay) {
+                    modalContent.classList.remove('zoomed');
+                    
+                    setTimeout(() => {
+                        modalOverlay.classList.remove('active');
+                    }, 300);
+                }
+            });
+        });
     </script>
 </body>
 
