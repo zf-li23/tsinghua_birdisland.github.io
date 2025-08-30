@@ -1,40 +1,2032 @@
-- order: "禾本目"
+- order: 泽泻目
   families:
-    - family: "禾本科"
-      genera:
-        - genus: "针茅属"
-          species:
-            - name: "西北针茅"
-              scientific_name: "Stipa sareptana"
-              description: "多年生草本植物，高30-70厘米。叶片细长卷曲，圆锥花序狭窄。适应干旱环境，是草原和荒漠草原的重要组成物种。"
-              image: "northwest_needlegrass.jpg"
-              conservation_status: "LC"
-              habitat: "草原、荒漠草原"
-              distribution: "中国西北地区、蒙古、中亚"
-              conservation_notes: "种群稳定，是重要的牧草资源"
-    
-        - genus: "芨芨草属"
-          species:
-            - name: "芨芨草"
-              scientific_name: "Achnatherum splendens"
-              description: "高大丛生草本植物，高可达2.5米。叶片坚韧，圆锥花序大型。耐盐碱、抗旱，是盐碱地的重要植被。"
-              image: "splendid_achnatherum.jpg"
-              conservation_status: "LC"
-              habitat: "盐碱地、河岸、荒漠"
-              distribution: "中国西北、华北、东北及蒙古、中亚"
-              conservation_notes: "种群稳定，具有固沙和改良盐碱地的作用"
-    
-- order: "菊目"
+  - family: 水麦冬科
+    genera:
+    - genus: 水麦冬属
+      species:
+      - name: 海韭菜
+        scientific_name: Triglochin maritima
+        description: 多年生草本，植株稍粗壮。根茎短，着生多数须根，常有棕色叶鞘残留物。叶全部基生，条形，基部具鞘，鞘缘膜质，顶端与叶舌相连。花葶直立，较粗壮，圆柱形，光滑，顶生总状花序，无苞片。花两性；花被片6枚，绿色，2轮排列；雄蕊6枚，分离，无花丝；雌蕊淡绿色，由6枚合生心皮组成，柱头毛笔状。蒴果6棱状椭圆形或卵形，成熟后呈6瓣开裂。
+        images:
+        - 海韭菜.jpg
+        conservation_status: LC
+        habitat: 湿砂地或海边盐滩
+        distribution: 东北、华北、西北、西南各省区
+        conservation_notes: 无需保护
+        references:
+        - name: iPlant-海韭菜
+          url: https://www.iplant.cn/info/%E6%B5%B7%E9%9F%AD%E8%8F%9C?t=z
+- order: 天门冬目
   families:
-    - family: "菊科"
-      genera:
-        - genus: "紫菀属"
-          species:
-            - name: "青藏狗娃花"
-              scientific_name: "Heteropappus boweri"
-              description: "多年生草本植物，高10-30厘米。头状花序单生枝顶，舌状花蓝紫色。适应高寒环境，是高山草甸的常见植物。"
-              image: "tibetan_heteropappus.jpg"
-              conservation_status: "LC"
-              habitat: "高山草甸、草原"
-              distribution: "青藏高原及周边地区"
-              conservation_notes: "种群稳定，高原生态系统的重要组成部分"
+  - family: 兰科
+    genera:
+    - genus: 角盘兰属
+      species:
+      - name: 裂瓣角盘兰
+        scientific_name: Herminium alaschanicum
+        description: 植株高15-60厘米。块茎圆球形，直径约1厘米，肉质。茎基部具筒状鞘。叶片直立伸展，基部渐狭并抱茎。总状花序具多数花；子房圆柱状纺锤形，扭转，无毛；花小，绿色，垂头钩曲；蕊柱粗短；药室近并行；花粉团倒卵形，粘盘卷曲呈角状；蕊喙小；柱头2个，隆起，椭圆形，位于唇瓣基部两侧；退化雄蕊2个，小，椭圆形。
+        images:
+        - 裂瓣角盘兰.jpg
+        - 裂瓣角盘兰（1）.jpg
+        conservation_status: NT
+        habitat: 山坡草地、高山栎林下或山谷峪坡灌丛草地，海拔1800-4500米
+        distribution: 内蒙古、河北、山西、陕西、宁夏、甘肃、青海、四川（西部）、云南（西北部）、西藏
+        conservation_notes: 国家二级保护
+        references:
+        - name: iPlant-裂瓣角盘兰
+          url: https://www.iplant.cn/info/%E8%A3%82%E7%93%A3%E8%A7%92%E7%9B%98%E5%85%B0?t=z
+  - family: 鸢尾科
+    genera:
+    - genus: 鸢尾属
+      species:
+      - name: 马蔺
+        scientific_name: Iris lactea
+        description: 多年生密丛草本。根状茎粗壮，木质，斜伸，外包有大量致密老叶残留叶鞘及毛发状的纤维；须根粗而长，黄白色，少分枝。叶基生，坚韧，基部鞘状，带红紫色，无明显中脉。花茎光滑；苞片3-5枚，草质，绿色，边缘白色，披针形；花乳白色；花被管甚短，外花被裂片倒披针形，爪部楔形，内花被裂片狭倒披针形，爪部狭楔形；子房纺锤形。蒴果长椭圆状柱形，有6条明显的肋，顶端有短喙；种子为不规则的多面体，棕褐色，略有光泽。
+        images:
+        - 马蔺.jpg
+        conservation_status: LC
+        habitat: 荒地、路旁及山坡草丛中
+        distribution: 吉林、内蒙古、青海、新疆、西藏
+        conservation_notes: 无需保护
+        references:
+        - name: iPlant-马蔺
+          url: https://www.iplant.cn/info/%E9%A9%AC%E8%94%BA
+  - family: 石蒜科
+    genera:
+    - genus: 葱属
+      species:
+      - name: 天蓝韭
+        scientific_name: Allium cyaneum
+        description: 鳞茎数枚聚生，圆柱状，细长；鳞茎外皮暗褐色，老时破裂成纤维状，常呈不明显的网状。叶上面具沟槽。花葶圆柱状，在下部被叶鞘；总苞单侧开裂或2裂，比花序短；伞形花序近扫帚状，有时半球状，常疏散；小花梗基部无小苞片；花天蓝色；花被片内轮的稍长；花丝等长，仅基部合生并与花被片贴生；子房近球状，腹缝线基部具有帘的凹陷蜜穴；花柱伸出花被外。
+        images:
+        - 天蓝韭.jpg
+        - 天蓝韭（1）.jpg
+        conservation_status: LC
+        habitat: 山坡、草地、林下或林缘，海拔2100-5000m
+        distribution: 陕西、宁夏、甘肃、青海、西藏、四川和湖北
+        conservation_notes: 无需保护
+        references:
+        - name: iPlant-天蓝韭
+          url: https://www.iplant.cn/info/%E5%A4%A9%E8%93%9D%E9%9F%AD
+      - name: 蒙古韭
+        scientific_name: Allium mongolicum
+        description: 鳞茎密集地丛生，圆柱状，外皮破裂成纤维状，呈松散的纤维状。叶比花葶短。花葶圆柱状，下部被叶鞘；总苞单侧开裂，宿存；伞形花序半球状至球状，具多而通常密集的花；小花梗近等长，基部无小苞片；花淡红色、淡紫色至紫红色，大；花被片内轮的常比外轮的长；花丝基部合生并与花被片贴生；子房倒卵状球形；花柱略比子房长，不伸出花被外。
+        images:
+        - 蒙古韭.jpg
+        - 蒙古韭（1）.jpg
+        conservation_status: LC
+        habitat: 荒漠、砂地或干旱山坡，海拔800-2800米
+        distribution: 新疆（东北部）、青海（北部）、甘肃、宁夏（北部）、陕西（北部）、内蒙古和辽宁（西部）
+        conservation_notes: 无需保护
+        references:
+        - name: iPlant-蒙古韭
+          url: https://www.iplant.cn/info/%E8%92%99%E5%8F%A4%E9%9F%AD?t=z
+      - name: 青甘韭
+        scientific_name: Allium przewalskianum
+        description: 鳞茎数枚聚生，有时基部被网状鳞茎外皮，狭卵状圆柱形；叶具4-5纵棱。花葶圆柱状，下部被叶鞘；总苞单侧开裂，具喙，宿存；伞形花序球状或半球状，具多而稍密集的花；小花梗近等长，基部无小苞片；花淡红色至深紫红色；花被片先端微钝；花丝基部合生并与花被片贴生，子房球状，基部无凹陷蜜穴；花柱在花后期伸出，近与花丝等长。
+        images:
+        - 青甘韭.jpg
+        conservation_status: LC
+        habitat: 干旱山坡、石缝、灌丛下或草坡，海拔2000-4800米
+        distribution: 云南（西北部）、西藏、四川、陕西、宁夏、甘肃、青海和新疆
+        conservation_notes: 无需保护
+        references:
+        - name: iPlant-青甘韭
+          url: https://www.iplant.cn/info/%E9%9D%92%E7%94%98%E9%9F%AD?t=z
+- order: 禾本目
+  families:
+  - family: 莎草科
+    genera:
+    - genus: 扁穗草属
+      species:
+      - name: 华扁穗草
+        scientific_name: Blysmus sinocompressus
+        description: 多年生草本，匍匐根状茎长，黄色，鳞片黑色；杆近散生，高5-20厘米，扁三棱形，具槽，中部以下生叶，基部老叶鞘褐或紫褐色；叶平展，边缘内卷，疏生细齿，先端三棱形，叶舌膜质；苞片高出花序，小苞片鳞片状，膜质；穗状花序1，顶生；
+          鳞片近2列，长卵形，锈褐色，膜质，3-5脉，中脉龙骨状突起，绿色；下位刚毛3-6，长于小坚果2-3倍，有倒刺；雄蕊3，花药窄长圆形，具短尖；柱头2，长于花柱的1倍；小坚果宽倒卵形，平凸状，深褐色。
+        images:
+        - 华扁穗草.jpg
+        conservation_status: LC
+        habitat: 山溪边、河床、沼泽地、草地等潮湿地区，海拔1000-4000米
+        distribution: 内蒙古、山西、河北、陕西、甘肃、青海、云南、四川、西藏
+        conservation_notes: 无需保护
+        references:
+        - name: iPlant-华扁穗草
+          url: https://www.iplant.cn/info/%E5%8D%8E%E6%89%81%E7%A9%97%E8%8D%89?t=z
+    - genus: 薹草属
+      species:
+      - name: 寸草
+        scientific_name: Carex duriuscula
+        description: 秆高5-20厘米，基部叶鞘裂成纤维状； 叶内卷成针状；苞片鳞片状；穗状花序卵形或球形；小穗3-6，卵形，密生，雄雌顺序，少花；雌花鳞片边缘及先端白色膜质，具短尖；
+          果囊革质，成熟时稍有光泽，基部有海绵状组织，柄粗短，喙短，喙缘稍粗糙，喙口白色膜质，斜截；花柱基部膨大，柱头2。
+        images:
+        - 寸草.jpg
+        conservation_status: LC
+        habitat: 草原，山坡、路边或河岸湿地，海拔250-700米
+        distribution: 黑龙江、吉林、辽宁、内蒙古、甘肃
+        conservation_notes: 无需保护
+        references:
+        - name: iPlant-寸草
+          url: https://www.iplant.cn/info/%E5%AF%B8%E8%8D%89?t=z
+      - name: 高山嵩草
+        scientific_name: Carex parvula
+        description: 垫状草本； 秆高1-35厘米，基部具密的宿存叶鞘； 先出叶椭圆形，先端白色，背面具粗糙2脊； 穗状花序雄雌顺序，稀雌雄异序，椭圆形；雌花鳞片宽卵形、卵形或卵状长圆形，先端圆或钝，具短尖或短芒，纸质，褐色，具窄白色膜质边缘，中部淡黄绿色，3脉；小坚果扁三棱状，成熟时暗褐色；花柱短，基部不增粗，柱头3，退化小穗轴扁，长为果1/2。
+        images:
+        - 高山嵩草.jpg
+        conservation_status: LC
+        habitat: 山谷或林间的湿润草地，海拔3500-4600m
+        distribution: 四川西部、云南西北部和西藏
+        conservation_notes: 无需保护
+        references:
+        - name: iPlant-高山嵩草
+          url: https://www.iplant.cn/info/%E9%AB%98%E5%B1%B1%E5%B5%A9%E8%8D%89
+      - name: 唐古拉薹草
+        scientific_name: Carex tangulashanensis
+        description: 秆疏丛生； 高2-5厘米，扁三棱形，平滑，基部具少数鞘； 叶稍短于秆，平展，稍坚挺，上部边缘和脉稍粗糙；苞片刚毛状； 雌花鳞片卵形，具白色膜质边缘，1中脉；果囊稍斜展，椭圆形，钝三棱状，薄革质，黄褐色，喙短，喙口微缺；小坚果椭圆形，钝三棱状，淡黄色；花柱稍粗短，柱头3。
+        images:
+        - 唐古拉薹草.jpg
+        conservation_status: LC
+        habitat: 潮湿地，海拔4000-4750m
+        distribution: 青海、西藏
+        conservation_notes: 无需保护
+        references:
+        - name: iPlant-唐古拉薹草
+          url: https://www.iplant.cn/info/%E5%94%90%E5%8F%A4%E6%8B%89%E8%96%B9%E8%8D%89
+    - genus: 莎草属
+      species:
+      - name: 白鳞莎草
+        scientific_name: Cyperus nipponicus
+        description: 一年生草本，具许多细长的须根。杆密丛生，细弱，高5-20厘米，扁三稜形，平滑，基部具少数叶。叶鞘膜质，淡红棕色或紫褐色。苞片3-5枚，叶状，较花序长数倍；长侧枝聚伞花序短缩成头状；小穗无柄，压扁；小穗轴具白色透明的翅；鳞片二列，复瓦状排列，背面沿中脉处绿色，两侧白色透明，有时具疏的绣色短条纹，具多数脉；雄蕊2，花药线状长圆形；花柱长，柱头2。小坚果长圆形，长约为鳞片的1/2，黄棕色。
+        images:
+        - 白鳞莎草.jpg
+        conservation_status: LC
+        habitat: 空旷的地方
+        distribution: 江苏、河北、山西等省
+        conservation_notes: 无需保护
+        references:
+        - name: iPlant-白鳞莎草
+          url: https://www.iplant.cn/info/%E7%99%BD%E9%B3%9E%E8%8E%8E%E8%8D%89
+    - genus: 水葱属
+      species:
+      - name: 水葱
+        scientific_name: Schoenoplectus tabernaemontani
+        description: 秆圆柱状，高1-2米，平滑，基部叶鞘膜质，最上部叶鞘具叶片；叶片线形；长侧枝聚伞花序简单或复出，假侧生；小穗单生或2-3簇生辐射枝顶端，多花；鳞片先端稍凹，具短尖，膜质，背面有锈色小点突起，1脉，边缘具缘毛；下位刚毛6，等长于小坚果，红棕色，有倒剌：雄蕊3，花药线形，药隔突出；花柱中等长，柱头长于花柱；小坚果倒卵形或椭圆形，双凸状。
+        images:
+        - 水葱.jpg
+        conservation_status: LC
+        habitat: 湖边或浅水塘
+        distribution: 东北各省、内蒙古、山西、陕西、甘肃、新疆、河北、江苏、贵州、四川、云南
+        conservation_notes: 无需保护
+        references:
+        - name: iPlant-水葱
+          url: https://www.iplant.cn/info/%E6%B0%B4%E8%91%B1?t=z
+  - family: 禾本科
+    genera:
+    - genus: 羽茅属
+      species:
+      - name: 醉马草
+        scientific_name: Achnatherum inebrians
+        description: 秆少数丛生， 高0.6-1.2米，平滑，节下贴生微毛，基部具鳞芽；叶鞘口被微毛，叶舌厚膜质；叶片直立； 圆锥花序穗状；分枝被细刺毛；小穗灰绿或基部带紫色，后褐铜色；颖几等长，先端常破裂，微粗糙，3脉；外稃先端具2微齿，背部密被柔毛，3脉，脉于先端汇合，基盘钝圆，被密毛，芒一回膝曲，芒柱稍扭转且被微毛，基部无关节；内稃具2脉，脉间被柔毛；花药长约2毫米，顶端具毫毛。
+        images:
+        - 醉马草.jpg
+        conservation_status: LC
+        habitat: 高草原、山坡草地、田边、路旁、河滩，海拔1700-4200m
+        distribution: 内蒙古、甘肃、宁夏、新疆、西藏、青海、四川西部
+        conservation_notes: 无需保护
+        references:
+        - name: iPlant-醉马草
+          url: https://www.iplant.cn/info/%E9%86%89%E9%A9%AC%E8%8D%89
+    - genus: 冰草属
+      species:
+      - name: 冰草
+        scientific_name: Agropyron cristatum
+        description: 秆丛生；高15-75厘米，上部被柔毛；叶鞘粗糙或边缘微具毛，叶片内卷，上面叶脉隆起并密被小硬毛；穗状花序长圆形或两端稍窄；小穗紧密排成两行，篦齿状，具（3-）5-7小花；颖舟形，背部被长柔毛，或粗糙，稍无毛，具芒；外稃被长柔毛，边缘窄膜质，被刺毛，桴与外稃近等长，脊具刺毛。
+        images:
+        - 冰草.jpg
+        conservation_status: LC
+        habitat: 干燥草地、山坡、丘陵以及沙地
+        distribution: 东北、华北、内蒙古、甘肃、青海、新疆
+        conservation_notes: 无需保护
+        references:
+        - name: iPlant-冰草
+          url: https://www.iplant.cn/info/%E5%86%B0%E8%8D%89?t=z
+    - genus: 雀麦属
+      species:
+      - name: 旱雀麦
+        scientific_name: Bromus tectorum
+        description: 一年生。秆直立，高20-60厘米。叶鞘生柔毛；叶片被柔毛。圆锥花序开展，下部节具3-5分枝；分枝粗糙，有柔毛，细弱，多弯曲，着生4-8枚小穗；小穗密集，偏生于一侧，稍弯垂，含4-8小花；颖狭披针形，边缘膜质，第一颖具1脉，第二颖具3脉；外稃具7脉，粗糙或生柔毛，先端渐尖，边缘薄膜质，有光泽，芒细直，自二裂片间伸出，长10-15毫米；内稃短于外稃，脊具纤毛；颖果贴生于内稃。花果期6-9月。
+        images:
+        - 旱雀麦.jpg
+        conservation_status: LC
+        habitat: 荒野干早山坡、路旁、河滩、草地
+        distribution: 广泛欧洲、亚洲、非洲北部以及北美洲
+        conservation_notes: 无需保护
+        references:
+        - name: iPlant-旱雀麦
+          url: https://www.iplant.cn/info/%E6%97%B1%E9%9B%80%E9%BA%A6
+    - genus: 披碱草属
+      species:
+      - name: 垂穗披碱草
+        scientific_name: Elymus nutans
+        description: 基部和根出叶鞘被柔毛；叶平展，上面有时疏具柔毛；穗状花序较紧密，通常下垂；穗轴边缘粗糙或具小纤毛；小穗初绿色，后带紫色，具3-4小花，偏向垂轴一侧，近无柄或具极短柄；颖长圆形，几相等，3-4脉，先端渐尖或具芒；外稃长披针形，5脉，被微小短毛；内稃与外稃等长，先端钝圆或平截，脊具纤毛。
+        images:
+        - 垂穗披碱草.jpg
+        conservation_status: LC
+        habitat: 草原或山坡道旁和林缘
+        distribution: 内蒙古、河北、陕西、甘肃、青海、四川、新疆、西藏
+        conservation_notes: 无需保护
+        references:
+        - name: iPlant-垂穗披碱草
+          url: https://www.iplant.cn/info/%E5%9E%82%E7%A9%97%E6%8A%AB%E7%A2%B1%E8%8D%89
+    - genus: 羊茅属
+      species:
+      - name: 羊茅
+        scientific_name: Festuca ovina
+        description: 秆无毛或在花序下具微毛或粗糙；叶鞘开口几达基部；叶舌平截，具纤毛；叶片内卷成针状；叶横切面具维管束5-7，厚壁组织在下表皮内连续呈环状马蹄形，上表皮疏被毛；圆锥花序穗状；小穗淡绿或紫红色，具3-5(6)小花；颖片披针形，第一颖具1脉，第二颖具3脉；外稃背部粗糙或中部以下平滑，5脉，芒粗糙；内稃近等长于外稃；子房顶端无毛。
+        images:
+        - 羊茅.jpg
+        conservation_status: LC
+        habitat: 高山草甸、草原、山坡草地、林下、灌丛及沙地
+        distribution: 黑龙江、吉林（长白山）、内蒙古、陕西（秦岭）、甘肃、宁夏、青海、新疆、四川、云南、西藏、山东及安徽山区
+        conservation_notes: 无需保护
+        references:
+        - name: iPlant-羊茅
+          url: https://www.iplant.cn/info/%E7%BE%8A%E8%8C%85
+    - genus: 大麦属
+      species:
+      - name: 紫大麦草
+        scientific_name: Hordeum roshevitzii
+        description: 杆高30-70厘米，质较软，具3-4节；叶鞘基部长于节间，叶舌膜质；穗状花序绿或带紫色；穗轴边缘具纤毛；内稃与外桴等长。
+        images:
+        - 紫大麦草.jpg
+        conservation_status: LC
+        habitat: 河边、草地沙质土壤上
+        distribution: 内蒙古、陕西北部、甘肃、青海、新疆等省区
+        conservation_notes: 无需保护
+        references:
+        - name: iPlant-紫大麦草
+          url: https://www.iplant.cn/info/%E7%B4%AB%E5%A4%A7%E9%BA%A6%E8%8D%89
+    - genus: 赖草属
+      species:
+      - name: 赖草
+        scientific_name: Leymus secalinus 
+        description: 杆单生或疏丛生，高0.4-1米，上部密生柔毛；叶平展或干时内卷，上面及边缘粗糙或被柔毛；穗状花序灰绿色，直立；穗轴被柔毛；小穗生于穗轴每节，具4-7(-10)小花；小穗轴贴生毛；颖线状披针形，1-3脉，先端芒尖，边缘被纤毛，外稃披针形，5脉，被柔毛，基盘被柔毛；内稃与外桴近等长，脊上半部被纤毛。
+        images:
+        - 赖草.jpg
+        conservation_status: LC
+        habitat: 沙地、平原绿洲及山地草原带
+        distribution: 新疆、甘肃、青海、陕西、四川、内蒙古、河北、山西、东北等
+        conservation_notes: 无需保护
+        references:
+        - name: iPlant-赖草
+          url: https://www.iplant.cn/info/%E8%B5%96%E8%8D%89
+    - genus: 芨芨草属
+      species:
+      - name: 芨芨草
+        scientific_name: Neotrinia splendens
+        description: 秆具白色髓，高0.5-2.5米，无毛， 叶鞘具膜质边缘，叶舌披针形；叶片纵卷，坚韧；圆锥花序开展；小穗灰绿色，基部带紫褐色，成熟后常草黄色；颖披针形，均具3脉；外稃先端2微齿裂，背部密被柔毛，5脉，基盘钝圆，被柔毛，芒不扭转，基部具关节，早落；花药顶端具毫毛
+        images:
+        - 芨芨草.jpg
+        conservation_status: LC
+        habitat: 微碱性的草滩及砂土山坡上
+        distribution: 西北、东北各省及内蒙古、山西、河北
+        conservation_notes: 无需保护
+        references:
+        - name: iPlant-芨芨草
+          url: https://www.iplant.cn/info/%E8%8A%A8%E8%8A%A8%E8%8D%89?t=z
+    - genus: 固沙草属
+      species:
+      - name: 青海固沙草
+        scientific_name: Orinus kokonorica
+        description: 多年生； 根茎密被鳞片，秆高30-50厘米； 叶鞘无毛或粗糙，叶舌膜质平截；叶较硬，常内卷刺毛状，基部稍耳形，两面均糙涩或被刺毛；圆锥花序线形，分枝单生，棱边具刺毛；小穗具2-3(-5)小花，小穗轴节间疏生细毛；颖披针形，质薄，背部带黑紫色，第一颖具1脉，第二颖具3脉；外稃薄，3脉，先端细齿状或小尖头，脊两侧及边缘或下部疏生长柔毛；内稃与外稃等长，先端尖或微凹，具2脊，脊及两侧疏生毛；颖果窄长圆形，具3棱。
+        images:
+        - 青海固沙草.jpg
+        conservation_status: LC
+        habitat: 干旱山坡及草原上，海拔3325m以下
+        distribution: 甘肃、青海
+        conservation_notes: 国家二级保护
+        references:
+        - name: iPlant-青海固沙草
+          url: https://www.iplant.cn/info/%E9%9D%92%E6%B5%B7%E5%9B%BA%E6%B2%99%E8%8D%89
+    - genus: 芦苇属
+      species:
+      - name: 芦苇
+        scientific_name: Phragmites australis
+        description: 多年生，根状茎十分发达。秆直立，高1-3 (8)米，基部和上部的节间较短，最长节间位于下部第4-6节，长20-25 (40)厘米，节下被腊粉。叶鞘下部者短于而上部者，长于其节间；叶舌边缘密生一圈长约1毫米的短纤毛，易脱落；叶片披针状线形，无毛，顶端长渐尖成丝形。圆锥花序大型，分枝多数，着生稠密下垂的小穗；小穗柄无毛；小穗含4花；颖具3脉；第一不孕外稃雄性，第二外稃具3脉，顶端长渐尖，基盘延长，两侧密生等长于外稃的丝状柔毛，与无毛的小穗轴相连接处具明显关节，成熟后易自关节上脱落；内稃两脊粗糙；雄蕊3，花药黄色；颖果。
+        images:
+        - 芦苇.jpg
+        conservation_status: LC
+        habitat: 生于江河湖泽、池塘沟渠沿岸和低湿地。
+        distribution: 产全国各地
+        conservation_notes: 无需保护
+        references:
+        - name: iPlant-芦苇
+          url: https://www.iplant.cn/info/%E8%8A%A6%E8%8B%87?t=z
+    - genus: 早熟禾属
+      species:
+      - name: 堇色早熟禾
+        scientific_name: Poa araratica subsp. ianthina
+        description: 多年生；高30-40厘米，基部具紫红色叶鞘，叶片直立，较硬，两面粗糙，扁平或内卷；圆锥花序窄长圆形，紫色，小穗具2-4小花，小穗轴节间较粗，被微毛，颖具3脉，紫色，有黄白色边缘，上部微粗糙，先端锐尖
+        images:
+        - 堇色早熟禾.jpg
+        conservation_status: LC
+        habitat: 干燥山坡草地，海拔2000-3300米
+        distribution: 山西、河北、内蒙古、辽宁、吉林、四川
+        conservation_notes: 未知
+        references:
+        - name: iPlant-堇色早熟禾
+          url: https://www.iplant.cn/info/%E5%A0%87%E8%89%B2%E6%97%A9%E7%86%9F%E7%A6%BE
+    - genus: 针茅属
+      species:
+      - name: 长芒草
+        scientific_name: Stipa bungeana
+        description: 秆丛生；叶鞘无毛或边缘具纤毛，基生者有内藏小穗，基生叶舌钝圆，顶端具柔毛，秆生者披针形，顶端常2裂；叶片纵卷似针状；小穗灰绿或紫色；颖近等长，边缘膜质，3-5脉，先端延伸成芒状；外稃5脉，背部沿脉密生毛，基盘长约1毫米，密生柔毛，芒二回膝曲、扭转，微粗糙，内稃与外稃等长；
+          内藏小穗的颖果卵圆形，被无芒、无毛之稃体紧密包裹。
+        images:
+        - 长芒草.jpg
+        conservation_status: LC
+        habitat: 石质山坡，黄土丘陵，河谷阶地或路旁
+        distribution: 东北、华北、西北、西南，向东南延伸到江苏、安徽
+        conservation_notes: 无需保护
+        references:
+        - name: iPlant-长芒草
+          url: https://www.iplant.cn/info/%E9%95%BF%E8%8A%92%E8%8D%89?t=z
+      - name: 紫花针茅
+        scientific_name: Stipa purpurea
+        description: 小穗紫色；颖宽披针形，长1.3-1.7厘米，边缘白色膜质，先端芒状，3脉； 外稃长0.8-1厘米，背部散生细毛，先端与芒相接处具关节，基盘长约2毫米，密被柔毛，芒二回膝曲，扭转，具长2-3毫米白色长柔毛，第一芒柱长1.5-1.8厘米，第二芒柱长约1厘米，芒针长5-7厘米；内稃背面具短毛；
+        images:
+        - 紫花针茅.jpg
+        conservation_status: LC
+        habitat: 砂砾地
+        distribution: 甘肃、新疆、西藏、青海、四川
+        conservation_notes: 无需保护
+        references:
+        - name: iPlant-紫花针茅
+          url: https://www.iplant.cn/info/%E7%B4%AB%E8%8A%B1%E9%92%88%E8%8C%85?t=z
+- order: 毛茛目
+  families:
+  - family: 罂粟科
+    genera:
+    - genus: 角茴香属
+      species:
+      - name: 细果角茴香
+        scientific_name: Hypecoum leptocarpum
+        description: 一年生草本，略被白粉，高4-60厘米。茎丛生，长短不一，铺散而先端向上，多分枝。基生叶多数，蓝绿色，叶片狭倒披针形，二回羽状全裂；苞叶轮生，二回羽状全裂，向上渐变小。二歧聚伞花序；萼片边缘膜质，全缘，稀具小牙齿；花瓣淡紫色，外面2枚宽倒卵形，里面2枚较小，3裂几达基部，中裂片匙状圆形，边缘内弯，侧裂片较长；雄蕊4，与花瓣对生，花丝丝状，基部扩大，花药卵形，黄色；子房圆柱形，无毛，胚珠多数，花柱短，柱头2裂，裂片外弯。蒴果直立，圆柱形，两侧压扁，成熟时在关节处分离成数小节，每节具1种子。种子扁平，宽倒卵形。
+        images:
+        - 细果角茴香.jpg
+        conservation_status: LC
+        habitat: 山坡、草地、山谷、河滩、砾石坡、砂质地，海拔1700-5000m
+        distribution: 河北西北部、山西、内蒙古、陕西、甘肃、青海、新疆、四川西部、云南西北部、西藏
+        conservation_notes: 无需保护
+        references:
+        - name: iPlant-细果角茴香
+          url: https://www.iplant.cn/info/%E7%BB%86%E6%9E%9C%E8%A7%92%E8%8C%B4%E9%A6%99
+  - family: 毛茛科
+    genera:
+    - genus: 侧金盏花属
+      species:
+      - name: 蓝侧金盏花
+        scientific_name: Adonis coerulea
+        description: 多年生草本，除心皮外，全部无毛。根状茎粗壮。茎常在近地面处分枝。茎下部叶有长柄，上部的有短柄或无柄；叶片二至三回羽状细裂；叶柄基部有狭鞘。萼片5-7，花瓣约8，淡紫色或淡蓝色，狭倒卵形，顶端有少数小齿；花药椭圆形，花丝狭线形；心皮多数，子房卵形，花柱极短。瘦果倒卵形，下部有稀疏短柔毛。
+        images:
+        - 蓝侧金盏花.jpg
+        conservation_status: LC
+        habitat: 山地，海拔2300-5000m
+        distribution: 地西藏东北部、青海、东北部、四川西北部；甘肃
+        conservation_notes: 无需保护
+        references:
+        - name: iPlant-蓝侧金盏花
+          url: https://www.iplant.cn/info/%E8%93%9D%E4%BE%A7%E9%87%91%E7%9B%8F%E8%8A%B1
+    - genus: 铁线莲属
+      species:
+      - name: 甘青铁线莲
+        scientific_name: Clematis tangutica
+        description: 木质藤本，在荒漠地区呈矮小灌木状； 枝被柔毛； 一至二回羽状复叶；小叶菱状卵形或窄卵形，先端尖，具小牙齿，两面脉疏被柔毛；花单生枝顶或组成腋生花序；苞片似小叶；萼片4，黄色，疏被柔毛，边缘被柔毛；花丝被柔毛，花药窄长圆形，无毛，顶端具不明显小尖头；
+          瘦果菱状倒卵圆形，被毛：宿存花柱。
+        images:
+        - 甘青铁线莲.jpg
+        - 甘青铁线莲（1）.jpg
+        - 甘青铁线莲（2）.jpg
+        conservation_status: LC
+        habitat: 高原草地或灌丛中，海拔1370-4900m
+        distribution: 新疆、西藏、四川西部、青海、甘肃南部和东部、陕西
+        conservation_notes: 无需保护
+        references:
+        - name: iPlant-甘青铁线莲
+          url: https://www.iplant.cn/info/%E7%94%98%E9%9D%92%E9%93%81%E7%BA%BF%E8%8E%B2
+    - genus: 翠雀属
+      species:
+      - name: 蓝翠雀花
+        scientific_name: Delphinium caeruleum
+        description: 茎高达60厘米，与叶柄均被反曲柔毛； 基生叶具长柄，3全裂，中裂片菱状倒卵形，细裂，侧裂片扇形，上面密被伏毛，下面疏被较长毛；伞房花序具1-7花；花梗细，与序轴密被反曲短柔毛；小苞片披针形；萼片紫蓝色，被柔毛，有时基部密被长柔毛；退化雄蕊的瓣片宽倒卵形或近圆形，顶端不裂或微凹，腹面中央被黄色髯毛，花丝疏被毛或无毛；心皮5；种子沿棱具窄翅。
+        images:
+        - 蓝翠雀花.jpg
+        - 蓝翠雀花（1）.jpg
+        - 蓝翠雀花（2）.jpg
+        conservation_status: LC
+        habitat: 山地草坡或多石砾山坡，海拔2100-4000m
+        distribution: 西藏、四川西部、青海、甘肃
+        conservation_notes: 无需保护
+        references:
+        - name: iPlant-蓝翠雀花
+          url: https://www.iplant.cn/info/%E8%93%9D%E7%BF%A0%E9%9B%80%E8%8A%B1
+    - genus: 露蕊乌头属
+      species:
+      - name: 露蕊乌头
+        scientific_name: Gymnaconitum gymnandrum
+        description: 根一年生，近圆柱； 茎高达0.5(-1)米，被短柔毛，常分枝；基生叶与最下部茎生叶通常在开花时枯萎；叶片3全裂，上面疏被短伏毛，下面沿脉疏被长柔毛或变无毛；叶柄具窄鞘；总状花序；萼片蓝紫色，稀白色，疏被柔毛，有较长爪；花瓣疏被缘毛，距短，疏被短毛；花丝疏被短毛，唇扇形，边缘有小齿，不分裂；心皮6-13，子房有柔毛；蓇葖果，种子倒卵球形，密生横窄翅。
+        images:
+        - 露蕊乌头.jpg
+        - 露蕊乌头（1）.jpg
+        conservation_status: LC
+        habitat: 山地草坡、田边草地或河边砂地，海拔1550-3800m
+        distribution: 西藏、四川西部、青海、甘肃南部
+        conservation_notes: 无需保护
+        references:
+        - name: iPlant-露蕊乌头
+          url: https://www.iplant.cn/info/%E9%9C%B2%E8%95%8A%E4%B9%8C%E5%A4%B4
+    - genus: 毛茛属
+      species:
+      - name: 高原毛茛
+        scientific_name: Ranunculus tanguticus
+        description: 多年生草本； 茎高达20(-30)厘米，被柔毛；基生叶3全裂，中裂片宽菱形或楔状菱形，侧裂片斜扇形，两面或下面被柔毛；茎生叶渐小；顶生花序；花托被柔毛；萼片5，窄椭圆形；花瓣5，倒卵形；雄蓉多数；瘦果倒卵状球形，无毛；宿存花柱。
+        images:
+        - 高原毛茛.jpg
+        conservation_status: LC
+        habitat: 山坡或沟边沼泽湿地，海拔3000-4500m
+        distribution: 西藏，云南西北部，四川西部、陕西、甘肃、青海、山西及河北等省
+        conservation_notes: 无需保护
+        references:
+        - name: iPlant-高原毛茛
+          url: https://www.iplant.cn/info/%E9%AB%98%E5%8E%9F%E6%AF%9B%E8%8C%9B
+    - genus: 唐松草属
+      species:
+      - name: 唐松草（未定种）
+        scientific_name: Thalictrum sp.
+        description: 未知
+        images:
+        - 唐松草（未定种）.jpg
+        conservation_status: ''
+        habitat: 未知
+        distribution: 未知
+        conservation_notes: 未知
+        references:
+        - name: iPlant-唐松草属
+          url: https://www.iplant.cn/info/%E5%94%90%E6%9D%BE%E8%8D%89%E5%B1%9E
+- order: 虎耳草目
+  families:
+  - family: 虎耳草科
+    genera:
+    - genus: 虎耳草属
+      species:
+      - name: 山地虎耳草
+        scientific_name: Saxifraga sinomontana
+        description: 多年生草本，丛生，高4.5-35厘米。茎疏被褐色卷曲柔毛。基生叶发达，具柄，叶柄基部扩大，边缘具长柔毛；茎生叶披针形至线形，无毛或疏生长柔毛。聚伞花序；萼片在花期直立，腹面无毛，背面有时疏生柔毛，边缘具卷曲长柔毛，5-8脉于先端不汇合；花瓣黄色，基部具爪；雄蕊花丝钻形；子房近上位，花柱2。
+        images:
+        - 山地虎耳草.jpg
+        conservation_status: ''
+        habitat: 灌丛、高山草甸、高山沼泽化草甸和高山碎石隙，海拔2700-5300m
+        distribution: 陕西（太白山）、甘肃南部、青海）、四川西部、云南西北部及西藏东部和南部
+        conservation_notes: 未知
+        references:
+        - name: iPlant-山地虎耳草
+          url: https://www.iplant.cn/info/%E5%B1%B1%E5%9C%B0%E8%99%8E%E8%80%B3%E8%8D%89
+- order: 卫矛目
+  families:
+  - family: 卫矛科
+    genera:
+    - genus: 梅花草属
+      species:
+      - name: 三脉梅花草
+        scientific_name: Parnassia trinervis
+        description: 多年生草本。根状茎，其上有褐色膜质鳞片，周围长出发达纤维状之根。基生叶4-9，具柄；叶片长圆形、长圆状披针形或卵状长圆形，先端急尖，基部微心形、截形或下延而连于叶柄，上面深绿色，下面淡绿色；叶柄扁平，两边为窄膜质，有褐色条纹；托叶膜质。茎
+          近基部具单个茎生叶，茎生叶与基生叶同形。花单生于茎顶，直径约1厘米；萼筒管漏斗状；萼片披针形或长圆披针形，先端钝，全缘，外面有明显3条脉；花瓣白色，倒披针形，先端圆，基部楔形下延成长为爪，边全缘，有明显3条脉；雄蕊5，花丝长短不等，花药较大，椭圆形，顶生；退化雄蕊5；子房长圆形，半下位，花柱极短，柱头3裂，裂片直立，花后反折。蒴果3裂；种子多数，褐色，有光泽。花期7-8月，果期9月开始。
+        images:
+        - 三脉梅花草.jpg
+        conservation_status: LC
+        habitat: 生于山谷潮湿地、沼泽草甸或河滩上，海拔3100-4500米。
+        distribution: 甘肃、青海、四川和西藏
+        conservation_notes: 无需保护
+        references:
+        - name: iPlant-三脉梅花草
+          url: https://www.iplant.cn/info/%E4%B8%89%E8%84%89%E6%A2%85%E8%8A%B1%E8%8D%89
+- order: 金虎尾目
+  families:
+  - family: 大戟科
+    genera:
+    - genus: 大戟属
+      species:
+      - name: 大戟（未定种）
+        scientific_name: Euphorbia sp.
+        description: 未知
+        images:
+        - 大戟（未定种）.jpg
+        conservation_status: ''
+        habitat: 未知
+        distribution: 未知
+        conservation_notes: 未知
+        references:
+        - name: iPlant-大戟属
+          url: https://www.iplant.cn/info/%E5%A4%A7%E6%88%9F%E5%B1%9E
+- order: 豆目
+  families:
+  - family: 豆科
+    genera:
+    - genus: 黄芪属
+      species:
+      - name: 丛生黄芪
+        scientific_name: Astragalus confertus
+        description: 多年生草本，高5-15厘米，茎多数丛生。奇数羽状复叶，有11-19片卵形或长圆状卵形小叶，两面被白色柔毛。总状花序密集呈头状，花冠青紫色。荚果长圆形，稍弯曲，被短柔毛。
+        images:
+        - 丛生黄芪.jpg
+        conservation_status: LC
+        habitat: 无描述
+        distribution: 青海、四川、西藏西北部
+        conservation_notes: 无需保护
+        references:
+        - name: iPlant-丛生黄芪
+          url: https://www.iplant.cn/info/%E4%B8%9B%E7%94%9F%E9%BB%84%E8%8A%AA
+      - name: 斜茎黄芪
+        scientific_name: Astragalus laxmannii
+        description: 多年生草本，高20-100厘米，茎丛生。羽状复叶，有9-25片长圆形小叶。总状花序花多，花冠蓝紫色或红紫色。荚果长圆形，顶端有下弯的短喙。
+        images:
+        - 斜茎黄芪.jpg
+        conservation_status: LC
+        habitat: 向阳的山坡灌丛及林缘地带，海拔2000-2500米
+        distribution: 东北、华北、西北、西南地区。
+        conservation_notes: 无需保护
+        references:
+        - name: iPlant-斜茎黄芪
+          url: https://www.iplant.cn/info/%E6%96%9C%E8%8C%8E%E9%BB%84%E8%8A%AA
+      - name: 甘肃黄芪
+        scientific_name: Astragalus licentianus
+        description: 多年生草本。根直伸，暗褐色，颈部具数个细瘦的根状茎。地上茎短缩。羽状复叶基生，连同叶轴散生白色长柔毛；托叶离生，具毛；小叶两面密被毛。总状花序偏向一边；总花梗生于基部叶腋，与叶近等长或较长，具条棱，散生毛，上部混有黑色柔毛；苞片膜质，下面散生毛；花梗同花序轴均密被黑色长柔毛；花萼管状，花冠青紫色，翼瓣与旗瓣近等长，基部具耳；龙骨瓣较旗瓣短或近等长，具短耳；子房具短柄，被毛。荚果狭椭圆状长圆形；种子5-6颗，褐色，卵形。
+        images:
+        - 甘肃黄芪.jpg
+        conservation_status: LC
+        habitat: 高山沼泽草地，海拔3000-4500米
+        distribution: 甘肃、青海
+        conservation_notes: 无需保护
+        references:
+        - name: iPlant-甘肃黄芪
+          url: https://www.iplant.cn/info/%E7%94%98%E8%82%83%E9%BB%84%E8%8A%AA?t=z
+      - name: 短茎黄芪
+        scientific_name: Astragalus malcolmii
+        description: 多年生矮草本，无茎，被基部着生的柔毛。根状茎纤细，斜生，端钝，近肉质，密被柔毛，具极短的小叶柄。总状花序腋生，被黑色柔毛，有苞片；花梗极短；花萼近钟状，深5裂，被黑色柔毛；花冠紫色，旗瓣上部宽圆形，无毛；子房有柄，无毛，假2室，花柱无毛。
+        images:
+        - 短茎黄芪.jpg
+        conservation_status: LC
+        habitat: 高山地带，海拔5400m
+        distribution: 西藏北部双湖地区
+        conservation_notes: 无需保护
+        references:
+        - name: iPlant-短茎黄芪
+          url: https://www.iplant.cn/info/%E7%9F%AD%E8%8C%8E%E9%BB%84%E8%8A%AA
+      - name: 多枝黄芪
+        scientific_name: Astragalus polycladus
+        description: 茎多数，纤细，丛生，平卧或上升，高达35厘米，羽状复叶；托叶离生，披针形；小叶两面被白色伏贴柔毛，具短柄； 总状花序有多数花，花密集呈头状；花序梗较叶长，苞片膜质，线形；无小苞片；花萼钟状，萼齿线形，与萼齿近等长；花冠红色或青紫色，旗瓣宽倒卵形，基部渐窄成瓣柄，翼瓣与旗瓣近等长或稍短，龙骨瓣短于翼瓣；子房线形，具短柄；
+          荚果长圆形，微弯曲，顶端尖，1室；果柄较宿萼短。
+        images:
+        - 多枝黄芪.jpg
+        conservation_status: LC
+        habitat: 山坡、路旁，海拔2000-3300米
+        distribution: 四川、云南、西藏、青海、甘肃及新疆西部
+        conservation_notes: 无需保护
+        references:
+        - name: iPlant-多枝黄芪
+          url: https://www.iplant.cn/info/%E5%A4%9A%E6%9E%9D%E9%BB%84%E8%8A%AA?t=z
+    - genus: 锦鸡儿属
+      species:
+      - name: 短叶锦鸡儿
+        scientific_name: Caragana brevifolia
+        description: 灌木；高达2米，全株无毛；假掌状复叶，有小叶2对；托叶硬化成针刺，宿存。花单生，花萼管状钟形，常被白粉，花冠黄色，旗瓣宽倒卵形，翼瓣稍长于旗瓣，龙骨瓣与翼瓣近等长。子房无毛；
+          荚果圆筒形，成熟时黑褐色，无毛。
+        images:
+        - 短叶锦鸡儿.jpg
+        - 短叶锦鸡儿（2）.jpg
+        conservation_status: LC
+        habitat: 河岸、山谷、山坡杂木林间，海拔2000-3000m
+        distribution: 四川西部、西藏东部、甘肃南部、青海南部
+        conservation_notes: 无需保护
+        references:
+        - name: iPlant-短叶锦鸡儿
+          url: https://www.iplant.cn/info/%E7%9F%AD%E5%8F%B6%E9%94%A6%E9%B8%A1%E5%84%BF
+    - genus: 羊柴属
+      species:
+      - name: 红花羊柴
+        scientific_name: Corethrodendron multijugum
+        description: 半灌木或仅基部木质化而呈草本状； 茎直立，高40-80厘米，多分枝，密被毛； 托叶干膜质，基部合生，外被短柔毛；小叶通常15-29；小叶片上面无毛，下面被贴伏短柔毛；
+          总状花序腋生，花序梗被短柔毛，果期下垂；花萼斜钟状，花冠紫红或玫瑰红色，旗瓣倒宽卵形，翼瓣长为旗瓣的1/2，龙骨瓣稍短于旗瓣。子房线形，被短柔毛；荚果具2-3节荚，节荚椭圆形或半圆形，疏被短柔毛，具细网纹，疏生小刺。
+        images:
+        - 红花羊柴.jpg
+        conservation_status: LC
+        habitat: 荒漠地区的砾石质洪积扇、河滩，草原地区的砾石质山坡以及某些落叶阔叶林地区的干燥山披和砾石河滩
+        distribution: 四川、西藏、新疆、青海、甘肃、宁夏、陕西、山西、内蒙古、河南和湖北
+        conservation_notes: 无需保护
+        references:
+        - name: iPlant-红花羊柴
+          url: https://www.iplant.cn/info/%E7%BA%A2%E8%8A%B1%E7%BE%8A%E6%9F%B4
+    - genus: 苜蓿属
+      species:
+      - name: 青海苜蓿
+        scientific_name: Medicago archiducis-nicolai
+        description: 多年生草本； 高8-20厘米。茎微被柔毛，纤细，具棱，多分枝。羽状三出复叶，小叶边缘具不整齐尖齿，有时不明显，上面近无毛，下面微被毛，顶生小叶较大，侧生小叶柄甚短。花序伞形，疏松，总花梗腋生。花冠橙黄色，中央带紫红色晕纹。子房线形，无毛，胚珠7-9
+          (-13) 粒。 荚果扁平，缝线清晰，脉纹横向，先端具短尖喙。有种子5-7粒； 种子阔卵形，棕色，光滑，种脐位于一端；胚根发达。
+        images:
+        - 青海苜蓿.jpg
+        - 青海苜蓿（1）.jpg
+        conservation_status: LC
+        habitat: 高原坡地、谷地和草原上，海拔2500-4000m
+        distribution: 陕西、宁夏、甘肃、青海、四川、西藏
+        conservation_notes: 无需保护
+        references:
+        - name: iPlant-青海苜蓿
+          url: https://www.iplant.cn/info/%E9%9D%92%E6%B5%B7%E8%8B%9C%E8%93%BF
+    - genus: 棘豆属
+      species:
+      - name: 密丛棘豆
+        scientific_name: Oxytropis densa
+        description: ' 矮小垫状草本；高达5厘米；茎短缩，多分枝，密被长柔毛；羽状复叶，托叶于中部与叶柄贴生，叶柄与叶轴密被毛；小叶11-13(-19)，两面密被白色绢状长柔毛；头形总状花序；苞片线形；花萼钟形，萼齿线形，长为萼筒1/3；花冠紫红或蓝紫色，基部淡黄色，荚果长圆状圆柱形，膨胀，密被白色短柔毛，1室。'
+        images:
+        - 密丛棘豆.jpg
+        conservation_status: LC
+        habitat: 河滩、高山草原、砾石山坡和石质荒地，海拔 2500-5300m
+        distribution: 甘肃（南山、河西）、青海（中部和东部）、西藏等省区
+        conservation_notes: 无需保护
+        references:
+        - name: iPlant-密丛棘豆
+          url: https://www.iplant.cn/info/%E5%AF%86%E4%B8%9B%E6%A3%98%E8%B1%86
+      - name: 宽苞棘豆
+        scientific_name: Oxytropis latibracteata
+        description: 多年生草本； 高达25厘米； 茎缩短，多分枝； 奇数羽状复叶；小叶两面密被贴伏绢毛；托叶膜质，被毛； 头形或长总状花序；花萼筒状；花冠紫、蓝、蓝紫或淡蓝色；子房椭圆形，密被贴伏绢毛；荚果革质。
+        images:
+        - 宽苞棘豆.jpg
+        conservation_status: LC
+        habitat: 山前洪积滩地、冲积扇前缘、河漫滩、干旱山坡、阴坡、山坡柏树林下、亚高山灌丛草甸和杂草草甸，海拔 1700-4200m
+        distribution: 宁夏（贺兰山） 、甘肃 （甘南和河西）、青海（海北、海南和海西）和四川 （西北部）等省区
+        conservation_notes: 无需保护
+        references:
+        - name: iPlant-宽苞棘豆
+          url: https://www.iplant.cn/info/%E5%AE%BD%E8%8B%9E%E6%A3%98%E8%B1%86
+      - name: 黄花棘豆
+        scientific_name: Oxytropis ochrocephala
+        description: 多年生草本； 高达50厘米；茎粗壮，直立，被毛； 奇数羽状复叶；托叶基部与叶柄合生，密被长柔毛；叶柄与小叶间有淡褐色腺点；小叶17-21，两面疏被柔毛；
+          密总状花序；花序梗直立，密被毛；花萼筒状（果期膨大呈囊状），密被柔毛；花冠黄色，子房具短柄； 荚果革质，长圆形，膨胀，顶端具弯曲的喙，密被黑色短柔毛。
+        images:
+        - 黄花棘豆.jpg
+        - 黄花棘豆（1）.jpg
+        conservation_status: ''
+        habitat: 海拔1900-5200米的田埂、荒山、平原草地、林下、林间空地、山坡草地、阴坡草甸、高山草甸、沼泽地、河漫滩、干河谷阶地、山坡砾石草地及高山圆柏林下
+        distribution: 宁夏南部、甘肃南部和西部、青海东部和南部、四川西部及西藏东南部
+        conservation_notes: 无需保护
+        references:
+        - name: iPlant-黄花棘豆
+          url: https://www.iplant.cn/info/%E9%BB%84%E8%8A%B1%E6%A3%98%E8%B1%86?t=z
+    - genus: 野决明属
+      species:
+      - name: 披针叶野决明
+        scientific_name: Thermopsis lanceolata
+        description: 茎直立或斜升，基部多分枝；托叶基部连合；总状花序顶生；花轮生，3花1轮；苞片基部连合；花萼筒状；花冠黄色，旗瓣瓣片近圆形，翼瓣稍短于旗瓣，龙骨瓣短于翼瓣，瓣片半圆形；子房具柄；
+          荚果扁带形，直或微弯曲； 与原变种区别在于：本变种小叶下面无毛。
+        images:
+        - 披针叶野决明.jpg
+        - 披针叶野决明（1）.jpg
+        conservation_status: LC
+        habitat: 生于草原沙丘、河岸和砾滩，海拔 2000-4700米
+        distribution: 黑龙江、吉林、辽宁、内蒙古、河北、山西、陕西、甘肃、宁夏、新疆、青海、西藏、四川、湖北及河南
+        conservation_notes: 无需保护
+        references:
+        - name: iPlant-披针叶野决明
+          url: https://www.iplant.cn/info/%E6%8A%AB%E9%92%88%E5%8F%B6%E9%87%8E%E5%86%B3%E6%98%8E
+- order: 蔷薇目
+  families:
+  - family: 蔷薇科
+    genera:
+    - genus: 蕨麻属
+      species:
+      - name: 蕨麻
+        scientific_name: Argentina anserina
+        description: '多年生草本；茎匍匐，节处生根，常着地长出新植物； 基生叶为间断羽状复叶，最上面一对小叶基部下延与叶轴汇合；基生小叶叶柄被毛，有时脱落，小叶上面被毛，下面密被银白色绢毛，茎生叶与基生叶相似，小叶对数较少；
+          单花腋生：花梗疏被柔毛；花瓣黄色，倒卵形；花柱侧生，小枝状，柱头稍扩大。
+
+          '
+        images:
+        - 蕨麻.jpg
+        conservation_status: LC
+        habitat: 山坡草地、草甸、阴湿处，海拔500-3700米
+        distribution: 黑龙江、内蒙古、甘肃、新疆、云南、西藏
+        conservation_notes: 无需保护
+        references:
+        - name: iPlant-蕨麻
+          url: https://www.iplant.cn/info/%E8%95%A8%E9%BA%BB?t=z
+    - genus: 金露梅属
+      species:
+      - name: 金露梅
+        scientific_name: Dasiphora fruticosa
+        description: 灌木，高0.5-2米，多分枝，树皮纵向剥落。小枝红褐色，幼时被长柔毛。羽状复叶，有小叶2对，上面一对小叶基部下延与叶轴汇合；叶柄被毛；小叶片全缘，两面绿色，疏被毛或脱落近于几毛；托叶薄膜质，宽大。单花或数朵生于枝顶，花梗密被毛；副萼片外面疏被绢毛；花瓣黄色，宽倒卵形，顶端圆钝，比萼片长；花柱近基生，棒形，基部稍细，顶部缢缩，柱头扩大。瘦果近卵形，褐棕色，外被长柔毛。
+        images:
+        - 金露梅.jpg
+        conservation_status: ''
+        habitat: 生山坡草地、砾石坡、灌丛及林缘，海拔1000-4000米
+        distribution: 黑龙江、吉林、辽宁、内蒙古、河北、山西、陕西、甘肃、新疆、四川、云南、西藏
+        conservation_notes: 未知
+        references:
+        - name: iPlant-金露梅
+          url: https://www.iplant.cn/info/%E9%87%91%E9%9C%B2%E6%A2%85?t=z
+      - name: 银露梅
+        scientific_name: Dasiphora glabra
+        description: 灌木；高达2(3)米；小枝灰褐或紫褐色，疏被柔毛； 羽状复叶，有3-5小叶，上面1对小叶基部下延与轴合生，叶柄被疏柔毛；小叶两面疏被柔毛或近无毛；单花或数朵顶生；花梗细长，疏被柔毛；副萼片外面被疏柔毛；花瓣白色，倒卵形：花柱近基生，棒状，基部较细，在柱头下缢缩，柱头扩大；
+          痩果被毛。
+        images:
+        - 银露梅.jpg
+        conservation_status: LC
+        habitat: 高山砾石坡，海拔4200m
+        distribution: 云南（维西）
+        conservation_notes: 无需保护
+        references:
+        - name: iPlant-银露梅
+          url: https://www.iplant.cn/info/%E9%93%B6%E9%9C%B2%E6%A2%85?t=z
+    - genus: 委陵菜属
+      species:
+      - name: 钉柱委陵菜
+        scientific_name: Potentilla saundersiana
+        description: 多年生草本。根粗壮，圆柱形。花茎直立或上升，高10-20厘米，被毛。基生叶掌状复叶，被毛，小叶无柄；小叶片上面绿色，伏生稀疏柔毛，下面密被白色绒毛，沿脉伏生疏柔毛；基生叶托叶膜质，褐色，茎生叶托叶草质，绿色，下面被毛。聚伞花序顶生，疏散，花梗外被白色绒毛；副萼片外被毛；花瓣黄色，倒卵形，顶端下凹，比萼片略长或长1倍；花柱近顶生，基部膨大不明显，柱头略扩大。瘦果光滑。
+        images:
+        - 钉柱委陵菜.jpg
+        conservation_status: ''
+        habitat: 山坡草地、多石山顶、高山灌丛及草甸，海拔2600-5150米
+        distribution: 山西、陕西、甘肃、宁夏、新疆、青海、四川、云南、西藏
+        conservation_notes: 未知
+        references:
+        - name: iPlant-钉柱委陵菜
+          url: https://www.iplant.cn/info/%E9%92%89%E6%9F%B1%E5%A7%94%E9%99%B5%E8%8F%9C?t=z
+      - name: 多裂委陵菜
+        scientific_name: Potentilla multifida
+        description: 多年生草本。根稍木质化。花茎上升，高12-40厘米，被毛。基生叶羽状复叶，叶柄被毛；茎生叶2-3，小叶对数向上逐渐减少；基生叶托叶膜质，褐色；茎生叶托叶草质，绿色。伞房状聚伞花序，花梗伸长疏散；花梗被毛；副萼片外面被毛；花瓣黄色，倒卵形，顶端微凹，长不超过萼片1倍；花柱圆锥形，近顶生，基部具乳头膨大，柱头稍扩大。瘦果平滑或具皱纹。
+        images:
+        - 多裂委陵菜.jpg
+        conservation_status: LC
+        habitat: 山坡草地，沟谷及林缘，海拔1200-4300米
+        distribution: 黑龙江、吉林、辽宁、内蒙古、河北、陕西、甘肃、青海、新疆、四川、云南、西藏
+        conservation_notes: 无需保护
+        references:
+        - name: iPlant-多裂委陵菜
+          url: https://www.iplant.cn/info/%E5%A4%9A%E8%A3%82%E5%A7%94%E9%99%B5%E8%8F%9C?t=z
+    - genus: 毛莓草属
+      species:
+      - name: 毛莓草
+        scientific_name: Sibbaldianthe adpressa
+        description: 多年生草本。根木质细长，多分枝。花茎矮小，丛生，高1.5-12厘米，被毛。基生叶为羽状复叶，有小叶2对，上面一对小叶基部下延与叶轴汇合，有时混生有3小叶；顶生小叶片有（2-)3齿；茎生叶1-2，与基生叶相似；基生叶托叶膜质，暗褐色，茎生叶托叶草质，绿色。聚伞花序数朵，或单花顶生；花5数出，副萼片外面被毛；花瓣黄色或白色，倒卵长圆形；雄蕊10，与萼片等长或稍短；花柱近基生。瘦果表面有显著皱纹。
+        images:
+        - 毛莓草.jpg
+        conservation_status: LC
+        habitat: 农田边、山坡草地、砾石地及河滩地，海拔600-4200米
+        distribution: 黑龙江、内蒙古、河北、甘肃、青海、新疆、西藏
+        conservation_notes: 无需保护
+        references:
+        - name: iPlant-毛莓草
+          url: https://www.iplant.cn/info/%E6%AF%9B%E8%8E%93%E8%8D%89?t=z
+      - name: 鸡冠茶
+        scientific_name: Sibbaldianthe bifurca
+        description: 多年生草本或亚灌木。根圆柱形，纤细，木质。花茎直立或上升，高5-20厘米，密被毛。羽状复叶，最上面2-3对小叶基部下延与叶轴汇合，叶柄密被毛，小叶片顶端常2裂，稀3裂，两面绿色，伏生疏柔毛；下部叶托叶膜质，褐色，上部茎生叶托叶草质，绿色。近伞房状聚伞花序，顶生，疏散；副萼片外面被疏柔毛；花瓣黄色，倒卵形，顶端圆钝，比萼片稍长；心皮沿腹部有稀疏柔毛；花柱侧生，棒形，基部较细，顶端缢缩，柱头扩大。瘦果表面光滑。
+        images:
+        - 鸡冠茶.jpg
+        conservation_status: LC
+        habitat: 山坡草地、黄土坡上、半干旱荒漠草原及疏林下，海拔800-3600米
+        distribution: 黑龙江、内蒙古、河北、山西、陕西、甘肃、宁夏、青海、新疆、四川
+        conservation_notes: 无需保护
+        references:
+        - name: iPlant-鸡冠茶
+          url: https://www.iplant.cn/info/%E9%B8%A1%E5%86%A0%E8%8C%B6?t=z
+- order: 牻牛儿苗目
+  families:
+  - family: 牻牛儿苗科
+    genera:
+    - genus: 老鹳草属
+      species:
+      - name: 鼠掌老鹳草
+        scientific_name: Geranium sibiricum
+        description: 多年生草本，高达70厘米，茎仰卧或近直立。叶对生，呈肾状五角形，掌状5深裂。花多单生于叶腋，花瓣白色或淡紫红色，倒卵形，先端微凹。蒴果疏被柔毛，果熟时果柄下垂。
+        images:
+        - 鼠掌老鹳草.jpg
+        conservation_status: LC
+        habitat: 林缘、疏灌丛、河谷草甸，有时也为杂草
+        distribution: 东北、华北、湖北、西北、西南。
+        conservation_notes: 无需保护
+        references:
+        - name: iPlant-鼠掌老鹳草
+          url: https://www.iplant.cn/info/Geranium%20sibiricum
+- order: 锦葵目
+  families:
+  - family: 瑞香科
+    genera:
+    - genus: 狼毒属
+      species:
+      - name: 狼毒
+        scientific_name: Stellera chamaejasme
+        description: 多年生草本，高达50厘米。根茎粗大，茎丛生无毛。叶互生，呈披针形或椭圆状披针形，两面无毛。头状花序顶生，花呈黄色、白色或下部带紫色，具芳香。果实为圆锥状，顶端有柔毛。
+        images:
+        - 狼毒.jpg
+        - 狼毒（1）.jpg
+        conservation_status: LC
+        habitat: 干燥且向阳的高山草坡、草坪或河滩台地，海拔2600-4200米。
+        distribution: 北方各省区及西南地区
+        conservation_notes: 无需保护
+        references:
+        - name: iPlant-狼毒
+          url: https://www.iplant.cn/info/%E7%8B%BC%E6%AF%92
+- order: 十字花目
+  families:
+  - family: 十字花科
+    genera:
+    - genus: 肉果芥属
+      species:
+      - name: 蚓果芥
+        scientific_name: Braya humilis
+        description: 多年生草本，高达30厘米，茎基部分枝。叶形多变，基生叶为倒卵形，向上逐渐变为线形。花瓣白色，呈长椭圆形或倒卵形。长角果为筒状，直或弯曲。
+        images:
+        - 蚓果芥.jpg
+        conservation_status: ''
+        habitat: 山麓草甸、河滩砾石处，海拔1000-3000米。
+        distribution: 青海、云南
+        conservation_notes: 未知
+        references:
+        - name: iPlant-蚓果芥
+          url: https://www.iplant.cn/info/Braya%20humilis
+    - genus: 独行菜属
+      species:
+      - name: 独行菜
+        scientific_name: Lepidium apetalum
+        description: 一年生或二年生草本，高达30厘米。茎直立且有分枝，表面被头状腺毛。基生叶呈羽状分裂，茎生叶则向上渐变为线形。总状花序，花瓣缺失或退化成丝状。短角果近圆形，顶端微凹并有窄翅。
+        images:
+        - 独行菜.jpg
+        conservation_status: LC
+        habitat: '山坡、山沟、路旁及村庄附近，海拔400-2000米。
+
+          '
+        distribution: 东北、华北、江苏、浙江、安徽、西北、西南
+        conservation_notes: 无需保护
+        references:
+        - name: iPlant-独行菜
+          url: https://www.iplant.cn/info/%E7%8B%AC%E8%A1%8C%E8%8F%9C
+- order: 石竹目
+  families:
+  - family: 石竹科
+    genera:
+    - genus: 蝇子草属
+      species:
+      - name: 细蝇子草
+        scientific_name: Silene gracilicaulis
+        description: 多年生草本，高达50厘米，茎疏丛生且不分枝。基生叶为线状倒披针形。总状花序，花对生；花瓣白色或灰白色，下面带紫色，顶端深2裂。蒴果为长圆状卵圆形。
+        images:
+        - 细蝇子草.jpg
+        conservation_status: LC
+        habitat: 山地草丛，海拔2300-3000米。
+        distribution: 甘肃、宁夏。
+        conservation_notes: 无需保护
+        references:
+        - name: iPlant-细蝇子草
+          url: https://www.iplant.cn/info/%E7%BB%86%E8%9D%87%E5%AD%90%E8%8D%89
+      - name: 蝇子草（未定种）1
+        scientific_name: Silene sp.
+        description: 未知
+        images:
+        - 蝇子草（未定种）1.jpg
+        conservation_status: LC
+        habitat: 未知
+        distribution: 未知
+        conservation_notes: 未知
+        references:
+        - name: iPlant-蝇子草属
+          url: https://www.iplant.cn/info/%E8%9D%87%E5%AD%90%E8%8D%89%E5%B1%9E
+      - name: 蝇子草（未定种）2
+        scientific_name: Silene sp.
+        description: 未知
+        images:
+        - 蝇子草（未定种）2.jpg
+        conservation_status: LC
+        habitat: 未知
+        distribution: 未知
+        conservation_notes: 未知
+        references:
+        - name: iPlant-蝇子草属
+          url: https://www.iplant.cn/info/%E8%9D%87%E5%AD%90%E8%8D%89%E5%B1%9E
+  - family: 马齿苋科
+    genera:
+    - genus: 马齿苋属
+      species:
+      - name: 大花马齿苋
+        scientific_name: Portulaca grandiflora
+        description: 一年生草本，高达30厘米。茎平卧或斜升，紫红色，多分枝。叶为细圆柱形，叶腋常有白色长柔毛。花簇生于枝顶，色彩多样（红、紫、黄、白等），白天开放，夜晚闭合。蒴果，盖裂。
+        images:
+        - 大花马齿苋.jpg
+        conservation_status: LC
+        habitat: 是一种常见的栽培花卉，多见于公园和花圃。
+        distribution: 全国各地广泛栽培。
+        conservation_notes: 无需保护
+        references:
+        - name: iPlant-大花马齿苋
+          url: https://www.iplant.cn/info/%E5%A4%A7%E8%8A%B1%E9%A9%AC%E9%BD%BF%E8%8B%8B/
+  - family: 白花丹科
+    genera:
+    - genus: 鸡娃草属
+      species:
+      - name: 鸡娃草
+        scientific_name: Plumbagella micrantha
+        description: —年生草本；高达30(-55)厘米。 茎直立，分枝，常具细皮刺； 叶无柄，基部抱茎下延。花序顶生，初近头状，后成短穗状，具4-12小穗，小穗具2-3花；花具短梗；萼筒无腺体，稍具5棱，果时每棱具1-2鸡冠状突起，花萼裂片两侧边缘有腺体；花冠窄钟状，淡蓝紫色，稍长于萼。雄蕊下位，与冠筒近等长；花柱1，顶端具5分枝，柱头面具有柄头状腺体。
+          蒴果暗红褐色，具5条淡色条纹； 种子红褐色，卵形。
+        images:
+        - 鸡娃草.jpg
+        conservation_status: LC
+        habitat: 湿寒山区的山谷和山坡下，海拔 2000-3500m
+        distribution: 西藏、四川（西北部）、甘肃（西南部至西部祁连山区）、青海和新疆（北部）
+        conservation_notes: 无需保护
+        references:
+        - name: iPlant-鸡娃草
+          url: https://www.iplant.cn/info/%E9%B8%A1%E5%A8%83%E8%8D%89
+  - family: 苋科
+    genera:
+    - genus: 滨藜属
+      species:
+      - name: 滨藜
+        scientific_name: Atriplex patens
+        description: 一年生草本，高达60厘米。茎直立或外倾，表面有色条和条棱。叶为线形或披针形，边缘有不规则的弯锯齿或近乎全缘。花簇集成穗状圆锥状花序，种子有二型。
+        images:
+        - 滨藜.jpg
+        conservation_status: LC
+        habitat: 多生长于含轻度盐碱的湿草地、海滨、沙土地等处。
+        distribution: 黑龙江、辽宁、吉林、河北、内蒙古、陕西、甘肃北部、宁夏、青海至新疆北部。
+        conservation_notes: 无需保护
+        references:
+        - name: iPlant-滨藜
+          url: https://www.iplant.cn/info/%E6%BB%A8%E8%97%9C?t=z
+    - genus: 轴藜属
+      species:
+      - name: 轴藜
+        scientific_name: Axyris amaranthoides
+        description: 植株高达80厘米，茎直立粗壮，多在中部以上分枝。叶为披针形或窄椭圆形，叶背面常密生星状毛。雄花序生于枝端，胞果顶端有冠状附属物。
+        images:
+        - 轴藜.jpg
+        conservation_status: LC
+        habitat: 喜沙质土壤，常见于山坡、草地、荒地、河边、田间或路旁。
+        distribution: 黑龙江、吉林、辽宁、河北、山西、内蒙古、陕西、甘肃、青海、新疆。
+        conservation_notes: 无需保护
+        references:
+        - name: iPlant-轴藜
+          url: https://www.iplant.cn/info/%E8%BD%B4%E8%97%9C
+    - genus: 藜属
+      species:
+      - name: 藜
+        scientific_name: Chenopodium album
+        description: 一年生草本，高30-150厘米。茎直立粗壮，有条棱和色条，多分枝。叶为菱状卵形或宽披针形，边缘有不整齐的锯齿。花数个团集，组成穗状圆锥状花序。种子横生，呈双凸镜形，黑色有光泽。
+        images:
+        - 藜.jpg
+        conservation_status: LC
+        habitat: 常见于路旁、荒地及田间，是一种顽固的杂草。
+        distribution: 全国各地均有分布。
+        conservation_notes: 无需保护
+        references:
+        - name: iPlant-藜
+          url: https://www.iplant.cn/info/%E8%97%9C
+    - genus: 虫实属
+      species:
+      - name: 帕米尔虫实
+        scientific_name: Corispermum pamiricum
+        description: 植株高5-15厘米，茎平卧或上升，多在基部分枝。叶为条形，被毛。穗状花序顶生或侧生，呈圆柱状。果实为倒卵状广椭圆形，无毛，果喙粗短。
+        images:
+        - 帕米尔虫实.jpg
+        conservation_status: ''
+        habitat: 高海拔地区的沙质田边
+        distribution: 西藏、青海
+        conservation_notes: 未知
+        references:
+        - name: iPlant-帕米尔虫实
+          url: https://www.iplant.cn/info/%E5%B8%95%E7%B1%B3%E5%B0%94%E8%99%AB%E5%AE%9E?t=f
+    - genus: 盐角草属
+      species:
+      - name: 盐角草
+        scientific_name: Salicornia europaea
+        description: 一年生草本，高达35厘米。茎直立，多分枝，枝肉质。叶呈鳞片状。穗状花序，花被肉质。种子的种皮上密被钩状刺毛。
+        images:
+        - 盐角草.jpg
+        conservation_status: LC
+        habitat: 盐碱地、盐湖旁及海边。
+        distribution: 辽宁、河北、山西、陕西、宁夏、甘肃、内蒙古、青海、新疆、山东和江苏北部
+        conservation_notes: 无需保护
+        references:
+        - name: iPlant-盐角草
+          url: http://iplant.cn/info/%E7%9B%90%E8%A7%92%E8%8D%89?t=f
+    - genus: 猪毛菜属
+      species:
+      - name: 刺沙蓬
+        scientific_name: Salsola tragus
+        description: 一年生草本，高达1米。本变种与原变种的主要区别在于叶片更细弱。茎直立，基部分枝，常被短硬毛。叶呈半圆柱形，先端有短刺尖。果期花被片会生出翅状附属物。
+        images:
+        - 刺沙蓬.jpg
+        conservation_status: LC
+        habitat: 砂丘、砂地及山谷。
+        distribution: 东北西部、华北北部、甘肃北部。
+        conservation_notes: 无需保护
+        references:
+        - name: iPlant-刺沙蓬
+          url: https://www.iplant.cn/info/%E5%88%BA%E6%B2%99%E8%93%AC
+    - genus: 刺藜属
+      species:
+      - name: 刺藜
+        scientific_name: Teloxys aristata
+        description: 一年生草本，高达40厘米，植株无毛无粉。茎直立多分枝，有条棱和色条。叶为线形或窄披针形，全缘。聚伞花序的末端分枝呈针刺状，种子横生。
+        images:
+        - 刺藜.jpg
+        conservation_status: LC
+        habitat: 田杂草，常见于高粱、玉米、谷子田间，也见于山坡、荒地。
+        distribution: 黑龙江、吉林、辽宁、内蒙古、河北、山东、山西、河南、陕西、宁夏、甘肃、四川、青海及新疆。
+        conservation_notes: 无需保护
+        references:
+        - name: iPlant-刺藜
+          url: https://www.iplant.cn/info/%E5%88%BA%E8%97%9C
+  - family: 蓼科
+    genera:
+    - genus: 拳参属
+      species:
+      - name: 圆穗蓼
+        scientific_name: Bistorta macrophylla
+        description: 多年生草本；高达30厘米；根茎弯曲。基生叶边缘脉端增厚，外卷；托叶鞘偏斜，无缘毛。穗状花序；苞片膜质，卵形；花梗细，较苞片长；花被5深裂，淡红或白色，花被片椭圆形。雄蕊8，较花被长，花药黑紫色；花柱3，瘦果卵形，具3棱，黄褐色，包于宿存花被内。
+        images:
+        - 圆穗蓼.jpg
+        conservation_status: ''
+        habitat: 山坡草地、高山草甸， 海拔2300-5000米
+        distribution: 陕西、甘肃、青海、湖北、四川、云南、贵州和西藏
+        conservation_notes: 无需保护
+        references:
+        - name: iPlant-圆穗蓼
+          url: https://www.iplant.cn/info/%E5%9C%86%E7%A9%97%E8%93%BC
+      - name: 珠芽蓼
+        scientific_name: Bistorta vivipara
+        description: 多年生草本； 高达50厘米；根茎肥厚；茎不分枝，常1-4自根茎生出；基生叶无毛，边缘脉端增厚，外卷；茎生叶近无柄；托叶鞘筒状，偏斜，无缘毛。花序穗状，紧密，下部生珠芽；苞片卵形，膜质；花被5深裂，白或淡红色，花被片椭圆形；雄蕊8，花丝不等长；花柱3；瘦果卵形，具3棱，深褐色，有光泽，包于宿存花被内。
+        images:
+        - 珠芽蓼.jpg
+        conservation_status: ''
+        habitat: 山坡林下、高山或亚高山草甸，海拔1200-5100米
+        distribution: 东北、华北、河南、西北及西南
+        conservation_notes: 无需保护
+        references:
+        - name: iPlant-珠芽蓼
+          url: https://www.iplant.cn/info/%E7%8F%A0%E8%8A%BD%E8%93%BC?t=z
+    - genus: 西伯利亚蓼属
+      species:
+      - name: 西伯利亚蓼
+        scientific_name: Knorringia sibirica
+        description: 多年生草本；高达25厘米；根茎细长；茎基部分枝，无毛；叶无毛；托叶鞘筒状； 圆锥状花序顶生；花被5深裂，黄绿色，花被片长圆形；雄蕊7-8，花丝基部宽；花柱3，较短；瘦果卵形，具3棱，黑色，有光泽，包于宿存花被内或稍突出。
+        images:
+        - 西伯利亚蓼.jpg
+        conservation_status: LC
+        habitat: 路边、湖边、河滩、山谷湿地、沙质盐碱地，海拔30-5100米
+        distribution: 黑龙江、吉林、辽宁、内蒙古、河北、山西、山东、河南、陕西、甘肃、宁夏、青海、新疆、安徽、湖北、江苏、四川、贵州、云南和西藏
+        conservation_notes: 无需保护
+        references:
+        - name: iPlant-西伯利亚蓼
+          url: https://www.iplant.cn/info/%E8%A5%BF%E4%BC%AF%E5%88%A9%E4%BA%9A%E8%93%BC
+    - genus: 萹蓄属
+      species:
+      - name: 萹蓄
+        scientific_name: Polygonum aviculare
+        description: 一年生草本，高达40厘米，基部多分枝。叶为椭圆形或披针形，全缘无毛。花单生或数朵簇生于叶腋。瘦果卵形具3棱，黑褐色，表面有细条纹且无光泽。
+        images:
+        - 萹蓄.jpg
+        conservation_status: LC
+        habitat: 产全国各地。生田边路、沟边湿地，海拔10-4200米。北温带广泛分布。
+        distribution: 分布极为广泛，几乎遍及全国。
+        conservation_notes: 无需保护
+        references:
+        - name: iPlant-萹蓄
+          url: https://www.iplant.cn/info/%E8%90%B9%E8%93%84?t=z
+- order: 杜鹃花目
+  families:
+  - family: 报春花科
+    genera:
+    - genus: 点地梅属
+      species:
+      - name: 直立点地梅
+        scientific_name: Androsace erecta
+        description: 一年生或二年生草本，高10-35厘米，茎直立并被柔毛。叶为椭圆形或卵状椭圆形，两面均被柔毛。花冠为白色或粉红色。蒴果呈长圆形，略长于花萼。
+        images:
+        - 直立点地梅.jpg
+        conservation_status: NT
+        habitat: 山坡草地及河漫滩上，海拔2700-3500米。
+        distribution: 青海、甘肃、四川、云南、西藏。
+        conservation_notes: 未知
+        references:
+        - name: iPlant-直立点地梅
+          url: https://www.iplant.cn/info/%E7%9B%B4%E7%AB%8B%E7%82%B9%E5%9C%B0%E6%A2%85
+    - genus: 珍珠菜属
+      species:
+      - name: 海乳草
+        scientific_name: Lysimachia maritima
+        description: 多年生草本，高达25厘米，全株无毛且稍肉质。茎直立或下部匍匐。叶肉质，呈线形或线状长圆形。花单生于叶腋，无花瓣，花萼呈花冠状，为白色或粉红色。蒴果为卵状球形。
+        images:
+        - 海乳草.jpg
+        conservation_status: LC
+        habitat: 海边及内陆河漫滩的盐碱地和沼泽草甸中。
+        distribution: 黑龙江、辽宁、内蒙古、河北、山东、陕西、甘肃、新疆、青海、四川西部、西藏。
+        conservation_notes: 无需保护
+        references:
+        - name: iPlant-海乳草
+          url: https://www.iplant.cn/info/%E6%B5%B7%E4%B9%B3%E8%8D%89
+    - genus: 报春花属
+      species:
+      - name: 天山报春
+        scientific_name: Primula nutans
+        description: 多年生草本，全株无粉。叶丛生，叶片为卵形或近圆形，稍肉质。伞形花序顶生，苞片基部有垂耳状附属物。花冠为粉红色，裂片顶端深2裂。蒴果呈筒状。
+        images:
+        - 天山报春.jpg
+        - 天山报春（1）.jpg
+        - 天山报春（2）.jpg
+        conservation_status: LC
+        habitat: 湿草地和草甸中，海拔590-3800米。
+        distribution: 内蒙古、甘肃、新疆、青海和四川北部。
+        conservation_notes: 无需保护
+        references:
+        - name: iPlant-天山报春
+          url: https://www.iplant.cn/info/%E5%A4%A9%E5%B1%B1%E6%8A%A5%E6%98%A5
+- order: 茄目
+  families:
+  - family: 旋花科
+    genera:
+    - genus: 旋花属
+      species:
+      - name: 银灰旋花
+        scientific_name: Convolvulus ammannii
+        description: 多年生草本，高2-15厘米，植株密被银灰色绢毛。茎平卧或上升。叶为线形或狭披针形，无柄。花单生于枝端，花冠漏斗状，呈淡玫瑰色或白色带紫色条纹。蒴果为球形。
+        images:
+        - 银灰旋花.jpg
+        conservation_status: LC
+        habitat: 干旱山坡草地或路旁。
+        distribution: 蒙古、辽宁、吉林、黑龙-江、河北、河南、甘肃、宁夏、陕西、山西、新疆、青海及西藏东部。
+        conservation_notes: 无需保护
+        references:
+        - name: iPlant-银灰旋花
+          url: https://www.iplant.cn/info/%E9%93%B6%E7%81%B0%E6%97%8B%E8%8A%B1
+- order: 龙胆目
+  families:
+  - family: 茜草科
+    genera:
+    - genus: 拉拉藤属
+      species:
+      - name: 蓬子菜
+        scientific_name: Galium verum
+        description: 多年生草本，高达45厘米。茎有4棱并被柔毛。叶片6-10枚轮生，呈线形，边缘常向后反卷，干燥后常变为黑色。聚伞花序组成圆锥状，花冠黄色呈辐状。果实近球状，双生。
+        images:
+        - 蓬子菜.jpg
+        conservation_status: LC
+        habitat: 于山地、河滩、旷野、沟边、草地、灌丛或林下，海拔40-4000米。
+        distribution: 黑龙江、吉林、辽宁、内蒙古、河北、山西、陕西、宁夏、甘肃、青海、新疆、山东、江苏、安徽、浙江、河南、湖北、四川、西藏。
+        conservation_notes: 无需保护
+        references:
+        - name: iPlant-蓬子菜
+          url: https://www.iplant.cn/info/%E8%93%AC%E5%AD%90%E8%8F%9C
+  - family: 龙胆科
+    genera:
+    - genus: 喉毛花属
+      species:
+      - name: 镰萼喉毛花
+        scientific_name: Comastoma falcatum
+        description: 一年生草本，高达25厘米，茎自基部分枝。叶大部分基生，呈长圆状匙形；茎生叶为长圆形且无柄。花单生于枝顶。蒴果为窄椭圆形或披针形，种子近球形
+        images:
+        - 镰萼喉毛花.jpg
+        - 镰萼喉毛花（1）.jpg
+        conservation_status: LC
+        habitat: 河滩、山坡草地、林下、灌丛、高山草甸
+        distribution: 西藏、四川西北部、青海、新疆、甘肃、内蒙古、山西、河北
+        conservation_notes: 无需保护
+        references:
+        - name: iPlant-镰萼喉毛花
+          url: https://www.iplant.cn/info/%E9%95%B0%E8%90%BC%E5%96%89%E6%AF%9B%E8%8A%B1?t=z
+    - genus: 龙胆属
+      species:
+      - name: 开张龙胆
+        scientific_name: Gentiana aperta
+        description: 一年生草本，高2-10厘米。茎黄绿色光滑，下部分枝铺散。叶为卵形至椭圆形。花单生于小枝顶端，花冠钟形，呈淡蓝色或蓝色，并带有深蓝色宽条纹。蒴果为矩圆状匙形。
+        images:
+        - 开张龙胆.jpg
+        conservation_status: LC
+        habitat: 山坡草地、山麓草地、灌丛中及河滩，海拔2000-4000米。
+        distribution: 陕西、甘肃、青海
+        conservation_notes: 无需保护
+        references:
+        - name: iPlant-开张龙胆
+          url: https://www.iplant.cn/info/%E5%BC%80%E5%BC%A0%E9%BE%99%E8%83%86?t=z
+      - name: 刺芒龙胆
+        scientific_name: Gentiana aristata
+        description: 一年生小草本，高达10厘米。茎自基部分枝，铺散或斜升。基生叶为卵形，茎生叶为线状披针形。花单生于枝顶，花冠呈倒锥形，下部黄绿色，上部为蓝色、深蓝或紫红色。蒴果长圆形，顶端有宽翅。
+        images:
+        - 刺芒龙胆.jpg
+        conservation_status: LC
+        habitat: 生境多样，包括河滩、沼泽草地、高山草甸、林间及阳坡砾石地等，海拔1800-4600米。
+        distribution: 西藏东部、云南西北部、四川北部、青海、甘肃。
+        conservation_notes: 无需保护
+        references:
+        - name: iPlant-刺芒龙胆
+          url: https://www.iplant.cn/info/%E5%88%BA%E8%8A%92%E9%BE%99%E8%83%86
+      - name: 达乌里秦艽
+        scientific_name: Gentiana dahurica
+        description: 多年生草本，高10-25厘米，全株光滑。基部常被枯存的纤维状叶鞘包裹。莲座丛叶为披针形或线状椭圆形，茎生叶为线形。聚伞花序顶生或腋生，花冠呈筒形或漏斗形，深蓝色，有时喉部有黄色斑点。蒴果内藏，呈椭圆状披针形。
+        images:
+        - 达乌里秦艽.jpg
+        - 达乌里秦艽（1）.jpg
+        conservation_status: LC
+        habitat: 田边、路旁、河滩、湖边沙地、水沟边、向阳山坡及干草原等地，海拔870-4500米
+        distribution: 四川北部及西北部、西北、华北、东北等地区。
+        conservation_notes: 无需保护
+        references:
+        - name: iPlant-达乌里秦艽
+          url: https://www.iplant.cn/info/%E8%BE%BE%E4%B9%8C%E9%87%8C%E7%A7%A6%E8%89%BD?t=z
+      - name: 南山龙胆
+        scientific_name: Gentiana grumii
+        description: 一年生草本，高2.5-4厘米。茎黄绿色，自基部分枝且铺散。基生叶为卵形，茎生叶为矩圆披针形。花单生于枝顶，花冠呈倒锥形，上部深蓝色下部黄绿色，喉部有蓝黑色斑点。蒴果为矩圆形，有宽翅。
+        images:
+        - 南山龙胆.jpg
+        conservation_status: LC
+        habitat: 沼泽化草甸、湿草地，海拔3200-3250米。
+        distribution: 青海（祁连山）。
+        conservation_notes: 无需保护
+        references:
+        - name: iPlant-南山龙胆
+          url: https://www.iplant.cn/info/%E5%8D%97%E5%B1%B1%E9%BE%99%E8%83%86
+      - name: 蓝白龙胆
+        scientific_name: Gentiana leucomelaena
+        description: 一年生草本，高1.5-5厘米。茎黄绿色，自基部分枝，铺散或斜升。基生叶为卵圆形，茎生叶为椭圆形。花单生于枝顶，花冠呈钟形，为白色或淡蓝色，喉部有蓝色斑点。蒴果倒卵圆形，顶端有宽翅。
+        images:
+        - 蓝白龙胆.jpg
+        - 蓝白龙胆（1）.jpg
+        conservation_status: ''
+        habitat: 生境多样，包括沼泽化草甸、湿草地、河滩、山坡草地及灌丛等，海拔1940-5000米。
+        distribution: 西藏、四川、青海、甘肃、新疆
+        conservation_notes: 无需保护
+        references:
+        - name: iPlant-蓝白龙胆
+          url: https://www.iplant.cn/info/%E8%93%9D%E7%99%BD%E9%BE%99%E8%83%86
+      - name: 龙胆（未定种）1
+        scientific_name: Gentiana sp.
+        description: 未知
+        images:
+        - 龙胆（未定种）1.jpg
+        conservation_status: ''
+        habitat: 未知
+        distribution: 未知
+        conservation_notes: 未知
+        references:
+        - name: iPlant-龙胆属
+          url: https://www.iplant.cn/info/%E9%BE%99%E8%83%86%E5%B1%9E
+      - name: 龙胆（未定种）2
+        scientific_name: Gentiana sp.
+        description: 未知
+        images:
+        - 龙胆（未定种）2.jpg
+        conservation_status: ''
+        habitat: 未知
+        distribution: 未知
+        conservation_notes: 未知
+        references:
+        - name: iPlant-龙胆属
+          url: https://www.iplant.cn/info/%E9%BE%99%E8%83%86%E5%B1%9E
+      - name: 龙胆（未定种）3
+        scientific_name: Gentiana sp.
+        description: 未知
+        images:
+        - 龙胆（未定种）3.jpg
+        conservation_status: ''
+        habitat: 未知
+        distribution: 未知
+        conservation_notes: 未知
+        references:
+        - name: iPlant-龙胆属
+          url: https://www.iplant.cn/info/%E9%BE%99%E8%83%86%E5%B1%9E
+      - name: 龙胆（未定种）4
+        scientific_name: Gentiana sp.
+        description: 未知
+        images:
+        - 龙胆（未定种）4.jpg
+        conservation_status: ''
+        habitat: 未知
+        distribution: 未知
+        conservation_notes: 未知
+        references:
+        - name: iPlant-龙胆属
+          url: https://www.iplant.cn/info/%E9%BE%99%E8%83%86%E5%B1%9E
+      - name: 鳞叶龙胆
+        scientific_name: Gentiana squarrosa
+        description: 一年生矮小草本，高达8厘米。茎密被乳突，自基部分枝，铺散或斜升。基生叶为卵形，茎生叶为匙形，叶缘有乳突。花单生于枝顶，花冠蓝色，呈筒状漏斗形。蒴果为倒卵状长圆形，顶端有宽翅。
+        images:
+        - 鳞叶龙胆.jpg
+        - 鳞叶龙胆（白）.jpg
+        conservation_status: LC
+        habitat: 生境多样，包括山坡、山谷、干草原、河滩、荒地、路边及高山草甸等，海拔110-4200米
+        distribution: 西南（西藏除外）、西北、华北及东北地区。
+        conservation_notes: 无需保护
+        references:
+        - name: iPlant-鳞叶龙胆
+          url: https://www.iplant.cn/info/%E9%B3%9E%E5%8F%B6%E9%BE%99%E8%83%86
+      - name: 麻花艽
+        scientific_name: Gentiana straminea
+        description: 多年生草本，高达35厘米，枝丛生。莲座丛叶为宽披针形或卵状椭圆形，茎生叶为线形。聚伞花序顶生或腋生，花冠呈漏斗形，黄绿色，喉部有绿色斑点。蒴果内藏，呈椭圆状披针形。
+        images:
+        - 麻花艽.jpg
+        - 麻花艽（1）.jpg
+        - 麻花艽（2）.jpg
+        conservation_status: LC
+        habitat: 高山草甸、灌丛、林下、林间空地、山沟、多石干山坡及河滩等地，海拔2000-4950米。
+        distribution: 西藏、四川、青海、甘肃、宁夏及湖北西部。
+        conservation_notes: 无需保护
+        references:
+        - name: iPlant-麻花艽
+          url: https://www.iplant.cn/info/%E9%BA%BB%E8%8A%B1%E8%89%BD
+    - genus: 扁蕾属
+      species:
+      - name: 扁蕾
+        scientific_name: Gentianopsis barbata
+        description: 一年生或二年生草本，高达40厘米。茎单生，上部分枝。基生叶为匙形，茎生叶为线形，叶缘有乳突。花单生于茎枝顶端，花冠呈筒状漏斗形，花筒黄白色，花檐蓝色或淡蓝色。
+        images:
+        - 扁蕾.jpg
+        - 扁蕾（1）.jpg
+        conservation_status: LC
+        habitat: 生于水沟边、山坡草地、林下、灌丛中、沙丘边缘，海拔700-4400米
+        distribution: 分布广泛，包括北京、天津、河北、山西、内蒙古、辽宁、吉林、黑龙江、江西、河南、湖北、四川、云南、西藏、陕西、甘肃、青海、宁夏、新疆等地。
+        conservation_notes: 无需保护
+        references:
+        - name: iPlant-扁蕾
+          url: http://iplant.cn/info/%E6%89%81%E8%95%BE?t=z
+      - name: 湿生扁蕾
+        scientific_name: Gentianopsis paludosa
+        description: 一年生草本，高达40厘米。茎单生，分枝或不分枝。基生叶为匙形，茎生叶为长圆形，叶缘有乳突。花单生于茎枝顶端，花冠呈宽筒形，为蓝色，或下部黄白色、上部蓝色。蒴果椭圆形，具长柄。
+        images:
+        - 湿生扁蕾.jpg
+        - 湿生扁蕾（1）.jpg
+        conservation_status: LC
+        habitat: 生于河滩、山坡草地、林下，海拔1180-4900米。
+        distribution: 河北、山西、内蒙古、黑龙江、湖北、湖南、重庆、四川、贵州、云南、西藏、陕西、甘肃、青海、宁夏、新疆、台湾。
+        conservation_notes: 无需保护
+        references:
+        - name: iPlant-湿生扁蕾
+          url: https://www.iplant.cn/info/%E6%B9%BF%E7%94%9F%E6%89%81%E8%95%BE?t=z
+    - genus: 花锚属
+      species:
+      - name: 卵萼花锚
+        scientific_name: Halenia elliptica
+        description: 一年生草本，高达60厘米。茎直立，上部分枝。基生叶椭圆形，茎生叶为卵形至卵状披针形。聚伞花序顶生或腋生，花冠蓝色或紫色，其花距约为冠筒长度的三倍且水平伸展。蒴果为宽卵圆形。
+        images:
+        - 卵萼花锚.jpg
+        conservation_status: LC
+        habitat: 生于高山林下及林缘、山坡草地、灌丛中、山谷水沟边，海拔700-4100米
+        distribution: 长江流域、西北地区、西藏及辽宁。
+        conservation_notes: 无需保护
+        references:
+        - name: iPlant-卵萼花锚
+          url: https://www.iplant.cn/info/%E5%8D%B5%E8%90%BC%E8%8A%B1%E9%94%9A
+    - genus: 肋柱花属
+      species:
+      - name: 辐状肋柱花
+        scientific_name: Lomatogonium rotatum
+        description: 一年生草本，高15-40厘米。茎近四棱形，不分枝或基部有少数分枝。叶无柄，呈狭长披针形至线形。花顶生或腋生，花冠淡蓝色具深色脉纹；每个花冠裂片基部两侧各有一个管形腺窝，腺窝边缘有不整齐的流苏状裂片。蒴果为狭椭圆形。
+        images:
+        - 辐状肋柱花.jpg
+        conservation_status: LC
+        habitat: 水沟边、山坡草地，海拔1400-4200米
+        distribution: 西南、西北、华北、东北等地区。
+        conservation_notes: 无需保护
+        references:
+        - name: iPlant-辐状肋柱花
+          url: https://www.iplant.cn/info/%E8%BE%90%E7%8A%B6%E8%82%8B%E6%9F%B1%E8%8A%B1?t=z
+      - name: 肋柱花（未定种）
+        scientific_name: Lomatogonium sp.
+        description: 未知
+        images:
+        - 肋柱花（未定种）.jpg
+        conservation_status: ''
+        habitat: 未知
+        distribution: 未知
+        conservation_notes: 未知
+        references:
+        - name: iPlant-肋柱花属
+          url: https://www.iplant.cn/info/%E8%82%8B%E6%9F%B1%E8%8A%B1%E5%B1%9E
+- order: 唇形目
+  families:
+  - family: 通泉草科
+    genera:
+    - genus: 肉果草属
+      species:
+      - name: 肉果草
+        scientific_name: Lancea tibetica
+        description: 多年生草本，高8-15厘米。根状茎细。叶片近莲座状，呈倒卵形或匙形，近革质。花3-5朵簇生或成总状花序，花冠为深蓝色或紫色。果实为红色或深紫色。
+        images:
+        - 肉果草.jpg
+        conservation_status: ''
+        habitat: 草地、疏林中或沟谷旁，海拔2000-4500米。
+        distribution: 西藏、青海、甘肃、四川、云南。
+        conservation_notes: 无需保护
+        references:
+        - name: iPlant-肉果草
+          url: https://www.iplant.cn/info/%E8%82%89%E6%9E%9C%E8%8D%89?t=z
+  - family: 车前科
+    genera:
+    - genus: 车前属
+      species:
+      - name: 平车前
+        scientific_name: Plantago depressa
+        description: 一年生或二年生草本。叶基生呈莲座状，为椭圆形或披针形，边缘有钝齿或锯齿。花小，集成穗状花序；花冠为白色，雄蕊和花柱明显伸出花冠之外。蒴果呈卵状椭圆形，在基部上方环状开裂。
+        images:
+        - 平车前.jpg
+        conservation_status: LC
+        habitat: 生境多样，常见于草地、河滩、沟边、草甸、田间及路旁，海拔5-4500米。
+        distribution: 分布广泛，包括黑龙江、吉林、辽宁、内蒙古、河北、山西、陕西、宁夏、甘肃、青海、新疆、山东、江苏、河南、安徽、江西、湖北、四川、云南、西藏。
+        conservation_notes: 无需保护
+        references:
+        - name: iPlant-平车前
+          url: https://www.iplant.cn/info/%E5%B9%B3%E8%BD%A6%E5%89%8D?t=z
+  - family: 唇形科
+    genera:
+    - genus: 青兰属
+      species:
+      - name: 甘青青兰
+        scientific_name: Dracocephalum tanguticum
+        description: 多年生草本，有臭味，高35-55厘米。茎呈钝四棱形。叶片轮廓为椭圆状卵形，羽状全裂，裂片线形，叶背面密被灰白色短柔毛。轮伞花序组成间断的穗状花序，花冠为紫蓝色至暗紫色。
+        images:
+        - 甘青青兰.jpg
+        conservation_status: LC
+        habitat: 干燥河谷的河岸、田野、草滩或松林边缘，海拔1900-4000米。
+        distribution: 甘肃西南部、青海东部、四川西部及西藏东南部。
+        conservation_notes: 无需保护
+        references:
+        - name: iPlant-甘青青兰
+          url: https://www.iplant.cn/info/%E7%94%98%E9%9D%92%E9%9D%92%E5%85%B0
+      - name: 白花枝子花
+        scientific_name: Dracocephalum heterophyllum
+        description: 植株高达15-30厘米，茎密被倒向的微柔毛。轮伞花序具4-8朵花，苞片边缘有3-8对长的刺状细齿。花冠为白色，表面密被白色或淡黄色的短柔毛。
+        images:
+        - 白花枝子花.jpg
+        conservation_status: LC
+        habitat: 海拔1100-5000米
+        distribution: 山西、内蒙古、宁夏、甘肃、四川西北部及西部、青海、西藏、新疆。
+        conservation_notes: 无需保护
+        references:
+        - name: iPlant-白花枝子花
+          url: https://www.iplant.cn/info/%E7%99%BD%E8%8A%B1%E6%9E%9D%E5%AD%90%E8%8A%B1
+    - genus: 香薷属
+      species:
+      - name: 密花香薷
+        scientific_name: Elsholtzia densa
+        description: 高达60厘米，茎在基部分枝。叶为披针形，边缘有锯齿。穗状花序和淡紫色的花冠均密被紫色的念珠状长柔毛。小坚果为暗褐色，卵球形。
+        images:
+        - 密花香薷.jpg
+        conservation_status: LC
+        habitat: 山坡及荒地，海拔1000-3000米
+        distribution: 辽宁、河北、山西、陕西、甘肃、青海及四川北部。
+        conservation_notes: 无需保护
+        references:
+        - name: iPlant-密花香薷
+          url: https://www.iplant.cn/info/%E5%AF%86%E8%8A%B1%E9%A6%99%E8%96%B7
+    - genus: 荆芥属
+      species:
+      - name: 康藏荆芥
+        scientific_name: Nepeta prattii
+        description: 多年生草本，高达90厘米。茎被倒向的短硬毛或无毛。叶为卵状披针形，基部浅心形，边缘有牙齿状锯齿，叶背面有腺点。轮伞花序密集呈穗状，花冠为紫色或蓝色，其下唇中裂片基部的内面有白色髯毛。小坚果为褐色。
+        images:
+        - 康藏荆芥.jpg
+        conservation_status: LC
+        habitat: 山坡草地、湿润处，海拔1920-4350米。
+        distribution: 西藏东部、四川西部、青海西部、甘肃南部、陕西南部、山西及河北北部。
+        conservation_notes: 无需保护
+        references:
+        - name: iPlant-康藏荆芥
+          url: https://www.iplant.cn/info/%E5%BA%B7%E8%97%8F%E8%8D%86%E8%8A%A5
+    - genus: 鼠尾草属
+      species:
+      - name: 黏毛鼠尾草
+        scientific_name: Salvia roborowskii
+        description: 一年生或二年生草本，高达90厘米。茎多分枝，密被粘性的腺长硬毛。叶为戟形或戟状三角形，边缘有圆齿，叶背面有淡黄色腺点。轮伞花序组成总状花序，花冠为黄色，下唇中裂片为倒心形。小坚果暗褐色。
+        images:
+        - 黏毛鼠尾草.jpg
+        conservation_status: LC
+        habitat: 山坡草地、沟边荫处、山脚及山腰，海拔2500-3700米。
+        distribution: 甘肃西南部、四川西部及西南部、青海、西藏、云南西北部。
+        conservation_notes: 无需保护
+        references:
+        - name: iPlant-黏毛鼠尾草
+          url: https://www.iplant.cn/info/%E9%BB%8F%E6%AF%9B%E9%BC%A0%E5%B0%BE%E8%8D%89
+  - family: 列当科
+    genera:
+    - genus: 小米草属
+      species:
+      - name: 小米草
+        scientific_name: Euphrasia pectinata
+        description: 一年生草本，高达30-45厘米。茎直立，不分枝或下部分枝，被白色柔毛。叶为卵形或宽卵形，无柄，边缘有锯齿。花冠为白色或淡紫色，外面有柔毛。蒴果窄长圆形，种子为白色。
+        images:
+        - 小米草.jpg
+        conservation_status: LC
+        habitat: 阴坡草地及灌丛中，海拔1800-3400米。
+        distribution: 新疆、甘肃西部、宁夏、内蒙古、山西北部、河北北部。
+        conservation_notes: 无需保护
+        references:
+        - name: iPlant-小米草
+          url: https://www.iplant.cn/info/%E5%B0%8F%E7%B1%B3%E8%8D%89
+    - genus: 马先蒿属
+      species:
+      - name: 碎米蕨叶马先蒿
+        scientific_name: Pedicularis cheilanthifolia
+        description: 多年生草本，高达30-40厘米。茎常为紫黑色，不分枝。叶为长圆状卵形或线状披针形，羽状全裂，裂片具刺尖锯齿。花序呈头状或穗状，花萼卵形膨大且常有紫斑；花冠为紫色，或下唇浅黄、上唇暗紫红，上唇呈镰状。蒴果为三角状披针形。
+        images:
+        - 碎米蕨叶马先蒿.jpg
+        conservation_status: LC
+        habitat: 生于海拔2,150-4,900米的河滩、水沟等水分充足之处；亦见于阴坡桦木林、草坡中。
+        distribution: 黑龙江、四川、西藏、陕西、甘肃、青海。
+        conservation_notes: 无需保护
+        references:
+        - name: iPlant-碎米蕨叶马先蒿
+          url: https://www.iplant.cn/info/%E9%B8%AD%E9%A6%96%E9%A9%AC%E5%85%88%E8%92%BF?t=f
+      - name: 鸭首马先蒿
+        scientific_name: Pedicularis anas
+        description: 多年生草本，高达30-40厘米。茎常为紫黑色，不分枝。叶为长圆状卵形或线状披针形，羽状全裂，裂片具刺尖锯齿。花序呈头状或穗状，花萼卵形膨大且常有紫斑；花冠为紫色，或下唇浅黄、上唇暗紫红，上唇呈镰状。蒴果为三角状披针形。
+        images:
+        - 鸭首马先蒿.jpg
+        conservation_status: ''
+        habitat: 生于海拔3,000-4，300米的高山草地中
+        distribution: 黑龙江、四川、西藏、陕西、甘肃、青海。
+        conservation_notes: 无需保护
+        references:
+        - name: iPlant-鸭首马先蒿
+          url: https://www.iplant.cn/info/%E9%B8%AD%E9%A6%96%E9%A9%AC%E5%85%88%E8%92%BF?t=f
+      - name: 甘肃马先蒿
+        scientific_name: Pedicularis kansuensis
+        description: 一年生或二年生草本，高达40厘米，植株多毛。茎多条丛生，有4条毛线。叶4枚轮生，长圆形，羽状全裂再深裂。花冠为紫红色，上唇有具波状齿的鸡冠状凸起。蒴果斜卵形，有长锐尖头。
+        images:
+        - 甘肃马先蒿.jpg
+        conservation_status: LC
+        habitat: 生于海拔1825-4000米草坡和有石砾处，而田埂旁尤多。
+        distribution: 山西、黑龙江、江西、河南、湖南、四川、云南、西藏、甘肃、青海、宁夏。
+        conservation_notes: 无需保护
+        references:
+        - name: iPlant-甘肃马先蒿
+          url: https://www.iplant.cn/info/%E7%94%98%E8%82%83%E9%A9%AC%E5%85%88%E8%92%BF?t=f
+      - name: 阿拉善马先蒿
+        scientific_name: Pedicularis alaschanica
+        description: 多年生草本，高达35厘米。茎多条，密被锈色绒毛。叶下部对生，上部3-4枚轮生，为披针状长圆形，羽状全裂，裂片线形具细锯齿。花序呈穗状，花冠黄色，上唇顶端弯曲成喙，前方一对花丝末端有长柔毛。
+        images:
+        - 阿拉善马先蒿.jpg
+        - 阿拉善马先蒿（1）.jpg
+        conservation_status: LC
+        habitat: 生于河谷多石砾与沙的向阳山坡及湖边平川地。
+        distribution: 内蒙古、四川、西藏、甘肃、青海、宁夏、新疆。
+        conservation_notes: 无需保护
+        references:
+        - name: iPlant-阿拉善马先蒿
+          url: https://www.iplant.cn/info/%E9%98%BF%E6%8B%89%E5%96%84%E9%A9%AC%E5%85%88%E8%92%BF?t=f
+      - name: 长花马先蒿
+        scientific_name: Pedicularis longiflora
+        description: 一年生草本，高达18厘米。茎短近无毛。基生叶密生，呈披针形或窄长圆形，羽状分裂。花腋生，花冠黄色，长达4-6厘米；上唇前端的细喙呈半环状卷曲，喙尖指向喉部；下唇宽大，近喉部有2个棕红色斑点。所有花丝均密被毛。蒴果为披针形
+        images:
+        - 长花马先蒿.jpg
+        - 长花马先蒿（1）.jpg
+        conservation_status: LC
+        habitat: 生于海拔3,350-3，9500米的高山湿草地中及溪流旁。
+        distribution: 河北、黑龙江、重庆、四川、云南、西藏、甘肃、青海、新疆。
+        conservation_notes: 无需保护
+        references:
+        - name: iPlant-长花马先蒿
+          url: https://www.iplant.cn/info/%E9%95%BF%E8%8A%B1%E9%A9%AC%E5%85%88%E8%92%BF
+      - name: 琴盔马先蒿
+        scientific_name: Pedicularis lyrata
+        description: 一年生矮小草本，高2-6厘米，干时稍变黑色。茎单立不分枝，密被灰色短柔毛。叶对生，为长圆状披针形或卵状长圆形，边缘有大圆齿。总状花序顶生，近头状，花冠为黄色。蒴果斜披针状卵形，种子有清晰的蜂窝状网纹。
+        images:
+        - 琴盔马先蒿.jpg
+        conservation_status: LC
+        habitat: 高山草地，海拔3650-4200米。
+        distribution: 青海（祁连山地区）、四川西部、西藏至东喜马拉雅地区。
+        conservation_notes: 无需保护
+        references:
+        - name: iPlant-琴盔马先蒿
+          url: https://www.iplant.cn/info/%E7%90%B4%E7%9B%94%E9%A9%AC%E5%85%88%E8%92%BF
+- order: 紫草目
+  families:
+  - family: 紫草科
+    genera:
+    - genus: 微孔草属
+      species:
+      - name: 微孔草（未定种）1
+        scientific_name: Microula sp.
+        description: 未知
+        images:
+        - 微孔草（未定种）1.jpg
+        conservation_status: LC
+        habitat: 未知
+        distribution: 未知
+        conservation_notes: 未知
+        references:
+        - name: iPlant-微孔草属
+          url: https://www.iplant.cn/info/%E5%BE%AE%E5%AD%94%E8%8D%89%E5%B1%9E
+      - name: 微孔草（未定种）2
+        scientific_name: Microula sp.
+        description: 未知
+        images:
+        - 微孔草（未定种）2.jpg
+        conservation_status: LC
+        habitat: 未知
+        distribution: 未知
+        conservation_notes: 未知
+        references:
+        - name: iPlant-微孔草属
+          url: https://www.iplant.cn/info/%E5%BE%AE%E5%AD%94%E8%8D%89%E5%B1%9E
+    - genus: 紫丹属
+      species:
+      - name: 砂引草
+        scientific_name: Tournefortia sibirica
+        description: 多年生草本，高达40厘米。具根茎，茎直立或外倾，密被糙伏毛。叶为椭圆形或窄卵形，两面密被短糙伏毛，无柄或近无柄。花序顶生，花冠呈漏斗形，为黄白色。核果为短长圆形或宽卵圆形，密被短伏毛。
+        images:
+        - 砂引草.jpg
+        conservation_status: LC
+        habitat: 生海拔4-1930米海滨砂地、干旱荒漠及山坡道旁。
+        distribution: 北京、天津、河北、山西、内蒙古、辽宁、江苏、浙江、山东、河南、陕西、甘肃、宁夏。
+        conservation_notes: 无需保护
+        references:
+        - name: iPlant-砂引草
+          url: https://www.iplant.cn/info/%E7%A0%82%E5%BC%95%E8%8D%89?t=z
+- order: 菊目
+  families:
+  - family: 桔梗科
+    genera:
+    - genus: 沙参属
+      species:
+      - name: 泡沙参
+        scientific_name: Adenophora potaninii
+        description: 茎高达1米，不分枝，被倒生短硬毛，稀近无毛； 茎生叶卵状椭圆形或长圆形，稀线状椭圆形或倒卵形，每边具2至数个粗齿，两面有疏或密的短毛，无柄，稀下部叶有短柄；花序基部常分枝，组成圆锥花序，有时仅数花集成假总状花序；花梗长不过1厘米；花萼无毛，萼筒倒卵状或球状倒卵形，裂片窄三角状钻形，边缘有1对细长齿;花冠钟状，紫、蓝或蓝紫色，稀白色，裂片卵状三角形，花盘筒状，至少顶端被毛；花柱与花冠近等长或稍伸出。
+        images:
+        - 泡沙参.jpg
+        conservation_status: LC
+        habitat: 阳坡草地，少灌丛或林下，海拔3100m
+        distribution: 青海东部、四川西北部、甘肃东南部、宁夏南部、陕西、山西西南部
+        conservation_notes: 无需保护
+        references:
+        - name: iPlant-泡沙参
+          url: https://www.iplant.cn/info/%E6%B3%A1%E6%B2%99%E5%8F%82
+      - name: 长柱沙参
+        scientific_name: Adenophora stenanthina
+        description: 茎常数支丛生，高达1.2米，上部分枝通常被倒生糙毛；基生叶心形，茎生叶从线状至宽椭圆形或卵形，全缘或有刺状尖齿，通常两面被糙毛；花序假总状花序，或有分枝而集成圆锥花序；花萼无毛，全缘或稀有小齿；花冠细，近筒状，5浅裂，浅蓝、蓝、蓝紫或紫色，雄蕊与花冠近等长；花盘细筒状，无毛或有柔毛；花柱伸出花冠。
+        images:
+        - 长柱沙参.jpg
+        - 长柱沙参1.jpg
+        - 长柱沙参2.jpg
+        - 长柱沙参3.jpg
+        conservation_status: LC
+        habitat: 两个地理亚型分别分布于干旱草原或低山草地和高山灌丛、森林、草原
+        distribution: 广泛分布于东北、华北、西南各省份
+        conservation_notes: 无需保护
+        references:
+        - name: iPlant-长柱沙参
+          url: https://www.iplant.cn/info/%E9%95%BF%E6%9F%B1%E6%B2%99%E5%8F%82?t=f
+      - name: 沙参
+        scientific_name: Adenophora stricta
+        description: 多年生草本，高40-80厘米。茎不分枝，常被短硬毛或长柔毛。基生叶为心形且具长柄，茎生叶无柄，呈椭圆形或窄卵形，边缘有不整齐的锯齿。花序通常为不分枝的假总状或极狭的圆锥状，花梗极短。花冠呈宽钟状，为蓝色或紫色。蒴果为椭圆状球形。
+        images:
+        - 沙参.jpg
+        conservation_status: LC
+        habitat: 无描述
+        distribution: 北京、河北、山西、内蒙古、辽宁、上海、江苏、浙江、安徽、福建、江西、山东、河南、湖北、湖南、广东、广西、重庆、四川、贵州、云南、西藏、陕西、甘肃、青海。
+        conservation_notes: 无需保护
+        references:
+        - name: iPlant-沙参
+          url: https://www.iplant.cn/info/%E6%B2%99%E5%8F%82
+  - family: 菊科
+    genera:
+    - genus: 亚菊属
+      species:
+      - name: 铺散亚菊
+        scientific_name: Ajania khartensis
+        description: 多年生铺散草本； 叶圆形、半圆形、扇形或宽楔形，二回掌状3-5全裂，接花序下部的叶和下部或基部叶常3裂；两面灰白色，被贴伏柔毛；茎被贴伏柔毛；头状花序排成伞房花序，稀单生；总苞宽钟状，总苞片4层，先端钝或稍圆，被柔毛，边缘棕褐、黑褐或暗灰褐色宽膜质；边缘雌花细管状。
+        images:
+        - 铺散亚菊.jpg
+        conservation_status: LC
+        habitat: 山坡，海拔2500-5300m
+        distribution: 宁夏（贺兰山）、甘肃东部、青海东南部、四川西部、云南西北部和西藏喜马拉雅和冈底斯山
+        conservation_notes: 无需保护
+        references:
+        - name: iPlant-铺散亚菊
+          url: https://www.iplant.cn/info/%E9%93%BA%E6%95%A3%E4%BA%9A%E8%8F%8A
+      - name: 细叶亚菊
+        scientific_name: Ajania tenuifolia
+        description: ' 多年生草本；生出多数地下匍匐茎和地上茎；匍匐茎上疏生苞鳞；叶二回羽状分裂；叶上面淡绿色，疏被长柔毛，或灰白色毛被较多，下面灰白色，密被贴伏长柔毛；头状花序排成伞房花序，总苞钟状，膜质外缘无色透明，外层疏被柔毛；边缘雌花细管状，两性花冠状；花冠有腺点。'
+        images:
+        - 细叶亚菊1.jpg
+        - 细叶亚菊2.jpg
+        conservation_status: LC
+        habitat: 山坡草地，海拔2000-4580m
+        distribution: 甘肃中部、四川西北部、西藏东部及青海
+        conservation_notes: 无需保护
+        references:
+        - name: iPlant-细叶亚菊
+          url: https://www.iplant.cn/info/%E7%BB%86%E5%8F%B6%E4%BA%9A%E8%8F%8A
+    - genus: 香青属
+      species:
+      - name: 乳白香青
+        scientific_name: Anaphalis lactea
+        description: 多年生草本；根状茎粗壮；莲座状叶丛或花茎常丛生；头状花序在茎枝端密集成复伞房状；总苞钟状，长6毫米，径5-7毫米，总苞片4-5层，外层卵圆形，褐色，被蛛丝状毛，内层卵状长圆形，乳白色，先端圆，最内层窄长圆形，有长爪。
+        images:
+        - 乳白香青1.jpg
+        - 乳白香青2.jpg
+        conservation_status: ''
+        habitat: 亚高山及低山草地及针叶林下
+        distribution: 甘肃南部、青海东部及四川西北部
+        conservation_notes: 未知
+        references:
+        - name: iPlant-乳白香青
+          url: https://www.iplant.cn/info/%E4%B9%B3%E7%99%BD%E9%A6%99%E9%9D%92
+    - genus: 蒿属
+      species:
+      - name: 米蒿
+        scientific_name: Artemisia dalai-lamae
+        description: 半灌木状草本； 叶多数，密集，近肉质，两面微被短柔毛；茎下部与中部叶一至二回羽状全裂或近掌状全裂，基部1对裂片成假托叶状；上部叶与苞片叶全裂；
+          头状花序在茎或分枝上排成穗状花序、穗状花序式的总状花序或复穗状花序，在茎上再组成狭窄的圆锥花序；外层总苞片背面微被灰白色蛛丝状短柔毛，中、内层总苞片背面无毛；雌花花冠檐部具裂齿，花柱略伸出花冠外，先端2叉；两性花花冠管状，背面有腺点，花药线形，花柱与花冠等长或略短于花冠，先端2叉。
+        images:
+        - 米蒿.jpg
+        conservation_status: LC
+        habitat: 砾质干山坡、干草原、半荒漠草原、盐碱地、干河谷、洪积扇及河漫滩等地区，也见于河边沙地上
+        distribution: 内蒙古（西南部）、甘肃（西部）及青海，西藏
+        conservation_notes: 无需保护
+        references:
+        - name: iPlant-米蒿
+          url: https://www.iplant.cn/info/%E7%B1%B3%E8%92%BF
+      - name: 沙蒿
+        scientific_name: Artemisia desertorum
+        description: 叶基生叶卵形，二回羽状深裂；叶下面无毛或初被绒毛：茎下部叶与营养枝叶二回羽状全裂或深裂，每裂片常3-5深裂或浅裂，叶柄长1-3厘米，基部有线形、半抱茎假托叶；中部叶一至二回羽状深裂，叶柄短，具半抱莲假托叶；上部叶3-5深裂；苞片叶3深裂或不裂；头状花序卵圆形或近球形，基部有小苞叶，排成穗状。
+        images:
+        - 沙蒿.jpg
+        conservation_status: ''
+        habitat: 草原、草甸、森林草原、高山草原、荒坡、砾质坡地、干河谷、河岸边、林缘及路旁
+        distribution: 主要分布于东北、西北、西南多个省份
+        conservation_notes: 未知
+        references:
+        - name: iPlant-沙蒿
+          url: https://www.iplant.cn/info/%E6%B2%99%E8%92%BF?t=z
+      - name: 褐苞蒿
+        scientific_name: Artemisia phaeolepis
+        description: 多年生草本； 茎上部初密被平贴柔毛；不分枝或茎中部具少数着生头状花序细短分枝；叶上面近无毛，微有小凹点，下面初微被灰白色长柔毛，基生叶与茎下部叶二至三回相齿状羽状分裂；中部叶二回齿状羽状分裂；头状花序半球形，下垂，排成总状花序或穗状总状花序，在莲上排成总状窄圆锥花序；总苞片3-4层，内、外层近等长，具褐色、宽膜质边缘；花序托半球形。
+        images:
+        - 褐苞蒿.jpg
+        conservation_status: LC
+        habitat: 山坡、沟谷、路旁、草地、荒滩、草甸、林缘灌丛等地区，也见于砾质坡地与半荒漠草原地区
+        distribution: 内蒙古、山西（北部）、宁夏、甘肃、青海、新疆（北部）及西藏
+        conservation_notes: 无需保护
+        references:
+        - name: iPlant-褐苞蒿
+          url: https://www.iplant.cn/info/%E8%A4%90%E8%8B%9E%E8%92%BF
+      - name: 甘青小蒿
+        scientific_name: Artemisia przewalskii
+        description: 一年生草本；基生叶小，密集着生，羽状全裂；茎下部与中部叶羽状全裂，基部裂片半抱茎，无叶柄； 头状花序，有小苞叶，在分枝上排成穗状花序式的总状花序或复总状花序，而在茎上排成疏松、略开展的圆锥花序；外层总苞片略狭小，初时密被绵毛，后稀疏，边狭膜质，内层总苞片倒卵形，半膜质，顶端有撕裂齿；雌花花冠檐部具裂齿，花柱稍伸出花冠外，先端2叉；两性花花冠管状，花药线形，花柱与花冠近等长，先端2叉，有睫毛。
+        images:
+        - 甘青小蒿.jpg
+        conservation_status: ''
+        habitat: 戈壁及河漫滩上，海拔2700-3300m
+        distribution: 甘肃（肃北）及青海（柴达木盆地西部）
+        conservation_notes: 未知
+        references:
+        - name: iPlant-甘青小蒿
+          url: https://www.iplant.cn/info/%E7%94%98%E9%9D%92%E5%B0%8F%E8%92%BF
+      - name: 冷蒿
+        scientific_name: Artemisia frigida
+        description: 茎、枝、叶两面及总苞片背面密被稍绢质绒毛；茎下部叶与营养枝叶二(三)回羽状全裂，中部叶一至二回羽状全裂，基部裂片半抱茎，成假托叶状，无柄；上部叶与苞片叶羽状全裂或3-5全裂；头状花序排成总状或总状圆锥花序：总苞片边缘膜质，花序托有白色托毛，花冠檐部黄色。
+        images:
+        - 冷蒿.jpg
+        conservation_status: LC
+        habitat: 森林草原、草原、荒漠草原及干旱与半干旱地区的山坡、路旁、砾质旷地、固定沙丘、戈壁、高山草甸
+        distribution: 主要分布于东北、西北、西南多个省份
+        conservation_notes: 无需保护
+        references:
+        - name: iPlant-冷蒿
+          url: https://www.iplant.cn/info/%E5%86%B7%E8%92%BF
+      - name: 五月艾
+        scientific_name: Artemisia indica
+        description: 亚灌木状草本，植株具浓香；  茎高达1.5米，分枝多；茎、枝初微被柔毛； 叶上面初被灰白或淡灰黄色绒毛，下面密被灰白色蛛丝状绒毛；头状花序直立或斜展，具短梗及小苞叶，在分枝排成穗形总状或复总状花序，在茎上组成圆锥花序；总苞片背面初微被灰白色绒毛；花檐部紫色。
+        images:
+        - 五月艾.jpg
+        conservation_status: LC
+        habitat: 低海拔或中海拔湿润地区的路旁、林缘、坡地及灌丛处
+        distribution: 广泛分布于东北、华北、东南、西南多个省份
+        conservation_notes: 无需保护
+        references:
+        - name: iPlant-五月艾
+          url: https://www.iplant.cn/info/%E4%BA%94%E6%9C%88%E8%89%BE?t=z
+      - name: 猪毛蒿
+        scientific_name: Artemisia scoparia
+        description: 植株有浓香； 叶两面被灰白色绢质柔毛，羽状全裂，具长柄；茎下部叶长卵形或椭圆形，二至三回羽状全裂，叶柄长2-4厘米；中部叶长圆形或长卵形，一至二回羽状全裂；茎上部叶与分枝叶及苞片叶3-5全裂或不裂；头状花序近球形，稀卵圆形，基部有线形小苞叶，排成复总状或复穗状花序，在茎上组成开展圆锥花序；总苞片无毛。
+        images:
+        - 猪毛蒿.jpg
+        conservation_status: LC
+        habitat: 半干旱或半温润地区的山坡、林缘、路旁、草原、黄土高原、荒漠边缘地区
+        distribution: 朝鲜、日本、伊朗、土耳其、阿富汗、巴基斯坦、印度、苏联及欧洲东部和中部各国
+        conservation_notes: 无需保护
+        references:
+        - name: iPlant-猪毛蒿
+          url: https://www.iplant.cn/info/%E7%8C%AA%E6%AF%9B%E8%92%BF
+      - name: 裂叶蒿
+        scientific_name: Artemisia tanacetifolia
+        description: 多年生草本；茎高达70(-90)厘米，茎上部与分枝通常被平贴柔毛； 叶下面初密被白色绒毛，后稍稀疏；茎下部与中部叶椭圆状长圆形或长卵形，二至三回栉齿状羽状分裂，叶柄基部有小型假托叶；上部叶一至二回栉齿状羽状全裂；
+          头状花序下垂，排成密集或稍疏散穗状花序，在茎上组成扫帚状圆锥花序；总苞片背面无毛或初微被稀疏绒毛；花冠檐部背面有柔毛。
+        images:
+        - 裂叶蒿.jpg
+        conservation_status: LC
+        habitat: 中、低海拔地区的森林草原、草原、草甸、林缘或疏林中以及盐土性草原、草坡及灌丛
+        distribution: 黑龙江、吉林、辽宁、内蒙古、河北（北部）、山西（北部）、陕西（北部）、宁夏、甘肃（北部）
+        conservation_notes: 无需保护
+        references:
+        - name: iPlant-裂叶蒿
+          url: https://www.iplant.cn/info/%E8%A3%82%E5%8F%B6%E8%92%BF
+    - genus: 紫菀属
+      species:
+      - name: 阿尔泰狗娃花
+        scientific_name: Aster altaicus
+        description: 多年生草本； 茎直立，被毛，上部常有腺，上部或全部有分枝；上部叶线形，叶被毛，常有腺点；头状花序单生枝端或排成伞房状;总苞半球形，总苞片2-3层，被毛，常有腺，边缘膜质；舌状花管部有微毛，舌片浅蓝紫色，长圆状线形，管状花裂片不等大，有疏毛；瘦果扁，被绢毛，上部有腺；冠毛污白或红褐色，有不等长微糙毛。
+        images:
+        - 阿尔泰狗娃花.jpg
+        conservation_status: LC
+        habitat: 草原，荒漠地，沙地及干旱山地
+        distribution: 我国东北、华北、西南省份； 广泛亚洲中部、东部、北部及东北部，也见于喜马拉雅西部
+        conservation_notes: 无需保护
+        references:
+        - name: iPlant-阿尔泰狗娃花
+          url: https://www.iplant.cn/info/%E9%98%BF%E5%B0%94%E6%B3%B0%E7%8B%97%E5%A8%83%E8%8A%B1?t=z
+    - genus: 菊属
+      species:
+      - name: 小山菊
+        scientific_name: Chrysanthemum oreastrum
+        description: 多年生草本； 茎密被柔毛；基生叶及中部茎生叶二回掌状或掌式羽状分裂；最上部及接花序下部叶羽裂或3裂；叶下面密被长柔毛至几无毛，有柄；头状花序单生茎顶；总苞浅碟状，总苞片4层，边缘棕褐或黑褐色宽膜质，外层线形、长椭圆形或卵形，中内层长卵形、倒披针形，中外层背面疏被长柔毛。
+        images:
+        - 小山菊.jpg
+        conservation_status: LC
+        habitat: 草甸
+        distribution: 河北、山西（五台山）和吉林（长白山）
+        conservation_notes: 无需保护
+        references:
+        - name: iPlant-小山菊
+          url: https://www.iplant.cn/info/%E5%B0%8F%E5%B1%B1%E8%8F%8A
+    - genus: 蓟属
+      species:
+      - name: 葵花大蓟
+        scientific_name: Cirsium souliei
+        description: 多年生铺散草本。主根粗壮，直伸。茎基粗厚，无主茎。全部叶基生，莲座状，两面绿色，下面色淡，沿脉有多细胞长节毛；中部侧裂片较大，向上向下的侧裂片渐小，边缘有针刺或刺齿。花序梗上的叶小，苞叶状，边缘针刺或浅刺齿裂。头状花序集生于茎基顶端的莲座状叶丛中，花序梗极短。总苞宽钟状，无毛。全部苞片边缘有针刺，或最内层边缘有刺痕。小花紫红色，不等5浅裂。瘦果浅黑色，稍压扁，顶端截形。冠毛刚毛多层，基部连合成环，整体脱落，长羽毛状。
+        images:
+        - 葵花大蓟.jpg
+        conservation_status: ''
+        habitat: 山坡路旁、林缘、荒地、河滩地、田间、水旁潮湿地，海拔1930-4800米
+        distribution: 甘肃、青海、四川、西藏
+        conservation_notes: 未知
+        references:
+        - name: iPlant-葵花大蓟
+          url: https://www.iplant.cn/info/%E8%91%B5%E8%8A%B1%E5%A4%A7%E8%93%9F
+    - genus: 垂头菊属
+      species:
+      - name: 条叶垂头菊
+        scientific_name: Cremanthodium lineare
+        description: 多年生草本，蓝绿色； 茎最上部疏被白色柔毛；丛生叶与茎基部叶先端急尖，全缘，基部下延成柄，两面光滑，叶脉平行，茎生叶多数，苞叶状；头状花序；总苞半球形，总苞片2层，披针形或卵状披针形，具白色睫毛，边缘窄膜质，背部黑灰色；舌状花黄色，舌片线状披针形，长达4厘米，先端长渐尖；管状花多数，黄色，冠毛白色，与花冠等长。
+        images:
+        - 条叶垂头菊.jpg
+        conservation_status: LC
+        habitat: 生于海拔2400-4800米的高山草地、水边、沼泽草地和灌丛中
+        distribution: 产西藏东部、四川西北部、青海、甘肃西南部
+        conservation_notes: 无需保护
+        references:
+        - name: iPlant-条叶垂头菊
+          url: https://www.iplant.cn/info/%E6%9D%A1%E5%8F%B6%E5%9E%82%E5%A4%B4%E8%8F%8A?t=z
+    - genus: 火绒草属
+      species:
+      - name: 火绒草
+        scientific_name: Leontopodium leontopodioides
+        description: 多年生草本； 根茎有多数簇生花茎和根出条； 叶线形或线状披针形，上面灰绿色，被柔毛，下面被白或灰白色密棉毛或被绢毛； 苞叶少数，两面或下面被白或灰白色厚茸毛，与花序等长或较长，在雄株开展成苞叶群，在雌株直立，不形成苞叶群；头状花序在雌株常有较长花序梗排成伞房状；总苞半球形，被白色棉毛，总苞片约4层，稍露出毛茸；瘦果有乳突或密粗毛。
+        images:
+        - 火绒草.jpg
+        conservation_status: LC
+        habitat: 干旱草原、黄土坡地、石砾地、山区草地，稀湿润地，极常见
+        distribution: 广泛新疆东部、青海东部和北部、甘肃、陕西北部、山西、内蒙古南部和北部、河北、辽宁、吉林、黑龙江以及山东半岛
+        conservation_notes: 无需保护
+        references:
+        - name: iPlant-火绒草
+          url: https://www.iplant.cn/info/%E7%81%AB%E7%BB%92%E8%8D%89
+      - name: 绢茸火绒草
+        scientific_name: Leontopodium smithianum
+        description: 多年生草本；根茎有少数簇生花茎和不育茎，无不育叶丛；下部叶花期枯萎宿存；叶线状披针形，无柄，上面被灰白色柔毛，下面被密茸毛或绢状毛；苞叶边缘常反卷，形成苞叶群；花茎或上部被白色茸毛或绢毛；头状花序常密集或有花序梗成伞房状：总苞被白色密棉毛，总苞片褐色；小花异型，有少数雄花：雄花花冠管状漏斗状，雌花花冠丝状：冠毛白色，较花冠稍长；
+          瘦果有乳头状粗毛。
+        images:
+        - 绢茸火绒草.jpg
+        conservation_status: LC
+        habitat: 低山和亚高山草地或干燥草地，不稀见
+        distribution: 甘肃西南部和南部、陕西中部、山西中部及北部、河北北部和内蒙古南部
+        conservation_notes: 无需保护
+        references:
+        - name: iPlant-绢茸火绒草
+          url: https://www.iplant.cn/info/%E7%BB%A2%E8%8C%B8%E7%81%AB%E7%BB%92%E8%8D%89
+    - genus: 风毛菊属
+      species:
+      - name: 星状雪兔子
+        scientific_name: Saussurea stella
+        description: 无茎莲座状草本，全株光滑无毛。叶莲座状，星状排列，线状披针形，头状花序无小花梗，在莲座状叶丛中密集成半球形总花序。总苞圆柱形，总苞片5层，覆瓦状排列，外层长圆形，中层狭长圆形，内层线形；总苞片外面无毛，中层与外层苞片边缘有睫毛。小花紫色。瘦果圆柱状，顶端具膜质冠状边缘。冠毛白色，2层，外层短，糙毛状，内层长，羽毛状。
+        images:
+        - 星状雪兔子 (1).jpg
+        - 星状雪兔子.jpg
+        conservation_status: LC
+        habitat: 高山草地、山坡灌丛草地、河边或沼泽草地、河滩地，海拔2000-5400米
+        distribution: 分布甘肃、青海、四川、云南、西藏
+        conservation_notes: 无需保护
+        references:
+        - name: iPlant-星状雪兔子
+          url: https://www.iplant.cn/info/%E6%98%9F%E7%8A%B6%E9%9B%AA%E5%85%94%E5%AD%90?t=z
+      - name: 横断山风毛菊
+        scientific_name: Saussurea superba
+        description: 未知
+        images:
+        - 横断山风毛菊.jpg
+        conservation_status: ''
+        habitat: 未知
+        distribution: 未知
+        conservation_notes: 未知
+        references:
+        - name: iPlant-横断山风毛菊
+          url: https://www.iplant.cn/info/%E6%A8%AA%E6%96%AD%E5%B1%B1%E9%A3%8E%E6%AF%9B%E8%8F%8A
+      - name: 草甸雪兔子
+        scientific_name: Saussurea thoroldii
+        description: 无茎莲座状多年生草本，全株无毛。根状茎粗，密被叶柄残迹。叶莲座状，有短而宽叶柄，羽状深裂，侧裂片5对，边缘全缘或少锯齿。头状花序有小花梗，在莲座状叶丛中排成半球形总花序。总苞片4层，外层椭圆形，中内层长圆形；苞片上部边缘具睫毛。小花蓝紫色。瘦果圆柱状，褐色。冠毛2层，褐色，外层短，糙毛状，内层长，羽毛状。
+        images:
+        - 草甸雪兔子.jpg
+        conservation_status: LC
+        habitat: 河滩地、湖滨沙地、盐碱地，海拔4300-5200米
+        distribution: 分布甘肃、青海、新疆、西藏
+        conservation_notes: 无需保护
+        references:
+        - name: iPlant-草甸雪兔子
+          url: https://www.iplant.cn/info/%E8%8D%89%E7%94%B8%E9%9B%AA%E5%85%94%E5%AD%90?t=z
+    - genus: 蒲公英属
+      species:
+      - name: 白花蒲公英
+        scientific_name: Taraxacum albiflos
+        description: 多年生矮小草本； 叶线状披针形，具小齿，两面无毛；花葶无毛或顶端疏被蛛丝状柔毛； 头状花序；总苞片绿或淡绿色，先端背面具小角或增厚，外层具宽膜质边缘；舌状花白色，稀淡黄色，边缘花舌片背面有暗色条纹，柱头干时黑色；瘦果倒卵状长圆形，上部1/4具小刺，顶端渐收缩成喙基，喙较粗，冠毛带淡红色。
+        images:
+        - 白花蒲公英.jpg
+        conservation_status: LC
+        habitat: 山坡湿润草地、沟谷、河滩草地以及沼泽草甸处
+        distribution: 甘肃西部（阿克塞）、青海、新疆、西藏等省区，印度西北部、伊朗、巴基斯坦、俄罗斯等国
+        conservation_notes: 无需保护
+        references:
+        - name: iPlant-白花蒲公英
+          url: https://www.iplant.cn/info/%E7%99%BD%E8%8A%B1%E8%92%B2%E5%85%AC%E8%8B%B1
+      - name: 蒲公英
+        scientific_name: Taraxacum mongolicum
+        description: 多年生草本；叶顶端裂片较大，三角形或三角状戟形，基部渐窄成叶柄，叶柄及主脉常带红紫色；花葶上部紫红色，密被总苞钟状，总苞片边缘宽膜质，基部淡绿色，上部紫红色，先端背面增厚或具角状突起；瘦果倒卵状披针形，暗褐色，上部具小刺，下部具成行小瘤，顶端渐收缩成长圆锥形或圆柱形喙基，喙纤细；冠毛白色。
+        images:
+        - 蒲公英.jpg
+        conservation_status: LC
+        habitat: 广泛生于中、低海拔地区的山坡草地、路边、田野、河滩
+        distribution: 广泛分布于东北、华北、东南、西南省份
+        conservation_notes: 无需保护
+        references:
+        - name: iPlant-蒲公英
+          url: https://www.iplant.cn/info/Taraxacum%20mongolicum
+- order: 伞形目
+  families:
+  - family: 伞形科
+    genera:
+    - genus: 柴胡属
+      species:
+      - name: 黑柴胡
+        scientific_name: Bupleurum smithii
+        description: 多年生草本，常丛生，高25-60厘米。茎数条，直立或斜升。叶多，质地较厚，基生叶为狭长圆形、长圆状披针形或倒披针形。复伞形花序，有伞辐4-9个。果实为棕色，卵形，果棱薄呈狭翼状。
+        images:
+        - 黑柴胡.jpg
+        conservation_status: LC
+        habitat: 山坡草地、山谷及山顶阴处，海拔1400-3400米。
+        distribution: 河北、山西、陕西、河南、青海、甘肃、内蒙古。
+        conservation_notes: 无需保护
+        references:
+        - name: iPlant-黑柴胡
+          url: https://www.iplant.cn/info/%E9%BB%91%E6%9F%B4%E8%83%A1
+    - genus: 防风属
+      species:
+      - name: 防风
+        scientific_name: Saposhnikovia divaricata
+        description: 多年生草本，高达80厘米。茎单生，呈二歧分枝，基部密被纤维状的叶鞘。基生叶为二至三回羽状分裂，末回裂片为线形或披针形。复伞形花序，花瓣白色。果实为窄椭圆形，表面有疣状突起，侧棱具翅。
+        images:
+        - 防风.jpg
+        conservation_status: LC
+        habitat: 草原、丘陵、多砾石的山坡。
+        distribution: 黑龙江、吉林、辽宁、内蒙古、河北、宁夏、甘肃、陕西、山西、山东。
+        conservation_notes: 无需保护
+        references:
+        - name: iPlant-防风
+          url: https://www.iplant.cn/info/%E9%98%B2%E9%A3%8E
+    - genus: 大瓣芹属
+      species:
+      - name: 裂叶大瓣芹
+        scientific_name: Semenovia malcolmii
+        description: 多年生草本，高达45厘米。根茎长。叶为披针形，经过三至四回羽状分裂，末回裂片为线形或披针形。复伞形花序，花瓣白色，外围花瓣常辐射增大。果实为椭圆形，被柔毛。
+        images:
+        - 裂叶大瓣芹.jpg
+        conservation_status: LC
+        habitat: 山顶或沙砾沟谷草甸，海拔3800-5000米。
+        distribution: 西藏、青海、甘肃、四川、云南。
+        conservation_notes: 无需保护
+        references:
+        - name: iPlant-裂叶大瓣芹
+          url: https://www.iplant.cn/info/%E8%A3%82%E5%8F%B6%E5%A4%A7%E7%93%A3%E8%8A%B9
