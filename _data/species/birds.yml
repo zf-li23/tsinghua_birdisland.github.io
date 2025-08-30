@@ -1,61 +1,1246 @@
-- order: "雁形目"
+- order: 鸽形目
   families:
-    - family: "鸭科"
-      genera:
-        - genus: "雁属"
-          species:
-            - name: "灰雁"
-              scientific_name: "Anser anser"
-              description: "大型雁类，体长70-90厘米，体重2.5-4千克。嘴和脚肉色，上体灰褐色，下体污白色，飞行时浅色的翼前区和深色的飞羽形成对比。栖息于湖泊、河流和沼泽地带，以植物性食物为食。"
-              image: "grey_goose.jpg"
-              conservation_status: "LC"
-              habitat: "湖泊、河流、沼泽"
-              distribution: "欧亚大陆广泛分布"
-              
-            - name: "白额雁"
-              scientific_name: "Anser albifrons"
-              description: "中等体型雁类，体长64-80厘米。额部有一明显白斑，胸部和颈部有黑色横斑。栖息于苔原、沼泽和农田，以植物嫩芽、根茎和谷物为食。"
-              image: "white-fronted_goose.jpg"
-              conservation_status: "LC"
-              habitat: "苔原、沼泽、农田"
-              distribution: "繁殖于北极地区，越冬于温带地区"
-              conservation_notes: "种群数量较多，但受栖息地丧失威胁"
-
-        - genus: "鸭属"
-          species:
-            - name: "绿头鸭"
-              scientific_name: "Anas platyrhynchos"
-              description: "最常见的野鸭，体长50-65厘米。雄鸟头颈部绿色，颈部有白色颈环，胸部栗色；雌鸟全身棕褐色带有深色斑点。栖息于各种水域环境，适应性强。"
-              image: "mallard.jpg"
-              conservation_status: "LC"
-              habitat: "湖泊、河流、池塘、沼泽"
-              distribution: "北半球广泛分布"
-              conservation_notes: "种群数量丰富，是最常见的野鸭之一"
-
-    - family: "鹈鹕科"
-      genera:
-        - genus: "鹈鹕属"
-          species:
-            - name: "白鹈鹕"
-              scientific_name: "Pelecanus onocrotalus"
-              description: "大型水禽，体长140-175厘米，翼展可达3米。具有巨大的喉囊，用于捕鱼。全身白色，飞羽黑色。集群繁殖，善于游泳和飞行。"
-              image: "white_pelican.jpg"
-              conservation_status: "LC"
-              habitat: "大型湖泊、沼泽、河口"
-              distribution: "欧洲东南部至中亚和非洲"
-              conservation_notes: "局部地区数量下降，但整体种群稳定"
-
-- order: "鹤形目"
+  - family: 鸠鸽科
+    genera:
+    - genus: 斑鸠属
+      species:
+      - name: 灰斑鸠
+        scientific_name: Streptopelia decaocto
+        description: 中型鸠鸽，体长约32厘米。全身灰色，翼上略显棕色，枕部有带白色细边的黑色条带，嘴、瞳孔、翼尖黑色。
+        images:
+        - 灰斑鸠.JPG
+        conservation_status: LC
+        habitat: 林地、灌丛、农田、城市
+        distribution: 广布于欧洲、中东、远东地区，以及中北美及加勒比地区
+        conservation_notes: 稳定无危
+        references:
+        - name: eBird-灰斑鸠
+          url: https://ebird.org/species/eucdov
+    - genus: 鸽属
+      species:
+      - name: 岩鸽
+        scientific_name: Columba rupestris
+        description: 中型鸠鸽，体长31-35厘米，外形与其它鸽属物种相似，最显著特征是尾部有宽大的白色次端带。
+        images:
+        - 岩鸽.jpg
+        conservation_status: LC
+        habitat: 灌丛、农田、山地、崖壁
+        distribution: 分布于中亚、东亚
+        conservation_notes: 稳定无危
+        references:
+        - name: eBird-岩鸽
+          url: https://ebird.org/species/hilpig1
+- order: 鹤形目
   families:
-    - family: "鹤科"
-      genera:
-        - genus: "鹤属"
-          species:
-            - name: "黑颈鹤"
-              scientific_name: "Grus nigricollis"
-              description: "大型涉禽，体长约115厘米。头、颈和飞羽黑色，身体灰白色，头顶有红色皮肤裸露。栖息于高原湿地，是世界上唯一生长、繁殖在高原的鹤类。"
-              image: "black-necked_crane.jpg"
-              conservation_status: "VU"
-              habitat: "高原湖泊、沼泽、河流"
-              distribution: "青藏高原及周边地区"
-              conservation_notes: "受栖息地丧失和人为干扰威胁，中国国家一级保护动物"
+  - family: 鹤科
+    genera:
+    - genus: 鹤属
+      species:
+      - name: 黑颈鹤
+        scientific_name: Grus nigricollis
+        description: 鹤科鹤属中唯一的高原鹤类。其特征为头部和上颈部2/3为黑色，眼后和眼下方有一小块白色或灰白色斑。尾部羽毛黑色，与灰鹤等其他鹤类有显著区别。幼鸟羽毛呈灰黄色，颈部长有黑白相间的羽毛。
+        images:
+        - 黑颈鹤.jpg
+        conservation_status: ''
+        habitat: 高原湿地、农业山谷
+        distribution: 广泛分布于西藏高原及中国中西部，夏季栖息于高海拔湿地，冬季迁至较低海拔地区。
+        conservation_notes: 在中国、印度和不丹受法律保护，但面临栖息地破坏、农业扩张和人类活动干扰的威胁。
+        references:
+        - name: eBird-黑颈鹤
+          url: https://ebird.org/species/blncra1
+  - family: 秧鸡科
+    genera:
+    - genus: 骨顶属
+      species:
+      - name: 白骨顶
+        scientific_name: Fulica atra
+        description: 全身黑色，喙和额甲为鲜明的白色，成鸟大小约为36-39厘米，雄鸟略重。成年白骨顶全身暗灰色，喙和额甲呈白色，形成鲜明对比。亚成鸟的喙较淡，胸部呈淡色，随着年龄增长，喙逐渐变白。上岸时可见其大脚和带有瓣蹼的脚趾。雄雌外观相似，但雌鸟体型稍小。幼鸟上身橄榄棕色，喉部、脸颊和下体羽毛有白色尖端，呈现斑驳外观。
+        images: []
+        conservation_status: LC
+        habitat: 湖泊、池塘、河流
+        distribution: 繁殖于欧亚大陆、远东和澳新界。非繁殖期分布于北非至东南亚，菲律宾等地。中国大陆广泛分布。
+        conservation_notes: 自19世纪晚期以来，白骨顶在欧洲的分布范围有所扩大，适应了城市化和人工湿地的增加。
+        references:
+        - name: eBird-白骨顶
+          url: https://ebird.org/species/eurcoo
+- order: 鸻形目
+  families:
+  - family: 反嘴鹬科
+    genera:
+    - genus: 反嘴鹬属
+      species:
+      - name: 反嘴鹬
+        scientific_name: Recurvirostra avosetta
+        description: 大型鸻鹬，体长42-45厘米，翼展76-80厘米。全身以白色为主，嘴、头顶、枕部、翼上黑色。该物种最显著特征是弯曲上翘的长喙，常用嘴在浅水、泥滩扫荡觅食。
+        images:
+        - 反嘴鹬.JPG
+        conservation_status: LC
+        habitat: 草原、湿地、潮间带
+        distribution: 广布于亚欧大陆、非洲大陆，在国内大部分地区可见
+        conservation_notes: 稳定无危
+        references:
+        - name: eBird-反嘴鹬
+          url: https://ebird.org/species/pieavo1
+    - genus: 长脚鹬属
+      species:
+      - name: 黑翅长脚鹬
+        scientific_name: Himantopus himantopus
+        description: 中大型鸻鹬，体长33-36厘米。躯干白色，嘴、头顶、翼上下均黑色，腿红色。该物种腿极长，可与体长相当，飞行时伸出尾部。
+        images:
+        - 黑翅长脚鹬.jpg
+        conservation_status: LC
+        habitat: 草原、湿地、潮间带
+        distribution: 广布于亚欧大陆、非洲大陆，在国内大部分地区可见
+        conservation_notes: 稳定无危
+        references:
+        - name: eBird-黑翅长脚鹬
+          url: https://ebird.org/species/bkwsti
+  - family: 鸻科
+    genera:
+    - genus: 弯嘴鸻属
+      species:
+      - name: 环颈鸻
+        scientific_name: Charadrius alexandrinus
+        description: 小型鸻鹬，体长15-18厘米。腹部、脸部、前额至眉白色，头顶、翼上褐色，嘴、贯眼纹黑色，黑色颈带在胸前断裂；非繁殖季时除嘴以外的黑色部分亦变为褐色。通过震动脚爪或嘴部探查，捕食小型水生无脊椎动物。
+        images:
+        - 环颈鸻.jpg
+        conservation_status: LC
+        habitat: 草原、湿地、沙漠、潮间带
+        distribution: 广布于亚欧大陆、非洲大陆，在国内大部分地区可见
+        conservation_notes: 种群数量较大，但部分地区栖息地受一定威胁
+        references:
+        - name: eBird-环颈鸻
+          url: https://ebird.org/species/kenplo1
+      - name: 青藏沙鸻
+        scientific_name: Charadrius atrifrons
+        description: 中小型鸻鹬，体长18-21厘米。腹部、喉部白色，嘴、贯眼纹黑色，翼上褐色，头顶、上胸橙色。该物种不易与其他沙鸻区分，但橙色胸带相对广泛且边界模糊。
+        images:
+        - 青藏沙鸻.png
+        conservation_status: LC
+        habitat: 草原、湿地、森林、农田、潮间带
+        distribution: 繁殖于青藏高原和中亚地区，非繁殖季迁徙至东非、南亚、东南亚等地
+        conservation_notes: 近年新独立物种，相关研究较少，目前种群数量较大
+        references:
+        - name: eBird-青藏沙鸻
+          url: https://ebird.org/species/lessap1
+    - genus: 鸻属
+      species:
+      - name: 金眶鸻
+        scientific_name: Charadrius dubius
+        description: 小型鸻鹬，体长约16厘米。腹部、脸部、前额白色，头顶、翼上褐色，有黑色的颈带和贯眼纹；该物种有显著的金黄色眼眶。捕食水生的小型无脊椎动物。
+        images:
+        - 金眶鸻.jpg
+        conservation_status: LC
+        habitat: 草原、湿地、森林、农田、潮间带
+        distribution: 广布于亚欧大陆及东南亚岛屿，非繁殖季可扩散至撒哈拉以南非洲
+        conservation_notes: 稳定无危
+        references:
+        - name: eBird-金眶鸻
+          url: https://ebird.org/species/lirplo
+    - genus: 麦鸡属
+      species:
+      - name: 凤头麦鸡
+        scientific_name: Vanellus vanellus
+        description: 中型鸻鹬，体长28-31厘米，翼展82-87厘米。腹部白色，头顶、上胸部、尾部黑色，翼上是有金属光泽的绿色。该物种头顶有黑色的长羽冠，翅膀在光照下可呈彩色。
+        images:
+        - 凤头麦鸡.jpg
+        conservation_status: ''
+        habitat: 草原、湿地、灌丛、农田、潮间带
+        distribution: 广布于亚欧大陆温带地区，非繁殖季可见于北非和亚欧大陆寒温带地区
+        conservation_notes: 可能由于近年农业用地强度增大，该物种繁殖成功率降低，种群数量呈下降趋势
+        references:
+        - name: eBird-凤头麦鸡
+          url: https://ebird.org/species/norlap
+  - family: 鸥科
+    genera:
+    - genus: 渔鸥属
+      species:
+      - name: 渔鸥
+        scientific_name: Ichthyaetus ichthyaetus
+        description: 大型鸥，体长60-72厘米，翼展155-170厘米。繁殖季头部黑色，腹部白色，翼上浅灰色，嘴黄色，嘴尖红色或黑色；非繁殖季嘴黑色，头部、翼上深灰色与白色杂乱并存。该物种头部扁平、嘴长，飞行非常平稳，常集群栖息。
+        images:
+        - 渔鸥（繁殖羽）.JPG
+        - 渔鸥（非繁殖羽）.jpg
+        - 渔鸥（飞行）.jpg
+        conservation_status: LC
+        habitat: 湿地、湖泊、浅海
+        distribution: 繁殖于我国西北地区、中亚、蒙古西部，冬季扩散至南亚、中东等地
+        conservation_notes: 稳定无危
+        references:
+        - name: eBird-渔鸥
+          url: https://ebird.org/species/gbhgul2
+    - genus: 彩头鸥属
+      species:
+      - name: 棕头鸥
+        scientific_name: Chroicocephalus brunnicephalus
+        description: 中型鸥，体长41-45厘米，翼展105-115厘米。繁殖季头棕色，翼上灰色，嘴、腿红色，翼尖黑色；非繁殖季时头部褪为白色。集群栖息，捕食鱼类和水生软体动物。
+        images:
+        - 棕头鸥.JPG
+        conservation_status: LC
+        habitat: 湿地、湖泊、浅海
+        distribution: 繁殖于青藏高原、新疆、中亚，冬季迁徙至中国西南、东南及南亚地区
+        conservation_notes: 稳定无危
+        references:
+        - name: eBird-棕头鸥
+          url: https://ebird.org/species/bnhgul1
+    - genus: 燕鸥属
+      species:
+      - name: 普通燕鸥
+        scientific_name: Sterna hirundo
+        description: 中型燕鸥，体长32-39厘米，翼展72-83厘米。繁殖季腹部白色，翼上浅灰色，头顶黑色，嘴、腿红色；非繁殖季头部部分变白，嘴全部黑色，翼上颜色相对杂乱。该物种尾部似雨燕的叉状尾，翼型与燕相似。普通燕鸥与粉红燕鸥、北极燕鸥极为相似，但分布有所不同。
+        images:
+        - 普通燕鸥（落地）.JPG
+        - 普通燕鸥（飞行、侧面）.JPG
+        - 普通燕鸥（飞行、正面）.jpg
+        conservation_status: LC
+        habitat: 湿地、湖泊、浅海
+        distribution: 广布于世界各地
+        conservation_notes: 稳定无危
+        references:
+        - name: eBird-普通燕鸥
+          url: https://ebird.org/species/comter
+  - family: 丘鹬科
+    genera:
+    - genus: 杓鹬属
+      species:
+      - name: 白腰杓鹬
+        scientific_name: Numenius arquata
+        description: 大型鸻鹬，体长50-60厘米，翼展80-100厘米。全身灰褐色并有白色斑点，翼下和腰部则为纯白色。嘴长且显著下弯，喜爱在沼泽、浅水处取食无脊椎动物。
+        images:
+        - 白腰杓鹬.jpg
+        conservation_status: ''
+        habitat: 草原、湿地、潮间带
+        distribution: 繁殖于亚欧大陆温带、寒温带地区，非繁殖季可至地中海沿岸和南亚、东南亚地区
+        conservation_notes: 由于栖息地受到一定威胁，种群数量呈下降趋势
+        references:
+        - name: eBird-白腰杓鹬
+          url: https://ebird.org/species/eurcur
+    - genus: 滨鹬属
+      species:
+      - name: 青脚滨鹬
+        scientific_name: Calidris temminckii
+        description: 小型鸻鹬，体长13-15厘米，翼展34-37厘米。胸腹纯白，头、颈、翼上、背部均为相对干净的褐色。
+        images:
+        - 青脚滨鹬.JPG
+        conservation_status: LC
+        habitat: 草原、湿地、浅海、潮间带
+        distribution: 繁殖于亚欧大陆寒带地区和青藏高原，非繁殖季遍布非洲、中东、南亚、东南亚等地
+        conservation_notes: 由于气候变化，在部分地区有种群下降趋势，但总体稳定无危
+        references:
+        - name: eBird-青脚滨鹬
+          url: https://ebird.org/species/temsti
+    - genus: 塍鹬属
+      species:
+      - name: 黑尾塍鹬
+        scientific_name: Limosa limosa
+        description: 中型鸻鹬，体长36-44厘米，翼展70-82厘米。胸腹栗色，下腹白色，背部红、黑、灰相间；嘴长且直，基部橙色，前部黑色；飞行时翼下纯白，边缘处有黑色，扇形尾部内侧白色、外侧黑色。
+        images:
+        - 黑尾塍鹬.jpg
+        conservation_status: ''
+        habitat: 草原、湿地、浅海、潮间带
+        distribution: 繁殖于亚欧大陆北部寒温带、寒带，以及青藏高原地区，非繁殖季迁徙至非洲、地中海沿岸、西亚、东南亚、澳新地区
+        conservation_notes: 估计物种数量60-80万只，有可能受到威胁
+        references:
+        - name: eBird-黑尾塍鹬
+          url: https://ebird.org/species/bktgod
+    - genus: 翻石鹬属
+      species:
+      - name: 翻石鹬
+        scientific_name: Arenaria interpres
+        description: 小型鸻鹬，体长22-24厘米，翼展50-57厘米。嘴短且尖，腿亦较短。颈部、上胸黑色，脸部亦有黑斑；腹部纯白；翼上橙、黑相间，非繁殖季则主要是棕褐色。喜爱与其它鹬类混群，在浅滩或岸边翻动石头寻找无脊椎动物取食。
+        images:
+        - 翻石鹬.JPG
+        conservation_status: LC
+        habitat: 草原、湿地、浅海、潮间带
+        distribution: 繁殖于亚欧大陆和美洲大陆北部寒温带、寒带，以及青藏高原地区；非繁殖季遍布全球沿海地区
+        conservation_notes: 稳定无危
+        references:
+        - name: eBird-翻石鹬
+          url: https://ebird.org/species/rudtur
+    - genus: 鹬属
+      species:
+      - name: 白腰草鹬
+        scientific_name: Tringa ochropus
+        description: 小型鸻鹬，体长21-24厘米，翼展57-61厘米。与矶鹬非常相似，但没有颈与翼之间的白色凸起部分。栖息地偏好相对有遮蔽的河流、湿地。
+        images:
+        - 白腰草鹬.jpg
+        conservation_status: LC
+        habitat: 森林、河流、草原、湿地
+        distribution: 繁殖于亚欧大陆温带、寒带，冬季迁徙至南欧、非洲、亚洲热带地区
+        conservation_notes: 稳定无危
+        references:
+        - name: eBird-白腰草鹬
+          url: https://ebird.org/species/grnsan
+      - name: 红脚鹬
+        scientific_name: Tringa totanus
+        description: 中型鸻鹬，体长约30厘米，翼展59-66厘米。头、上体灰褐色，胸部有深色纵纹，嘴、腿红色，飞行时有醒目的白色背部和翼后缘。
+        images:
+        - 红脚鹬.JPG
+        conservation_status: LC
+        habitat: 湿地、浅海、潮间带
+        distribution: 繁殖于亚欧大陆温带、寒带，冬季迁徙至南欧、非洲、亚洲热带地区
+        conservation_notes: 稳定无危
+        references:
+        - name: eBird-红脚鹬
+          url: https://ebird.org/species/comred1
+      - name: 林鹬
+        scientific_name: Tringa glareola
+        description: 小型鸻鹬，体长约21厘米，翼展54-57厘米。腹部白色，背部具不太深的灰褐色斑，头、颈、胸部有细灰色条纹，相比背部更浅。相比白腰草鹬，上体斑块明显更杂乱。相对于其他鸻鹬类，更喜欢在林地环境栖息。
+        images:
+        - 林鹬.jpg
+        conservation_status: LC
+        habitat: 森林、灌丛、草原、湿地
+        distribution: 繁殖于亚欧大陆北部，非繁殖季迁徙至非洲、中东、东南亚、甚至澳大利亚
+        conservation_notes: 稳定无危
+        references:
+        - name: eBird-林鹬
+          url: https://ebird.org/species/woosan
+      - name: 青脚鹬
+        scientific_name: Tringa nebularia
+        description: 中型鸻鹬，体长30-35厘米，翼展68-70厘米。最显著特征是长且略上翘的嘴。上体灰色，有黑色斑点和条纹，颈前部及整个下体纯白。小青脚鹬翼下纯白，青脚鹬的翼下有深色细纹。
+        images:
+        - 青脚鹬.jpg
+        conservation_status: LC
+        habitat: 草原、湿地、浅海、潮间带
+        distribution: 繁殖于亚欧大陆温带、寒带，冬季迁徙至南欧、非洲、亚洲热带地区、甚至大洋洲
+        conservation_notes: 稳定无危
+        references:
+        - name: eBird-青脚鹬
+          url: https://ebird.org/species/comgre
+    - genus: 矶鹬属
+      species:
+      - name: 矶鹬
+        scientific_name: Actitis hypoleucos
+        description: 小型鸻鹬，体长18-20厘米，翼展32-35厘米。上体是干净的灰褐色，下体纯白色，最典型特征是肩带处介于颈和翼之间的白色区域。
+        images:
+        - 矶鹬.jpg
+        conservation_status: LC
+        habitat: 草原、湿地、浅海、潮间带
+        distribution: 繁殖于亚欧大陆温带、寒温带，甚至北极地区；非繁殖季迁徙至非洲、东南亚、地中海沿岸、澳大利亚等地
+        conservation_notes: 稳定无危
+        references:
+        - name: eBird-矶鹬
+          url: https://ebird.org/species/comsan
+- order: 鸡形目
+  families:
+  - family: 雉科
+    genera:
+    - genus: 石鸡属
+      species:
+      - name: 石鸡
+        scientific_name: Alectoris chukar
+        description: 中型雉类，体长34-38厘米。嘴、腿红色，头顶、颈、胸、背灰褐色，腹部浅黄褐色，翼上有白/棕黑相间的条纹，头侧有黑色环带，眼周有显著的红环。该物种与大石鸡非常相似，但大石鸡头侧环带有棕色，整体体色亦偏棕。
+        images:
+        - 石鸡.jpg
+        conservation_status: LC
+        habitat: 灌丛、草原、山地
+        distribution: 原生分布于中国南部、南亚、中东部分地区，后被引入美洲、新西兰、夏威夷等地
+        conservation_notes: 稳定无危
+        references:
+        - name: eBird-石鸡
+          url: https://ebird.org/species/chukar
+- order: 鲣鸟目
+  families:
+  - family: 鸬鹚科
+    genera:
+    - genus: 鸬鹚属
+      species:
+      - name: 普通鸬鹚
+        scientific_name: Phalacrocorax carbo
+        description: 一种大型的黑色鸟类，体长可达80至100厘米，体重从1.5公斤至5.3公斤不等，存在显著的地理变异。雄鸟体型普遍比雌鸟大。翅膀跨度介于121至160厘米之间。它们拥有长尾巴和黄色的喉部斑块。在繁殖季节，成鸟的腿部和喉咙上会出现白色斑点。与其他相似物种相比，其头部较为光秃，喙厚实，缺乏绿晕的羽毛。
+        images:
+        - 普通鸬鹚.JPG
+        conservation_status: LC
+        habitat: 海洋、河口、淡水湖泊、河流
+        distribution: 遍布全球温带和热带区域，包括欧洲、亚洲、澳大利亚、非洲、北美大西洋沿岸，除了北非西北部和西半球西北部的北美洲沿岸。在中国，主要分布在南方地区。
+        conservation_notes: 普通鸬鹚在中国南方曾被广泛驯养用于捕鱼，但由于长期的过度捕捉和栖息地破坏，野生种群数量已大幅减少。在青海湖，普通鸬鹚与斑头雁、棕头鸥、渔鸥组成四大候鸟群，繁殖地集中在特定的悬崖峭壁。
+        references:
+        - name: eBird-普通鸬鹚
+          url: https://ebird.org/species/grecor5
+- order: 䴙䴘目
+  families:
+  - family: 䴙䴘科
+    genera:
+    - genus: 䴙䴘属
+      species:
+      - name: 凤头䴙䴘
+        scientific_name: Podiceps cristatus
+        description: 䴙䴘中体型最大的物种之一，身长约50厘米，姿态优雅。其特征为修长的颈部，深色的羽冠，下体接近白色，上体纯灰褐色。繁殖期成鸟颈背呈栗色，颈项具有鬃毛状的装饰性羽毛。脸部侧面白色延伸过眼睛，嘴型细长。
+        images:
+        - 凤头䴙䴘.jpg
+        conservation_status: LC
+        habitat: 有植被边缘的淡水湖泊，包括水库、池塘、鱼塘、采石坑和装饰湖，也会出现在河流的缓流区域
+        distribution: 分布于温带欧亚大陆，局部出现在印度西北部，直至俄罗斯东北部、中国东北部和日本中北部，非洲东北部、东部和南部，澳大利亚和新西兰南岛。
+        conservation_notes: 全球估计有920,000至1,400,000只个体，曾经在19世纪因猎杀而数量锐减，但自1970年代起，随着气候变暖和水质改善，种群在北欧和西北欧地区有所恢复和增加。在亚洲，尤其是日本，从1963年起数量增多，但在非洲某些地区因过度捕鱼和外来物种引入而减少。
+        references:
+        - name: eBird-凤头䴙䴘
+          url: https://ebird.org/species/grcgre1
+      - name: 黑颈䴙䴘
+        scientific_name: Podiceps nigricollis
+        description: 繁殖期的黑颈䴙䴘成鸟头部、颈部、胸部和上体呈黑色至黑褐色，侧翼为栗色，腹部为白色。脸颊处有扇形的黄色耳簇羽毛。非繁殖期则整体呈灰黑色，头顶和颈背有灰黑色条纹，脸颊污白色，颈部灰白。幼鸟颜色较暗，带有棕色调。成鸟在繁殖期具有尖顶状的头部轮廓，喙细长。
+        images:
+        - 黑颈䴙䴘.JPG
+        conservation_status: LC
+        habitat: 淡水湖泊的植被区域，偏好盐水环境
+        distribution: '繁殖区：欧亚，非洲，北美，中美：温带海洋欧亚大陆至Russian China远东部和东北部，非洲东部，南部，加拿大西南部和美国西部，中西部至墨西哥中部
+
+          非繁殖区：至海岸线，非洲北部，阿拉伯半岛，黑海和里海，印度次大陆西北部，中国东南部，朝鲜半岛和日本，墨西哥南部和美国中东部'
+        conservation_notes: '中国国家重点保护野生动物名录新增，保护级别：Ⅱ级（2021.02.05）
+
+          '
+        references:
+        - name: eBird-黑颈䴙䴘
+          url: https://ebird.org/species/eargre
+- order: 雀形目
+  families:
+  - family: 百灵科
+    genera:
+    - genus: 短趾百灵属
+      species:
+      - name: 细嘴短趾百灵
+        scientific_name: Calandrella acutirostris
+        description: 小型百灵鸟，以其淡棕色外观和独特的白色眉毛为显著特征，拥有较为细长的喙。头部两侧有黑色小斑点，胸部有一条棕色带状花纹。上体具暗色条纹，下体大体白色，尾黑色，中央羽毛边缘棕色，最外侧一对尾羽外侧白色。鸣唱比相似的大短趾百灵更慢，含有更多哨音和刺耳的音节。
+        images:
+        - 细嘴短趾百灵.JPG
+        conservation_status: LC
+        habitat: 多岩石的高山、干燥的平原地带，偏好稀疏植被覆盖的沙石环境
+        distribution: 繁殖于欧亚大陆中南部，包括伊朗、巴基斯坦、印度北部、尼泊尔、中国西部及西南地区。非繁殖季节迁至低海拔的印度北部等地
+        conservation_notes: 稳定无危
+        references:
+        - name: eBird-细嘴短趾百灵
+          url: https://ebird.org/species/humlar1
+    - genus: 角百灵属
+      species:
+      - name: 角百灵
+        scientific_name: Eremophila alpestris
+        description: 体长16-20厘米，头顶有类似角的羽毛簇，以及醒目的黑色的眼罩和胸带。拥有短腿和低矮的身体轮廓，成鸟主要为沙棕色，腹部白色。喉部颜色从黄色到白色不等。幼鸟外观凌乱，灰棕色，背部有明显的白色斑点和鳞片状花纹。
+        images:
+        - 角百灵.jpg
+        - 角百灵（亚成）.JPG
+        conservation_status: LC
+        habitat: 偏好开阔地带，如草原、沙漠与农业区
+        distribution: '繁殖区域遍布北美洲、中南美洲以及欧亚大陆，包括北极至墨西哥，亚洲中部至哥伦比亚高原。在中国，主要分布于西北地区，为留鸟和夏候鸟。
+
+          '
+        conservation_notes: 稳定无危，但数量呈下降趋势
+        references:
+        - name: eBird-角百灵
+          url: https://ebird.org/species/horlar
+    - genus: 云雀属
+      species:
+      - name: 小云雀
+        scientific_name: Alauda gulgula
+        description: 体态结实的褐色云雀，具不明显的羽冠，常见于开阔的田野和草地。上体羽色比下体更深，胸部有黑色细条纹，具浅栗红色的耳羽。与云雀非常相似，且分布区域重叠，但体型较小，缺少云雀亮白色的尾羽边缘和飞羽后缘，且鸣声不同。繁殖期雄鸟会在飞行中鸣唱，悬停于空中并发出一连串多变的叫声，为云雀属鸟种的典型求偶行为。
+        images:
+        - 小云雀.jpg
+        - 小云雀1.JPG
+        conservation_status: LC
+        habitat: 栖息于开阔地带，偏好短草覆盖的生境，如草原、耕地、盐沼海岸湿地、河湖边缘、稻田周边和半沙漠地带，偶尔出现在大型森林空地，通常避开密林或破碎地形
+        distribution: 广泛分布于东洋界和亚洲中部。繁殖区域包括中国南部、印度、亚洲中部等地。非繁殖期间，它们向南迁移至其范围内的南部区域
+        conservation_notes: 稳定无危
+        references:
+        - name: eBird-小云雀
+          url: https://ebird.org/species/orisky1
+  - family: 伯劳科
+    genera:
+    - genus: 伯劳属
+      species:
+      - name: 荒漠伯劳
+        scientific_name: Lanius isabellinus
+        description: 小型沙色伯劳，整体灰黄色。雄鸟头部呈灰色，额部带沙黄色，具有黑色面罩、对比鲜明的浅色下体与亮肉桂色尾巴。雌鸟相似，但面罩更淡，上体偏灰色，侧翼有轻微条纹。
+        images:
+        - 荒漠伯劳.JPG
+        - 荒漠伯劳1.JPG
+        conservation_status: LC
+        habitat: 偏好半开放环境，如农田边缘、稀疏灌丛
+        distribution: 繁殖于欧亚大陆中部，包括土耳其、巴基斯坦与中国西部。越冬于东北非及南亚，包括印度与巴基斯坦。
+        conservation_notes: 稳定无危
+        references:
+        - name: eBird-荒漠伯劳
+          url: https://ebird.org/species/isashr1
+      - name: 灰背伯劳
+        scientific_name: Lanius tephronotus
+        description: 中小型灰色伯劳，雄雌相似，成鸟具有明显的黑色下额和面部面具，从眼睛上方延伸到耳羽后方；头顶至颈部呈深灰色，背部可见小片红褐色斑块。有时可见微小的白色斑点位于初级飞羽基部（但常缺失）。尾巴为栗褐色，末端略带淡黄色。喉咙和下体白色，胸部侧面和两胁为红褐色。
+        images:
+        - 灰背伯劳.jpg
+        - 灰背伯劳1.JPG
+        conservation_status: LC
+        habitat: 山地疏林、农田农舍、城市花园
+        distribution: 繁殖区包括欧亚大陆的喜马拉雅山脉和中国中部。非繁殖区覆盖东南亚。在中国大陆，分布于甘肃、宁夏、青海、陕西、四川、贵州、西藏和云南等地。
+        conservation_notes: 稳定无危
+        references:
+        - name: eBird-灰背伯劳
+          url: https://ebird.org/species/gybshr1
+      - name: 青藏楔尾伯劳
+        scientific_name: Lanius giganteus
+        description: 大型伯劳，以暗灰色上体、白色下体、黑色面罩及翼上的白色斑块为显著特征。雌雄相似，尾部长而呈楔形，背部深灰色，腹部白色，脸部有黑色面罩，翼上有白色斑块，尾部可见白色。与楔尾伯劳相比，无白色眉纹。
+        images:
+        - 青藏楔尾伯劳.JPG
+        - 青藏楔尾伯劳1.jpg
+        - 青藏楔尾伯劳2.jpg
+        conservation_status: LC
+        habitat: 高海拔的开阔环境
+        distribution: 广泛分布于中国中部的高海拔开阔地带，冬季会下降至较低海拔。
+        conservation_notes: 稳定无危
+        references:
+        - name: eBird-青藏楔尾伯劳
+          url: https://ebird.org/species/chgshr3
+      - name: 楔尾伯劳
+        scientific_name: Lanius sphenocercus
+        description: 大型灰色伯劳，尾部长且楔形，尾部中央三根黑色尾羽尤为突出。雌雄相似，上体灰色，下体白色，面部有黑色面罩，眼眉白色。翅膀和尾巴有明显的白色斑块，尤其在飞行中更为醒目。
+        images:
+        - 楔尾伯劳.png
+        conservation_status: LC
+        habitat: 偏好开阔地带，如农田、草地、林缘和半荒漠疏林地带
+        distribution: 繁殖于蒙古东部、俄罗斯东南部、中国东北部和朝鲜半岛北部至中部。非繁殖季节迁徙至中国东南部。
+        conservation_notes: 稳定无危
+        references:
+        - name: eBird-楔尾伯劳
+          url: https://ebird.org/species/chgshr1
+  - family: 鸫科
+    genera:
+    - genus: 鸫属
+      species:
+      - name: 灰头鸫
+        scientific_name: Turdus rubrocanus
+        description: 灰头鸫成年雄鸟拥有橙栗色身体，搭配黑色翅膀和尾巴，头部为灰，颈部侧面可见白色调渐变为灰，尾部边缘白色，眼圈黄色，喙和腿均为黄色。雌鸟相似但色泽稍暗淡，头部略深，翅膀和尾巴呈棕色。幼鸟头部颜色更深，背部呈暗淡的锈红色，肩羽有橙色斑点，翅膀和尾巴深色，喉部白色，下体布满暗色斑点。
+        images:
+        - 灰头鸫.jpg
+        conservation_status: LC
+        habitat: 偏好湿润的山地松林和混合森林，尤其喜欢植被密集、阴凉的地方。
+        distribution: 繁殖于海拔1500至3300米的喜马拉雅山脉，冬季下降至450米，栖息于开阔的林地和果园。在中国东南部，分布于900至2500米，偶尔降至200米。在中国大部分地区为留鸟，部分地区为夏候鸟。
+        conservation_notes: 稳定无危
+        references:
+        - name: eBird-灰头鸫
+          url: https://ebird.org/species/chethr1
+  - family: 鹡鸰科
+    genera:
+    - genus: 鹡鸰属
+      species:
+      - name: 白鹡鸰
+        scientific_name: Motacilla alba
+        description: 白鹡鸰体长约16.5至19厘米，东亚亚种可达21厘米，平均体重25克，尾部长而常摇摆。成年雄鸟繁殖羽色为冠至颈背部黑色，喉部黑色，其余头部白色，上体灰或黑色，翼灰色带白色边缘，两道白色翼纹明显，尾羽中央对黑色，外侧白色，下体白色。雌鸟头部图案较淡，喉部有时具灰斑。幼鸟头部棕色，有灰白色喉部，下体灰白，有时泛黄。白鹡鸰在不同的亚种之间羽色有所差异。
+        images:
+        - 白鹡鸰.JPG
+        conservation_status: LC
+        habitat: 在开阔地带活动，包括草地、农田、湿草原和沼泽等。
+        distribution: 繁殖区遍及欧亚大陆，包括美国阿拉斯加州西部。非繁殖期分布于东洋界和非洲。
+        conservation_notes: 稳定无危
+        references:
+        - name: eBird-白鹡鸰
+          url: https://ebird.org/species/whiwag
+      - name: 黄头鹡鸰
+        scientific_name: Motacilla citreola
+        description: 雄鸟在繁殖季拥有亮黄色的头部和下体，黑色的颈带，背部灰色或黑色，雌鸟和非繁殖期雄鸟则颜色较为暗淡，头部黄色，脸部有深色颊斑，背部灰色。幼鸟整体呈灰褐色，缺乏成鸟的黄色调。各年龄阶段都有明显的白色翼斑。雄鸟体长15.5-17厘米，体重18-25克。鸣叫特征
+          ▽
+        images:
+        - 黄头鹡鸰1.JPG
+        - 黄头鹡鸰2.JPG
+        - 黄头鹡鸰（雄）.jpg
+        - 黄头鹡鸰（雌）.JPG
+        conservation_status: LC
+        habitat: 偏好潮湿环境，如沼泽、湖泊边缘、柳树丛生的地带，以及靠近水源的湿草地。在非繁殖季节，栖息于沿海湿地、盐湖、污水池和灌溉地。
+        distribution: 繁殖区主要位于欧亚大陆的中央部分，包括俄罗斯北部的苔原地带。非繁殖区延伸至远东地区，越冬于南亚和东南亚。近年来，其分布区逐渐向西扩展，成为乌克兰、白俄罗斯、立陶宛等地的常见繁殖鸟。
+        conservation_notes: 稳定无危
+        references:
+        - name: eBird-黄头鹡鸰
+          url: https://ebird.org/species/citwag
+  - family: 柳莺科
+    genera:
+    - genus: 柳莺属
+      species:
+      - name: 暗绿柳莺
+        scientific_name: Phylloscopus trochiloides
+        description: 体长10-11.5厘米，体重6.5-10.5克，属于中型绿或深绿色欧柳莺。眉纹长且明显，上喙处汇合并延伸至颈侧。上体橄榄绿，下体黄白色，喉部及胸部侧面泛灰。翼上有明显的白色翼带。雄雌外观相似，幼鸟上体颜色略深于成鸟。有多个亚种，差异在于体型、羽色深浅及翼带的宽度。
+        images:
+        - 暗绿柳莺.png
+        conservation_status: LC
+        habitat: 森林；灌丛；湿地；陆地人为生态
+        distribution: 繁殖于东北欧至亚洲大陆的温带至亚热带区域，冬季迁徙至印度。在中国，主要分布在甘肃、宁夏、青海、西藏、四川等地。
+        conservation_notes: 稳定无危
+        references:
+        - name: eBird-暗绿柳莺
+          url: https://ebird.org/species/grewar3
+  - family: 岩鹨科
+    genera:
+    - genus: 岩鹨属
+      species:
+      - name: 褐岩鹨
+        scientific_name: Prunella fulvescens
+        description: 褐岩鹨长约15厘米，重约20克。背部橄榄棕色，略带沙灰色，翅膀和肩部有淡淡的深色条纹；头顶和颈侧灰色，耳羽深棕色，形成鲜明对比；尾羽和飞羽黑褐色，边缘有淡黄色斑点；下身奶油色，喉部和腹部颜色较浅，胸部呈现粉红色或接近杏仁色；眼睛黄褐色，喙暗灰色，腿脚淡红棕色至黄棕色。性别相似，幼鸟与成鸟相比，眉纹更窄且不明显，背部更偏赤褐色，喉部有深色斑点，下身呈丰富淡黄色。
+        images:
+        - 褐岩鹨.JPG
+        conservation_status: LC
+        habitat: 森林；灌丛；石区
+        distribution: 主要分布于欧亚中南部至东部，包括中亚、阿尔泰、蒙古、巴基斯坦、阿富汗等地。在中国，分布于新疆、西藏、青海、四川、甘肃、宁夏及内蒙古东北部额尔古纳河。
+        conservation_notes: 稳定无危
+        references:
+        - name: eBird-褐岩鹨
+          url: https://ebird.org/species/broacc1
+  - family: 燕雀科
+    genera:
+    - genus: 岭雀属
+      species:
+      - name: 林岭雀
+        scientific_name: Leucosticte nemoricola
+        description: 具有中等到大型的体型，身长约14-15厘米，整体呈黯淡棕色，头部灰棕色，背部有显著的棕、黑、白条纹。非繁殖季可以形成几百只以上的集群。
+        images:
+        - 林岭雀.jpg
+        - 林岭雀1.JPG
+        - 林岭雀2.JPG
+        - 林岭雀3.JPG
+        conservation_status: LC
+        habitat: 高海拔的山口、草甸、村庄
+        distribution: '繁殖于欧亚大陆中部，从天山延伸至阿尔泰山和喜马拉雅山脉，包括哈萨克斯坦东北部至俄罗斯图瓦地区，中国新疆西部和蒙古西部；南部通过阿富汗东北部，喜马拉雅山脉东部至中国西藏，青海北部，甘肃和陕西南部。冬季会迁至较低海拔。
+
+          '
+        conservation_notes: 稳定无危
+        references:
+        - name: eBird-林岭雀
+          url: https://ebird.org/species/plmfin1
+    - genus: 朱顶雀属
+      species:
+      - name: 黄嘴朱顶雀
+        scientific_name: Linaria flavirostris
+        description: 头部棕色，带有较暗的条纹，颈部侧面颜色较浅，有温暖的棕褐色眉线延伸至耳羽后方。上体被覆着深色条纹，翅膀上有明显的白色边缘形成翼带，尾巴略呈叉状。雄鸟具有独特的淡粉色臀部，冬季喙呈黄色，夏季转为灰黑色。雌鸟和雄鸟相似，但臀部呈淡棕，翅尖和次级飞羽的边缘更显白色。
+        images:
+        - 黄嘴朱顶雀 (1).JPG
+        - 黄嘴朱顶雀.jpg
+        - 黄嘴朱顶雀2.jpg
+        - 黄嘴朱顶雀3.JPG
+        conservation_status: LC
+        habitat: 栖息于树少的荒野，偏好开阔地带，如草地、盐沼和山地。
+        distribution: 繁殖区域分布于低北极到温带西北部和中帕拉尔地区的开阔地带：英国北部、中部岛屿、斯堪的纳维亚西部和北部；间断性地出现在高加索山脉和土耳其南部、东部，向东延伸至俄罗斯南部、哈萨克斯坦北部、中国新疆西北部和蒙古，伊朗西北部、阿富汗中部、喜马拉雅山脉西北部至尼泊尔和中国西藏、青海、甘肃北部。非繁殖季节则向低海拔和南方向移动。
+        conservation_notes: 稳定无危。在英国，自1970年以来，特别是在苏格兰和英格兰北部，繁殖数量显著下降。
+        references:
+        - name: eBird-黄嘴朱顶雀
+          url: https://ebird.org/species/twite1
+  - family: 雀科
+    genera:
+    - genus: 雀属
+      species:
+      - name: 麻雀
+        scientific_name: Passer montanus
+        description: 广泛分布于欧亚大陆，具有栗色头冠和黑色面颊上的白色斑点，性别颜色相同。在中国全境均有分布，为常见的留鸟。
+        images:
+        - 麻雀.JPG
+        - 麻雀1.JPG
+        conservation_status: LC
+        habitat: 偏好轻度森林化开放地带，包括农田、公园、乡村和有树木的区域。
+        distribution: 繁殖区广泛分布在帕拉尔地区和东方地区的农场、公园和城市，包括英国群岛、斯堪的纳维亚半岛南部、俄罗斯北部至南部楚科特卡、勘察加半岛、指挥官群岛，以及伊比利亚半岛南部等地。
+        conservation_notes: 稳定无危
+        references:
+        - name: eBird-麻雀
+          url: https://ebird.org/species/eutspa
+    - genus: 石雀属
+      species:
+      - name: 石雀
+        scientific_name: Petronia petronia
+        description: 中型雀类，共分为6个亚种。具有明显的黄色喉部斑点，与周围环境色调形成鲜明对比，但这一特征在野外不易观察到。拥有粗壮的锥形喙。其头部有显著的白色眉纹和较弱的冠纹，背部和翅膀有斑驳的棕色图案，腹部有条纹，性别之间无明显差异。
+        images:
+        - 石雀.jpg
+        - 石雀1.jpg
+        conservation_status: LC
+        habitat: 偏好岩石裸露的地带和开阔的林地
+        distribution: 石雀在繁殖季节分布于马德拉群岛、加那利群岛、伊比利亚半岛、法国南部至土耳其、高加索、哈萨克斯坦西北和东南、俄罗斯南部、蒙古直至中国内蒙古；南部分布自摩洛哥至利比亚西北部，还包括以色列、约旦西部、伊拉克北部、伊朗南部、阿富汗西部，通过塔吉克斯坦和吉尔吉斯斯坦至中国新疆西北部，青海、甘肃南部至四川西北部。
+        conservation_notes: 稳定无危
+        references:
+        - name: eBird-石雀
+          url: https://ebird.org/species/rocpet1
+    - genus: 白腰雪雀属
+      species:
+      - name: 白腰雪雀
+        scientific_name: Onychostruthus taczanowskii
+        description: 中大型雀类，以其眼周的黑色斑块和明亮的白色翼斑与尾缘为显著特征。广泛分布于西藏、青海、甘肃、四川等地的高山地带，是常见的留鸟。常与鼠兔群落相伴，使用鼠兔的洞穴作为栖息和繁殖之所。
+        images:
+        - 白腰雪雀.jpg
+        - 白腰雪雀1.JPG
+        - 白腰雪雀雏鸟.JPG
+        - 白腰雪雀（幼）.jpg
+        conservation_status: LC
+        habitat: 海拔3500至5100米的高山草地、草原和有稀疏植被的荒漠地带
+        distribution: '繁殖区域：位于帕米尔高原的高山草原，包括远西北印度的拉达克东南部，向东延伸至西藏、青海东北部和甘肃南部，南至四川西北部（中国中部），并向南延伸至尼泊尔西北部和锡金北部。非繁殖季节，会迁至较低海拔和定居点。
+
+          '
+        conservation_notes: 稳定无危
+        references:
+        - name: eBird-白腰雪雀
+          url: https://ebird.org/species/whrsno1
+    - genus: 黑喉雪雀属
+      species:
+      - name: 黑喉雪雀
+        scientific_name: Pyrgilauda davidiana
+        description: 中型雀类，雄鸟特征显著，脸部有大片黑色斑块，从头顶延伸到喉咙；雌鸟具有明亮的橙色喙。
+        images:
+        - 黑喉雪雀.jpg
+        conservation_status: LC
+        habitat: 半干旱环境，如石质平原、岩石高原和沙漠边缘，海拔1000至3000米，有时可达4500米。
+        distribution: 主要分布在帕拉尔区的蒙古山地多石草原：俄罗斯南部、蒙古以及中国青海东北部至内蒙古（中国北部和东北部）。
+        conservation_notes: 稳定无危
+        references:
+        - name: eBird-黑喉雪雀
+          url: https://ebird.org/species/pedsno1
+      - name: 棕颈雪雀
+        scientific_name: Pyrgilauda ruficollis
+        description: 色彩鲜明的雪雀，拥有独特的橙色颊后新月状标记，容易与棕背雪雀混淆，但其脸部两条相等长度的黑色条纹形成直角，构成显著特征。
+        images:
+        - 棕颈雪雀.jpg
+        - 棕颈雪雀1.JPG
+        - 棕颈雪雀（幼鸟）.JPG
+        conservation_status: LC
+        habitat: 高海拔的贫瘠石质草原和草甸，尤其偏好靠近小水道的边缘和人类居住区附近的垃圾堆
+        distribution: 主要分布于西藏和中国中部、西部相邻地区，包括新疆西南部至青海和甘肃西部，南部从拉达克东部、尼泊尔北部、锡金北部到四川西部。冬季向南迁移至印度Uttarakhand、尼泊尔、锡金和不丹，有时降至较低海拔。
+        conservation_notes: 稳定无危
+        references:
+        - name: eBird-棕颈雪雀
+          url: https://ebird.org/species/runsno1
+  - family: 山雀科
+    genera:
+    - genus: 山雀属
+      species:
+      - name: 大山雀
+        scientific_name: Parus minor
+        description: 大山雀体型较大，成年个体头部为黑色，脸颊具有醒目的白色斑块，胸腹部呈白色，中央有一条黑色纵纹贯穿。翅膀为灰色，靠近肩羽处略带绿色光泽。幼鸟的整体颜色较暗淡，成鸟的黑色部分被灰色取代。雌雄个体在外观上差异不大。
+        images:
+        - 大山雀.png
+        conservation_status: ''
+        habitat: 林地、农田、花园以及城市绿地
+        distribution: 大山雀广泛分布于东亚地区，包括日本、中国东部及韩国等地。在中国大陆，它们常见于北方及中部地区。
+        conservation_notes: /
+        references:
+        - name: eBird-大山雀
+          url: https://ebird.org/species/gretit4
+    - genus: 地山雀属
+      species:
+      - name: 地山雀
+        scientific_name: Pseudopodoces humilis
+        description: 体型较大，站立时羽毛蓬松，长约19-20厘米，重42.5-48.5克。头顶淡黄褐色，背部灰棕色带沙色，下颈有宽的白色半环。尾羽中央深棕色，外侧两对白色。翅膀比背部略暗，翼尖白色。脸颊沙黄色，喉部及下体呈偏白的暖黄色调。黑眼，黑喙和腿脚。雌雄相似，幼鸟上体更黄，脸面斑驳，喉咙有条纹，喙直且短。
+        images:
+        - 地山雀.JPG
+        - 地山雀1.jpg
+        conservation_status: LC
+        habitat: 灌丛；草原；石区；陆地人为生态
+        distribution: 分布于中国西南部和中部（新疆南部和青藏高原东至宁夏和甘肃，南至西藏南部和东南部，东北云南和四川西部），拉达克东南部，尼泊尔北部和锡金。
+        conservation_notes: 稳定无危
+        references:
+        - name: eBird-地山雀
+          url: https://ebird.org/species/grotit1
+    - genus: 黄腹山雀属
+      species:
+      - name: 黄腹山雀
+        scientific_name: Pardaliparus venustulus
+        description: 成年雄鸟拥有光泽的黑色头部，脸颊和枕部白色，双翼灰黑，腹部亮黄色；雌鸟则顶冠灰色，喉部白色，腹部黄而稍淡。幼鸟类似雌鸟，但头部至背部橄榄绿色，脸颊和耳羽黄色，颊部和耳羽边缘灰暗，下颈有淡黄色斑点。雄鸟幼鸟早期即可分辨，其头部、枕部和背部橄榄绿色，眼上有一非常短且往往不明显的眉纹，脸颊和耳羽黄色，下颈有淡黄色斑点。
+        images:
+        - 黄腹山雀.png
+        conservation_status: LC
+        habitat: 森林；陆地人为生态
+        distribution: 分布于中国东部、中部和南部，包括河北东北部至甘肃南部、四川中部和东部、云南东北部、湖北西部至广西西北部和安徽南部、湖南中部、江西北部和广东北部。非繁殖季节时，分布至江苏南部至广东南部的沿海地区。
+        conservation_notes: 稳定无危
+        references:
+        - name: eBird-黄腹山雀
+          url: https://ebird.org/species/yebtit4
+  - family: 鹟科
+    genera:
+    - genus: 红尾鸲属
+      species:
+      - name: 白喉红尾鸲
+        scientific_name: Phoenicurus schisticeps
+        description: 雄鸟拥有暗灰色的头部，黑色的脸部，以及鲜艳的橙色腹部，最显著的特征是显著的白色喉咙和长而醒目的白色翼条。雌鸟色彩较为柔和，但仍保留着白色喉咙和明显的白色翼条。在中国的种群数量较为丰富，是中国特有种。
+        images:
+        - 白喉红尾鸲.jpg
+        conservation_status: LC
+        habitat: 高海拔的针叶林和林线以上。冬季下移至中低山和山脚地带。
+        distribution: '繁殖区域包括喜马拉雅山脉至中国中部，具体为中国西部和东部青海、甘肃南部、陕西西南部，南至西藏南部和东南部以及云南北部。冬季分布于较低海拔的中低山地带。
+
+          '
+        conservation_notes: 稳定无危
+        references:
+        - name: eBird-白喉红尾鸲
+          url: https://ebird.org/species/whtred1
+      - name: 北红尾鸲
+        scientific_name: Phoenicurus auroreus
+        description: 雄鸟有灰色冠至颈背，黑色脸和喉，黑色翅膀带有白色翼斑，橙色臀部和外侧尾羽，中央尾羽黑色，腹部橙色。雌鸟上体中褐色，下体淡褐色，翼斑和尾部模式与雄鸟相似。
+        images:
+        - 北红尾鸲.jpg
+        conservation_status: LC
+        habitat: 稀疏的亚高山林、河岸灌丛、次生林、灌木丛、开阔地、靠近人类住区的区域、城市花园和公园。
+        distribution: '繁殖区包括中国中部、东部，俄罗斯东南部，蒙古东北部，中国中央地带和韩国。非繁殖区覆盖中国南部、印度东北部。迁徙至韩国、日本、中国东南沿海、台湾和东南亚部分地区过冬。
+
+          '
+        conservation_notes: 稳定无危
+        references:
+        - name: eBird-北红尾鸲
+          url: https://ebird.org/species/daured1
+      - name: 黑喉红尾鸲
+        scientific_name: Phoenicurus hodgsoni
+        description: 雄鸟外观与北红尾鸲相似，但银色头部限制更小，翼板特征不明显。雌鸟无白色翼斑，比北红尾鸲雌鸟颜色更淡，眼圈更亮。与蓝额红尾鸲雌鸟相比，色调更冷，尾部单条暗纹而非倒‘T’型。雄鸟具黑喉，雌鸟胸部灰色较重。是中国特有种。
+        images:
+        - 黑喉红尾鸲.jpg
+        conservation_status: LC
+        habitat: 开阔的林间草地及灌丛，靠近溪流
+        distribution: 繁殖于西藏南部及东南部、青海东部、甘肃、陕西南部、四川西部、云南西北部，越冬至湖北、湖南、四川东部及云南东部。在喜马拉雅山脉至中国中部有分布。
+        conservation_notes: 稳定无危
+        references:
+        - name: eBird-黑喉红尾鸲
+          url: https://ebird.org/species/hodred1
+      - name: 赭红尾鸲
+        scientific_name: Phoenicurus ochruros
+        description: 雄鸟上身暗灰至黑色，胸部黑色，下尾和尾部橙红色。腹面颜色随亚种而异，从黑色到橙红色。翅膀颜色也有差异，西部分布个体有白色翼斑，东部个体全黑。雌鸟和幼鸟总体灰色或灰棕色，下尾和尾部橙红色，与雄鸟相比更显灰色。
+        images:
+        - 赭红尾鸲.jpg
+        - 赭红尾鸲2.jpg
+        - 赭红尾鸲3.JPG
+        - 赭红尾鸲4.JPG
+        conservation_status: LC
+        habitat: 海拔2500至4500米的高山针叶林到林线以上灌丛草地，以及高原草地、河谷、灌丛、岩石草坡、荒漠和农田附近的林地
+        distribution: 繁殖区包括欧洲西部至中国中部，非繁殖区遍及非洲北部和亚洲南部。在中国，主要分布在西部地区。
+        conservation_notes: 稳定无危
+        references:
+        - name: eBird-赭红尾鸲
+          url: https://ebird.org/species/blared1
+    - genus: 䳭属
+      species:
+      - name: 沙䳭
+        scientific_name: Oenanthe isabellina
+        description: 名称源自其独特的沙黄色调，无黑色面罩，翼色较淡，尾羽较黑。上身呈灰棕色，腹部白色，眉线淡白。尾羽主要为黑色，边缘白色。
+        images:
+        - 沙䳭.jpg
+        - 沙䳭1.jpg
+        conservation_status: LC
+        habitat: 平坦开阔区域，常在中高海拔。
+        distribution: '繁殖区域包括乌克兰至蒙古和中国北部，南至以色列、伊朗和巴基斯坦。非繁殖区域覆盖北非、亚洲南部。在中国，分布于新疆、青海、甘肃、陕西北部及内蒙古的无树平原及荒漠地区。
+
+          '
+        conservation_notes: 稳定无危
+        references:
+        - name: eBird-沙䳭
+          url: https://ebird.org/species/isawhe1
+  - family: 鹀科
+    genera:
+    - genus: 鹀属
+      species:
+      - name: 灰眉岩鹀
+        scientific_name: Emberiza godlewskii
+        description: 大型鹀类，体长约17厘米，体重14至23克。雄鸟头部、颈部和胸部呈灰色，具有显著的黑色眼纹、颊纹和冠纹，背部橙黑相间，臀部和下体呈橙黄色。雌鸟外观相似但色彩略淡。幼鸟头部有暗色条纹，上体有突出的棕色条纹，下体淡色，胸部有暗色条纹。喙部上黑下浅，腿脚呈淡粉色。
+        images:
+        - 灰眉岩鹀.jpg
+        conservation_status: LC
+        habitat: 灌丛；石区；陆地人为生态
+        distribution: 分布于中国、巴基斯坦、印度、哈萨克斯坦、蒙古、缅甸和俄罗斯。在中国，分布于东北、河北、内蒙古、青海、山西、陕西、宁夏、甘肃、湖北、四川、贵州、云南和西藏。
+        conservation_notes: 稳定无危
+        references:
+        - name: eBird-灰眉岩鹀
+          url: https://ebird.org/species/godbun1
+  - family: 鸦科
+    genera:
+    - genus: 鹊属
+      species:
+      - name: 喜鹊
+        scientific_name: Pica serica
+        description: 体型中等偏大，长度46至50厘米，体重200至270克，雄鸟略重。体羽主色为黑与白，尾羽长而分级，喙基部较宽，尖端向下弯曲。头部、胸部及大部分上体黑色，肩羽白色，臀部有一窄灰色带；翼部黑色，次级飞羽和三级飞羽有蓝绿金属光泽；初级飞羽内侧白色，尖端和基部黑色，通常在休息时白色部分被遮掩；尾羽黑色，具蓝紫金属光泽，尖端几乎呈哑光黑；腹部及中央下体白色，下腹、胫部羽毛和尾下覆羽黑色。虹膜深棕色，喙和腿黑色。雌雄相似，幼鸟较为暗淡，黑色部位无光泽，白色部位泛黄，眼周和颊部有裸露的灰色或灰蓝色皮肤。鸣叫特征
+          ▽
+        images:
+        - 喜鹊.jpg
+        conservation_status: LC
+        habitat: 广泛适应于各种开阔环境，偏好有零星树木的地区，如农田、公园、花园和城市。
+        distribution: 分布于俄罗斯东南部、缅甸、中国东部、台湾、中南半岛北部。在日本所有主要岛屿（除四国岛）均有分布，在韩国被视为吉祥鸟。
+        conservation_notes: 喜鹊在分布区内普遍且常见，部分地区甚至非常丰富。近几十年来，在大多数欧洲国家数量明显增长，尤其是在城市环境中。在中国、越南和老挝的部分地区，记录稀少，可能面临局部灭绝风险。
+        references:
+        - name: eBird-喜鹊
+          url: https://ebird.org/species/orimag1
+    - genus: 山鸦属
+      species:
+      - name: 红嘴山鸦
+        scientific_name: Pyrrhocorax pyrrhocorax
+        description: 红嘴山鸦体型中等，体长约为38-41厘米，体重在207-375克之间。头部相对较小，腿较短。喙长而纤细，末端略向下弯曲，上喙尖端略微覆盖下喙。飞行时，双翅展开宽度显著，翼指明显。成鸟全身羽毛光泽蓝黑，翅膀和尾巴泛绿，眼睛深棕色，喙鲜红色，腿亮红色。雌雄相似。幼鸟羽毛较暗淡，喙较短，初期为橙色，后转为红色，腿色从暗灰色变为粉色，直至红色。
+        images:
+        - 红嘴山鸦.jpg
+        - 红嘴山鸦1 (1).JPG
+        - 红嘴山鸦1.JPG
+        conservation_status: LC
+        habitat: 灌丛；草原；石区；潮间带；沿海/上潮带；陆地人为生态
+        distribution: 广泛分布于欧亚大陆，包括西欧的海岸悬崖，以及南欧、北非的高山牧场。在亚洲，分布于喜马拉雅山脉、中国东北部和中亚的山脉。在中国，分布于青藏高原、喜马拉雅山脉的中高海拔区以及东北部的较低海拔地带。
+        conservation_notes: 稳定无危
+        references:
+        - name: eBird-红嘴山鸦
+          url: https://ebird.org/species/rebcho1
+      - name: 黄嘴山鸦
+        scientific_name: Pyrrhocorax graculus
+        description: 成年黄嘴山鸦长约34-38厘米，重160-277克，具黑色光泽羽毛，黄色喙，红色腿。喙稍向下弯曲，飞行时翼展宽大，翼尖不触及尾端。幼鸟羽毛较暗，喙色较淡，腿色偏黑。两性相似，但雄鸟略大。鸣叫特征
+          ▽
+        images:
+        - 黄嘴山鸦.jpg
+        conservation_status: LC
+        habitat: 草原；石区；陆地人为生态
+        distribution: 分布于欧洲南部至中部山脉，北非，东至喜马拉雅山脉和中国西部，包括内蒙古、新疆、甘肃、青海、四川和西藏。在中国大陆，常见于2500-5000米或更高海拔的峭壁山崖环境。
+        conservation_notes: 稳定无危
+        references:
+        - name: eBird-黄嘴山鸦
+          url: https://ebird.org/species/yebcho1
+    - genus: 鸦属
+      species:
+      - name: 大嘴乌鸦
+        scientific_name: Corvus macrorhynchos
+        description: 大嘴乌鸦体长46-59厘米，翼展100-130厘米，喙粗厚且长，上喙厚实弯曲，使外观类似渡鸦。羽毛色泽暗淡，背部、颈部、肩部及下体为深灰色，翅膀、尾巴、脸部和喉部为闪亮黑色。与家鸦相比，大嘴乌鸦的喙更为粗厚，头顶更圆，尾部更圆润，鼻须不完全覆盖上喙顶端。
+        images:
+        - 大嘴乌鸦.jpg
+        conservation_status: LC
+        habitat: 森林；稀树草原；湿地；潮间带；陆地人为生态
+        distribution: 分布于欧亚大陆东部，自喜马拉雅山脉东北部至俄罗斯东部、日本、台湾、菲律宾，直至Romang和Sermata（小巽他群岛东部）。在中国全境均有分布。
+        conservation_notes: 稳定无危
+        references:
+        - name: eBird-大嘴乌鸦
+          url: https://ebird.org/species/labcro1
+  - family: 燕科
+    genera:
+    - genus: 沙燕属
+      species:
+      - name: 淡色沙燕
+        scientific_name: Riparia diluta
+        description: 体长约12厘米，成鸟上体颜色为灰棕色，飞羽和尾羽颜色更深，尾部微叉；下体为污白色，胸带颜色较淡，边界不甚明显；翅膀下方为棕色；后腿被覆羽毛。雌雄羽毛相似，幼鸟上体羽毛边缘颜色较浅。不同亚种间在体型、上体颜色深浅及胸带大小和颜色上有细微差异。
+        images:
+        - 淡色沙燕1.JPG
+        - 淡色沙燕2.JPG
+        - 淡色沙燕3.JPG
+        conservation_status: LC
+        habitat: 栖息于开放的生境，如农田、草原和稀树草原，通常靠近水源。巢穴建在河岸、溪流边或湖泊旁的沙质土壁上，有时也会在路堤上挖洞筑巢。
+        distribution: 繁殖区域主要位于欧亚中部，非繁殖区域则分布在巴基斯坦东部、印度西部和北部以及中国南部。
+        conservation_notes: 稳定无危
+        references:
+        - name: eBird-淡色沙燕
+          url: https://ebird.org/species/pasmar1
+    - genus: 岩燕属
+      species:
+      - name: 岩燕
+        scientific_name: Ptyonoprogne rupestris
+        description: 体长约14-15厘米，体重约17-33克。头冠及上体灰褐色，翅膀和尾巴深褐色，尾羽呈方形，尾下可见明显的白色斑点。下体颜色由浅至暗，腹部和尾下覆羽褐色，下翼覆羽黑色。雌雄相似，幼鸟具淡黄色边缘，喉咙颜色比成鸟浅，斑纹不明显。鸣叫特征
+          ▽
+        images:
+        - 岩燕.jpg
+        conservation_status: LC
+        habitat: 栖息于山区岩崖、干旱河谷，有时也会出现在人类居住区附近。活动于海拔1500-5000米的高山峡谷，常见于湖泊、鱼塘、沼泽、水库、江河等水域附近的空中。
+        distribution: 繁殖于南欧至亚洲南部至蒙古和中国东部，非繁殖季节迁徙至北非、印度等地。
+        conservation_notes: 稳定无危
+        references:
+        - name: eBird-岩燕
+          url: https://ebird.org/species/eurcrm1
+  - family: 噪鹛科
+    genera:
+    - genus: 噪鹛属
+      species:
+      - name: 山噪鹛
+        scientific_name: Pterorhinus davidi
+        description: 山噪鹛体长23至25厘米，体重52至69克，整体灰褐色，喙长且弯曲，呈黄色。头顶和背部颜色均匀，略带粉紫调，翅膀稍暗，边缘灰色，尾巴基部同翼，末端黑色。眼上至耳羽处有较淡的棕色眉纹，下颌黑色，喉部和胸部呈淡棕色，腹部淡棕色，侧腹和臀部略深。虹膜灰棕色至浅棕色，腿暗红灰色。幼鸟比成鸟更偏棕色。性别相似。
+        images:
+        - 山噪鹛.JPG
+        conservation_status: LC
+        habitat: 栖息于山地斜坡上的灌丛中，常沿溪流、河流边的柳树和灌木丛，以及干燥山坡上的矮林地带活动，海拔高度在1600至3300米之间，偶尔低至800米。
+        distribution: 主要分布在中国，包括中部和东北部的山地森林。
+        conservation_notes: 稳定无危
+        references:
+        - name: eBird-山噪鹛
+          url: https://ebird.org/species/pedlau1
+  - family: 䴓科
+    genera:
+    - genus: 䴓属
+      species:
+      - name: 黑头䴓
+        scientific_name: Sitta villosa
+        description: 体型小巧，长约11.5厘米，体重8-11克。雄鸟头部漆黑，雌鸟则为蓝灰或暗灰。上体蓝灰，下体颜色从淡灰至橙红不等。脸颊雪白，眉纹清晰。喙细长尖锐，具轻微上翘感。翼羽及尾羽细节复杂，色彩层次丰富。两性异形显著，雌鸟冠部色泽不如雄鸟鲜明，下体颜色稍暗。
+        images:
+        - 黑头䴓1.JPG
+        - 黑头䴓2.JPG
+        conservation_status: LC
+        habitat: 松林，有时会出现在大型公园和花园的针叶树丛中
+        distribution: 在中国分布于青海东部至甘肃东南部、陕西大部、山西南部、辽宁半岛南部、河北北部、北京及四川北部。在朝鲜北部和俄罗斯东南部也有记录。在韩国为罕见冬候鸟。
+        conservation_notes: 稳定无危
+        references:
+        - name: eBird-黑头䴓
+          url: https://ebird.org/species/snbnut1
+- order: 隼形目
+  families:
+  - family: 隼科
+    genera:
+    - genus: 隼属
+      species:
+      - name: 红隼
+        scientific_name: Falco tinnunculus
+        description: 体型较小，长度27-35厘米，雄鸟重量136-252克，雌鸟154-314克，翼展57-79厘米。雄鸟头部和尾巴灰色，背部锈红色，尾羽末端具黑色条带；雌鸟上体是更均匀的褐色，尾部有条纹，缺乏雄鸟的灰色区域。幼鸟与雌鸟相似，但胸腹部的条纹更宽，裸露部位颜色较淡。
+        images:
+        - 红隼.JPG
+        conservation_status: LC
+        habitat: 红隼栖息于开阔或轻度林木覆盖的地区，如草地、牧场、耕地、湿地、灌木丛生的荒野，甚至城市边缘。
+        distribution: 红隼在欧亚大陆和非洲广泛分布，偶尔到达北美东海岸。在欧洲、亚洲北部和非洲西北部尤为常见。在中国大陆，红隼分布广泛，从东部沿海到西部山区均有记录。
+        conservation_notes: 红隼在全球范围内数量众多，但在某些地区的健康状况不佳，欧洲部分地区出现中度下降趋势。
+        references:
+        - name: eBird-红隼
+          url: https://ebird.org/species/eurkes
+- order: 鹈形目
+  families:
+  - family: 鹭科
+    genera:
+    - genus: 鹭属
+      species:
+      - name: 苍鹭
+        scientific_name: Ardea cinerea
+        description: 体态优雅，长腿、长颈，羽毛主要呈灰色，头顶和颈部白色，具宽阔的黑色眉纹延伸至黑色的顶冠。喙长而重，黄色带暗棕色，眼和眼周黄色，腿和脚棕色至黄褐色，繁殖季节变橙红色至红色。雄鸟比雌鸟平均大。
+        images:
+        - 苍鹭.jpg
+        conservation_status: LC
+        habitat: 多种浅水湿地，包括淡水、咸水、河流、湖泊、稻田、鱼塘、污水厂、灌溉区和开放草地，以及沿海的三角洲、河口、潮滩或红树林
+        distribution: 苍鹭分布广泛，遍布欧亚、非洲和远东地区。在中国，几乎遍及全国各地水域和沼泽湿地，数量较普遍，但近年来因栖息地开发和条件恶化，种群数量有所减少。
+        conservation_notes: 已列入中国国家重点保护野生动物名录，属于有益或有重要经济、科学研究价值的陆生野生动物。
+        references:
+        - name: eBird-苍鹭
+          url: https://ebird.org/species/graher1
+- order: 犀鸟目
+  families:
+  - family: 戴胜科
+    genera:
+    - genus: 戴胜属
+      species:
+      - name: 戴胜
+        scientific_name: Upupa epops
+        description: 中等体型、色彩鲜艳的鸟类，以其独特的肉桂色外观、黑白相间的翅膀、竖立的羽冠和长而弯曲的喙著称。长约25至32厘米，翼展可达44至48厘米，体重介于46至89克。最显著的特征是其细长、向下弯曲的黑色喙，基部呈淡褐色。头部肌肉发达，使喙能够探入土壤中。因其饮食习性被认为是益鸟，因为它们大量捕食被视为害虫的昆虫。
+        images:
+        - 戴胜.jpg
+        conservation_status: LC
+        habitat: 草原、园林、农田边缘和村落附近
+        distribution: 戴胜广泛分布于欧洲、亚洲和北非。在欧洲和北亚的种群冬季迁徙至撒哈拉以南非洲。在非洲的种群全年定居。在中国大陆，分布于新疆、东北、台湾、海南和西藏。
+        conservation_notes: 稳定无危
+        references:
+        - name: eBird-戴胜
+          url: https://ebird.org/species/eurhoo1
+- order: 鸮形目
+  families:
+  - family: 鸱鸮科
+    genera:
+    - genus: 小鸮属
+      species:
+      - name: 纵纹腹小鸮
+        scientific_name: Athene noctua
+        description: 体长约21-23厘米，体重在162-206克之间。羽毛颜色多样，从灰褐色到赭色，上体斑点白色，下体有斑点和条纹。脸部圆盘明显，虹膜明亮黄色，喙淡黄色，腿较长，被毛覆盖，颜色从淡黄色至白色。幼鸟较成鸟更浅色，斑点为淡黄色而非白色，条纹更窄，颜色更浅。
+        images:
+        - 纵纹腹小鸮.jpg
+        conservation_status: LC
+        habitat: 栖息于低山丘陵、林缘灌丛、平原森林、农田、荒漠和村庄附近。
+        distribution: 繁殖区分布在欧亚大陆和北非，从西欧、东欧到亚洲东部，包括地中海地区、中东、中亚和中国部分地区。在中国大陆，主要分布于低海拔地区。
+        conservation_notes: 纵纹腹小鸮的数量因人类活动而减少，现为中国二级重点保护野生动物。
+        references:
+        - name: eBird-纵纹腹小鸮
+          url: https://ebird.org/species/litowl1
+- order: 雁形目
+  families:
+  - family: 鸭科
+    genera:
+    - genus: 麻鸭属
+      species:
+      - name: 赤麻鸭
+        scientific_name: Tadorna ferruginea
+        description: 体长61-71厘米，体重雄鸟1200-1640克，雌鸟925-1500克，整体羽色鲜亮，橙栗色为主，翼展121-145厘米。上翼在飞行时具有鲜明特征，白色覆羽与深色初级飞羽形成对比。雄鸟有狭窄的黑色颈圈，雌鸟略小，缺乏黑色颈圈，脸部更淡，上翼覆羽带有淡褐色。嘴灰黑色，腿脚和眼睛黑色。幼鸟羽色暗淡，上翼覆羽带灰色，头部灰，背部棕。
+        images:
+        - 赤麻鸭.JPG
+        conservation_status: LC
+        habitat: 盐湖、火山湖和水库，农业田地
+        distribution: 繁殖区分布在欧洲南部至亚洲中部，非洲西北部和埃塞俄比亚。越冬区覆盖印度次大陆、东南亚部分地区、非洲北部和远东。在中国，主要在长江以南越冬，北方为迁徙和越冬地。
+        conservation_notes: 在中国，由于过度狩猎和栖息地破坏，种群数量减少，全球估计总种群数量为170,000至225,000只。
+        references:
+        - name: eBird-赤麻鸭
+          url: https://ebird.org/species/rudshe
+      - name: 翘鼻麻鸭
+        scientific_name: Tadorna tadorna
+        description: 体型中等，身长58-67厘米，拥有鲜明的黑褐头部与上颈，带有绿色光泽，白色的体羽，赤红色的喙和突出的红色皮质瘤，独特而引人注目。雌鸟较小，面部有白色标记，腹部黑色带斑，下腹偏淡。幼鸟灰白相间，具黑色头帽和翼部斑点。成鸟翼部特征明显，覆羽白色，初级飞羽黑色，次级飞羽绿色，仅在飞行时显现。
+        images:
+        - 翘鼻麻鸭.jpg
+        conservation_status: LC
+        habitat: 盐碱平原草地、淡水湖泊、海岸、岛屿及其附近的沼泽地带。
+        distribution: 繁殖区覆盖欧洲西部至中国东北部，非繁殖区遍及非洲北部、印度北部和中国南部。冬季迁徙至北非、南亚等地。
+        conservation_notes: 在中国，种群数量丰富，但全球总数估计约为15万只。
+        references:
+        - name: eBird-翘鼻麻鸭
+          url: https://ebird.org/species/comshe
+    - genus: 潜鸭属
+      species:
+      - name: 白眼潜鸭
+        scientific_name: Aythya nyroca
+        description: 中型潜水鸭，整体呈现深栗色，头部、胸部和两胁颜色统一，尾下覆羽为醒目的白色。雄鸟具白色眼斑，喙蓝灰色，有小型黑钉和淡蓝色次端环。雌鸟色彩较暗淡，喙色较浅，尖端更暗，眼睛棕色。幼鸟无白色尾下覆羽，羽毛略带红褐色调，腹部斑驳，下覆羽灰白色；喙全灰。飞行时，两性均可见明显的白色翼带。
+        images:
+        - 白眼潜鸭.jpg
+        conservation_status: ''
+        habitat: 湖泊、池塘和沼泽
+        distribution: '繁殖区遍布从欧洲西部和北非向东至西蒙古，南部至阿拉伯半岛。冬季分布于地中海盆地、黑海沿岸，小部分进入撒哈拉以南非洲，东部种群在南亚和东南亚过冬。
+
+          '
+        conservation_notes: 白眼潜鸭的数量在欧洲经历了严重下降，特别是在乌克兰、摩尔多瓦、西班牙和法国。然而，在阿尔及利亚、摩洛哥、瑞士、沙特阿拉伯、叙利亚、英格兰西南部、阿尔及利亚撒哈拉沙漠、埃及南部、科威特等地，观察到了局部增加或首次繁殖记录。
+        references:
+        - name: eBird-白眼潜鸭
+          url: https://ebird.org/species/ferduc
+      - name: 凤头潜鸭
+        scientific_name: Aythya fuligula
+        description: 雄鸟具有独特的黑色外观，白侧翼和蓝灰色喙，以及头部后方的细长羽冠。雌鸟呈深褐色，侧面颜色较淡，头部羽冠较短。飞行时，两性均展现出鲜明的白色翼带。幼鸟类似雌鸟，但头部和前颈颜色更深，背部有稍微的虫纹图案。
+        images:
+        - 凤头潜鸭.jpg
+        conservation_status: LC
+        habitat: 湖泊、河流、水库、池塘和沼泽等开阔水域
+        distribution: 繁殖区域遍布温带和北欧亚大陆。冬季迁徙至南欧、南亚、东亚、东南亚和日本等地。
+        conservation_notes: 凤头潜鸭的种群在某些地区显著增长，归因于其适应新环境的能力，尤其是在人类创造的公园和水库等地方。
+        references:
+        - name: eBird-凤头潜鸭
+          url: https://ebird.org/species/tufduc
+      - name: 红头潜鸭
+        scientific_name: Aythya ferina
+        description: 中型潜水鸭，雄鸟头部呈深锈色，喙上有一宽阔的灰蓝色横带，身体浅灰色与黑色胸部形成鲜明对比。雌鸟和雄鸟的幼鸟相似，整体灰褐色，头部有淡色条纹，喙暗灰色至黑色，有宽阔的黑色尖端和宽阔的淡灰色亚端环带。
+        images:
+        - 红头潜鸭.jpg
+        conservation_status: VU
+        habitat: 偏好富含水生植物的开阔水域，如湖泊、水库、河流和海湾
+        distribution: 繁殖于西欧向东至中亚和中国北部，越冬于非洲、远东北部。在中国的分布包括东北、华北、华中、华南等地。
+        conservation_notes: 红头潜鸭已被列入《国家保护的有益的或者有重要经济、科学研究价值的陆生野生动物名录》。
+        references:
+        - name: eBird-红头潜鸭
+          url: https://ebird.org/species/compoc
+    - genus: 狭嘴潜鸭属
+      species:
+      - name: 赤嘴潜鸭
+        scientific_name: Netta rufina
+        description: 大型潜水鸭。雄鸟特征鲜明，头部橙色，嘴部鲜红，与黑色胸腹部形成鲜明对比。雌鸟整体呈脏褐色，具有独特的白色脸颊和褐色头顶。飞行时，两性皆展现厚实的白色翼带和偏白的翼下覆羽。幼鸟与雌鸟相似，但颜色更深，下体有斑点，喙部黑棕色。
+        images:
+        - 赤嘴潜鸭.jpg
+        - 赤嘴潜鸭（雌）.JPG
+        conservation_status: LC
+        habitat: 偏好较大且较深的淡水湖泊和泻湖，尤其是周边有丰富植被的水域
+        distribution: 繁殖区域：从欧洲南部和中部延伸至中国北部。非繁殖区域：北非和亚洲南部，包括地中海盆地、中东、印度次大陆和东南亚。
+        conservation_notes: 稳定无危
+        references:
+        - name: eBird-赤嘴潜鸭
+          url: https://ebird.org/species/recpoc
+    - genus: 鸭属
+      species:
+      - name: 赤膀鸭
+        scientific_name: Mareca strepera
+        description: 中型鸭科，体长约50厘米，雄鸟上体暗灰褐色，翼上有栗红色斑块，翼镜黑白相间；雌鸟整体棕褐色，面部特征与绿头鸭相似，但喙较细，有橙色边缘，翼上有白色翼镜。幼鸟外观类似雌鸟，但颜色更深，斑纹更明显。
+        images:
+        - 赤膀鸭.jpg
+        conservation_status: LC
+        habitat: 偏好开放的湿地环境，如草原湖泊、湿地或沼泽地带
+        distribution: 繁殖区位于北美和欧亚大陆北部；非繁殖区扩展至中美洲、非洲和远东北部。在中国，春季迁徙至华北地区，秋季迁回。
+        conservation_notes: 赤膀鸭是《非洲-欧亚大陆迁徙水鸟保护协定》下的受保护物种。
+        references:
+        - name: eBird-赤膀鸭
+          url: https://ebird.org/species/gadwal
+      - name: 绿头鸭
+        scientific_name: Anas platyrhynchos
+        description: 常见鸭类，雄鸟头部呈绿色光泽，雌鸟羽色杂褐色。喙颜色因性别而异，雄鸟黄色偏绿，雌鸟橄榄至橙色，带有黑色斑点。广泛适应各种水域，包括城市公园和住宅区。是家鸭的主要祖先。
+        images:
+        - 绿头鸭.JPG
+        conservation_status: LC
+        habitat: 栖息于各种淡水环境，如湖泊、河流、池塘和湿地，冬季和迁徙期间也会出现在开阔的水域和海岸附近的沼泽和草地。
+        distribution: 繁殖区遍布北美、欧亚大陆；非繁殖区覆盖墨西哥、北非、澳新地区和远东北部。
+        conservation_notes: 稳定无危
+        references:
+        - name: eBird-绿头鸭
+          url: https://ebird.org/species/mallar3
+    - genus: 雁属
+      species:
+      - name: 斑头雁
+        scientific_name: Anser indicus
+        description: 独特显眼的雁类，其头部和颈部的黑白色花纹使其区别于其他雁类，喙和腿为橘黄色。飞行时，身体主要呈现淡灰色，翅膀后缘有宽阔的黑色边缘。雄鸟略大于雌鸟，幼鸟头部和颈部为淡灰色，眼线和头顶有深棕色条纹，喙、腿和脚为黄绿色。
+        images:
+        - 斑头雁.JPG
+        - 斑头雁（亚成）.JPG
+        conservation_status: LC
+        habitat: 主要栖息在高原湖泊，尤其是咸水湖，也会选择淡水湖和开阔多沼泽地带。
+        distribution: 繁殖于亚洲中部的高海拔地区，如蒙古和中国。冬季迁徙至南亚，包括印度北部、巴基斯坦、尼泊尔、孟加拉国、缅甸等地。
+        conservation_notes: 斑头雁在中国的部分地区，如西藏，受到一定程度的保护。然而，它们仍然面临栖息地破坏、狩猎和蛋收集等威胁。
+        references:
+        - name: eBird-斑头雁
+          url: https://ebird.org/species/bahgoo
+      - name: 灰雁
+        scientific_name: Anser anser
+        description: 体型庞大，身披灰褐色与白色相间的羽毛，喙橙色，脚呈粉红色。飞行时，上翼前缘呈淡灰色，翼下覆羽较淡，尾端白色显著。喙无黑色标记，腹部可能有黑色斑点或斑块。幼鸟羽毛更单调，背羽不具强烈图案，腹羽无黑色，整体毛色更斑驳，腿脚和喙较淡。成鸟中，雄鸟比雌鸟更大，翼展可达147-180厘米。
+        images:
+        - 灰雁.jpg
+        conservation_status: LC
+        habitat: 湖泊、沼泽、湿地及城市公园。偏好开阔地带，尤其是水边有植被覆盖的区域。
+        distribution: 繁殖于欧洲中部、西部及亚洲部分地区。迁徙或越冬时遍布欧洲南部、北非、中东、中国东部等地。
+        conservation_notes: 灰雁在某些地区数量激增，成为农业害鸟。在挪威，数量自1995年至2015年增长三至五倍。
+        references:
+        - name: eBird-灰雁
+          url: https://ebird.org/species/gragoo
+- order: 鹰形目
+  families:
+  - family: 鹰科
+    genera:
+    - genus: 鵟属
+      species:
+      - name: 大鵟
+        scientific_name: Buteo hemilasius
+        description: 大鵟是鵟属中体型最大者，存在浅色和深色两种形态。浅色型上体为土黄色，胸部纯白，下体有不规则分布的深棕色斑点；深色型全身几乎是统一的黑棕色，翼下外缘偏浅。尾部灰底带深色条纹，具明显的亚端带。主要覆羽呈条纹状棕色，初级飞羽白色，有变化的暗色横斑，翼尖和边缘黑色。
+        images:
+        - 大鵟.jpg
+        conservation_status: LC
+        habitat: 栖息于开阔的高地环境，如草原、高原、山地草原，偏好有岩石区域的巢穴。
+        distribution: 繁殖区域位于亚洲中部、中南部至西伯利亚东南部和中国东北部。冬季迁徙至中国华中及华东地区，偶见于广西、广东和福建。
+        conservation_notes: 总体而言大鵟数量稀少，农药造成的环境污染导致大鵟捕食中毒鸟类二次中毒而数量锐减，近10年来，种群数量减少估计在20%以上。
+        references:
+        - name: eBird-大鵟
+          url: https://ebird.org/species/uplbuz1
+      - name: 普通鵟
+        scientific_name: Buteo japonicus
+        description: 普通鵟具有典型的鵟属特征，翅型宽圆，体态结实，尾长中等，展开时呈扇形。整体呈褐色调，头部偏白，下体有褐色斑纹。飞行时，黑褐色的翼尖、翼缘和明显的翼斑尤为显著。
+        images:
+        - 普通鵟.JPG
+        conservation_status: LC
+        habitat: 主要栖息于山地森林、林缘地带、开阔平原、荒漠、旷野、开垦的耕作区、林缘草地和村庄上空。
+        distribution: 普通鵟分布于西伯利亚中部、南部、蒙古、中国东北部和日本，部分普通鵟冬季迁徙至东南亚。
+        conservation_notes: 被列入《濒危野生动植物种国际贸易公约》（CITES）附录Ⅱ；部分亚种被列为极危物种
+        references:
+        - name: eBird-普通鵟
+          url: https://ebird.org/species/combuz6
+    - genus: 兀鹫属
+      species:
+      - name: 高山兀鹫
+        scientific_name: Gyps himalayensis
+        description: 大型猛禽，成鸟体色沙棕色，头部羽毛较少，呈现淡色，颈部底部有一片紫粉色的裸皮。幼鸟颜色较深，体羽上有窄淡色条纹，虹膜颜色随年龄增长由浅至深。
+        images:
+        - 高山兀鹫（亚成、飞行）.jpg
+        - 高山兀鹫（落地）.JPG
+        conservation_status: ''
+        habitat: 栖息于高海拔的山脉、峡谷和高原地带，主要活动于1500-4000米之间，冬季可能降至较低海拔。
+        distribution: 活动范围广泛，包括喜马拉雅山脉、西藏高原及周边地区。
+        conservation_notes: 危及高山兀鹫生存的主要因素是环境污染。多年来草原地区经常进行大范围的毒饵灭鼠，进食鼠类尸体常导致高山兀鹫二次中毒。另外，乱捕滥猎现象在有些地区还时有发生。
+        references:
+        - name: eBird-高山兀鹫
+          url: https://ebird.org/species/himgri1
+    - genus: 鸢属
+      species:
+      - name: 黑鸢
+        scientific_name: Milvus migrans
+        description: 中型猛禽，身体呈暗褐色，尾部较长，呈浅叉状，飞翔时双翼下方可见一对显著的白斑。下体呈淡棕色，逐渐变浅至下巴，体羽有深色条纹，形成斑驳外观。喙黑色，蜡膜黄色，腿黄色，爪黑色。叫声为独特的尖锐哨音，随后是一连串快速的嘶鸣。
+        images:
+        - 黑鸢.jpg
+        conservation_status: LC
+        habitat: 栖息于开阔平原、草地、低山丘陵、城市周边、农田、港湾和湖泊附近，偶尔在高山森林边缘活动。
+        distribution: 广泛分布于欧洲、亚洲、非洲和澳大利亚，黑鸢的数量在印度尤其庞大。在欧洲和中亚的黑鸢迁徙至热带过冬，而在印度和澳大利亚的种群则全年留居。
+        conservation_notes: 黑鸢是世界上最常见的猛禽，尽管环境污染、人类活动对其生存造成了一定威胁，黑鸢的数量还基本保持稳定。
+        references:
+        - name: eBird-黑鸢
+          url: https://ebird.org/species/blakit1
+- order: 雨燕目
+  families:
+  - family: 雨燕科
+    genera:
+    - genus: 雨燕属
+      species:
+      - name: 白腰雨燕
+        scientific_name: Apus pacificus
+        description: 体长约17-18厘米，翼展43-54厘米，具深叉尾和宽阔的头部。全身黑褐色，喉部灰暗，腰间有一显著的白色马鞍形斑纹。尾部和上翼黑色，下翼棕色，腹部的羽毛边缘泛白，形成鳞片状外观。
+        images:
+        - 白腰雨燕.jpg
+        conservation_status: LC
+        habitat: 森林；陆地人为生态
+        distribution: 繁殖于西伯利亚中部至堪察加半岛和日本，越冬于东南亚、澳大利亚等地。其他 ▽
+        conservation_notes: 稳定无危
+        references:
+        - name: eBird-白腰雨燕
+          url: https://ebird.org/species/fotswi
