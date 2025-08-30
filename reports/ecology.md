@@ -86,6 +86,15 @@ permalink: /reports/ecology/
   <a href="{{ '/assets/files/课题研究/青海湖鸟岛周边地区拟步甲科昆虫分布特点及多样性研究_2023.pdf' | relative_url }}" class="file-download-link">下载</a>
 </div>
 
+<div class="file-download">
+  <div class="file-icon">📄</div>
+  <div class="file-info">
+    <div class="file-name">清华青海湖鸟岛支队普氏原羚组调研报告_2023.pdf</div>
+    <div class="file-meta">PDF文档</div>
+  </div>
+  <a href="{{ '/assets/files/课题研究/清华青海湖鸟岛支队普氏原羚组调研报告_2023.pdf' | relative_url }}" class="file-download-link">下载</a>
+</div>
+
 ## 2020
 
 <div class="file-download">
