@@ -105,6 +105,20 @@
         references:
         - name: iNaturalist-凹背蝗属
           url: https://www.inaturalist.org/taxa/753785-Ptygonotus
+    - genus: 石栖蝗属
+      species:
+      - name: 石栖蝗（未定种）
+        scientific_name: Saxetophilus sp.
+        description: 未知
+        images:
+        - 石栖蝗（未定种）.png
+        conservation_status: LC
+        habitat: 未知
+        distribution: 未知
+        conservation_notes: 未知
+        references:
+        - name: iNaturalist-石栖蝗属
+          url: https://www.inaturalist.org/taxa/753819-Saxetophilus
     - genus: 雏蝗属
       species:
       - name: 白边雏蝗
@@ -291,20 +305,34 @@
           url: https://www.inaturalist.org/taxa/52447-Cicadella-viridis
         - name: 国家动物标本资源库-大青叶蝉
           url: http://museum.ioz.ac.cn/species_detail.aspx?id=40113
-    - genus: 双钩叶蝉属
+    - genus: 沙叶蝉属
       species:
-      - name: 双钩叶蝉（未定种）
-        scientific_name: Arthaldeus sp.
+      - name: 沙叶蝉（未定种）
+        scientific_name: Psammotettix sp.
         description: 未知
         images:
-        - 双钩叶蝉（未定种）.png
+        - 沙叶蝉（未定种）.png
         conservation_status: LC
         habitat: 未知
         distribution: 未知
         conservation_notes: 未知
         references:
-        - name: iNaturalist-双钩叶蝉属
-          url: https://www.inaturalist.org/taxa/735332-Arthaldeus
+        - name: iNaturalist-沙叶蝉属
+          url: https://www.inaturalist.org/taxa/211964-Psammotettix
+    - genus: 叉突叶蝉属
+      species:
+      - name: 叉突叶蝉（未定种）
+        scientific_name: Aconurella sp.
+        description: 未知
+        images:
+        - 叉突叶蝉（未定种）.png
+        conservation_status: LC
+        habitat: 未知
+        distribution: 未知
+        conservation_notes: 未知
+        references:
+        - name: iNaturalist-叉突叶蝉属
+          url: https://www.inaturalist.org/taxa/552634-Aconurella
   - family: 盲蝽科
     genera:
     - genus: 赤须盲蝽属
@@ -1027,7 +1055,6 @@
         description: 工蜂体长12-14毫米，后翅中脉无分叉，第6腹节背板无绒毛带，喙长5.5-7.2毫米，群体分化明显且具采胶习性。观察到的蜜蜂属于西方蜜蜂物种，但在形态与颜色上和意大利蜜蜂有显著区别，可能为从东欧引进我国的多种高加索亚种组西方蜜蜂（Apis
           mellifera caucasica subspecies group）杂交产生的后代。
         images:
-        - 西方蜜蜂.JPG
         - 西方蜜蜂1.png
         conservation_status: LC
         habitat: 野生、半野生或家养
@@ -1038,6 +1065,20 @@
           url: https://www.inaturalist.org/taxa/47219-Apis-mellifera
         - name: 国家动物标本资源库-西方蜜蜂
           url: http://museum.ioz.ac.cn/species_detail.aspx?id=41275
+      - name: 东方蜜蜂
+        scientific_name: Apis cerana
+        description: 中华蜜蜂，又称中华蜂、中蜂、土蜂，是东方蜜蜂的一个亚种，是中国独有的蜜蜂当家品种，是以杂木树为主的森林群落及传统农业的主要传粉昆虫，有利用零星蜜源植物、采集力强、利用率较高、采蜜期长及适应性、抗螨抗病能力强，消耗饲料少等意大利蜂无法比拟的优点，非常适合中国山区定点饲养。中华蜜蜂体躯较小，头胸部黑色，腹部黄黑色，全身披黄褐色绒毛。 工蜂体长10-13mm；前翅长7.5-9.0mm；喙长4.5-5.6mm。头部呈三角形，前端窄小;唇基中央稍隆起，中央具三角形黄斑；上唇长方形，具黄斑；上颚顶端有1黄斑；触角柄节黄色；小盾片黄或棕或黑色，体黑色；足及腹部第3-4节背板红黄色，第5-6节背板色稍暗，各节背板端缘均具黑色环带；后足胫节扁平，呈三角形，外侧光滑，有弯曲的长毛（花粉篮），端部表面稍凹，胫节端缘具栉齿，后足基跗节宽而扁平，基部端缘具夹钳，内表面具整齐排列的毛刷，后翅中脉分叉。体毛浅黄色，单眼周围且颅顶被灰黄色毛。蜂王体长14-19mm；前翅长9.5-10.0mm。 中华蜜蜂工蜂腹部颜色因地区不同而有差异，有的较黄，有的偏黑；吻长平均5mm。蜂王有两种体色：一种是腹节有明显的褐黄环，整个腹部呈暗褐色；另一种的腹节无明显褐黄环，整个腹部呈黑色。雄蜂一般为黑色。南方蜂种一般比北方的小，工蜂体长10～13mm，雄蜂体长约11～13.5mm，蜂王体长13～16mm。
+        images:
+        - 东方蜜蜂.JPG
+        conservation_status: LC
+        habitat: 野生、半野生或家养
+        distribution: 中国、印度与东南亚
+        conservation_notes: 无需保护
+        references:
+        - name: iNaturalist-东方蜜蜂
+          url: https://www.inaturalist.org/taxa/338194-Apis-cerana
+        - name: 国家动物标本资源库-东方蜜蜂
+          url: http://museum.ioz.ac.cn/species_detail.aspx?id=8197
     - genus: 熊蜂属
       species:
       - name: 火红熊蜂
